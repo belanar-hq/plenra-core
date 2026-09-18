@@ -1,0 +1,361 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "SOURCES": [
+    {
+      "SOURCE_ID": "SRC-001",
+      "SOURCE_NAME": "User recovery request: selected preservation excerpts",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "user_recovery_evidence.md",
+        "SHA256": "5b990a111a3b03488ff1bae8ba4d1a053dd615337abef7e504ad3a88c1cf9b57"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL_AS_STATED",
+      "OWNERSHIP": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "RECOVERY_STATUS": "SELECTED_STATEMENTS_PRESERVED_ORIGINALS_MISSING",
+      "NOTES": "Authoritative for requested classification and lineage; not independent implementation or production evidence. No historical date supplied."
+    },
+    {
+      "SOURCE_ID": "SRC-002",
+      "SOURCE_NAME": "docs/plenra-HLD.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra-HLD.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra-HLD.md",
+        "SHA256": "e8743fc1ef1926662160824cb33cdec478e7a0adfa5f5850eeecad1c319ae239"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-003",
+      "SOURCE_NAME": "docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+        "SHA256": "06231d7b61e6352e2adb106869fbfe6f0aa4c965891c2a94334956dee84c2361"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-004",
+      "SOURCE_NAME": "docs/plenra_python_v2/README.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/README.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/README.md",
+        "SHA256": "f670a063d412ab59eafc52b212b2b280be92dac60cc8761b80bca03d293fd9a6"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-005",
+      "SOURCE_NAME": "docs/Scaffolding_Pack/README.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/Scaffolding_Pack/README.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/Scaffolding_Pack/README.md",
+        "SHA256": "fb2e384295b37de839ab1093de8ad8f35084c780e68b9c03cd5c5d3d45a293d1"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-006",
+      "SOURCE_NAME": "docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+        "SHA256": "ee3045445234f8eb56ae85383e2b7cf696112cfa6e5e889f1f12398d587a8442"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-007",
+      "SOURCE_NAME": "01_SOURCE_REGISTER/source_manifest.json",
+      "SOURCE_TYPE": "LOCAL_REGISTRY",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "01_SOURCE_REGISTER/source_manifest.json",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/01_SOURCE_REGISTER/source_manifest.json",
+        "SHA256": "6c3b9f0390341dfd18635526c002291b374ba88078d4f87034c71c820e21474e"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-008",
+      "SOURCE_NAME": "00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+      "SOURCE_TYPE": "LOCAL_RAW_CHAT_EXPORT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+        "SHA256": "131b095cfb295e1281bd8e019f235e5985cb477fecfdfbeaa6e4b266edcc90e7"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-009",
+      "SOURCE_NAME": "02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+      "SOURCE_TYPE": "LOCAL_NORMALIZED_CHAT",
+      "DATE_OR_PERIOD": "2026-04-19 (declared DATE in local normalized artifact; original chat date not independently verified)",
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+        "SHA256": "df21e6c1f0ca299fa67f15dd9fc443a297c66c7d63158e4c8f092223df7c6878"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-010",
+      "SOURCE_NAME": "orchestrator/registry/chatRegistry.json",
+      "SOURCE_TYPE": "LOCAL_REGISTRY",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "orchestrator/registry/chatRegistry.json",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/orchestrator/registry/chatRegistry.json",
+        "SHA256": "ceb4a59d9acf8f36ca8678333fab8348f903a7c8c870e11c1844e62af2dcbdad"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-011",
+      "SOURCE_NAME": "plenra_exports/backupRegistry.json",
+      "SOURCE_TYPE": "LOCAL_REGISTRY",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "plenra_exports/backupRegistry.json",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/plenra_exports/backupRegistry.json",
+        "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-012",
+      "SOURCE_NAME": "docs/Scaffolding_Pack/plenra/config/system_config.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/Scaffolding_Pack/plenra/config/system_config.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/Scaffolding_Pack/plenra/config/system_config.py",
+        "SHA256": "a547f14a1266851141f75ff6be74a5b03018bc4e7322abfc0c775d26260874e1"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-013",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+        "SHA256": "51ad84e1318f51f15a84718b226d9f42cfc99f769037b69d141f340efc3889f4"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-014",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+        "SHA256": "b3c0255c0097f82ec8cc8ddeb37d9caef17f1bbda4892af37dc4dccc728beec0"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-015",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+        "SHA256": "1421c859b8fccdb18638a1a0454a2112a022a4582174b9965daab7384b1675ba"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-016",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+        "SHA256": "b474aea9bc6e327e17f768f892006e0760a15711d726ae4918976dc0ae7ae7dd"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-017",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+        "SHA256": "ebc7e8b0967f70085b70409ecaca73d71dbedde2de297185144cc0a55b414b8b"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-018",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+        "SHA256": "1e4d2a609f8418a9e8e8a539233c82faff53f6e652de9fd840d062bd5ccd8420"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-019",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+        "SHA256": "a25e75a5be9a4a2acfcb27bacc9bd9655b1517660c8fc03d37613f1c5378bcd8"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-020",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/agents/central_agent.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/agents/central_agent.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/agents/central_agent.py",
+        "SHA256": "3c4e43b29609b5569a05e5cbf3b95bc6a1593bc462e2bc9d80b8c288c67029ff"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    },
+    {
+      "SOURCE_ID": "SRC-021",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/local/docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+        "SHA256": "82a3422c3a4b0c41ab62dfc615073acc6447274932387b6527de7fe537cbc244"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy."
+    }
+  ]
+}

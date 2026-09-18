@@ -1,0 +1,32 @@
+{
+  "chats": [
+    {
+      "source_chat_id": "2041f4cdadf52a4e",
+      "source_chat_label": "test",
+      "chat_location": "PROJECT",
+      "discovered_at": 1779638280276,
+      "last_scanned_at": 1779638280277,
+      "artifact_count": 5,
+      "maturity_status": "NEEDS_STRUCTURE",
+      "coverage_status": "UNSCANNED",
+      "codex_readiness": "NOT_READY",
+      "external_backup_status": "UNKNOWN",
+      "dependency_status": "UNKNOWN",
+      "scheduler_status": "NOT_SCHEDULED"
+    },
+    {
+      "source_chat_id": "e4942d940986fe9b",
+      "source_chat_label": "test",
+      "chat_location": "PROJECT",
+      "discovered_at": 1779638280298,
+      "last_scanned_at": 1779638280298,
+      "artifact_count": 0,
+      "maturity_status": "NEEDS_STRUCTURE",
+      "coverage_status": "UNSCANNED",
+      "codex_readiness": "NOT_READY",
+      "external_backup_status": "UNKNOWN",
+      "dependency_status": "UNKNOWN",
+      "scheduler_status": "NOT_SCHEDULED"
+    }
+  ]
+}
