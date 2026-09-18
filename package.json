@@ -1,0 +1,19 @@
+{
+  "name": "plenra-core",
+  "version": "1.0.0",
+  "description": "Plenra Orchestrator Runtime Infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "acquire:first-reddit-signal": "node signal-acquisition/runtime/acquire_and_store_first_reddit_signal.js",
+    "scan": "node -e \"const {scanRepository} = require('./orchestrator/discovery/repoScanner'); console.log(JSON.stringify(scanRepository('.'), null, 2));\"",
+    "reconcile": "node -e \"const {reconcile} = require('./orchestrator/reconciliation/reconciliationJob'); console.log(JSON.stringify(reconcile('.'), null, 2));\""
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "type": "commonjs"
+}

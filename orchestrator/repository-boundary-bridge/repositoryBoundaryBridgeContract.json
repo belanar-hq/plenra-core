@@ -1,0 +1,38 @@
+{
+  "contract_id": "repositoryBoundaryBridgeContract",
+  "contract_version": "v1",
+  "source_design_id": "repository_runtime_boundary_bridge_v1",
+  "source_design_status": "LOCKED_SOURCE_DESIGN",
+  "purpose": "Validate transfer of locked dispatch artifacts into the repository dispatch surface without expanding repository, runtime, production, or prompt authority.",
+  "artifact_type": "locked_dispatch_artifact",
+  "allowed_transfer_flow": [
+    "verify_sandbox_artifact_hash",
+    "verify_prompt_hash",
+    "verify_repository_target_path",
+    "allow_import_only_into_dispatches",
+    "record_dispatch_lineage",
+    "run_post_import_validation"
+  ],
+  "allowed_repository_targets": [
+    "dispatches/*.dispatch.json"
+  ],
+  "required_hash_verification": {
+    "algorithm": "SHA-256",
+    "required": true
+  },
+  "repository_import_rules": [
+    "write_access_allowed_only_to_dispatches",
+    "no_prompt_mutation",
+    "no_scope_expansion",
+    "no_runtime_authority",
+    "no_production_authority",
+    "no_canon_mutation"
+  ],
+  "lineage_tracking_rules": [
+    "track_source_snapshot_id",
+    "track_prompt_hash",
+    "track_dispatch_file_hash",
+    "track_import_timestamp"
+  ],
+  "safe_to_continue": false
+}

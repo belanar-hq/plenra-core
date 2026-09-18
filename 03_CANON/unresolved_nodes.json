@@ -1,0 +1,42 @@
+[
+  {
+    "id": "UNRESOLVED-0001",
+    "name": "Meta Controller",
+    "referenced_by": ["CANON-0004", "CANON-0023"],
+    "status": "undefined",
+    "notes": "Referenced in Canon but not defined",
+    "source_ids": ["PLN-0001"]
+  },
+  {
+    "id": "UNRESOLVED-0002",
+    "name": "learning_dataset",
+    "referenced_by": ["CANON-0008", "CANON-0014"],
+    "status": "undefined",
+    "notes": "Referenced in Canon but not defined",
+    "source_ids": ["PLN-0001"]
+  },
+  {
+    "id": "UNRESOLVED-0003",
+    "name": "audit_log",
+    "referenced_by": ["CANON-0008", "CANON-0014"],
+    "status": "undefined",
+    "notes": "Referenced in Canon but not defined",
+    "source_ids": ["PLN-0001"]
+  },
+  {
+    "id": "UNRESOLVED-0004",
+    "name": "low_trust_storage",
+    "referenced_by": ["CANON-0008", "CANON-0014"],
+    "status": "undefined",
+    "notes": "Referenced in Canon but not defined",
+    "source_ids": ["PLN-0001"]
+  },
+  {
+    "id": "UNRESOLVED-0005",
+    "name": "quarantine_storage",
+    "referenced_by": ["CANON-0008", "CANON-0014"],
+    "status": "undefined",
+    "notes": "Referenced in Canon but not defined",
+    "source_ids": ["PLN-0001"]
+  }
+]

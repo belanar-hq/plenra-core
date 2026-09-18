@@ -1,0 +1,11 @@
+{
+  "schema_version": "memory_registry_v1",
+  "active": [],
+  "canon": [],
+  "archive": [],
+  "limits": {
+    "active_max_items": 7,
+    "active_ttl_turns": 1
+  },
+  "coverage_confidence": "PARTIAL"
+}

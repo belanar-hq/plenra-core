@@ -1,0 +1,60 @@
+{
+  "artifact_id": "mosquito_bootstrap_kill_criteria_v1",
+  "artifact_type": "POLICY_GUARDRAIL",
+  "priority": "P0",
+  "system_layer": "BOOTSTRAP_SURVIVAL_INFRASTRUCTURE",
+  "parent_artifacts": [
+    "runtime_layer_v1_minimal",
+    "mosquito_human_friction_logging_v1",
+    "mosquito_vertical_v1",
+    "mosquito_operational_execution_v1",
+    "mosquito_e2e_operational_wiring_v1"
+  ],
+  "fail_closed_required": true,
+  "adaptive_routing_enabled": false,
+  "autonomous_optimization_enabled": false,
+  "scaling_allowed_without_pass": false,
+  "validation_required": true,
+  "required_rules": [
+    "If fewer than 3 real bookings within 45 days -> HOLD",
+    "If routing_completion_rate < 40% -> INVESTIGATE",
+    "If average contractor_response_time_minutes > 15 -> FAIL_ROUTING",
+    "If replay_integrity < 100% -> BLOCK_SCALING",
+    "If customer_confusion_rate > 25% -> SIMPLIFY_INTAKE",
+    "If payment_completion_rate < 50% -> REVIEW_PAYMENT_FLOW",
+    "If outcome_confirmation_missing_rate > 30% -> BLOCK_LEARNING",
+    "If the same manual_operator_note repeats 3 times -> CREATE_FIX_TASK"
+  ],
+  "acceptance_criteria": [
+    "Evaluates structured metrics deterministically",
+    "Rejects free-text source of truth",
+    "Supports multiple triggered rules in one evaluation",
+    "Returns structured actions and reason_codes only",
+    "Creates fix-task stubs without executing fixes",
+    "Does not mutate runtime state, routing, payment logic, optimization, or scaling",
+    "Integrates with mosquito_human_friction_logging_v1 aggregation output",
+    "Exposes inactive-by-default runtime hook for explicit evaluation"
+  ],
+  "fail_closed_rules": [
+    "missing idempotency_key returns BLOCK",
+    "missing evaluation_id returns HOLD",
+    "missing required metric returns HOLD",
+    "malformed percentage metric returns BLOCK",
+    "malformed numeric metric returns BLOCK",
+    "free-text source of truth returns BLOCK",
+    "replay_integrity below 100 returns BLOCK_SCALING",
+    "hook execution without explicit call returns BLOCK",
+    "scaling enablement attempt returns BLOCK",
+    "routing mutation attempt returns BLOCK",
+    "optimization trigger attempt returns BLOCK",
+    "automatic fix execution attempt returns BLOCK"
+  ],
+  "lineage_sources": [
+    "orchestrator/runtime-layer/hooks.js",
+    "apps/mosquito-poc/friction/friction-aggregation.js",
+    "apps/mosquito-poc/bootstrap/kill-criteria-schema.js",
+    "apps/mosquito-poc/bootstrap/kill-criteria-evaluator.js",
+    "apps/mosquito-poc/bootstrap/fix-task-stub.js",
+    "apps/mosquito-poc/bootstrap/tests/mosquitoBootstrapKillCriteria.test.js"
+  ]
+}

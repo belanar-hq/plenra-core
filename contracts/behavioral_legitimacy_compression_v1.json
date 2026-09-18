@@ -1,0 +1,96 @@
+{
+  "contract_id": "behavioral_legitimacy_compression_v1",
+  "contract_version": "v1",
+  "artifact_status": "FROZEN",
+  "artifact_type": "behavioral_legitimacy_compression_runtime_contract",
+  "scope": "contracts_and_tests_only",
+  "frozen_primitives": [
+    {
+      "id": "behavior_vs_discussion",
+      "meaning": "real_behavior_has_higher_legitimacy_than_discussion_or_consensus"
+    },
+    {
+      "id": "persistence_vs_spike",
+      "meaning": "persistent_behavior_has_higher_legitimacy_than_short_term_emotional_or_viral_spikes"
+    },
+    {
+      "id": "irregularity_vs_synchronization",
+      "meaning": "human_irregularity_has_higher_legitimacy_than_perfect_alignment_or_behavioral_uniformity"
+    }
+  ],
+  "allowed_runtime_behaviors": [
+    "compress_behavioral_legitimacy_to_frozen_primitives",
+    "reuse_existing_runtime_surfaces_only",
+    "return_frozen_decision_rule_outputs_only",
+    "hold_when_required_conditions_are_present",
+    "block_when_forbidden_conditions_are_present"
+  ],
+  "forbidden_runtime_behaviors": [
+    "create_new_runtime_layers",
+    "create_new_agents",
+    "add_platform_specific_authority",
+    "add_synthetic_scoring_engines",
+    "add_behavioral_profiling",
+    "add_autonomous_classification",
+    "modify_production_runtime_logic",
+    "expand_taxonomy",
+    "add_new_primitives"
+  ],
+  "decision_rules": {
+    "discussion_without_behavior": "LOW_LEGITIMACY",
+    "virality_without_persistence": "LOW_LEGITIMACY",
+    "perfect_synchronization": "HIGH_SYNTHETIC_RISK",
+    "persistent_real_world_friction": "HIGH_LEGITIMACY",
+    "behavioral_irregularity": "HUMAN_AUTHENTICITY_SIGNAL",
+    "economic_commitment_with_friction": "HIGH_CONFIDENCE_SIGNAL"
+  },
+  "decision_rule_primitive_map": {
+    "discussion_without_behavior": "behavior_vs_discussion",
+    "virality_without_persistence": "persistence_vs_spike",
+    "perfect_synchronization": "irregularity_vs_synchronization",
+    "persistent_real_world_friction": "persistence_vs_spike",
+    "behavioral_irregularity": "irregularity_vs_synchronization",
+    "economic_commitment_with_friction": "behavior_vs_discussion"
+  },
+  "hold_conditions": [
+    "high_alignment_without_variance",
+    "viral_spike_without_persistence",
+    "discussion_consensus_without_behavior",
+    "behavioral_uniformity_too_high",
+    "real_world_friction_missing",
+    "economic_interest_without_human_irregularity"
+  ],
+  "hold_condition_primitive_map": {
+    "high_alignment_without_variance": "irregularity_vs_synchronization",
+    "viral_spike_without_persistence": "persistence_vs_spike",
+    "discussion_consensus_without_behavior": "behavior_vs_discussion",
+    "behavioral_uniformity_too_high": "irregularity_vs_synchronization",
+    "real_world_friction_missing": "persistence_vs_spike",
+    "economic_interest_without_human_irregularity": "irregularity_vs_synchronization"
+  },
+  "block_conditions": [
+    "new_runtime_layer_creation",
+    "new_authenticity_taxonomy_creation",
+    "recursive_legitimacy_expansion",
+    "synthetic_behavior_scoring_systems",
+    "platform_authority_assignment",
+    "behavior_replaced_by_discussion_consensus",
+    "synchronization_treated_as_legitimacy"
+  ],
+  "block_condition_primitive_map": {
+    "new_runtime_layer_creation": "behavior_vs_discussion",
+    "new_authenticity_taxonomy_creation": "behavior_vs_discussion",
+    "recursive_legitimacy_expansion": "persistence_vs_spike",
+    "synthetic_behavior_scoring_systems": "irregularity_vs_synchronization",
+    "platform_authority_assignment": "behavior_vs_discussion",
+    "behavior_replaced_by_discussion_consensus": "behavior_vs_discussion",
+    "synchronization_treated_as_legitimacy": "irregularity_vs_synchronization"
+  },
+  "runtime_reuse_list": [
+    "contradiction_runtime",
+    "intent_runtime",
+    "decision_economics_runtime",
+    "cross_platform_contradiction_logic",
+    "bounded_signal_validation"
+  ]
+}

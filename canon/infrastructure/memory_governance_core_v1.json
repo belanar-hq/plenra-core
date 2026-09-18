@@ -1,0 +1,34 @@
+{
+  "artifact_id": "memory_governance_core_v1",
+  "artifact_type": "INFRASTRUCTURE_CORE",
+  "priority": "P0",
+  "system_layer": "FOUNDATION",
+  "status": "IMPLEMENTED_PENDING_VALIDATION",
+  "operational_rules": [
+    "Enforce deterministic, replay-safe, append-only operational memory",
+    "Registry-backed memory with strict schema validation",
+    "Fail-closed behavior for unsafe memory states",
+    "No free-text source of truth",
+    "PII protection with no_pii flag",
+    "Active memory capped at 7 items with 1-turn TTL",
+    "Canon memory does not expire unless deprecated",
+    "Archive memory is read-only"
+  ],
+  "blocked_systems": [
+    "cross-gate_learning"
+  ],
+  "acceptance_criteria": [
+    "All 20 module tests pass",
+    "Memory governance validator returns PASS",
+    "Coverage confidence HIGH when preservation complete",
+    "Replay safety validated",
+    "No duplicate or conflicting memory"
+  ],
+  "fail_closed_rules": [
+    "Missing schema fields return HOLD or BLOCK",
+    "Unsafe memory state never returns PASS",
+    "Unknown preservation keeps coverage_confidence PARTIAL",
+    "Autonomous learning blocked until validation PASS"
+  ],
+  "version": "1.0.0"
+}

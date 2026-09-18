@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "id": "CANON-0001",
+      "type": "agent",
+      "name": "Plenra Dataset Builder Service"
+    },
+    {
+      "id": "CANON-0002",
+      "type": "gate",
+      "name": "CRITICAL FIREWALL"
+    },
+    {
+      "id": "CANON-0003",
+      "type": "gate",
+      "name": "DUPLICATE CONTROL"
+    },
+    {
+      "id": "CANON-0004",
+      "type": "policy",
+      "name": "CORE PRINCIPLES"
+    },
+    {
+      "id": "CANON-0005",
+      "type": "policy",
+      "name": "SAFE NORMALIZATION RULES"
+    },
+    {
+      "id": "CANON-0006",
+      "type": "policy",
+      "name": "LEARNING ELIGIBILITY ENFORCEMENT"
+    },
+    {
+      "id": "CANON-0007",
+      "type": "policy",
+      "name": "TRUST CLASSIFICATION"
+    },
+    {
+      "id": "CANON-0008",
+      "type": "policy",
+      "name": "ROUTING RULES"
+    },
+    {
+      "id": "CANON-0009",
+      "type": "policy",
+      "name": "STATUS RULES"
+    },
+    {
+      "id": "CANON-0010",
+      "type": "policy",
+      "name": "FINAL RULE"
+    },
+    {
+      "id": "CANON-0011",
+      "type": "architecture_decision",
+      "name": "fail_closed_on_learning"
+    },
+    {
+      "id": "CANON-0012",
+      "type": "architecture_decision",
+      "name": "safe_fallback_on_input"
+    },
+    {
+      "id": "CANON-0013",
+      "type": "architecture_decision",
+      "name": "safe normalization of partial or malformed input"
+    },
+    {
+      "id": "CANON-0014",
+      "type": "architecture_decision",
+      "name": "audit routing for non-learning records"
+    },
+    {
+      "id": "CANON-0015",
+      "type": "constraint",
+      "name": "deterministic"
+    },
+    {
+      "id": "CANON-0016",
+      "type": "constraint",
+      "name": "json_only"
+    },
+    {
+      "id": "CANON-0017",
+      "type": "constraint",
+      "name": "no randomness"
+    },
+    {
+      "id": "CANON-0018",
+      "type": "constraint",
+      "name": "no assumptions"
+    },
+    {
+      "id": "CANON-0019",
+      "type": "constraint",
+      "name": "do NOT modify decisions"
+    },
+    {
+      "id": "CANON-0020",
+      "type": "constraint",
+      "name": "do NOT generate insights"
+    },
+    {
+      "id": "CANON-0021",
+      "type": "constraint",
+      "name": "do NOT update weights"
+    },
+    {
+      "id": "CANON-0022",
+      "type": "constraint",
+      "name": "do NOT evaluate performance"
+    },
+    {
+      "id": "CANON-0023",
+      "type": "constraint",
+      "name": "do NOT override Meta Controller decisions"
+    },
+    {
+      "id": "CANON-0024",
+      "type": "definition",
+      "name": "validation_failed"
+    },
+    {
+      "id": "CANON-0025",
+      "type": "definition",
+      "name": "normalization_applied"
+    },
+    {
+      "id": "UNRESOLVED-0001",
+      "type": "unresolved_node",
+      "name": "Meta Controller"
+    },
+    {
+      "id": "UNRESOLVED-0002",
+      "type": "unresolved_node",
+      "name": "learning_dataset"
+    },
+    {
+      "id": "UNRESOLVED-0003",
+      "type": "unresolved_node",
+      "name": "audit_log"
+    },
+    {
+      "id": "UNRESOLVED-0004",
+      "type": "unresolved_node",
+      "name": "low_trust_storage"
+    },
+    {
+      "id": "UNRESOLVED-0005",
+      "type": "unresolved_node",
+      "name": "quarantine_storage"
+    }
+  ],
+  "edges": [
+    {
+      "from": "CANON-0001",
+      "to": "CANON-0002",
+      "relation": "enforces"
+    },
+    {
+      "from": "CANON-0001",
+      "to": "CANON-0003",
+      "relation": "enforces"
+    },
+    {
+      "from": "CANON-0001",
+      "to": "CANON-0005",
+      "relation": "enforces"
+    },
+    {
+      "from": "CANON-0001",
+      "to": "CANON-0006",
+      "relation": "enforces"
+    },
+    {
+      "from": "CANON-0001",
+      "to": "CANON-0007",
+      "relation": "enforces"
+    },
+    {
+      "from": "CANON-0001",
+      "to": "CANON-0008",
+      "relation": "enforces"
+    },
+    {
+      "from": "CANON-0004",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0010",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0011",
+      "to": "CANON-0002",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0012",
+      "to": "CANON-0009",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0013",
+      "to": "CANON-0005",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0014",
+      "to": "CANON-0008",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0024",
+      "to": "CANON-0002",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0024",
+      "to": "CANON-0009",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0025",
+      "to": "CANON-0002",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0025",
+      "to": "CANON-0009",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0005",
+      "to": "CANON-0024",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0005",
+      "to": "CANON-0025",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0006",
+      "to": "CANON-0008",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0007",
+      "to": "CANON-0008",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0002",
+      "to": "CANON-0008",
+      "relation": "blocks"
+    },
+    {
+      "from": "CANON-0003",
+      "to": "CANON-0009",
+      "relation": "feeds"
+    },
+    {
+      "from": "CANON-0015",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0016",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0017",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0018",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0019",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0020",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0021",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0022",
+      "to": "CANON-0001",
+      "relation": "controls"
+    },
+    {
+      "from": "CANON-0023",
+      "to": "CANON-0001",
+      "relation": "controls"
+    }
+  ],
+  "unresolved_links": [
+    {
+      "from": "CANON-0004",
+      "to": "UNRESOLVED-0001",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0023",
+      "to": "UNRESOLVED-0001",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0008",
+      "to": "UNRESOLVED-0002",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0008",
+      "to": "UNRESOLVED-0003",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0008",
+      "to": "UNRESOLVED-0004",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0008",
+      "to": "UNRESOLVED-0005",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0014",
+      "to": "UNRESOLVED-0002",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0014",
+      "to": "UNRESOLVED-0003",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0014",
+      "to": "UNRESOLVED-0004",
+      "reason": "missing definition"
+    },
+    {
+      "from": "CANON-0014",
+      "to": "UNRESOLVED-0005",
+      "reason": "missing definition"
+    }
+  ]
+}

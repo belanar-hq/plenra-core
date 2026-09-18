@@ -1,0 +1,113 @@
+{
+  "artifact_id": "deployment_entropy_governance_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_PRESSURE_ARTIFACT_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "cloudflare_activation_allowed": false,
+  "autonomous_deployment_allowed": false,
+  "validation_purpose": "Validate conceptual deployment entropy lifecycle controls without production deployment, runtime mutation, infrastructure activation, or autonomous deployment behavior.",
+  "pass_conditions": [
+    "inactive_surfaces_have_archive_rules",
+    "orphan_deployments_have_block_or_delete_rules",
+    "unused_domains_have_expiration_rules",
+    "stale_preview_links_have_expiration_rules",
+    "duplicated_surfaces_have_merge_rules",
+    "unclaimed_lineage_branches_are_blocked_or_archived",
+    "high_frequency_deploy_loops_are_detected"
+  ],
+  "fail_conditions": [
+    "inactive_surface_without_lifecycle_control",
+    "orphan_deployment_remaining_active",
+    "unused_domain_remaining_mapped",
+    "stale_preview_link_without_expiration",
+    "duplicated_surface_remaining_unmerged_without_justification",
+    "unclaimed_lineage_branch_remaining_deployable"
+  ],
+  "block_conditions": [
+    "orphan_production_surface_detected",
+    "unclaimed_lineage_branch_attempts_promotion",
+    "unused_domain_attached_to_active_surface",
+    "high_frequency_deploy_loop_with_unbounded_cost_risk"
+  ],
+  "lifecycle_controls": [
+    {
+      "target": "inactive_surfaces",
+      "archive_rule": "archive_when_surface_has_no_active_owner_or_recent_valid_use",
+      "expiration_rule": "expire_after_declared_inactivity_window",
+      "merge_rule": "merge_only_when_lineage_and_surface_identity_match",
+      "delete_block_rule": "block_delete_without_archive_record",
+      "cost_risk_score": "MEDIUM"
+    },
+    {
+      "target": "orphan_deployments",
+      "archive_rule": "archive_when_deployment_has_no_owner_or_valid_lineage",
+      "expiration_rule": "expire_when_orphan_status_remains_unresolved",
+      "merge_rule": "merge_only_into_verified_parent_lineage",
+      "delete_block_rule": "block_or_delete_rule_required_before_remaining_active",
+      "cost_risk_score": "HIGH"
+    },
+    {
+      "target": "unused_domains",
+      "archive_rule": "archive_domain_mapping_record_before_reassignment",
+      "expiration_rule": "expire_unused_domain_mapping_after_declared_window",
+      "merge_rule": "merge_domain_record_only_with_matching_surface_lineage",
+      "delete_block_rule": "block_delete_if_domain_is_attached_to_active_surface",
+      "cost_risk_score": "HIGH"
+    },
+    {
+      "target": "stale_preview_links",
+      "archive_rule": "archive_preview_link_metadata_after_expiration",
+      "expiration_rule": "expire_preview_link_after_declared_preview_window",
+      "merge_rule": "merge_preview_record_only_into_current_candidate_surface",
+      "delete_block_rule": "block_delete_without_expiration_record",
+      "cost_risk_score": "LOW"
+    },
+    {
+      "target": "duplicated_surfaces",
+      "archive_rule": "archive_duplicate_after_merge_or_justified_retention",
+      "expiration_rule": "expire_duplicate_candidate_if_merge_not_justified",
+      "merge_rule": "merge_duplicates_when_content_domain_and_lineage_overlap",
+      "delete_block_rule": "block_delete_until_merge_or_retention_decision_exists",
+      "cost_risk_score": "MEDIUM"
+    },
+    {
+      "target": "unclaimed_lineage_branches",
+      "archive_rule": "archive_unclaimed_branch_before_any_promotion_attempt",
+      "expiration_rule": "expire_unclaimed_branch_after_claim_window",
+      "merge_rule": "merge_only_after_authority_owner_is_declared",
+      "delete_block_rule": "block_promotion_or_delete_without_claim_or_archive_record",
+      "cost_risk_score": "CRITICAL"
+    },
+    {
+      "target": "high_frequency_deploy_loops",
+      "archive_rule": "archive_loop_samples_for_cost_risk_review",
+      "expiration_rule": "expire_loop_candidate_when_frequency_remains_unbounded",
+      "merge_rule": "merge_loop_events_into_single_detected_lifecycle_record",
+      "delete_block_rule": "block_continued_loop_when_cost_risk_is_unbounded",
+      "cost_risk_score": "CRITICAL"
+    }
+  ],
+  "decision_rules": [
+    {
+      "condition": "orphan_production_surface_detected",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "unclaimed_lineage_branch_attempts_promotion",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "lifecycle_control_missing",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "cost_risk_score_CRITICAL",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "all_lifecycle_controls_present",
+      "decision": "PASS"
+    }
+  ]
+}

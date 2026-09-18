@@ -1,0 +1,6 @@
+{
+  "artifact_id": "test-artifact",
+  "artifact_type": "INFRASTRUCTURE_CORE",
+  "version": 1,
+  "description": "Test artifact"
+}

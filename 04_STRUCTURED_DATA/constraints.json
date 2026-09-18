@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TEMP-CONSTRAINT-001",
+    "type": "constraint",
+    "name": "deterministic",
+    "description": "Operating mode includes deterministic.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-002",
+    "type": "constraint",
+    "name": "json_only",
+    "description": "Operating mode includes json_only.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-003",
+    "type": "constraint",
+    "name": "no randomness",
+    "description": "Operating mode includes no randomness.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-004",
+    "type": "constraint",
+    "name": "no assumptions",
+    "description": "Operating mode includes no assumptions.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-005",
+    "type": "constraint",
+    "name": "do NOT modify decisions",
+    "description": "The service does NOT modify decisions.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-006",
+    "type": "constraint",
+    "name": "do NOT generate insights",
+    "description": "The service does NOT generate insights.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-007",
+    "type": "constraint",
+    "name": "do NOT update weights",
+    "description": "The service does NOT update weights.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-008",
+    "type": "constraint",
+    "name": "do NOT evaluate performance",
+    "description": "The service does NOT evaluate performance.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-CONSTRAINT-009",
+    "type": "constraint",
+    "name": "do NOT override Meta Controller decisions",
+    "description": "The service does NOT override Meta Controller decisions.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  }
+]

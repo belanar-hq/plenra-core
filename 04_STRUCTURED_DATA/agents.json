@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TEMP-AGENT-001",
+    "type": "agent",
+    "name": "Plenra Dataset Builder Service",
+    "description": "Responsible for controlling what data is allowed into the learning dataset. Receives event envelopes, validates structure, normalizes safe missing wrappers, enforces learning eligibility, classifies trust level, routes data to the correct storage bucket, and prevents contaminated data from entering learning.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-AGENT-002",
+    "type": "agent",
+    "name": "Plenra System Classifier",
+    "description": "Analyzes the chat and classifies its system value, structure level, and priority for ingestion into Plenra memory.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  }
+]

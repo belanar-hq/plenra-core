@@ -1,0 +1,87 @@
+{
+  "artifact_id": "signal_collection_validation_v1",
+  "version": "v1",
+  "status": "APPROVED_FOR_CODEX_EXECUTION",
+  "scope": "minimal_schema_correction_and_replay_rule_only",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "new_tables_allowed": false,
+  "new_infrastructure_allowed": false,
+  "schema_principles": [
+    "multiple_pattern_assignments_allowed",
+    "source_field_preserved_without_source_type_categorization",
+    "raw_text_preserved_for_replayability"
+  ],
+  "required_signal_fields": [
+    "signal_id",
+    "source",
+    "raw_text",
+    "decision_pattern_ids",
+    "timestamp",
+    "lineage"
+  ],
+  "forbidden_signal_fields": [
+    "decision_pattern_id",
+    "source_type"
+  ],
+  "decision_pattern_ids": {
+    "storage_type": "TEXT",
+    "storage_format": "JSON_ARRAY",
+    "item_reference": "Decision Pattern Library V0 identifier",
+    "minimum_items": 1,
+    "reason": "Supports multiple assignments without introducing new tables, infrastructure, analytics, or architecture."
+  },
+  "source": {
+    "field_status": "existing_field",
+    "source_type_required": false,
+    "reason": "Signal Collection Validation does not require source categorization for any approved decision path, lifecycle transition, validation rule, or exit criterion."
+  },
+  "raw_text": {
+    "immutability_rule": "immutable_after_signal_creation",
+    "allowed_operations": [
+      "read",
+      "export"
+    ],
+    "forbidden_operations": [
+      "edit",
+      "overwrite",
+      "normalize_in_place",
+      "rewrite"
+    ],
+    "reason": "Preserves replayability without adding fields, infrastructure, governance, or runtime complexity."
+  },
+  "pass_conditions": [
+    "decision_pattern_ids_present_as_json_array",
+    "decision_pattern_id_absent",
+    "source_present",
+    "source_type_absent",
+    "raw_text_immutable_after_creation"
+  ],
+  "block_conditions": [
+    "single_decision_pattern_id_field_present",
+    "decision_pattern_ids_not_json_array",
+    "source_type_added",
+    "raw_text_edit_attempted_after_creation",
+    "raw_text_overwrite_attempted_after_creation",
+    "raw_text_normalize_in_place_attempted_after_creation",
+    "raw_text_rewrite_attempted_after_creation"
+  ],
+  "decision_rules": [
+    {
+      "condition": "decision_pattern_ids_present_as_json_array",
+      "decision": "PASS"
+    },
+    {
+      "condition": "single_decision_pattern_id_field_present",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "source_type_added",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "raw_text_mutation_attempted_after_creation",
+      "decision": "BLOCK"
+    }
+  ]
+}

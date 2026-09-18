@@ -1,0 +1,43 @@
+{
+  "artifact_id": "chat_discovery_and_canon_preservation_layer_v1",
+  "artifact_type": "INFRASTRUCTURE_CORE",
+  "priority": "P0",
+  "system_layer": "FOUNDATION",
+  "status": "IMPLEMENTED_PENDING_VALIDATION",
+  "dependencies": [
+    "orchestrator_runtime_infrastructure_v1",
+    "memory_governance_core_v1"
+  ],
+  "operational_rules": [
+    "Discover, index, classify, extract, preserve, dependency-map, maturity-score, and schedule Plenra-related chats",
+    "Extract only operational artifacts: infrastructure, schemas, prompts, validation rules, deterministic logic, dependency rules, fail-closed rules, replay requirements, orchestration logic, routing logic, execution tasks, Codex tasks, acceptance criteria",
+    "Ignore casual conversation, emotional commentary, brainstorming noise, repeated explanations, non-operational text",
+    "Fail-closed: missing source_chat_id returns HOLD, incomplete extraction returns HOLD, missing dependency map returns HOLD",
+    "Maturity scoring blocks READY_FOR_CODEX when validation requirements or fail-closed logic missing",
+    "Canon preservation uses existing hashManager and canonWriter, does not overwrite without lineage",
+    "External backup registry tracks P0/P1 preservation completeness",
+    "Coverage audit sets HIGH confidence only when all known chats scanned, artifacts indexed, P0/P1 preserved, dependency graph synchronized, Canon synchronized, Codex queue synchronized"
+  ],
+  "blocked_systems": [
+    "chat_discovery",
+    "canon_preservation",
+    "dependency_mapping",
+    "maturity_scoring",
+    "coverage_audit"
+  ],
+  "acceptance_criteria": [
+    "All 25 module tests pass",
+    "Chat discovery cycle processes chats, extracts artifacts, preserves to Canon, emits memory events, updates dependencies, queues Codex tasks",
+    "Coverage confidence HIGH when preservation complete",
+    "Fail-closed behavior prevents unsafe scheduling",
+    "Dependency mapping blocks incomplete foundational artifacts"
+  ],
+  "fail_closed_rules": [
+    "Missing validation requirements prevents READY_FOR_CODEX",
+    "Missing fail-closed logic prevents READY_FOR_CODEX",
+    "Missing Canon preservation keeps coverage PARTIAL",
+    "Missing backup for P0/P1 blocks dependent systems",
+    "Replay lineage failure blocks autonomous scheduling"
+  ],
+  "version": "1.0.0"
+}

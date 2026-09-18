@@ -1,0 +1,58 @@
+[
+  {
+    "id": "TEMP-POLICY-001",
+    "type": "policy",
+    "name": "CORE PRINCIPLES",
+    "description": "NEVER break the pipeline on malformed input, ALWAYS return valid JSON, NEVER allow blocked data into learning, NEVER upgrade trust level, ALWAYS preserve auditability, and ALWAYS enforce Meta Controller output when present.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-POLICY-002",
+    "type": "policy",
+    "name": "SAFE NORMALIZATION RULES",
+    "description": "Missing or invalid decision_id, event_type, learning_eligibility, audit_tag, debug_trace, controller_status, and controller_reason_code are replaced with the explicit safe fallback values defined in the chat.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-POLICY-003",
+    "type": "policy",
+    "name": "LEARNING ELIGIBILITY ENFORCEMENT",
+    "description": "If learning_eligibility = blocked then dataset_inclusion = false. If learning_eligibility = eligible then dataset_inclusion = true.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-POLICY-004",
+    "type": "policy",
+    "name": "TRUST CLASSIFICATION",
+    "description": "audit_tag values map to trust_level values: discard_from_dataset -> none, low_trust_bucket -> low, quarantine_bucket -> quarantined, none -> high.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-POLICY-005",
+    "type": "policy",
+    "name": "ROUTING RULES",
+    "description": "dataset_inclusion and audit_tag determine storage_targets across learning_dataset, audit_log, low_trust_storage, and quarantine_storage according to the explicit routing rules.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-POLICY-006",
+    "type": "policy",
+    "name": "STATUS RULES",
+    "description": "If duplicate detected, status = duplicate_blocked. Else if validation_failed = true or normalization_applied = true, status = safe_fallback. Else, status = accepted.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-POLICY-007",
+    "type": "policy",
+    "name": "FINAL RULE",
+    "description": "The system must never reject externally, never allow blocked or contaminated data into learning, always return valid JSON, always preserve audit routing, and always fail closed on learning inclusion.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  }
+]

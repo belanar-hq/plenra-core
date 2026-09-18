@@ -1,0 +1,92 @@
+[
+  {
+    "id": "CANON-0015",
+    "original_id": "TEMP-CONSTRAINT-001",
+    "type": "constraint",
+    "name": "deterministic",
+    "description": "Operating mode includes deterministic.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It constrains how the service may behave during future decisions. The operating-mode restriction is explicit and stable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0016",
+    "original_id": "TEMP-CONSTRAINT-002",
+    "type": "constraint",
+    "name": "json_only",
+    "description": "Operating mode includes json_only.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It is a direct output/input format constraint on future system behavior. The constraint is explicit and enforceable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0017",
+    "original_id": "TEMP-CONSTRAINT-003",
+    "type": "constraint",
+    "name": "no randomness",
+    "description": "Operating mode includes no randomness.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It explicitly restricts decision behavior and is stable over time. The constraint is enforceable as an operating rule.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0018",
+    "original_id": "TEMP-CONSTRAINT-004",
+    "type": "constraint",
+    "name": "no assumptions",
+    "description": "Operating mode includes no assumptions.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It constrains how inputs are interpreted in future decisions. The rule is explicit and stable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0019",
+    "original_id": "TEMP-CONSTRAINT-005",
+    "type": "constraint",
+    "name": "do NOT modify decisions",
+    "description": "The service does NOT modify decisions.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It sets a stable boundary on what the service is allowed to do. The constraint is explicit and enforceable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0020",
+    "original_id": "TEMP-CONSTRAINT-006",
+    "type": "constraint",
+    "name": "do NOT generate insights",
+    "description": "The service does NOT generate insights.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It defines a stable operational boundary for the service. The constraint is explicit and enforceable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0021",
+    "original_id": "TEMP-CONSTRAINT-007",
+    "type": "constraint",
+    "name": "do NOT update weights",
+    "description": "The service does NOT update weights.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It is an explicit restriction on system behavior that remains stable across contexts. The constraint is enforceable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0022",
+    "original_id": "TEMP-CONSTRAINT-008",
+    "type": "constraint",
+    "name": "do NOT evaluate performance",
+    "description": "The service does NOT evaluate performance.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It sets a stable behavioral boundary and is explicitly stated. The constraint is enforceable.",
+    "confidence": "high"
+  },
+  {
+    "id": "CANON-0023",
+    "original_id": "TEMP-CONSTRAINT-009",
+    "type": "constraint",
+    "name": "do NOT override Meta Controller decisions",
+    "description": "The service does NOT override Meta Controller decisions.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It is an explicit boundary on decision authority and affects future control behavior. The rule is stable and enforceable even though the Meta Controller itself is not fully defined here.",
+    "confidence": "medium"
+  }
+]

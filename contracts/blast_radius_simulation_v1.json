@@ -1,0 +1,102 @@
+{
+  "artifact_id": "blast_radius_simulation_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_PRESSURE_ARTIFACT_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "cloudflare_activation_allowed": false,
+  "autonomous_deployment_allowed": false,
+  "validation_purpose": "Validate conceptual blast-radius scoring thresholds without production deployment, runtime mutation, infrastructure activation, or autonomous deployment behavior.",
+  "pass_conditions": [
+    "all_scores_known",
+    "affected_domains_known",
+    "affected_surfaces_known",
+    "shared_dependencies_known",
+    "runtime_dependency_collision_score_below_4",
+    "production_exposure_risk_score_below_4",
+    "rollback_complexity_score_below_3",
+    "observability_coverage_score_at_or_above_3"
+  ],
+  "fail_conditions": [
+    "missing_required_scoring_dimension",
+    "score_range_outside_0_to_5",
+    "missing_required_threshold",
+    "decision_rule_missing"
+  ],
+  "block_conditions": [
+    "production_state_may_be_affected_without_rollback_proof",
+    "runtime_dependency_collision_score_at_or_above_4",
+    "production_exposure_risk_score_at_or_above_4"
+  ],
+  "hold_conditions": [
+    "blast_radius_cannot_be_calculated",
+    "affected_domains_unknown",
+    "affected_surfaces_unknown",
+    "shared_dependencies_unknown",
+    "rollback_complexity_score_at_or_above_3",
+    "observability_coverage_score_below_3"
+  ],
+  "scoring_dimensions": [
+    {
+      "dimension": "affected_domains",
+      "score_range": "0-5",
+      "hold_if_unknown": true
+    },
+    {
+      "dimension": "affected_surfaces",
+      "score_range": "0-5",
+      "hold_if_unknown": true
+    },
+    {
+      "dimension": "shared_dependencies",
+      "score_range": "0-5",
+      "hold_if_unknown": true
+    },
+    {
+      "dimension": "runtime_dependency_collision",
+      "score_range": "0-5",
+      "block_if_score_at_or_above": 4
+    },
+    {
+      "dimension": "production_exposure_risk",
+      "score_range": "0-5",
+      "block_if_score_at_or_above": 4
+    },
+    {
+      "dimension": "rollback_complexity",
+      "score_range": "0-5",
+      "hold_if_score_at_or_above": 3
+    },
+    {
+      "dimension": "observability_coverage",
+      "score_range": "0-5",
+      "hold_if_score_below": 3
+    }
+  ],
+  "decision_rules": [
+    {
+      "condition": "blast_radius_cannot_be_calculated",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "production_state_may_be_affected_without_rollback_proof",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "runtime_dependency_collision_score_at_or_above_4",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "rollback_complexity_score_at_or_above_3",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "observability_coverage_score_below_3",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "all_scores_known_and_within_threshold",
+      "decision": "PASS"
+    }
+  ]
+}

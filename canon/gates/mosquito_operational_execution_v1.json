@@ -1,0 +1,289 @@
+{
+  "artifact_id": "mosquito_operational_execution_v1",
+  "artifact_type": "EXECUTION_AUTOMATION",
+  "artifact_name": "Mosquito Operational Execution Layer v1",
+  "version": "1.0.0",
+  "schema_version": "1.0.0",
+  "system_layer": "VERTICAL_OPERATIONAL_EXECUTION",
+  "priority": "P1",
+  "parent_artifacts": [
+    "mosquito_vertical_v1",
+    "mosquito_revenue_ops_v1"
+  ],
+  "derived_artifacts": [],
+  "geo_scope": "Petah Tikva",
+  "routing_channel": "WhatsApp",
+  "payment_mode": "MANUAL_CONFIRMATION",
+  "credit_card_active_now": false,
+  "credit_card_payment_page_future_ready": true,
+  "adaptive_routing_enabled": false,
+  "autonomous_optimization_enabled": false,
+  "autonomous_refunds_enabled": false,
+  "fail_closed_required": true,
+  "validation_required": true,
+  "replay_logging_required": true,
+  "operator_visibility_required": true,
+  "required_execution_flow": [
+    "lead_created",
+    "gate_passed",
+    "whatsapp_handoff_created",
+    "booking_options_sent",
+    "booking_slot_selected",
+    "slot_locked",
+    "manual_payment_requested",
+    "payment_proof_received",
+    "payment_validated",
+    "invoice_receipt_ready",
+    "contractor_notified",
+    "service_scheduled",
+    "service_completed",
+    "post_service_followup_sent",
+    "seasonal_refill_reminder_scheduled"
+  ],
+  "hold_states": [
+    "missing_whatsapp_contact",
+    "out_of_geo_scope",
+    "no_available_slots",
+    "slot_conflict",
+    "payment_not_validated",
+    "contractor_not_available",
+    "invoice_handoff_failed",
+    "customer_no_response",
+    "service_completion_missing",
+    "provider_error_hold"
+  ],
+  "block_states": [
+    "duplicate_booking_attempt",
+    "unsafe_or_unsupported_state",
+    "card_data_detected",
+    "auto_charge_attempted",
+    "unsafe_operator_override"
+  ],
+  "fail_closed_rules": {
+    "whatsapp_execution": [
+      "WhatsApp handoff allowed only after gate_passed",
+      "Missing WhatsApp contact returns HOLD",
+      "Out of geo scope returns HOLD"
+    ],
+    "booking_execution": [
+      "Booking options sent only when slots exist",
+      "Slot locking required before payment request",
+      "Duplicate booking attempt returns BLOCK",
+      "Slot conflict returns HOLD"
+    ],
+    "contractor_execution": [
+      "Contractor scheduling only after payment_validated",
+      "Contractor unavailable returns HOLD",
+      "No adaptive contractor routing"
+    ],
+    "payment_execution": [
+      "Booking cannot advance without payment_validated",
+      "Contractor notification only after payment_validated",
+      "Invoice/receipt handoff only after payment_validated"
+    ],
+    "customer_execution": [
+      "Customer no-response returns HOLD",
+      "Post-service follow-up only after service_completed",
+      "Seasonal refill reminder only after service_completed"
+    ],
+    "operator_execution": [
+      "Unsafe override returns BLOCK",
+      "Operator visibility includes current state, reason_codes, missing requirements, next allowed action",
+      "Unsafe actions blocked: BYPASS_GATE, SKIP_PAYMENT, FORCE_SKIP_CONTRACTOR, AUTO_CHARGE, AUTONOMOUS_REFUND"
+    ],
+    "replay_execution": [
+      "Every state transition must be logged",
+      "Missing replay log returns HOLD",
+      "Logs include: previous_state, next_state, reason_codes, timestamp, actor_type, lineage"
+    ],
+    "illegal_transitions": [
+      "lead_created cannot skip to service_completed",
+      "payment_validated cannot skip field status checks",
+      "service_completed required before post_service_followup"
+    ]
+  },
+  "acceptance_criteria": {
+    "whatsapp_runtime": [
+      "Existing WhatsApp templates preserved",
+      "Contact validation enforces phone format",
+      "Handoff creates after gate_passed",
+      "Out-of-geo handoff returns HOLD"
+    ],
+    "booking_runtime": [
+      "Slot availability checked before sending options",
+      "Duplicate booking prevented with BLOCK",
+      "Slot locking prevents concurrent bookings",
+      "Slot conflict returns HOLD"
+    ],
+    "contractor_runtime": [
+      "Availability check respects geo scope",
+      "Scheduling only after payment_validated",
+      "Contractor unavailable returns HOLD",
+      "No adaptive routing"
+    ],
+    "operator_dashboard": [
+      "Status dashboard read-only for current state",
+      "Unsafe actions blocked",
+      "Next allowed actions exposed",
+      "Missing requirements listed"
+    ],
+    "replay_logger": [
+      "All transitions logged",
+      "Complete case history retrievable",
+      "Replay completeness validated",
+      "Missing logs cause HOLD"
+    ],
+    "customer_reminders": [
+      "Reminders created only with valid contact",
+      "Post-service follow-up after service_completed",
+      "Seasonal reminders after service_completed",
+      "Customer no-response returns HOLD"
+    ],
+    "contractor_notifications": [
+      "Notifications only after payment_validated",
+      "All required fields included",
+      "Geo scope enforced",
+      "Notification tracking implemented"
+    ],
+    "field_status_lifecycle": [
+      "All transitions validated",
+      "Illegal transitions blocked",
+      "Dependencies checked",
+      "Terminal states recognized"
+    ],
+    "operational_metrics": [
+      "CAC vs revenue calculated",
+      "Metrics visibility only",
+      "No adaptive optimization triggered",
+      "ROI calculated correctly"
+    ]
+  },
+  "execution_modules": {
+    "whatsapp_execution_runtime": {
+      "exports": [
+        "createWhatsAppHandoff",
+        "validateWhatsAppContact"
+      ],
+      "rules": [
+        "Existing templates preserved",
+        "Contact validation enforced",
+        "Geo scope enforcement"
+      ]
+    },
+    "booking_execution_runtime": {
+      "exports": [
+        "sendBookingOptions",
+        "selectBookingSlot",
+        "lockBookingSlot",
+        "preventDuplicateBooking"
+      ],
+      "rules": [
+        "Slot availability checked",
+        "Duplicate prevention",
+        "Slot locking enforced"
+      ]
+    },
+    "contractor_scheduling_runtime": {
+      "exports": [
+        "checkContractorAvailability",
+        "scheduleContractor"
+      ],
+      "rules": [
+        "Scheduling after payment_validated",
+        "No adaptive routing",
+        "Geo scope enforcement"
+      ]
+    },
+    "operator_status_dashboard": {
+      "exports": [
+        "getOperationalStatus",
+        "validateOperatorAction"
+      ],
+      "rules": [
+        "Read-only status visibility",
+        "Unsafe action blocking",
+        "Next actions exposure"
+      ]
+    },
+    "operational_replay_logger": {
+      "exports": [
+        "logOperationalTransition",
+        "listOperationalTransitions",
+        "validateReplayCompleteness"
+      ],
+      "rules": [
+        "Every transition logged",
+        "Complete history available",
+        "Replay validation"
+      ]
+    },
+    "customer_reminder_engine": {
+      "exports": [
+        "createCustomerReminder",
+        "createPostServiceFollowup",
+        "scheduleSeasonalRefillReminder"
+      ],
+      "rules": [
+        "Service completion checks",
+        "No-response handling",
+        "Deterministic reminders only"
+      ]
+    },
+    "contractor_notification_layer": {
+      "exports": [
+        "createContractorNotification"
+      ],
+      "rules": [
+        "Payment validation required",
+        "Field completeness enforced",
+        "Geo scope enforcement"
+      ]
+    },
+    "field_status_lifecycle": {
+      "exports": [
+        "transitionFieldStatus",
+        "validateFieldStatusTransition"
+      ],
+      "rules": [
+        "Valid transitions only",
+        "Dependency checking",
+        "Terminal state recognition"
+      ]
+    },
+    "operational_metrics_pipeline": {
+      "exports": [
+        "calculateCacVsCollectedRevenue",
+        "createOperationalMetricEvent"
+      ],
+      "rules": [
+        "Metrics visibility only",
+        "No adaptive optimization",
+        "ROI calculation"
+      ]
+    }
+  },
+  "canonical_sources": [
+    "apps/mosquito-poc/runtime/intake-engine.js",
+    "apps/mosquito-poc/flows/whatsapp-message-templates.md",
+    "apps/mosquito-poc/flows/lead-routing-logic.md",
+    "apps/mosquito-poc/booking/booking-flow.md",
+    "apps/mosquito-poc/booking/scheduling-rules.md",
+    "apps/mosquito-poc/booking/booking-status-lifecycle.md",
+    "apps/mosquito-poc/booking/payment-flow.md",
+    "apps/mosquito-poc/execution/whatsapp-execution-runtime.js",
+    "apps/mosquito-poc/execution/booking-execution-runtime.js",
+    "apps/mosquito-poc/execution/contractor-scheduling-runtime.js",
+    "apps/mosquito-poc/execution/operator-status-dashboard.js",
+    "apps/mosquito-poc/execution/operational-replay-logger.js",
+    "apps/mosquito-poc/execution/customer-reminder-engine.js",
+    "apps/mosquito-poc/execution/contractor-notification-layer.js",
+    "apps/mosquito-poc/execution/field-status-lifecycle.js",
+    "apps/mosquito-poc/execution/operational-metrics-pipeline.js"
+  ],
+  "implementation_status": "VALIDATED_FOR_MODULE_SCOPE",
+  "dependencies": {
+    "mosquito_vertical_v1": "STATIC_GATE_READY",
+    "mosquito_revenue_ops_v1": "IMPLEMENTED_VALIDATED_FOR_MODULE_SCOPE"
+  },
+  "created_at": "2026-05-09T00:00:00Z"
+}

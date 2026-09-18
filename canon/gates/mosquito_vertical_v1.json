@@ -1,0 +1,56 @@
+{
+  "artifact_id": "mosquito_vertical_v1",
+  "artifact_type": "DECISION_GATE",
+  "version": 1,
+  "description": "Static deterministic Decision Gate for mosquito trap subscription management in Petah Tikva via WhatsApp.",
+  "priority": "P1",
+  "system_layer": "VERTICAL_STATIC_GATE",
+  "source_app": "apps/mosquito-poc",
+  "geo_scope": "Petah Tikva",
+  "routing_channel": "WhatsApp",
+  "existing_assets_reused": true,
+  "adaptive_routing_enabled": false,
+  "autonomous_learning_enabled": false,
+  "predictive_risk_enabled": false,
+  "partner_pilot_stub_enabled": true,
+  "deterministic_gate_contract_required": true,
+  "validation_required": true,
+  "fail_closed_required": true,
+  "blocked_systems": [
+    "adaptive_routing",
+    "autonomous_learning",
+    "predictive_risk",
+    "self_optimizing_gate_logic"
+  ],
+  "acceptance_criteria": [
+    "Preserves existing apps/mosquito-poc files",
+    "Reuses WhatsApp templates without replacement",
+    "Maintains Petah Tikva geographic scope",
+    "Implements static deterministic gate contract",
+    "Blocks adaptive, predictive, or autonomous features",
+    "Links existing POC assets in lineage",
+    "Passes all module tests"
+  ],
+  "fail_closed_rules": [
+    "If geo_scope not Petah Tikva, return HOLD",
+    "If required fields missing, return HOLD",
+    "If unsupported input, return BLOCK",
+    "If adaptive routing requested, return BLOCK",
+    "If autonomous learning requested, return BLOCK",
+    "If predictive risk requested, return BLOCK"
+  ],
+  "lineage_sources": [
+    "apps/mosquito-poc/runtime/intake-engine.js",
+    "apps/mosquito-poc/flows/lead-routing-logic.md",
+    "apps/mosquito-poc/flows/whatsapp-message-templates.md",
+    "apps/mosquito-poc/booking/scheduling-rules.md",
+    "apps/mosquito-poc/flows/automation-events.md",
+    "apps/mosquito-poc/README.md",
+    "apps/mosquito-poc/booking/booking-flow.md",
+    "apps/mosquito-poc/booking/booking-status-lifecycle.md",
+    "apps/mosquito-poc/booking/payment-flow.md",
+    "apps/mosquito-poc/docs/google-sheets-integration.md"
+  ],
+  "maintainer": "plenra-engineering",
+  "created_at": "2026-05-09T00:00:00Z"
+}

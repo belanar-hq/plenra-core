@@ -1,0 +1,73 @@
+[
+  {
+    "id": "UNRESOLVED-0001",
+    "name": "Meta Controller",
+    "role": "External final control authority evaluated before any decision.",
+    "responsibilities": [
+      "Be evaluated before any system decision.",
+      "Provide final authority to allow, block, or override decisions.",
+      "Remain mandatory in the control path and cannot be bypassed."
+    ],
+    "controls": [
+      "Decision authority ordering before downstream decision handling.",
+      "Final allow, block, or override authority over controlled decisions.",
+      "Non-bypassable control boundary referenced by CORE PRINCIPLES and do NOT override Meta Controller decisions."
+    ],
+    "does_not_do": [
+      "Does not execute actions.",
+      "Does not define dataset builder execution logic in this file.",
+      "Does not define storage routing in this file."
+    ],
+    "interfaces": [
+      "Control decision output consumed before decision handling by Plenra Dataset Builder Service."
+    ],
+    "source_ids": ["PLN-0001"],
+    "status": "defined_minimal"
+  },
+  {
+    "id": "UNRESOLVED-0002",
+    "name": "learning_dataset",
+    "role": "Passive storage destination for approved learning records.",
+    "responsibilities": [
+      "Receive only approved data routed for learning storage.",
+      "Store approved learning records without altering decision outcomes."
+    ],
+    "controls": [
+      "Learning destination boundary referenced by ROUTING RULES, CRITICAL FIREWALL, and FINAL RULE."
+    ],
+    "does_not_do": [
+      "Does not have decision authority.",
+      "Does not block data.",
+      "Does not classify trust level."
+    ],
+    "interfaces": [
+      "Inbound approved records from ROUTING RULES."
+    ],
+    "source_ids": ["PLN-0001"],
+    "status": "defined_minimal"
+  },
+  {
+    "id": "UNRESOLVED-0003",
+    "name": "audit_log",
+    "role": "Append-only immutable audit record destination.",
+    "responsibilities": [
+      "Record all decisions, including blocked decisions.",
+      "Append audit records without mutation.",
+      "Preserve auditability for blocked, duplicate, and non-learning flows."
+    ],
+    "controls": [
+      "Audit destination boundary referenced by ROUTING RULES.",
+      "Auditability path referenced by CORE PRINCIPLES and FINAL RULE through immutable record retention."
+    ],
+    "does_not_do": [
+      "Does not edit records.",
+      "Does not delete records.",
+      "Does not enforce firewall rules."
+    ],
+    "interfaces": [
+      "Inbound appended records from ROUTING RULES and duplicate/audit flows."
+    ],
+    "source_ids": ["PLN-0001"],
+    "status": "defined_minimal"
+  }
+]

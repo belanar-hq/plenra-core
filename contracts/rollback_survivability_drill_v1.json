@@ -1,0 +1,74 @@
+{
+  "artifact_id": "rollback_survivability_drill_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_PRESSURE_ARTIFACT_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "cloudflare_activation_allowed": false,
+  "autonomous_deployment_allowed": false,
+  "validation_purpose": "Validate conceptual rollback survivability requirements without production deployment, runtime mutation, infrastructure activation, or autonomous rollback behavior.",
+  "pass_conditions": [
+    "rollback_reference_exists",
+    "rollback_lineage_intact",
+    "domain_mapping_restorable",
+    "environment_state_reconstructable",
+    "unresolved_HOLD_blocks_rollback"
+  ],
+  "fail_conditions": [
+    "rollback_marked_valid_with_missing_lineage",
+    "rollback_marked_valid_with_missing_domain_reference",
+    "rollback_proceeds_during_unresolved_HOLD",
+    "partial_rollback_treated_as_full_rollback"
+  ],
+  "block_conditions": [
+    "broken_lineage",
+    "missing_rollback_reference",
+    "missing_domain_reference",
+    "unresolved_HOLD_during_rollback",
+    "production_state_affected_without_rollback_proof"
+  ],
+  "rollback_tests": [
+    {
+      "test_id": "full_rollback",
+      "name": "Full rollback restores files, environment, domain mapping, and replay reference",
+      "simulated_trigger": "rollback_reference_restores_files_environment_domain_mapping_and_replay_reference",
+      "expected_decision": "PASS",
+      "measurement_method": "verify_files_environment_domain_mapping_and_replay_reference_match_rollback_reference"
+    },
+    {
+      "test_id": "partial_rollback",
+      "name": "Partial rollback does not satisfy full rollback proof",
+      "simulated_trigger": "rollback_restores_only_subset_of_required_surfaces",
+      "expected_decision": "HOLD",
+      "measurement_method": "compare_restored_surfaces_against_required_full_rollback_surface_set"
+    },
+    {
+      "test_id": "failed_rollback",
+      "name": "Failed rollback reconstruction blocks rollback validity",
+      "simulated_trigger": "rollback_reconstruction_cannot_rebuild_expected_previous_state",
+      "expected_decision": "BLOCK",
+      "measurement_method": "compare_reconstructed_previous_state_against_rollback_reference_state"
+    },
+    {
+      "test_id": "rollback_with_broken_lineage",
+      "name": "Rollback with broken lineage is blocked",
+      "simulated_trigger": "lineage_reference_chain_breaks_during_rollback_review",
+      "expected_decision": "BLOCK",
+      "measurement_method": "verify_rollback_lineage_chain_contains_no_missing_or_mismatched_reference"
+    },
+    {
+      "test_id": "rollback_with_missing_domain_reference",
+      "name": "Rollback with missing domain reference is blocked",
+      "simulated_trigger": "domain_mapping_reference_missing_from_rollback_record",
+      "expected_decision": "BLOCK",
+      "measurement_method": "verify_domain_mapping_reference_exists_and_matches_rollback_record"
+    },
+    {
+      "test_id": "rollback_during_unresolved_HOLD",
+      "name": "Rollback during unresolved HOLD is blocked",
+      "simulated_trigger": "rollback_requested_while_prior_HOLD_condition_remains_unresolved",
+      "expected_decision": "BLOCK",
+      "measurement_method": "verify_no_unresolved_HOLD_condition_exists_before_rollback_decision"
+    }
+  ]
+}

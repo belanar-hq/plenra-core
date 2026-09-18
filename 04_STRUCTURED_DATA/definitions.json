@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TEMP-DEFINITION-001",
+    "type": "definition",
+    "name": "validation_failed",
+    "description": "validation_failed = true if decision_id is missing after safe normalization, event_type is invalid after safe normalization, learning_eligibility is invalid after safe normalization, or audit_tag is invalid after safe normalization.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-DEFINITION-002",
+    "type": "definition",
+    "name": "normalization_applied",
+    "description": "normalization_applied = true if missing wrapper fields were auto-filled, missing optional blocks were inserted, or an invalid enum was replaced with safe blocked fallback.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  }
+]

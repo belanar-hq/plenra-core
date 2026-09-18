@@ -1,0 +1,68 @@
+{
+  "schema_id": "importValidationSchema",
+  "schema_version": "v1",
+  "source_design_id": "repository_runtime_boundary_bridge_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_snapshot_id",
+    "prompt_hash",
+    "dispatch_file_hash",
+    "hash_algorithm",
+    "repository_target_path",
+    "lineage",
+    "safe_to_continue"
+  ],
+  "properties": {
+    "source_snapshot_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prompt_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "dispatch_file_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "hash_algorithm": {
+      "const": "SHA-256"
+    },
+    "repository_target_path": {
+      "type": "string",
+      "pattern": "^dispatches/[^/]+\\.dispatch\\.json$"
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_snapshot_id",
+        "prompt_hash",
+        "dispatch_file_hash",
+        "import_timestamp"
+      ],
+      "properties": {
+        "source_snapshot_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "dispatch_file_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "import_timestamp": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "safe_to_continue": {
+      "const": false
+    }
+  }
+}

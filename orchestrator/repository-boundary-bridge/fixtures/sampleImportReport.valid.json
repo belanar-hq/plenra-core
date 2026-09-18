@@ -1,0 +1,14 @@
+{
+  "source_snapshot_id": "REPOSITORY_RUNTIME_BOUNDARY_BRIDGE_v1_HARDENED_DISPATCH_001_FINAL",
+  "prompt_hash": "e391c89773f2452d319e0b09b44ea5fe18d0db39b14dfc51f370736a3a345441",
+  "dispatch_file_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "hash_algorithm": "SHA-256",
+  "repository_target_path": "dispatches/repository_runtime_boundary_bridge_v1_contracts_and_tests_HARDENED.dispatch.json",
+  "lineage": {
+    "source_snapshot_id": "REPOSITORY_RUNTIME_BOUNDARY_BRIDGE_v1_HARDENED_DISPATCH_001_FINAL",
+    "prompt_hash": "e391c89773f2452d319e0b09b44ea5fe18d0db39b14dfc51f370736a3a345441",
+    "dispatch_file_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "import_timestamp": "2026-05-17T00:00:00.000Z"
+  },
+  "safe_to_continue": false
+}

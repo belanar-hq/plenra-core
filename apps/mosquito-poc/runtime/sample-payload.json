@@ -1,0 +1,14 @@
+{
+  "source_id": "PT-KIRYAT_ARIE-V1",
+  "city": "Petah Tikva",
+  "area": "Kiryat Arie",
+  "messages_count": 5,
+  "free_text": "יתושים בערב בעיקר בחצר",
+  "answers": {
+    "q1": "1,2,3",
+    "q2": "4",
+    "q3": "2",
+    "q4": "2",
+    "q5": "1,4"
+  }
+}

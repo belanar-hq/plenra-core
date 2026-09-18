@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TEMP-GATE-001",
+    "type": "gate",
+    "name": "CRITICAL FIREWALL",
+    "description": "Under no condition may any record enter learning_dataset if learning_eligibility = blocked, audit_tag != none, validation_failed = true, or normalization_applied = true and learning_eligibility was auto-set to blocked.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-GATE-002",
+    "type": "gate",
+    "name": "DUPLICATE CONTROL",
+    "description": "If the same decision_id + event_type already exists, status = duplicate_blocked, dataset_inclusion = false, storage_targets = [\"audit_log\"], and trust_level = none.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  }
+]

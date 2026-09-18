@@ -1,0 +1,63 @@
+{
+  "artifact_id": "mosquito_pilot_operator_dry_run_review_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_DRY_RUN_REVIEW_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "autonomous_execution_allowed": false,
+  "validation_purpose": "Validate bounded human-supervised mosquito pilot operator dry-run usability, replay clarity, PASS/HOLD/BLOCK consistency, contradiction visibility, and operational comprehension before public exposure.",
+  "reviewed_assets": [
+    "mosquito_simulated_intake_cases_v1.json",
+    "mosquito_operator_decision_walkthrough_v1.md",
+    "mosquito_manual_logging_template_v1.csv"
+  ],
+  "dry_run_checks": [
+    "operator_can_follow_flow",
+    "pass_hold_block_logic_understandable",
+    "contradictions_visible",
+    "replay_logging_understandable",
+    "manual_actions_clear",
+    "bounded_scope_preserved",
+    "autonomous_execution_prevented",
+    "runtime_mutation_prevented"
+  ],
+  "replay_clarity_review": {
+    "status": "READY_FOR_REVIEW",
+    "survivability_assessment": "operator can record decision reason, contradiction flags, next manual action, and replay reference from each simulated case",
+    "hold_conditions": [],
+    "block_conditions": []
+  },
+  "contradiction_visibility_review": {
+    "status": "READY_FOR_REVIEW",
+    "survivability_assessment": "missing location, conflicting details, unsupported area, and impossible guarantee signals remain visible to the operator",
+    "hold_conditions": [],
+    "block_conditions": []
+  },
+  "operator_comprehension_review": {
+    "status": "READY_FOR_REVIEW",
+    "survivability_assessment": "walkthrough remains short enough for manual operator use during dry-run review",
+    "hold_conditions": [],
+    "block_conditions": []
+  },
+  "pass_hold_block_consistency_review": {
+    "status": "READY_FOR_REVIEW",
+    "survivability_assessment": "simulated cases preserve PASS for clear bounded cases, HOLD for missing or contradictory inputs, and BLOCK for unsupported or impossible requests",
+    "hold_conditions": [],
+    "block_conditions": []
+  },
+  "operational_friction_review": {
+    "status": "READY_FOR_REVIEW",
+    "survivability_assessment": "manual actions are explicit and do not require automation, infrastructure activation, or runtime mutation",
+    "hold_conditions": [],
+    "block_conditions": []
+  },
+  "bounded_scope_constraints": [
+    "human_supervision_required",
+    "autonomous_execution_forbidden",
+    "runtime_mutation_forbidden",
+    "bounded_geographic_scope_only",
+    "contradiction_escalation_required",
+    "manual_override_required"
+  ],
+  "dry_run_decision": "READY_FOR_BOUNDED_REAL_WORLD_HUMAN_SUPERVISED_PILOT_ONLY"
+}

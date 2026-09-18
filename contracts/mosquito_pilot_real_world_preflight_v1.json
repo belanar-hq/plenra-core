@@ -1,0 +1,70 @@
+{
+  "artifact_id": "mosquito_pilot_real_world_preflight_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_PREFLIGHT_ARTIFACT_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "autonomous_execution_allowed": false,
+  "validation_purpose": "Validate bounded real-world human-supervised mosquito pilot preflight readiness without runtime mutation, deployment execution, infrastructure activation, or autonomous orchestration.",
+  "dedicated_whatsapp_number": "0542270080",
+  "preflight_checks": [
+    "dedicated_whatsapp_number_exists",
+    "whatsapp_number_is_pilot_specific",
+    "human_operator_available",
+    "manual_intake_flow_defined",
+    "replay_safe_logging_defined",
+    "manual_routing_defined",
+    "bounded_scheduling_defined",
+    "contradiction_escalation_defined",
+    "manual_payment_handling_defined",
+    "rollback_path_defined",
+    "autonomous_execution_blocked"
+  ],
+  "human_supervision_requirements": [
+    "human_operator_available",
+    "human_operator_reviews_all_real_world_actions",
+    "manual_override_required_for_all_exceptions"
+  ],
+  "intake_requirements": [
+    "dedicated_whatsapp_number_exists",
+    "whatsapp_number_is_pilot_specific",
+    "manual_intake_flow_defined"
+  ],
+  "logging_requirements": [
+    "replay_safe_logging_defined",
+    "pilot_events_remain_reviewable",
+    "manual_action_records_are_preserved"
+  ],
+  "rollback_requirements": [
+    "rollback_path_defined",
+    "rollback_reference_must_exist_before_real_world_exposure",
+    "rollback_remains_human_supervised"
+  ],
+  "contradiction_requirements": [
+    "contradiction_escalation_defined",
+    "contradictions_require_human_review",
+    "override_requires_explicit_manual_decision"
+  ],
+  "payment_handling_requirements": [
+    "manual_payment_handling_defined",
+    "payment_automation_forbidden",
+    "payment_records_require_human_review"
+  ],
+  "pilot_block_conditions": [
+    "dedicated_whatsapp_number_missing",
+    "autonomous_execution_detected",
+    "runtime_mutation_detected",
+    "deployment_execution_detected",
+    "payment_automation_detected",
+    "rollback_path_missing"
+  ],
+  "pilot_hold_conditions": [
+    "human_operator_unavailable",
+    "manual_intake_flow_undefined",
+    "replay_safe_logging_undefined",
+    "manual_routing_undefined",
+    "bounded_scheduling_undefined",
+    "contradiction_escalation_undefined"
+  ],
+  "preflight_decision": "READY_FOR_HUMAN_SUPERVISED_PREFLIGHT_REVIEW_ONLY"
+}

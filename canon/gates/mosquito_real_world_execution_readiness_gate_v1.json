@@ -1,0 +1,71 @@
+{
+  "artifact_id": "mosquito_real_world_execution_readiness_gate_v1",
+  "artifact_type": "READINESS_GATE",
+  "priority": "P0",
+  "system_layer": "REAL_WORLD_EXECUTION_GOVERNANCE",
+  "parent_artifacts": [
+    "runtime_layer_v1_minimal",
+    "mosquito_human_friction_logging_v1",
+    "mosquito_bootstrap_kill_criteria_v1",
+    "mosquito_vertical_v1",
+    "mosquito_revenue_ops_v1",
+    "mosquito_operational_execution_v1",
+    "mosquito_persistent_storage_integration_v1",
+    "mosquito_e2e_operational_wiring_v1"
+  ],
+  "fail_closed_required": true,
+  "production_deployment_enabled": false,
+  "live_credit_card_charging_enabled": false,
+  "adaptive_routing_enabled": false,
+  "autonomous_learning_enabled": false,
+  "campaign_scaling_enabled": false,
+  "autonomous_optimization_enabled": false,
+  "external_api_activation_enabled": false,
+  "validation_required": true,
+  "required_checks": [
+    "operator_runbook_acknowledged",
+    "manual_whatsapp_process_documented",
+    "contractor_availability_confirmed",
+    "manual_payment_proof_process_documented",
+    "replay_logging_validated",
+    "human_friction_logging_ready",
+    "bootstrap_kill_criteria_ready",
+    "rollback_path_documented",
+    "manual_limited_observable_mode"
+  ],
+  "blocked_capabilities": [
+    "production_deployment",
+    "live_credit_card_charging",
+    "adaptive_routing",
+    "autonomous_learning",
+    "campaign_scaling",
+    "autonomous_optimization",
+    "external_api_activation"
+  ],
+  "acceptance_criteria": [
+    "Returns PASS only when all readiness evidence is present and blocked capabilities remain disabled",
+    "Returns HOLD when required readiness evidence is missing",
+    "Returns BLOCK when any blocked capability is enabled",
+    "Does not trigger real-world execution",
+    "Does not enable production deployment",
+    "Does not mutate runtime state",
+    "Preserves manual limited observable execution boundary"
+  ],
+  "fail_closed_rules": [
+    "missing idempotency_key returns BLOCK",
+    "malformed input returns BLOCK",
+    "missing readiness evidence returns HOLD",
+    "blocked capability enabled returns BLOCK",
+    "execution trigger attempt returns BLOCK",
+    "production enablement attempt returns BLOCK",
+    "runtime state mutation attempt returns BLOCK"
+  ],
+  "lineage_sources": [
+    "apps/mosquito-poc/readiness/readiness-gate-schema.js",
+    "apps/mosquito-poc/readiness/readiness-gate-evaluator.js",
+    "apps/mosquito-poc/readiness/tests/mosquitoRealWorldExecutionReadinessGate.test.js",
+    "apps/mosquito-poc/bootstrap/kill-criteria-evaluator.js",
+    "apps/mosquito-poc/friction/human-friction-logger.js",
+    "orchestrator/runtime-layer/index.js"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "artifact_id": "mosquito_pilot_intake_execution_simulation_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_OPERATIONAL_SIMULATION_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "autonomous_execution_allowed": false,
+  "validation_purpose": "Simulate bounded human-supervised mosquito pilot intake handling before real public exposure without runtime mutation, infrastructure activation, autonomous orchestration, or production deployment.",
+  "simulated_case_count": 6,
+  "allowed_decisions": [
+    "PASS",
+    "HOLD",
+    "BLOCK"
+  ],
+  "replay_requirements": [
+    "operator_id",
+    "intake_timestamp",
+    "decision_reason",
+    "contradiction_flags",
+    "next_manual_action",
+    "replay_reference"
+  ],
+  "contradiction_requirements": [
+    "missing_location_requires_HOLD",
+    "contradictory_behavior_requires_HOLD",
+    "unsafe_or_out_of_scope_request_requires_BLOCK",
+    "operator_reason_required_for_each_decision"
+  ],
+  "bounded_scope_constraints": [
+    "human_supervision_required",
+    "autonomous_execution_forbidden",
+    "runtime_mutation_forbidden",
+    "bounded_geographic_scope_only",
+    "contradiction_escalation_required"
+  ],
+  "simulation_decision": "READY_FOR_BOUNDED_REAL_WORLD_OPERATOR_SIMULATION_ONLY"
+}

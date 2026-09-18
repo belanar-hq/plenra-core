@@ -1,0 +1,26 @@
+{
+  "rules_id": "collisionHandlingRules",
+  "rules_version": "v1",
+  "source_design_id": "repository_runtime_boundary_bridge_v1",
+  "target_scope": "dispatches/*.dispatch.json",
+  "rules": [
+    {
+      "condition": "target_missing",
+      "result": "ALLOW_IMPORT"
+    },
+    {
+      "condition": "target_exists_same_hash",
+      "result": "ALREADY_IMPORTED"
+    },
+    {
+      "condition": "target_exists_different_hash",
+      "result": "DISPATCH_COLLISION_DETECTED"
+    }
+  ],
+  "terminal_failures": [
+    "DISPATCH_COLLISION_DETECTED",
+    "OUT_OF_SCOPE_REPOSITORY_WRITE",
+    "FORBIDDEN_SURFACE_TOUCH_REQUIRED"
+  ],
+  "safe_to_continue": false
+}

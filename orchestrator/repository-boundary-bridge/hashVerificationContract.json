@@ -1,0 +1,35 @@
+{
+  "contract_id": "hashVerificationContract",
+  "contract_version": "v1",
+  "source_design_id": "repository_runtime_boundary_bridge_v1",
+  "algorithm": "SHA-256",
+  "required": true,
+  "verifications": [
+    {
+      "name": "verify_sandbox_artifact_hash",
+      "input": "sandbox_dispatch_artifact_bytes",
+      "expected_hash_source": "locked_dispatch_lineage"
+    },
+    {
+      "name": "verify_prompt_hash",
+      "input": "locked_codex_prompt",
+      "expected_hash_source": "dispatch_prompt_hash"
+    },
+    {
+      "name": "verify_dispatch_file_hash",
+      "input": "repository_dispatch_artifact_bytes",
+      "expected_hash_source": "lineage_dispatch_file_hash"
+    }
+  ],
+  "hash_format": {
+    "encoding": "hex",
+    "length": 64,
+    "case": "lowercase"
+  },
+  "failure_modes": [
+    "SANDBOX_ARTIFACT_MISSING",
+    "PROMPT_HASH_MISMATCH",
+    "HASH_DRIFT_DETECTED"
+  ],
+  "safe_to_continue": false
+}

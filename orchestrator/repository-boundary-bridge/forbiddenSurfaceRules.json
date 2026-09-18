@@ -1,0 +1,29 @@
+{
+  "rules_id": "forbiddenSurfaceRules",
+  "rules_version": "v1",
+  "source_design_id": "repository_runtime_boundary_bridge_v1",
+  "allowed_write_surfaces": [
+    "dispatches/*.dispatch.json"
+  ],
+  "forbidden_repository_surfaces": [
+    "canon/",
+    "registry/",
+    "apps/mosquito-poc/",
+    "services/decision-gate/",
+    "runtime implementation files",
+    "API files",
+    "automation files"
+  ],
+  "forbidden_authority_expansions": [
+    "prompt_mutation",
+    "scope_expansion",
+    "runtime_authority",
+    "production_authority",
+    "canon_mutation"
+  ],
+  "failure_modes": [
+    "OUT_OF_SCOPE_REPOSITORY_WRITE",
+    "FORBIDDEN_SURFACE_TOUCH_REQUIRED"
+  ],
+  "safe_to_continue": false
+}

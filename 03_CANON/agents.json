@@ -1,0 +1,12 @@
+[
+  {
+    "id": "CANON-0001",
+    "original_id": "TEMP-AGENT-001",
+    "type": "agent",
+    "name": "Plenra Dataset Builder Service",
+    "description": "Responsible for controlling what data is allowed into the learning dataset. Receives event envelopes, validates structure, normalizes safe missing wrappers, enforces learning eligibility, classifies trust level, routes data to the correct storage bucket, and prevents contaminated data from entering learning.",
+    "source_ids": ["PLN-0001"],
+    "justification": "It directly affects future system decisions by controlling learning eligibility, trust, and routing. The role is explicit, enforceable, and stable within the described pipeline.",
+    "confidence": "high"
+  }
+]

@@ -1,0 +1,3 @@
+node_modules/
+/tmp/jest-cache/
+/apps/mosquito-poc/data/leads.csv

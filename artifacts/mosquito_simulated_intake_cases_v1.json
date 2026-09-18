@@ -1,0 +1,68 @@
+[
+  {
+    "case_id": "clear_localized_mosquito_problem_PASS",
+    "intake_message": "Hi, I live in a house in Ramat Gan, Nahalat Ganim. Mosquitoes are strongest near the back yard every evening. I can send a short video.",
+    "location": "Ramat Gan, Nahalat Ganim, house",
+    "detected_contradictions": [],
+    "expected_decision": "PASS",
+    "operator_reason": "Localized recurring mosquito problem with clear location, scope, timing, and reachable area.",
+    "next_manual_action": "Log PASS, request optional photo or video if not already sent, and offer a bounded scheduling step."
+  },
+  {
+    "case_id": "unclear_location_HOLD",
+    "intake_message": "There are mosquitoes around my place. It gets bad at night. Can someone check?",
+    "location": "unknown",
+    "detected_contradictions": [
+      "missing_city",
+      "missing_neighborhood",
+      "missing_apartment_or_house"
+    ],
+    "expected_decision": "HOLD",
+    "operator_reason": "Operational location is missing, so the pilot scope cannot be confirmed.",
+    "next_manual_action": "Ask for city, neighborhood, and apartment or house before any scheduling discussion."
+  },
+  {
+    "case_id": "contradictory_behavior_HOLD",
+    "intake_message": "The mosquitoes are only in my sealed apartment, but they mainly appear outside by the shared garden. I am not sure where they come from.",
+    "location": "shared garden and apartment conflict",
+    "detected_contradictions": [
+      "conflicting_problem_area",
+      "unclear_operational_scope"
+    ],
+    "expected_decision": "HOLD",
+    "operator_reason": "Problem area is contradictory, so the operator needs clarification before assigning a bounded scope.",
+    "next_manual_action": "Ask where mosquitoes appear most and whether the issue is inside the apartment, outside, or both."
+  },
+  {
+    "case_id": "outside_supported_area_BLOCK",
+    "intake_message": "I am in Haifa and need mosquito help this week. Can you come here?",
+    "location": "Haifa",
+    "detected_contradictions": [
+      "outside_supported_region"
+    ],
+    "expected_decision": "BLOCK",
+    "operator_reason": "The request is outside the bounded pilot area.",
+    "next_manual_action": "Log BLOCK with outside supported region and reply that the pilot cannot handle this area."
+  },
+  {
+    "case_id": "impossible_expectation_BLOCK",
+    "intake_message": "I want a guarantee that all mosquitoes will disappear permanently after one visit.",
+    "location": "not enough location detail",
+    "detected_contradictions": [
+      "impossible_guarantee_requested",
+      "missing_operational_location"
+    ],
+    "expected_decision": "BLOCK",
+    "operator_reason": "The request depends on an impossible guarantee and cannot be accepted as a bounded pilot case.",
+    "next_manual_action": "Log BLOCK with impossible guarantee requested and do not offer scheduling."
+  },
+  {
+    "case_id": "high_confidence_real_problem_PASS",
+    "intake_message": "Tel Aviv, Florentin, apartment. Mosquitoes appear mostly in the stairwell and near the entrance after sunset. This has repeated for two weeks. I have a video from last night.",
+    "location": "Tel Aviv, Florentin, apartment/stairwell",
+    "detected_contradictions": [],
+    "expected_decision": "PASS",
+    "operator_reason": "Clear recurring issue with location, timing, repeated pattern, and supporting media available.",
+    "next_manual_action": "Log PASS, attach replay reference for the video if provided, and offer bounded manual follow-up."
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "artifact_id": "mosquito_pilot_manual_operator_flow_v1",
+  "version": "v1",
+  "status": "CONCEPTUAL_OPERATIONAL_FLOW_ARTIFACT_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "autonomous_execution_allowed": false,
+  "validation_purpose": "Define bounded manual operator flow for the first real-world mosquito pilot without autonomous execution, runtime mutation, or infrastructure automation.",
+  "whatsapp_number": "0542270080",
+  "operator_flow_steps": [
+    "receive_whatsapp_intake",
+    "capture_problem_summary",
+    "capture_location_context",
+    "evaluate_basic_legitimacy",
+    "evaluate_contradictions",
+    "assign_PASS_HOLD_BLOCK",
+    "manual_operator_review",
+    "bounded_scheduling_if_PASS",
+    "manual_followup_logging",
+    "record_outcome"
+  ],
+  "decision_states": [
+    "PASS",
+    "HOLD",
+    "BLOCK"
+  ],
+  "contradiction_escalation_rules": [
+    {
+      "condition": "missing_required_information",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "unclear_location_or_scope",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "contradictory_behavioral_signals",
+      "decision": "HOLD"
+    },
+    {
+      "condition": "unsafe_or_invalid_request",
+      "decision": "BLOCK"
+    },
+    {
+      "condition": "validated_legitimate_request",
+      "decision": "PASS"
+    }
+  ],
+  "replay_logging_requirements": [
+    "intake_timestamp",
+    "operator_id",
+    "decision_state",
+    "contradiction_flags",
+    "scheduling_state",
+    "outcome_state",
+    "rollback_reference",
+    "replay_reference"
+  ],
+  "operator_override_rules": {
+    "override_requires_logging": true,
+    "override_requires_reason": true,
+    "override_requires_operator_identity": true,
+    "override_must_preserve_replayability": true
+  },
+  "rollback_requirements": [
+    "rollback_reference_required",
+    "rollback_remains_manual",
+    "rollback_must_preserve_replayability"
+  ],
+  "bounded_scope_constraints": [
+    "human_supervision_required",
+    "autonomous_execution_forbidden",
+    "runtime_mutation_forbidden",
+    "bounded_geographic_scope_only",
+    "manual_override_required_for_uncertainty",
+    "contradiction_escalation_required"
+  ],
+  "operational_flow_decision": "READY_FOR_BOUNDED_HUMAN_SUPERVISED_OPERATIONAL_FLOW_REVIEW_ONLY"
+}

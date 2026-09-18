@@ -1,0 +1,54 @@
+{
+  "flow": [
+    {
+      "step": "input",
+      "description": "Receive input envelope for evaluation under safe normalization and fail-closed policy."
+    },
+    {
+      "step": "gate_evaluation",
+      "uses": ["gates.json"],
+      "must_execute": true,
+      "blocks": ["CRITICAL_FIREWALL", "DUPLICATE_CONTROL"],
+      "fail_condition": "any gate triggers block"
+    },
+    {
+      "step": "meta_controller",
+      "uses": ["Meta Controller"],
+      "action": "allow | block | override",
+      "must_execute": true,
+      "non_bypassable": true,
+      "controls_final_decision": true
+    },
+    {
+      "step": "decision",
+      "type": "final"
+    },
+    {
+      "step": "log",
+      "uses": ["audit_log"]
+    },
+    {
+      "step": "route",
+      "targets": ["learning_dataset", "approved", "audit_log"],
+      "allowed_only_if": "meta_controller == allow",
+      "blocked_if": "meta_controller == block",
+      "block_routes_only_to": "audit_log",
+      "block_is_terminal": true,
+      "no_secondary_routing_after_block": true,
+      "no_parallel_block_destinations": true,
+      "override_only_by": "meta_controller"
+    }
+  ],
+  "rules": [
+    "Meta Controller always evaluated",
+    "No bypass allowed",
+    "All decisions logged",
+    "Fail closed on missing data",
+    "Gates always run before Meta Controller",
+    "Meta Controller always runs before routing",
+    "No direct routing allowed",
+    "No dataset access without approval",
+    "Block routes only to audit_log",
+    "Block is terminal"
+  ]
+}

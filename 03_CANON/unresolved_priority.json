@@ -1,0 +1,37 @@
+[
+  {
+    "id": "UNRESOLVED-0001",
+    "name": "Meta Controller",
+    "priority": "HIGH",
+    "reason": "Referenced by core policy and authority constraints, so missing it leaves an external control dependency undefined. The dataset builder can still execute local gating logic, but controller enforcement remains incomplete.",
+    "blocks": ["CANON-0004", "CANON-0023"]
+  },
+  {
+    "id": "UNRESOLVED-0002",
+    "name": "learning_dataset",
+    "priority": "CRITICAL",
+    "reason": "This is the canonized target for eligible high-trust records. Without it, the core learning path cannot complete.",
+    "blocks": ["CANON-0008", "CANON-0014"]
+  },
+  {
+    "id": "UNRESOLVED-0003",
+    "name": "audit_log",
+    "priority": "CRITICAL",
+    "reason": "Audit routing is required across blocked, duplicate, and non-learning flows. Without this target, the canonized fail-closed and auditability paths cannot complete.",
+    "blocks": ["CANON-0008", "CANON-0014"]
+  },
+  {
+    "id": "UNRESOLVED-0004",
+    "name": "low_trust_storage",
+    "priority": "HIGH",
+    "reason": "It is a defined routing target for low-trust records, so missing it removes a major non-learning storage path. Core gating can still run, but one required destination is absent.",
+    "blocks": ["CANON-0008", "CANON-0014"]
+  },
+  {
+    "id": "UNRESOLVED-0005",
+    "name": "quarantine_storage",
+    "priority": "HIGH",
+    "reason": "It is a defined routing target for quarantined records, so missing it removes a major containment path. Core gating can still run, but one required destination is absent.",
+    "blocks": ["CANON-0008", "CANON-0014"]
+  }
+]

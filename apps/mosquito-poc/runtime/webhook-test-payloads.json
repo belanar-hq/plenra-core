@@ -1,0 +1,85 @@
+[
+  {
+    "case": "LOW",
+    "source_id": "PT-KIRYAT_ARIE-V1",
+    "message_id": "low-001",
+    "phone": "+972501234567",
+    "city": "Petah Tikva",
+    "area": "Kiryat Arie",
+    "messages_count": 1,
+    "free_text": "עקיצה אחת בלילה",
+    "timestamp": "2026-05-07T16:00:00Z",
+    "answers": {
+      "q1": "5",
+      "q2": "5",
+      "q3": "5",
+      "q4": "1",
+      "q5": "5"
+    }
+  },
+  {
+    "case": "REVIEW",
+    "source_id": "PT-KIRYAT_ARIE-V2",
+    "message_id": "review-001",
+    "phone": "+972501234568",
+    "city": "Petah Tikva",
+    "area": "Kiryat Arie",
+    "messages_count": 3,
+    "free_text": "מעט עקיצות בחצר",
+    "timestamp": "2026-05-07T16:05:00Z",
+    "answers": {
+      "q1": "1,5",
+      "q2": "3",
+      "q3": "3",
+      "q4": "2",
+      "q5": "1"
+    }
+  },
+  {
+    "case": "HIGH_PRIORITY",
+    "source_id": "PT-KIRYAT_ARIE-V3",
+    "message_id": "high-001",
+    "phone": "+972501234569",
+    "city": "Petah Tikva",
+    "area": "Kiryat Arie",
+    "messages_count": 5,
+    "free_text": "יתושים בכל ערב",
+    "timestamp": "2026-05-07T16:10:00Z",
+    "answers": {
+      "q1": "1,2,3",
+      "q2": "4",
+      "q3": "2",
+      "q4": "4",
+      "q5": "1,4"
+    }
+  },
+  {
+    "case": "duplicate lead",
+    "source_id": "PT-KIRYAT_ARIE-V3",
+    "message_id": "high-001",
+    "phone": "+972501234569",
+    "city": "Petah Tikva",
+    "area": "Kiryat Arie",
+    "messages_count": 5,
+    "free_text": "יתושים בכל ערב",
+    "timestamp": "2026-05-07T16:11:00Z",
+    "answers": {
+      "q1": "1,2,3",
+      "q2": "4",
+      "q3": "2",
+      "q4": "4",
+      "q5": "1,4"
+    }
+  },
+  {
+    "case": "invalid payload",
+    "source_id": "PT-KIRYAT_ARIE-V4",
+    "message_id": "invalid-001",
+    "phone": "+972501234560",
+    "city": "Petah Tikva",
+    "area": "Kiryat Arie",
+    "messages_count": 0,
+    "free_text": "",
+    "timestamp": "2026-05-07T16:15:00Z"
+  }
+]

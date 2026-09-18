@@ -1,0 +1,178 @@
+{
+  "artifact_id": "mosquito_revenue_ops_v1",
+  "artifact_name": "Mosquito Revenue Operations Layer v1",
+  "version": "1.0.0",
+  "schema_version": "1.0.0",
+  "description": "Deterministic fail-closed revenue infrastructure for mosquito_vertical_v1",
+  "parent_artifact": "mosquito_vertical_v1",
+  "isolated": true,
+  "geo_scope": "Petah Tikva",
+  "provider_normalization": {
+    "canonical_provider": "Morning",
+    "aliases": [
+      "morning",
+      "green invoice",
+      "green_invoice",
+      "חשבונית ירוקה"
+    ],
+    "normalization_rule": "All aliases normalize to Morning"
+  },
+  "payment_modes": {
+    "MANUAL_CONFIRMATION": {
+      "active_now": true,
+      "mvp": true,
+      "requires_proof_upload": true,
+      "requires_admin_confirmation": true,
+      "allowed_proof_types": ["screenshot", "receipt", "bank_confirmation"],
+      "real_charging": false,
+      "card_storage": false,
+      "pci_handling": false
+    },
+    "CREDIT_CARD_PAYMENT_PAGE": {
+      "active_now": false,
+      "future_ready_only": true,
+      "requires_webhook": true,
+      "payment_page_activation": false,
+      "real_charging": false,
+      "card_storage": false,
+      "pci_handling": false
+    }
+  },
+  "money_state_machine": {
+    "active_mvp_flow": [
+      "booking_created",
+      "payment_pending",
+      "manual_payment_requested",
+      "payment_proof_uploaded",
+      "payment_validated",
+      "invoice_generated",
+      "receipt_generated",
+      "booking_confirmed",
+      "service_completed"
+    ],
+    "future_ready_flow": [
+      "booking_created",
+      "payment_pending",
+      "payment_page_created",
+      "payment_success_webhook_received",
+      "payment_validated",
+      "invoice_generated",
+      "receipt_generated",
+      "booking_confirmed",
+      "service_completed"
+    ],
+    "fail_states": [
+      "payment_failed",
+      "invoice_failed",
+      "receipt_failed",
+      "duplicate_invoice_blocked",
+      "refund_pending",
+      "refund_completed",
+      "reconciliation_hold",
+      "webhook_missing",
+      "payment_proof_invalid",
+      "provider_error_hold"
+    ]
+  },
+  "accounting_event_schema": {
+    "schema_version": "1.0.0",
+    "required_fields": [
+      "event_id",
+      "event_type",
+      "booking_id",
+      "payment_id",
+      "amount",
+      "currency",
+      "payment_method",
+      "payment_mode",
+      "created_at"
+    ],
+    "optional_fields": [
+      "mosquito_case_id",
+      "invoice_id",
+      "receipt_id",
+      "vat_amount",
+      "provider",
+      "provider_alias",
+      "proof_hash",
+      "webhook_event_id",
+      "status",
+      "reason_codes",
+      "lineage"
+    ],
+    "forbidden_fields": [
+      "notes",
+      "description",
+      "comment",
+      "admin_notes",
+      "free_text_field"
+    ],
+    "strict_rule": "No free text as source of truth"
+  },
+  "fail_closed_rules": {
+    "payment_validation": [
+      "If payment_validated = false → booking_confirmed forbidden",
+      "If booking_id missing → BLOCK",
+      "If payment exists without booking → BLOCK"
+    ],
+    "invoice_generation": [
+      "If invoice exists without payment → BLOCK",
+      "If invoice amount mismatch → HOLD",
+      "If VAT mismatch → HOLD",
+      "If duplicate invoice detected → BLOCK"
+    ],
+    "receipt_generation": [
+      "If receipt exists without invoice → BLOCK"
+    ],
+    "proof_validation": [
+      "If payment proof hash mismatch → BLOCK",
+      "If proof missing in MANUAL_CONFIRMATION → HOLD"
+    ],
+    "security": [
+      "If card data detected → BLOCK",
+      "If auto charge attempted in MVP_NOW → BLOCK",
+      "If autonomous refund execution attempted → BLOCK",
+      "If adaptive pricing attempted → BLOCK"
+    ],
+    "webhook": [
+      "If webhook missing in CREDIT_CARD_PAYMENT_PAGE mode → HOLD",
+      "If provider response unmapped → HOLD"
+    ]
+  },
+  "forbidden_features": {
+    "real_credit_card_charging": false,
+    "card_storage": false,
+    "pci_compliance_handling": false,
+    "subscriptions": false,
+    "contractor_wallets": false,
+    "autonomous_refunds": false,
+    "adaptive_pricing": false,
+    "autonomous_revenue_optimization": false,
+    "multi_provider_billing_abstraction": false,
+    "accounting_ai": false
+  },
+  "canonical_sources": [
+    "apps/mosquito-poc/runtime/intake-engine.js",
+    "apps/mosquito-poc/flows/whatsapp-message-templates.md",
+    "apps/mosquito-poc/flows/lead-routing-logic.md",
+    "apps/mosquito-poc/flows/automation-events.md",
+    "apps/mosquito-poc/booking/booking-flow.md",
+    "apps/mosquito-poc/booking/scheduling-rules.md",
+    "apps/mosquito-poc/booking/booking-status-lifecycle.md",
+    "apps/mosquito-poc/booking/payment-flow.md",
+    "apps/mosquito-poc/revenue/manual-payment-confirmation.js",
+    "apps/mosquito-poc/revenue/payment-state-machine.js",
+    "apps/mosquito-poc/revenue/accounting-event-schema.js",
+    "apps/mosquito-poc/revenue/payment-webhook-contracts.js",
+    "apps/mosquito-poc/revenue/booking-payment-reconciliation.js",
+    "apps/mosquito-poc/revenue/operational-revenue-validator.js",
+    "apps/mosquito-poc/revenue/morning-adapter.js"
+  ],
+  "fail_closed_required": true,
+  "autonomous_learning_enabled": false,
+  "auto_charge_enabled": false,
+  "store_card_data": false,
+  "adaptive_routing_enabled": false,
+  "implementation_status": "VALIDATED_FOR_MODULE_SCOPE",
+  "created_at": "2026-05-09T00:00:00Z"
+}

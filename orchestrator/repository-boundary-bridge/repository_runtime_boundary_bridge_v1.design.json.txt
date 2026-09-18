@@ -1,0 +1,63 @@
+{
+  "design_id": "repository_runtime_boundary_bridge_v1",
+  "design_version": "v1",
+  "status": "LOCKED_SOURCE_DESIGN",
+  "purpose": "Safely transfer verified locked dispatch artifacts from sandbox persistence into the repository dispatch surface while preserving immutability, prompt hash integrity, dispatch lineage, and repository boundary control.",
+  "allowed_transfer_flow": [
+    "verify_sandbox_artifact_hash",
+    "verify_prompt_hash",
+    "verify_repository_target_path",
+    "allow_import_only_into_dispatches",
+    "record_dispatch_lineage",
+    "run_post_import_validation"
+  ],
+  "allowed_repository_targets": [
+    "dispatches/*.dispatch.json"
+  ],
+  "required_hash_verification": {
+    "algorithm": "SHA-256",
+    "required": true
+  },
+  "repository_import_rules": [
+    "write_access_allowed_only_to_dispatches",
+    "no_prompt_mutation",
+    "no_scope_expansion",
+    "no_runtime_authority",
+    "no_production_authority",
+    "no_canon_mutation"
+  ],
+  "collision_handling_rules": [
+    "target_missing_allow_import",
+    "same_hash_return_ALREADY_IMPORTED",
+    "different_hash_return_DISPATCH_COLLISION_DETECTED"
+  ],
+  "lineage_tracking_rules": [
+    "track_source_snapshot_id",
+    "track_prompt_hash",
+    "track_dispatch_file_hash",
+    "track_import_timestamp"
+  ],
+  "forbidden_repository_surfaces": [
+    "canon/",
+    "registry/",
+    "apps/mosquito-poc/",
+    "services/decision-gate/",
+    "runtime implementation files",
+    "API files",
+    "automation files"
+  ],
+  "failure_modes": [
+    "SANDBOX_ARTIFACT_MISSING",
+    "PROMPT_HASH_MISMATCH",
+    "DISPATCH_COLLISION_DETECTED",
+    "OUT_OF_SCOPE_REPOSITORY_WRITE",
+    "FORBIDDEN_SURFACE_TOUCH_REQUIRED"
+  ],
+  "stop_conditions": [
+    "SOURCE_BRIDGE_LOAD_FAILED",
+    "PROMPT_HASH_MISMATCH",
+    "OUT_OF_SCOPE_REPOSITORY_WRITE",
+    "FORBIDDEN_SURFACE_TOUCH_REQUIRED"
+  ],
+  "safe_to_continue": false
+}

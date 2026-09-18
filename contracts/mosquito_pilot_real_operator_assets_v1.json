@@ -1,0 +1,39 @@
+{
+  "artifact_id": "mosquito_pilot_real_operator_assets_v1",
+  "version": "v1",
+  "status": "BOUNDED_HUMAN_OPERATOR_ASSETS_ONLY",
+  "production_activation_allowed": false,
+  "runtime_mutation_allowed": false,
+  "autonomous_execution_allowed": false,
+  "infrastructure_activation_allowed": false,
+  "validation_purpose": "Register bounded human-operated mosquito pilot assets for replay-safe real-world handling without automation, runtime mutation, routing automation, payment automation, or infrastructure activation.",
+  "whatsapp_number": "0542270080",
+  "asset_files": [
+    "artifacts/mosquito_whatsapp_opening_message_v1.md",
+    "artifacts/mosquito_pass_hold_block_examples_v1.md",
+    "artifacts/mosquito_manual_logging_template_v1.csv"
+  ],
+  "required_intake_fields": [
+    "city",
+    "neighborhood",
+    "apartment_or_house",
+    "where_mosquitoes_appear_most",
+    "when_problem_is_strongest",
+    "optional_photo_or_video"
+  ],
+  "decision_states": [
+    "PASS",
+    "HOLD",
+    "BLOCK"
+  ],
+  "operator_constraints": [
+    "human_operator_required",
+    "manual_review_required",
+    "autonomous_execution_forbidden",
+    "runtime_mutation_forbidden",
+    "orchestration_runtime_forbidden",
+    "infrastructure_activation_forbidden",
+    "payment_automation_forbidden"
+  ],
+  "asset_decision": "READY_FOR_BOUNDED_HUMAN_OPERATOR_USE_REVIEW_ONLY"
+}

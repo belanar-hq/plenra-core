@@ -1,0 +1,196 @@
+{
+  "artifact_id": "mosquito_persistent_storage_integration_v1",
+  "artifact_type": "EXECUTION_AUTOMATION",
+  "version": 1.0,
+  "artifact_name": "Mosquito Persistent Storage Integration v1",
+  "description": "Deterministic persistent storage layer for mosquito_vertical_v1 with SQLite current-state persistence and append-only JSONL operational event log",
+  "priority": "P1",
+  "system_layer": "VERTICAL_PERSISTENT_STORAGE",
+  "source_app": "apps/mosquito-poc/storage",
+  "geo_scope": "Petah Tikva",
+  "parent_artifacts": [
+    "mosquito_vertical_v1",
+    "mosquito_revenue_ops_v1",
+    "mosquito_operational_execution_v1"
+  ],
+  "storage_strategy": "LOCAL_FIRST_SQLITE_PLUS_APPEND_ONLY_JSONL_EVENT_LOG",
+  "persistence_layer": {
+    "current_state_storage": "SQLite",
+    "event_log_storage": "Append-only JSONL",
+    "idempotency_storage": "SQLite",
+    "tables": [
+      "bookings",
+      "slot_locks",
+      "payments",
+      "invoice_receipts",
+      "field_status",
+      "contractor_schedules",
+      "customer_reminders",
+      "idempotency_keys"
+    ],
+    "event_logs": [
+      "operational_transitions.jsonl",
+      "payment_events.jsonl",
+      "booking_events.jsonl",
+      "invoice_receipt_events.jsonl",
+      "replay_events.jsonl"
+    ]
+  },
+  "storage_entities": {
+    "booking": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "idempotency_protected": true
+    },
+    "slot_lock": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "duplicate_prevention": true,
+      "idempotency_protected": true
+    },
+    "payment_state": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "idempotency_protected": true
+    },
+    "invoice_receipt_lineage": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "idempotency_protected": true
+    },
+    "field_status": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "idempotency_protected": true
+    },
+    "contractor_schedule": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "idempotency_protected": true
+    },
+    "customer_reminder": {
+      "persistence_mode": "SQLite",
+      "requires_event_log": true,
+      "idempotency_protected": true
+    }
+  },
+  "critical_features": {
+    "fail_closed_required": true,
+    "replay_safe_required": true,
+    "idempotency_required": true,
+    "append_only_event_log": true,
+    "durability_required": true,
+    "lineage_tracking": true
+  },
+  "features_explicitly_disabled": {
+    "adaptive_routing_enabled": false,
+    "autonomous_learning_enabled": false,
+    "predictive_risk_enabled": false,
+    "live_credit_card_charging_enabled": false,
+    "autonomous_refunds_enabled": false,
+    "self_modifying_logic": false
+  },
+  "fail_closed_rules": [
+    "If SQLite unavailable, return HOLD",
+    "If event log write fails, return BLOCK",
+    "If idempotency check fails, return BLOCK",
+    "If slot lock duplicate detected, return BLOCK",
+    "If replay conflicts with SQLite state, return BLOCK",
+    "If required entity in-memory only, return HOLD_FOR_PERSISTENCE",
+    "If payload hash mismatch on idempotency key, return BLOCK",
+    "If migration integrity check fails, return BLOCK",
+    "If event ordering unstable, return BLOCK"
+  ],
+  "replay_safety_rules": [
+    "Every state transition must have append-only event log entry",
+    "Replay state reconstruction must detect SQLite/event log conflicts",
+    "Idempotency key hash must match for duplicate operations",
+    "Migration snapshots must include entity hashes for verification",
+    "Event ordering must be deterministic (monotonic timestamps)"
+  ],
+  "acceptance_criteria": [
+    "SQLite adapter creates all required tables",
+    "Append-only JSONL log writes deterministic events",
+    "Booking records persist durably",
+    "Slot locks persist durably and prevent duplicates",
+    "Payment state persists durably",
+    "Invoice/receipt lineage persists durably",
+    "Field lifecycle state persists durably",
+    "Contractor scheduling persists durably",
+    "Customer reminders persist durably",
+    "Replay reconstruction rebuilds current state from event log",
+    "Idempotency keys prevent duplicate effects",
+    "Storage health validation works correctly",
+    "Persistence validation detects missing entities",
+    "Replay conflicts detected between SQLite and JSONL",
+    "Migration snapshots preserve lineage and detect corruption",
+    "No existing mosquito_vertical_v1 logic is modified",
+    "No existing mosquito_revenue_ops_v1 logic is modified",
+    "No existing mosquito_operational_execution_v1 logic is modified",
+    "Fail-closed behavior enforced for all failures",
+    "All module tests pass (19 test cases)"
+  ],
+  "validation_rules": {
+    "pre_persistence": [
+      "Verify booking exists before payment",
+      "Verify slot lock exists before booking confirmation",
+      "Verify payment validated before invoice/receipt",
+      "Verify idempotency key present for write operations"
+    ],
+    "during_persistence": [
+      "Write to SQLite",
+      "Write to append-only event log",
+      "Store idempotency key with hash"
+    ],
+    "post_persistence": [
+      "Verify SQLite write succeeded",
+      "Verify event log entry created",
+      "Verify idempotency key stored"
+    ]
+  },
+  "lineage_sources": [
+    "apps/mosquito-poc/storage/mosquito-storage-adapter.js",
+    "apps/mosquito-poc/storage/sqlite-storage-adapter.js",
+    "apps/mosquito-poc/storage/jsonl-event-log.js",
+    "apps/mosquito-poc/storage/storage-schema.js",
+    "apps/mosquito-poc/storage/persistence-validator.js",
+    "apps/mosquito-poc/storage/replay-state-reconstructor.js",
+    "apps/mosquito-poc/storage/idempotency-store.js",
+    "apps/mosquito-poc/storage/migration-snapshot.js",
+    "apps/mosquito-poc/storage/tests/mosquitoPersistentStorage.test.js"
+  ],
+  "non_destructive_guarantees": {
+    "does_not_modify_mosquito_vertical_v1": true,
+    "does_not_modify_mosquito_revenue_ops_v1": true,
+    "does_not_modify_mosquito_operational_execution_v1": true,
+    "preserves_petah_tikva_scope": true,
+    "preserves_whatsapp_runtime": true,
+    "preserves_booking_flow": true,
+    "preserves_payment_flow": true,
+    "preserves_replay_safety": true,
+    "creates_new_storage_layer_only": true
+  },
+  "blocked_behaviors": [
+    "Modifying mosquito_vertical_v1 gate logic",
+    "Modifying mosquito_revenue_ops_v1 payment validation",
+    "Modifying mosquito_operational_execution_v1 execution logic",
+    "Real WhatsApp API integration",
+    "Real payment webhook activation",
+    "Live Morning API execution",
+    "Live credit card charging",
+    "Autonomous refunds",
+    "Adaptive routing",
+    "Autonomous optimization",
+    "Predictive risk modeling"
+  ],
+  "testing": {
+    "module_test_file": "apps/mosquito-poc/storage/tests/mosquitoPersistentStorage.test.js",
+    "test_count": 19,
+    "test_runner": "jest",
+    "test_command": "npx jest apps/mosquito-poc/storage/tests/mosquitoPersistentStorage.test.js --runInBand",
+    "all_tests_command": "npm test"
+  },
+  "maintainer": "plenra-engineering",
+  "created_at": "2026-05-09T00:00:00Z",
+  "status": "NOT_VALIDATED_UNTIL_TESTS_PASS"
+}

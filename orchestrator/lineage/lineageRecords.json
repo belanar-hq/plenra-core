@@ -1,0 +1,80 @@
+[
+  {
+    "source_chat_id": "mosquito_poc_initialization",
+    "artifact_id": "mosquito_vertical_v1",
+    "canon_file": "canon/gates/mosquito_vertical_v1.json",
+    "codex_task_id": "mosquito_vertical_v1_validation",
+    "validation_result": "PASS",
+    "implementation_status": "VALIDATED_FOR_MODULE_SCOPE",
+    "parent_artifact_ids": [],
+    "derived_artifact_ids": ["mosquito_revenue_ops_v1", "mosquito_operational_execution_v1"],
+    "linked_sources": [
+      "apps/mosquito-poc/runtime/intake-engine.js",
+      "apps/mosquito-poc/flows/lead-routing-logic.md",
+      "apps/mosquito-poc/flows/whatsapp-message-templates.md",
+      "apps/mosquito-poc/booking/scheduling-rules.md",
+      "apps/mosquito-poc/flows/automation-events.md",
+      "apps/mosquito-poc/README.md",
+      "apps/mosquito-poc/booking/booking-flow.md",
+      "apps/mosquito-poc/booking/booking-status-lifecycle.md",
+      "apps/mosquito-poc/booking/payment-flow.md",
+      "apps/mosquito-poc/docs/google-sheets-integration.md"
+    ]
+  },
+  {
+    "source_chat_id": "mosquito_revenue_ops_implementation",
+    "artifact_id": "mosquito_revenue_ops_v1",
+    "canon_file": "canon/gates/mosquito_revenue_ops_v1.json",
+    "codex_task_id": "mosquito_revenue_ops_v1_validation",
+    "validation_result": "PASS",
+    "implementation_status": "VALIDATED_FOR_MODULE_SCOPE",
+    "parent_artifact_ids": ["mosquito_vertical_v1"],
+    "derived_artifact_ids": ["mosquito_operational_execution_v1"],
+    "linked_sources": [
+      "apps/mosquito-poc/runtime/intake-engine.js",
+      "apps/mosquito-poc/flows/whatsapp-message-templates.md",
+      "apps/mosquito-poc/flows/lead-routing-logic.md",
+      "apps/mosquito-poc/flows/automation-events.md",
+      "apps/mosquito-poc/booking/booking-flow.md",
+      "apps/mosquito-poc/booking/scheduling-rules.md",
+      "apps/mosquito-poc/booking/booking-status-lifecycle.md",
+      "apps/mosquito-poc/booking/payment-flow.md",
+      "apps/mosquito-poc/revenue/manual-payment-confirmation.js",
+      "apps/mosquito-poc/revenue/payment-state-machine.js",
+      "apps/mosquito-poc/revenue/accounting-event-schema.js",
+      "apps/mosquito-poc/revenue/payment-webhook-contracts.js",
+      "apps/mosquito-poc/revenue/booking-payment-reconciliation.js",
+      "apps/mosquito-poc/revenue/operational-revenue-validator.js",
+      "apps/mosquito-poc/revenue/morning-adapter.js"
+    ]
+  },
+  {
+    "source_chat_id": "mosquito_operational_execution_implementation",
+    "artifact_id": "mosquito_operational_execution_v1",
+    "canon_file": "canon/gates/mosquito_operational_execution_v1.json",
+    "codex_task_id": "mosquito_operational_execution_v1_validation",
+    "validation_result": "PASS",
+    "implementation_status": "VALIDATED_FOR_MODULE_SCOPE",
+    "parent_artifact_ids": ["mosquito_vertical_v1", "mosquito_revenue_ops_v1"],
+    "derived_artifact_ids": [],
+    "linked_sources": [
+      "apps/mosquito-poc/runtime/intake-engine.js",
+      "apps/mosquito-poc/flows/whatsapp-message-templates.md",
+      "apps/mosquito-poc/flows/lead-routing-logic.md",
+      "apps/mosquito-poc/flows/automation-events.md",
+      "apps/mosquito-poc/booking/booking-flow.md",
+      "apps/mosquito-poc/booking/scheduling-rules.md",
+      "apps/mosquito-poc/booking/booking-status-lifecycle.md",
+      "apps/mosquito-poc/booking/payment-flow.md",
+      "apps/mosquito-poc/execution/whatsapp-execution-runtime.js",
+      "apps/mosquito-poc/execution/booking-execution-runtime.js",
+      "apps/mosquito-poc/execution/contractor-scheduling-runtime.js",
+      "apps/mosquito-poc/execution/operator-status-dashboard.js",
+      "apps/mosquito-poc/execution/operational-replay-logger.js",
+      "apps/mosquito-poc/execution/customer-reminder-engine.js",
+      "apps/mosquito-poc/execution/contractor-notification-layer.js",
+      "apps/mosquito-poc/execution/field-status-lifecycle.js",
+      "apps/mosquito-poc/execution/operational-metrics-pipeline.js"
+    ]
+  }
+]

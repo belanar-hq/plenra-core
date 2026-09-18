@@ -1,0 +1,61 @@
+{
+  "artifact_id": "mosquito_human_friction_logging_v1",
+  "artifact_type": "EXECUTION_AUTOMATION",
+  "priority": "P0",
+  "system_layer": "BOOTSTRAP_SURVIVAL_INFRASTRUCTURE",
+  "parent_artifacts": [
+    "runtime_layer_v1_minimal",
+    "mosquito_vertical_v1",
+    "mosquito_operational_execution_v1",
+    "mosquito_e2e_operational_wiring_v1"
+  ],
+  "fail_closed_required": true,
+  "adaptive_routing_enabled": false,
+  "autonomous_optimization_enabled": false,
+  "routing_mutation_allowed": false,
+  "kill_criteria_execution_allowed": false,
+  "validation_required": true,
+  "required_fields": [
+    "customer_stuck_reason",
+    "confusing_question_id",
+    "contractor_no_response_reason",
+    "contractor_response_time_minutes",
+    "conversation_break_point",
+    "booking_failed_reason",
+    "trust_drop_signal",
+    "payment_block_reason",
+    "manual_operator_note",
+    "next_required_fix"
+  ],
+  "acceptance_criteria": [
+    "Logs structured human and operational friction events append-only",
+    "Requires idempotency_key for every friction event",
+    "Returns existing accepted result for duplicate identical idempotency payloads",
+    "Blocks duplicate idempotency_key conflicts",
+    "Fails closed on missing runtime context, malformed friction type, or malformed severity",
+    "Exposes inactive-by-default runtime hook for explicit calls",
+    "Does not mutate routing, optimization, kill criteria, payment, or booking behavior",
+    "Provides observation-only aggregation helpers"
+  ],
+  "fail_closed_rules": [
+    "missing idempotency_key returns BLOCK",
+    "missing execution_id returns HOLD",
+    "missing case_id returns HOLD",
+    "malformed friction_type returns BLOCK",
+    "malformed severity returns BLOCK",
+    "append-only write failure returns HOLD",
+    "duplicate idempotency key with different payload returns BLOCK",
+    "hook execution without explicit call returns BLOCK",
+    "routing mutation attempt returns BLOCK",
+    "optimization trigger attempt returns BLOCK",
+    "kill criteria execution attempt returns BLOCK"
+  ],
+  "lineage_sources": [
+    "orchestrator/runtime-layer/hooks.js",
+    "orchestrator/runtime-layer/index.js",
+    "apps/mosquito-poc/friction/friction-event-schema.js",
+    "apps/mosquito-poc/friction/human-friction-logger.js",
+    "apps/mosquito-poc/friction/friction-aggregation.js",
+    "apps/mosquito-poc/friction/tests/mosquitoHumanFrictionLogging.test.js"
+  ]
+}

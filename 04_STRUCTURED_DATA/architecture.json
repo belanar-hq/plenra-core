@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TEMP-ARCH-001",
+    "type": "architecture_decision",
+    "name": "fail_closed_on_learning",
+    "description": "Operating mode includes fail_closed_on_learning.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-ARCH-002",
+    "type": "architecture_decision",
+    "name": "safe_fallback_on_input",
+    "description": "Operating mode includes safe_fallback_on_input.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-ARCH-003",
+    "type": "architecture_decision",
+    "name": "safe normalization of partial or malformed input",
+    "description": "Input expectation states the service receives a JSON object that may be partial or malformed, and the safe normalization rules define wrapper filling and safe blocked fallback values instead of external rejection.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  },
+  {
+    "id": "TEMP-ARCH-004",
+    "type": "architecture_decision",
+    "name": "audit routing for non-learning records",
+    "description": "Blocked, low-trust, quarantined, and duplicate records are routed to audit or storage buckets instead of learning_dataset according to the explicit routing and firewall rules.",
+    "source_ids": ["PLN-0001"],
+    "confidence": "high"
+  }
+]
