@@ -1,0 +1,139 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "PLENRA_ORIGINAL_IS_BELANAR": false,
+  "PRODUCT_CONTINUITY": "PLENRA ORIGINAL remains a conceptually distinct emotional/behavioral product; generalized infrastructure evolved from its context.",
+  "BELANAR_CONCEPTUAL_STRUCTURE": [
+    "BELANAR",
+    "CORE",
+    "CAPABILITIES",
+    "VERTICALS"
+  ],
+  "MOSQUITO": {
+    "CLASSIFICATION": "BELANAR_VERTICAL_VALIDATION_ENVIRONMENT",
+    "IS_BELANAR_CORE": false
+  },
+  "CAPABILITY_LINEAGE_STATUS": "Component-level separation supported by V0.4 attributed evidence; no exhaustive transfer mapping or shared runtime established.",
+  "LINEAGE": [
+    {
+      "LINEAGE_ID": "LIN-001",
+      "FROM": "PLENRA_ORIGINAL",
+      "TO": "GENERALIZATION",
+      "RELATION": "GENERALIZED_INFRASTRUCTURE_EVOLVED_FROM_PRODUCT_CONTEXT",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#required-lineage-representation-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "User-authoritative conceptual lineage. Local infrastructure documents corroborate infrastructure terminology, not chronology or product merger.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-004",
+      "FROM": "GENERALIZATION",
+      "TO": "PLENRA_DECISION_INTELLIGENCE",
+      "RELATION": "GENERALIZED_DECISION_INTELLIGENCE_EVOLUTION",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "Conceptual transition, not original-product conversion to Belanar.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-002",
+      "FROM": "PLENRA_DECISION_INTELLIGENCE",
+      "TO": "PLENRA_DECISION_INFRASTRUCTURE",
+      "RELATION": "INFRASTRUCTURE_LINEAGE_EVOLUTION",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#required-lineage-representation-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "User-authoritative conceptual lineage. Local infrastructure documents corroborate infrastructure terminology, not chronology or product merger.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-003",
+      "FROM": "PLENRA_DECISION_INFRASTRUCTURE",
+      "TO": "BELANAR",
+      "RELATION": "INFRASTRUCTURE_RENAMED",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#required-lineage-representation-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "User-authoritative conceptual lineage. Local infrastructure documents corroborate infrastructure terminology, not chronology or product merger.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    }
+  ],
+  "COMPONENT_CLASSIFICATIONS": [
+    {
+      "SOURCE_IDS": [
+        "SRC-025"
+      ],
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-003",
+        "SRC-024",
+        "SRC-026",
+        "SRC-028",
+        "SRC-029",
+        "SRC-030",
+        "SRC-031",
+        "SRC-032"
+      ],
+      "OWNERSHIP": "BELANAR_PRECURSOR"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-023"
+      ],
+      "OWNERSHIP": "MIXED_TRANSITION_SOURCE"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-027"
+      ],
+      "OWNERSHIP": "MIXED_LINEAGE_EVIDENCE_COMPONENT_OWNERSHIP_UNRESOLVED"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "BASE_COMMIT": "3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+  "ORIGINAL_BRANCH": "preservation/plenra-original-recovery-v0.3",
+  "INITIAL_WORKTREE_STATUS": "CLEAN before V0.4 creation",
+  "REFS": [
+    "refs/codex/turn-diffs/checkpoints/ed6f1e668ac4d16d000809dc767ee76e075ad9958de395325df5c287153c0663/f89607eee84a58ffc3979cc8a97c7f6eb0c4d5fe046e08c69651b6b00d8ba934/1782902325063/441b4259-2b2e-467d-b41c-4ee65d8cce20 54139912a0b46625b099f6258900e3d2653abba0",
+    "refs/heads/main 0cb0c0a5842e92cffef3ebc0cca874a4861dcbbf",
+    "refs/heads/preservation/belanar-plenra-local-state-2026-09-18 dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+    "refs/heads/preservation/plenra-original-recovery-v0.3 3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+    "refs/remotes/origin/HEAD 70d124b4fa78fe4fb01af439d39b0db7eae3675b",
+    "refs/remotes/origin/main 70d124b4fa78fe4fb01af439d39b0db7eae3675b",
+    "refs/remotes/origin/preservation/belanar-plenra-local-state-2026-09-18 dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+    "refs/remotes/origin/preservation/plenra-original-recovery-v0.3 3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+    "refs/stash b5e72381e9dff2fd79fd4556dcd256636043210e"
+  ],
+  "STASH_LIST": "stash@{0}: On main: HOLD unrelated README and decision-gate changes before pest task 002",
+  "REMOTE_PRESERVED_REF": "refs/remotes/origin/preservation/plenra-original-recovery-v0.3",
+  "REMOTE_PRESERVED_COMMIT": "3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+  "REMOTE_VERIFICATION_SCOPE": "Byte comparison with locally available remote-tracking commit; no network access or live remote refresh under local-only authority."
+}

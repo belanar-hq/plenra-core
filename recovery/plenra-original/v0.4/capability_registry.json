@@ -1,0 +1,755 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "CAPABILITIES": [
+    {
+      "CAPABILITY_ID": "CAP-001",
+      "NAME": "Session Summary Intake",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-002",
+      "NAME": "Session Intelligence",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-003",
+      "NAME": "privacy / PII minimization",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-004",
+      "NAME": "Therapeutic Logic Engine",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-005",
+      "NAME": "CBT / ACT mechanism selection",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-006",
+      "NAME": "Emotional Layer / Emotional Engine",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-007",
+      "NAME": "Personalized Printable Engine",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-008",
+      "NAME": "Coach Printable",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-009",
+      "NAME": "Client / Coachee Printable",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-010",
+      "NAME": "Secure / session-bound QR continuity",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-011",
+      "NAME": "Session continuity",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-012",
+      "NAME": "Emotional Anchor / Anchor Sheet",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-013",
+      "NAME": "Emotion Map",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-014",
+      "NAME": "Emotion Trajectory",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-015",
+      "NAME": "Emotion Learning Loop",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-016",
+      "NAME": "Progress / continuity surfaces",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-017",
+      "NAME": "Scientific Mini-Brief",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-018",
+      "NAME": "Sources capability",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-019",
+      "NAME": "Personalized next-tool recommendation",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-020",
+      "NAME": "Printable QA",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-021",
+      "NAME": "Coach dashboard / emotional data concepts",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-022",
+      "NAME": "Coach-client interaction logic",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#recovered-product-capability-list-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "PRESERVE_FOR_FUTURE_REVIEW_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED",
+        "REFERENCES": []
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover original capability definition and source context",
+        "Establish implementation status separately from production use",
+        "Verify any outcome claims independently before adoption"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Name preserved verbatim from supplied list. Detailed purpose and dependencies not supplied; null means unknown, not absent. No architecture inferred. Related scaffold mentions of printables/coachees do not prove this capability was implemented.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "CAPABILITY_ID": "CAP-023",
+      "NAME": "Session2Printable",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED"
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover exact original source and definitions",
+        "Verify implementation separately from production and outcomes"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Named product capability and Session2Printable Pipeline; detailed original definition missing."
+    },
+    {
+      "CAPABILITY_ID": "CAP-024",
+      "NAME": "Evaluator",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED"
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover exact original source and definitions",
+        "Verify implementation separately from production and outcomes"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Product architecture scope only; no inference about generic evaluators."
+    },
+    {
+      "CAPABILITY_ID": "CAP-025",
+      "NAME": "After-Lead Marketing",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED"
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover exact original source and definitions",
+        "Verify implementation separately from production and outcomes"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Named historical flow; detailed steps unavailable."
+    },
+    {
+      "CAPABILITY_ID": "CAP-026",
+      "NAME": "Budget Increase Decision Gate",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-029",
+          "LOCATOR": "v0_4_recovery_evidence.md#e--additional-p0-references",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "POC_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "CURRENT_CLASSIFICATION": "BELANAR_PRECURSOR",
+      "CURRENT_INTENT": "PRESERVE_LINEAGE_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED"
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover exact original source and definitions",
+        "Verify implementation separately from production and outcomes"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Intake → validation → decision → action → API/UI/observability; generalized decision infrastructure."
+    },
+    {
+      "CAPABILITY_ID": "CAP-027",
+      "NAME": "Generic execution contracts and adapters",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-028",
+          "LOCATOR": "v0_4_recovery_evidence.md#e--additional-p0-references",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "CONTRACTS_REPORTED_IMPLEMENTATION_UNVERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "CURRENT_CLASSIFICATION": "BELANAR_PRECURSOR",
+      "CURRENT_INTENT": "PRESERVE_LINEAGE_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED"
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover exact original source and definitions",
+        "Verify implementation separately from production and outcomes"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Reported fail-closed execution; no shared runtime inferred."
+    },
+    {
+      "CAPABILITY_ID": "CAP-028",
+      "NAME": "Generic Decision Infrastructure",
+      "PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-024",
+          "LOCATOR": "v0_4_recovery_evidence.md#b--marchapril-2026-implementation",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "IMPLEMENTATION_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "CURRENT_CLASSIFICATION": "BELANAR_PRECURSOR",
+      "CURRENT_INTENT": "PRESERVE_LINEAGE_NO_BUILD_AUTHORITY",
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED"
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover exact original source and definitions",
+        "Verify implementation separately from production and outcomes"
+      ],
+      "DEPENDENCIES": null,
+      "NOTES": "Reported decision fields, deterministic validation and safe fallback; not emotional product capability ownership."
+    }
+  ]
+}
