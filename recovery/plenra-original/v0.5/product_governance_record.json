@@ -1,0 +1,75 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "VALIDATION_REQUIRED": true,
+  "CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_GOVERNANCE_EVIDENCE",
+  "NAME": "Plenra Central Agent Decision Memo",
+  "PERIOD": "December 2025 (reported period; exact date unknown)",
+  "SOURCE_EVIDENCE": [
+    {
+      "SOURCE_ID": "SRC-039",
+      "LOCATOR": "v0_5_recovery_evidence.md#e-decision-memo",
+      "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+    }
+  ],
+  "MANDATORY_CONCEPTS": [
+    "Emotional Decision & Relief Layer",
+    "Value Before Contact",
+    "Single Emotional Focus",
+    "Non-Final Framing / SSI",
+    "Impact-Based Lifecycle"
+  ],
+  "FROZEN_OR_CONSTRAINED_CONCEPTS": [
+    "category expansion",
+    "long sequences/timers",
+    "dependency-promoting features",
+    "new-channel scaling",
+    "pressure optimization"
+  ],
+  "HISTORICAL_METRICS": [
+    {
+      "NAME": "ECR",
+      "TARGET_PERCENT": {
+        "OPERATOR": ">=",
+        "VALUE": 65
+      },
+      "FREEZE_BELOW_PERCENT": 50,
+      "STATUS": "HISTORICAL_UNVALIDATED",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true
+    },
+    {
+      "NAME": "CCR",
+      "CONCEPT": "voluntary continuation",
+      "TARGET_PERCENT": {
+        "OPERATOR": ">=",
+        "VALUE": 30
+      },
+      "STATUS": "HISTORICAL_UNVALIDATED",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true
+    },
+    {
+      "NAME": "TRI",
+      "CONCEPT": "return without the same printable",
+      "RETURN_WINDOW_DAYS": {
+        "MIN": 7,
+        "MAX": 21,
+        "APPROXIMATE": true
+      },
+      "TARGET_PERCENT": {
+        "OPERATOR": ">=",
+        "VALUE": 40
+      },
+      "STATUS": "HISTORICAL_UNVALIDATED",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true
+    }
+  ],
+  "OTHER_HISTORICAL_CONCEPTS": [
+    "Emotion Resonance Score",
+    "Time-To-Trust",
+    "Consistency"
+  ],
+  "NOTES": "Historical governance only. No current thresholds activated; acronym expansions, metric definitions and measured outcomes remain unestablished."
+}

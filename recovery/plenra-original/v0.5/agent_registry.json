@@ -1,0 +1,613 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "AGENTS": [
+    {
+      "AGENT_ID": "AGT-001",
+      "NAME": "Emotional Safety Constructor",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-002",
+      "NAME": "Emotional Trigger Neutralizer",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-003",
+      "NAME": "Emotional Momentum Builder",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-004",
+      "NAME": "Emotion-Action Translator",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-005",
+      "NAME": "Emotional Latency Analyzer",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-006",
+      "NAME": "Emotional Pattern Archaeologist",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-007",
+      "NAME": "Identity Stability Anchor",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-008",
+      "NAME": "Broader recovered emotional/behavioral agent family",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Family placeholder; membership beyond named examples is unknown. Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-009",
+      "NAME": "VP Marketing",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-013",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null
+    },
+    {
+      "AGENT_ID": "AGT-010",
+      "NAME": "VP Content",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-014",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null
+    },
+    {
+      "AGENT_ID": "AGT-011",
+      "NAME": "VP Conversion",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-015",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null
+    },
+    {
+      "AGENT_ID": "AGT-012",
+      "NAME": "VP Distribution",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-016",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Association is scoped to the October product architecture. Later same-named infrastructure scaffolds are not proven identical. Designed/conceptual; not production. Candidate is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025"
+    },
+    {
+      "AGENT_ID": "AGT-013",
+      "NAME": "VP Analytics",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-017",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null
+    },
+    {
+      "AGENT_ID": "AGT-014",
+      "NAME": "VP Tech",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-018",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "HISTORICAL_BUSINESS_PRODUCT_AGENT_CONCEPT",
+      "CURRENT_INTENT": "PRESERVE_FOR_RECONCILIATION_NO_BUILD_AUTHORITY",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production."
+    },
+    {
+      "AGENT_ID": "AGT-015",
+      "NAME": "Central Agent",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-019",
+          "LOCATOR": "evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-038",
+          "LOCATOR": "v0_5_recovery_evidence.md#d-central-agent-3",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "RECOVERED_ROLE_EVIDENCE": "Central orchestration across separately recorded v2 and Central Agent 3 designs.",
+      "V0_5_PERIOD": null
+    },
+    {
+      "AGENT_ID": "AGT-016",
+      "NAME": "Session2Printable",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no deployment verified."
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover complete original prompt and agent definition",
+        "Reconcile legacy GPT inventory",
+        "Independent future production validation and authorization required"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "NOTES": "Association is scoped to the October product architecture. Later same-named infrastructure scaffolds are not proven identical. Designed/conceptual; not production. Candidate is not BUILD_NOW."
+    },
+    {
+      "AGENT_ID": "AGT-017",
+      "NAME": "Evaluator",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no deployment verified."
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover complete original prompt and agent definition",
+        "Reconcile legacy GPT inventory",
+        "Independent future production validation and authorization required"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "NOTES": "Association is scoped to the October product architecture. Later same-named infrastructure scaffolds are not proven identical. Designed/conceptual; not production. Candidate is not BUILD_NOW."
+    },
+    {
+      "AGENT_ID": "AGT-018",
+      "NAME": "VP Printables",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "VALIDATION_REQUIRED": [
+        "Recover original system prompt and complete definition",
+        "Establish implementation and production evidence separately"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW."
+    }
+  ],
+  "ORIGINAL_CENTRAL_AGENT_SYSTEM_PROMPT": "MISSING_ORIGINAL_SOURCE"
+}

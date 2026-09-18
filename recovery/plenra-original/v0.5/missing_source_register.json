@@ -1,0 +1,458 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "PRIORITY_MEANING": "Recovery priority assigned for preservation; not implementation priority.",
+  "MISSING_SOURCES": [
+    {
+      "MISSING_SOURCE_ID": "MISS-001",
+      "SOURCE_NAME": "ChatGPT Projects/Chats source-level extraction",
+      "WHY_IT_MATTERS": "Original conversations establish scope, chronology and provenance.",
+      "KNOWN_EVIDENCE": "User states extraction is incomplete; local raw/normalized dataset-builder artifact exists, source_manifest is empty and chat registry contains test-labeled records.",
+      "MISSING_EVIDENCE": "Full exports, real source identifiers, context, attachments and per-source extraction reconciliation.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-002",
+      "SOURCE_NAME": "Plenra Python v3 System Build",
+      "WHY_IT_MATTERS": "Needed to distinguish the named build from the partial local v3 directory.",
+      "KNOWN_EVIDENCE": "SRC-023 reports a synthetic V3 pack on/around March 27, 2026. Four local components preserved; their equivalence to the historical zip is unverified.",
+      "MISSING_EVIDENCE": "Complete Plenra Python v3 source-level extraction, original build conversation and file inventory, component-level ownership reconciliation and provenance.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-003",
+      "SOURCE_NAME": "Legacy Custom GPT inventory",
+      "WHY_IT_MATTERS": "Needed to reconcile names, prompts and product versus infrastructure roles.",
+      "KNOWN_EVIDENCE": "User reports unresolved reconciliation; seven business roles have later local scaffold prompts.",
+      "MISSING_EVIDENCE": "Original inventory, GPT identifiers, instructions, knowledge attachments, revisions and ownership reconciliation.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-004",
+      "SOURCE_NAME": "Production-status evidence",
+      "WHY_IT_MATTERS": "Design, scaffold code, deployment and verified outcomes are different claims.",
+      "KNOWN_EVIDENCE": "User explicitly states historical agents were not production; local documents use production-oriented labels.",
+      "MISSING_EVIDENCE": "Independent deployment/runtime records for any broader production claims and separate verified outcome evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-005",
+      "SOURCE_NAME": "Original emotional/behavioral agent specifications",
+      "WHY_IT_MATTERS": "Names and future intent must not substitute for preserved historical prompts.",
+      "KNOWN_EVIDENCE": "SRC-001 supplies seven names and a broader family, design status and future candidacy.",
+      "MISSING_EVIDENCE": "Original prompts, specifications, full family membership and historical source context.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-006",
+      "SOURCE_NAME": "Original product mechanism and emotional framework artifacts",
+      "WHY_IT_MATTERS": "Preserves original reasoning and prevents expansion from a short recovered sequence.",
+      "KNOWN_EVIDENCE": "SRC-001 supplies Session → Understanding → Personalized Artifact → Action → Continuity → Feedback / Learning and Empowerment → Reflection → Growth.",
+      "MISSING_EVIDENCE": "Original design documents/chats, dates, detailed mechanism definitions and provenance.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-007",
+      "SOURCE_NAME": "Upstream originals of local scaffold and infrastructure snapshots",
+      "WHY_IT_MATTERS": "A local generated scaffold or classification registry is not its original source.",
+      "KNOWN_EVIDENCE": "SRC-002 onward are byte-preserved local artifacts; scaffold READMEs explicitly disclaim complete hidden prompt/config export.",
+      "MISSING_EVIDENCE": "Original build conversations and hidden/unpublished prompts/configs referred to by scaffold READMEs; provenance for local HLD, architecture and normalized export. Placeholder chat URLs are not usable source references.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-008",
+      "SOURCE_NAME": "Original capability source: Session Summary Intake",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Session Summary Intake.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-009",
+      "SOURCE_NAME": "Original capability source: Session Intelligence",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Session Intelligence.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-010",
+      "SOURCE_NAME": "Original capability source: privacy / PII minimization",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for privacy / PII minimization.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-011",
+      "SOURCE_NAME": "Original capability source: Therapeutic Logic Engine",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Therapeutic Logic Engine.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-012",
+      "SOURCE_NAME": "Original capability source: CBT / ACT mechanism selection",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for CBT / ACT mechanism selection.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-013",
+      "SOURCE_NAME": "Original capability source: Emotional Layer / Emotional Engine",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotional Layer / Emotional Engine.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-014",
+      "SOURCE_NAME": "Original capability source: Personalized Printable Engine",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Personalized Printable Engine.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-015",
+      "SOURCE_NAME": "Original capability source: Coach Printable",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Coach Printable.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-016",
+      "SOURCE_NAME": "Original capability source: Client / Coachee Printable",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Client / Coachee Printable.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-017",
+      "SOURCE_NAME": "Original capability source: Secure / session-bound QR continuity",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Secure / session-bound QR continuity.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-018",
+      "SOURCE_NAME": "Original capability source: Session continuity",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Session continuity.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-019",
+      "SOURCE_NAME": "Original capability source: Emotional Anchor / Anchor Sheet",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotional Anchor / Anchor Sheet.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-020",
+      "SOURCE_NAME": "Original capability source: Emotion Map",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotion Map.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-021",
+      "SOURCE_NAME": "Original capability source: Emotion Trajectory",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotion Trajectory.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-022",
+      "SOURCE_NAME": "Original capability source: Emotion Learning Loop",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotion Learning Loop.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-023",
+      "SOURCE_NAME": "Original capability source: Progress / continuity surfaces",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Progress / continuity surfaces.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-024",
+      "SOURCE_NAME": "Original capability source: Scientific Mini-Brief",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Scientific Mini-Brief.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-025",
+      "SOURCE_NAME": "Original capability source: Sources capability",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Sources capability.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-026",
+      "SOURCE_NAME": "Original capability source: Personalized next-tool recommendation",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Personalized next-tool recommendation.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-027",
+      "SOURCE_NAME": "Original capability source: Printable QA",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Printable QA.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-028",
+      "SOURCE_NAME": "Original capability source: Coach dashboard / emotional data concepts",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Coach dashboard / emotional data concepts.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-029",
+      "SOURCE_NAME": "Original capability source: Coach-client interaction logic",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Coach-client interaction logic.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-030",
+      "SOURCE_NAME": "Exact original prompt texts",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "Intended real prompt contents reported in SRC-023; partial local prompt preserved.",
+      "MISSING_EVIDENCE": "Original prompt bodies and provenance; never reconstruct from summaries.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-031",
+      "SOURCE_NAME": "Complete original agent definitions",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-025 names five product agents/capabilities.",
+      "MISSING_EVIDENCE": "Complete original definitions and configuration; not only names or later scaffolds.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-032",
+      "SOURCE_NAME": "Original plenra_v3_pack.zip bytes",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "Historical filename generated/referenced; no matching archive found in repository inventory.",
+      "MISSING_EVIDENCE": "Original archive bytes, archive inventory and provenance. Search does not cover external drives or ChatGPT attachments.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-033",
+      "SOURCE_NAME": "Source-parity verification",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "Synthetic reconstruction explicitly distinguished from original production repository.",
+      "MISSING_EVIDENCE": "Independently identified original reference source and component-level byte/content comparison.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-034",
+      "SOURCE_NAME": "March/April 2026 Decision Infrastructure implementation evidence",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-024 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-035",
+      "SOURCE_NAME": "October 2025 AgentKit / Session2Printable architecture",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-025 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-036",
+      "SOURCE_NAME": "Plenra - Decision Infrastructure System Documentation",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-026 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-037",
+      "SOURCE_NAME": "הסוכן המרכזי 4 לווינים",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-027 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-038",
+      "SOURCE_NAME": "Plenra Execution Agent",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-028 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-039",
+      "SOURCE_NAME": "Budget Increase Decision Gate POC",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-029 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-040",
+      "SOURCE_NAME": "Original Central Agent system prompt",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-041",
+      "SOURCE_NAME": "Original VP agent system prompts",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-042",
+      "SOURCE_NAME": "Original plenra_master_flow.manus bytes/content",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-043",
+      "SOURCE_NAME": "Original Plenra Autonomous Hub source/configuration",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-044",
+      "SOURCE_NAME": "Original Make scenario/blueprint",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-045",
+      "SOURCE_NAME": "Original Plenra_Master_Hook configuration",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-046",
+      "SOURCE_NAME": "Source-level evidence for actual implementation state",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-047",
+      "SOURCE_NAME": "Original Central Agent v2 source",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-048",
+      "SOURCE_NAME": "Original Central Agent 3 source",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-049",
+      "SOURCE_NAME": "Original Plenra Central Agent Decision Memo source",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE"
+    }
+  ]
+}

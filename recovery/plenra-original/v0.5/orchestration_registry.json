@@ -1,0 +1,256 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "ORCHESTRATIONS": [
+    {
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "IMPLEMENTATION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED_FROM_ORIGINAL_SOURCE",
+        "REFERENCES": []
+      },
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_VERIFIED",
+        "REFERENCES": []
+      },
+      "RECOVERY_STATUS": "RECOVERED_ARCHITECTURE_SUMMARY_ORIGINAL_SOURCE_INCOMPLETE",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "ORCHESTRATION_ID": "ORCH-001",
+      "NAME": "Plenra Central Agent v2",
+      "PERIOD": null,
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL",
+      "PURPOSE": "Hybrid emotional/behavioral product orchestration with generative, predictive, learning and commercial signals.",
+      "INPUTS": [
+        "text_cues",
+        "choice_flow",
+        "time_on_task",
+        "printable_usage",
+        "emotional/context state",
+        "signals and feedback"
+      ],
+      "ROUTING_MODEL": {
+        "TYPE": "CENTRAL_COORDINATOR",
+        "LAYERS": [
+          "Emotion Data Intelligence",
+          "Generative Layer",
+          "Predictive Layer",
+          "Autonomous Agent Coordinator"
+        ],
+        "APPROXIMATE_PRODUCT_FLOW": [
+          "Satellite Traffic",
+          "UTM / Measurement",
+          "Emotion Snapshot",
+          "Tailored / Personalized Printable",
+          "Usage Signals",
+          "Emotional Feedback Loop",
+          "Purchase / Affiliate Signals",
+          "Profit Loop"
+        ],
+        "DETAILED_ROUTING_CONTRACT": null
+      },
+      "AGENTS_OR_CAPABILITIES": [
+        "Central Agent",
+        "VP Marketing",
+        "VP Content",
+        "VP Conversion",
+        "VP Printables",
+        "VP Analytics",
+        "Emotion Data Intelligence",
+        "Generative adaptation",
+        "Predictive Layer",
+        "Autonomous Agent Coordination",
+        "Emotion Snapshot",
+        "Personalized Printable routing",
+        "Usage Signal capture",
+        "Emotional Feedback Loop",
+        "measurement / KPI loop",
+        "commercial/profit signal integration"
+      ],
+      "OUTPUTS": [
+        "emotion",
+        "intensity",
+        "context",
+        "adapted product outputs",
+        "personalized printables",
+        "subsequent-action concepts"
+      ],
+      "MEASUREMENT": {
+        "CONCEPTS": [
+          "Emotion Resonance Score",
+          "Time-To-Trust",
+          "Consistency"
+        ],
+        "STATUS": "HISTORICAL_UNVALIDATED",
+        "ACTIVE_THRESHOLDS": false
+      },
+      "AUTHORITY_MODEL": {
+        "RECOVERED": "Central orchestrator / agent coordinator",
+        "CURRENT_EXECUTION_AUTHORITY": false,
+        "ORIGINAL_PROMPT": "MISSING_ORIGINAL_SOURCE"
+      },
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "v0_5_recovery_evidence.md#b-product-flow",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "NOTES": "Make automation is a recovered design concept. Central Agent 3 routing rules are not projected backward onto v2."
+    },
+    {
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "IMPLEMENTATION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED_FROM_ORIGINAL_SOURCE",
+        "REFERENCES": []
+      },
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_VERIFIED",
+        "REFERENCES": []
+      },
+      "RECOVERY_STATUS": "RECOVERED_ARCHITECTURE_SUMMARY_ORIGINAL_SOURCE_INCOMPLETE",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "ORCHESTRATION_ID": "ORCH-002",
+      "NAME": "Central Agent 3",
+      "PERIOD": "December 2025 (reported period; exact date unknown)",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL",
+      "LINEAGE_MARKER": "COMMERCIAL_ORCHESTRATION_EVOLUTION",
+      "PURPOSE": "Decompose business goals into bounded satellite work and measurement-based lifecycle decisions.",
+      "INPUTS": [
+        "Business Goal",
+        "explicit satellite input"
+      ],
+      "ROUTING_MODEL": {
+        "MODEL": [
+          "Business Goal",
+          "decomposition",
+          "satellites",
+          "structured outputs",
+          "measurement",
+          "Continue / Improve / Kill"
+        ],
+        "EXECUTION_SEQUENCE": [
+          "Research",
+          "Offer",
+          "Tool / Content / Printable",
+          "Distribution",
+          "Measurement"
+        ],
+        "SATELLITE_CONTRACT": [
+          "one clear role",
+          "explicit input",
+          "one bounded task",
+          "structured output",
+          "KPI",
+          "result returns through Central Agent"
+        ],
+        "DIRECT_SATELLITE_TO_SATELLITE_COMMUNICATION": false
+      },
+      "AGENTS_OR_CAPABILITIES": [
+        "Central Agent",
+        "satellites (complete identities not supplied)"
+      ],
+      "OUTPUTS": [
+        "structured satellite outputs returned through Central Agent",
+        "Continue / Improve / Kill"
+      ],
+      "MEASUREMENT": {
+        "CONCEPTS": [
+          "satellite KPI",
+          "measurement-based lifecycle"
+        ],
+        "STATUS": "HISTORICAL_UNVALIDATED",
+        "ACTIVE_THRESHOLDS": false
+      },
+      "AUTHORITY_MODEL": {
+        "RECOVERED": "Satellite results return through Central Agent; no direct satellite-to-satellite communication",
+        "CURRENT_EXECUTION_AUTHORITY": false
+      },
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-038",
+          "LOCATOR": "v0_5_recovery_evidence.md#d-central-agent-3",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "NOTES": "Not automatically Belanar; no claim Central Agent 3 itself became Belanar. Not current Plenra production architecture."
+    },
+    {
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "IMPLEMENTATION_EVIDENCE": {
+        "STATUS": "POC_IMPLEMENTATION_PLAN_ONLY",
+        "ORIGINAL_CONFIGURATION_RECOVERED": false,
+        "END_TO_END_EXECUTION_VERIFIED": false
+      },
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_VERIFIED",
+        "REFERENCES": []
+      },
+      "RECOVERY_STATUS": "RECOVERED_ARCHITECTURE_SUMMARY_ORIGINAL_SOURCE_INCOMPLETE",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "ORCHESTRATION_ID": "ORCH-003",
+      "NAME": "Plenra Autonomous Hub execution plan",
+      "PERIOD": null,
+      "PRODUCT_STAGE": "POC_IMPLEMENTATION_PLAN_EVIDENCE",
+      "CLASSIFICATION_MARKERS": [
+        "EXECUTION_PLAN"
+      ],
+      "PURPOSE": "Preserve the reported Manus.AI + Make + Drive + GPT POC setup plan.",
+      "INPUTS": [
+        "Reported activation/setup concepts; actual payload schema unknown"
+      ],
+      "ROUTING_MODEL": {
+        "WORKSPACE": "Plenra Autonomous Hub",
+        "PLATFORM": "Manus.AI",
+        "FLOW_REFERENCE": "plenra_master_flow.manus",
+        "MAKE_WEBHOOK_REFERENCE": "Plenra_Master_Hook",
+        "DETAILED_ROUTING": null,
+        "SETUP_CONCEPTS": [
+          "Activate Plenra System",
+          "Mode: POC",
+          "Confirm: Manus + Make + Drive + GPT"
+        ]
+      },
+      "AGENTS_OR_CAPABILITIES": [
+        "Manus",
+        "Make",
+        "Drive",
+        "GPT"
+      ],
+      "OUTPUTS": null,
+      "MEASUREMENT": {
+        "CONCEPTS": [],
+        "STATUS": "NOT_SUPPLIED",
+        "ACTIVE_THRESHOLDS": false
+      },
+      "AUTHORITY_MODEL": {
+        "RECOVERED": "POC activation/setup language only",
+        "CURRENT_EXECUTION_AUTHORITY": false
+      },
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-035",
+          "LOCATOR": "v0_5_recovery_evidence.md#c-autonomous-hub",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-036",
+          "LOCATOR": "v0_5_recovery_evidence.md#c-autonomous-hub",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-037",
+          "LOCATOR": "v0_5_recovery_evidence.md#c-autonomous-hub",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "NOTES": "References are not recovered artifact bytes. No claim the hub ran end-to-end in production."
+    }
+  ]
+}

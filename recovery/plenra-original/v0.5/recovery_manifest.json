@@ -1,0 +1,182 @@
+{
+  "PACK_VERSION": "0.5",
+  "CREATED_AT": "2026-09-18T11:23:58.927Z",
+  "CREATION_DATE_BASIS": "Construction clock only, not a historical source date",
+  "DERIVED_FROM_VERSION": "0.4",
+  "BASE_COMMIT": "ad27ebfa006a515224d02913ff8a9bc692c2244d",
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "ORIGINAL_CENTRAL_AGENT_SYSTEM_PROMPT": "MISSING_ORIGINAL_SOURCE",
+  "RECOVERY_STATUS": "PARTIAL_ORCHESTRATOR_EVIDENCE_PRESERVATION",
+  "FILES": [
+    {
+      "PATH": ".gitattributes",
+      "SHA256": "56ae898a4c0cc344448d39e738279220c7cb92d28e858aed104f93f9ecc9ce34"
+    },
+    {
+      "PATH": "agent_registry.json",
+      "SHA256": "a2ba3b1b7ee232a599234764d61d958a6a79a1b3637c423f9f8a1d61bb6e35e0"
+    },
+    {
+      "PATH": "build_pack.cjs",
+      "SHA256": "beeccf69a56b62ffd1a20d7d4f01e9b5ea890c19cafae1b141d18ca8a0d91433"
+    },
+    {
+      "PATH": "capability_registry.json",
+      "SHA256": "380f565421e93922d7dc1bf4c7db8fbde7e23d69e97be548dc9f24584d0dbe97"
+    },
+    {
+      "PATH": "evidence/local/00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+      "SHA256": "131b095cfb295e1281bd8e019f235e5985cb477fecfdfbeaa6e4b266edcc90e7"
+    },
+    {
+      "PATH": "evidence/local/01_SOURCE_REGISTER/source_manifest.json",
+      "SHA256": "6c3b9f0390341dfd18635526c002291b374ba88078d4f87034c71c820e21474e"
+    },
+    {
+      "PATH": "evidence/local/02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+      "SHA256": "df21e6c1f0ca299fa67f15dd9fc443a297c66c7d63158e4c8f092223df7c6878"
+    },
+    {
+      "PATH": "evidence/local/docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+      "SHA256": "ee3045445234f8eb56ae85383e2b7cf696112cfa6e5e889f1f12398d587a8442"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/agents/central_agent.py",
+      "SHA256": "3c4e43b29609b5569a05e5cbf3b95bc6a1593bc462e2bc9d80b8c288c67029ff"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+      "SHA256": "82a3422c3a4b0c41ab62dfc615073acc6447274932387b6527de7fe537cbc244"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+      "SHA256": "a25e75a5be9a4a2acfcb27bacc9bd9655b1517660c8fc03d37613f1c5378bcd8"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+      "SHA256": "ebc7e8b0967f70085b70409ecaca73d71dbedde2de297185144cc0a55b414b8b"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+      "SHA256": "b3c0255c0097f82ec8cc8ddeb37d9caef17f1bbda4892af37dc4dccc728beec0"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+      "SHA256": "1421c859b8fccdb18638a1a0454a2112a022a4582174b9965daab7384b1675ba"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+      "SHA256": "b474aea9bc6e327e17f768f892006e0760a15711d726ae4918976dc0ae7ae7dd"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+      "SHA256": "51ad84e1318f51f15a84718b226d9f42cfc99f769037b69d141f340efc3889f4"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+      "SHA256": "1e4d2a609f8418a9e8e8a539233c82faff53f6e652de9fd840d062bd5ccd8420"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_python_v2/README.md",
+      "SHA256": "f670a063d412ab59eafc52b212b2b280be92dac60cc8761b80bca03d293fd9a6"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_v3/plenra/config/thresholds.yaml",
+      "SHA256": "d455180d4926f75dbc8de472938db4cd79fcc16701b7b0c00c8cb947a7ffb8ad"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_v3/plenra/core/loaders.py",
+      "SHA256": "8bdcef081d1240a1121619aad739c3be8ceee826604d2780dc7caba82bf85f53"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+      "SHA256": "06231d7b61e6352e2adb106869fbfe6f0aa4c965891c2a94334956dee84c2361"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra_v3/plenra/prompts/decision_gate.prompt.txt",
+      "SHA256": "e22a1f8fdccb0f7aa6de7a4662cf8579a1f7d7ac36c8977452b24a53880dd7bf"
+    },
+    {
+      "PATH": "evidence/local/docs/plenra-HLD.md",
+      "SHA256": "e8743fc1ef1926662160824cb33cdec478e7a0adfa5f5850eeecad1c319ae239"
+    },
+    {
+      "PATH": "evidence/local/docs/Scaffolding_Pack/plenra/config/system_config.py",
+      "SHA256": "a547f14a1266851141f75ff6be74a5b03018bc4e7322abfc0c775d26260874e1"
+    },
+    {
+      "PATH": "evidence/local/docs/Scaffolding_Pack/README.md",
+      "SHA256": "fb2e384295b37de839ab1093de8ad8f35084c780e68b9c03cd5c5d3d45a293d1"
+    },
+    {
+      "PATH": "evidence/local/orchestrator/registry/chatRegistry.json",
+      "SHA256": "ceb4a59d9acf8f36ca8678333fab8348f903a7c8c870e11c1844e62af2dcbdad"
+    },
+    {
+      "PATH": "evidence/local/plenra_exports/backupRegistry.json",
+      "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "PATH": "git_baseline.json",
+      "SHA256": "7089aa458323dee30f7eb5b0a1d446ac199be8c6117d1966cf77ae5899176421"
+    },
+    {
+      "PATH": "lineage_registry.json",
+      "SHA256": "98cfd5a205f06c63bf8a813412f6c818c14c945194e5a7e567ad18b1e38a6a00"
+    },
+    {
+      "PATH": "missing_source_register.json",
+      "SHA256": "9e8a2649a6e6843c8d206e6539ba34927b92a0e57999e66ddf602e499cbfe9bf"
+    },
+    {
+      "PATH": "orchestration_registry.json",
+      "SHA256": "d8d2feedf1f01fad535451c544e6b383f05800d298083915ed4d1fe72711f141"
+    },
+    {
+      "PATH": "product_governance_record.json",
+      "SHA256": "357ade16fd061d0235e959349a8559a51a06887af43fd63f25e3228d3dca4cb2"
+    },
+    {
+      "PATH": "README.md",
+      "SHA256": "be06f93570f7ebc3f41ea15e1d4843f05a4e2783ab30c5e0bea67c26652c488f"
+    },
+    {
+      "PATH": "source_register.json",
+      "SHA256": "cb1f3791a7fe671978f0eea1c8a4549bd838570261f4d985ae8c688d72c2a0e0"
+    },
+    {
+      "PATH": "user_recovery_evidence.md",
+      "SHA256": "5b990a111a3b03488ff1bae8ba4d1a053dd615337abef7e504ad3a88c1cf9b57"
+    },
+    {
+      "PATH": "V0_3_TO_V0_4_DELTA.md",
+      "SHA256": "f3fe407080dd536255635b3513227acd7e1efd8f2a8b4c0eb59310414f0b8348"
+    },
+    {
+      "PATH": "v0_4_recovery_evidence.md",
+      "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107"
+    },
+    {
+      "PATH": "V0_4_TO_V0_5_DELTA.md",
+      "SHA256": "29963e6037b5d9c8e6d6af996be1fd0becb60d4772fb22be6019ad1c214c7339"
+    },
+    {
+      "PATH": "v0_5_recovery_evidence.md",
+      "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636"
+    },
+    {
+      "PATH": "validate_pack.cjs",
+      "SHA256": "08b000d749293270b88774367d279cfd56989d2e1d104fcd6151f56efc3ba381"
+    },
+    {
+      "PATH": "validation_report.json",
+      "SHA256": "1fa300773ece9c008b417dbdd7a10533ec4b2b9f0221f0de90f9faf37cb18c73"
+    },
+    {
+      "PATH": "recovery_manifest.json",
+      "SHA256": null,
+      "HASH_EXCLUSION_REASON": "Circular self-hash; compute and report externally."
+    }
+  ]
+}
