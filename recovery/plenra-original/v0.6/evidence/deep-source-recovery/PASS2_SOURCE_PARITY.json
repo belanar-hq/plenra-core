@@ -1,0 +1,695 @@
+{
+  "schema_version": 2,
+  "pass": 2,
+  "date": "2026-09-18",
+  "project": {
+    "name": "פלנרה, לוויינים, פרינטבל אוטומציה",
+    "id": "g-p-68cc55bb56248191a1be404d23b7193b",
+    "verified": true,
+    "basis": "Exact C02 source URL redirected into project; header and original coaching/printable content matched Pass1 S03."
+  },
+  "read_only": true,
+  "active_canon": false,
+  "source_complete": false,
+  "chatgpt_messages_sent": 0,
+  "reconstructed_prompts": 0,
+  "chats": [
+    {
+      "id": "C01",
+      "title": "הסוכן המרכזי לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "url": "https://chatgpt.com/c/68f2b499-150c-832a-9e06-bcc0aabc0b7e",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Initial source inspection: historical recovery summary and failed file-creation claim; overlaps Pass 1 S07.",
+      "opened": true,
+      "inspected": true,
+      "entire_chat_inspected": false
+    },
+    {
+      "id": "C02",
+      "title": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "url": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Pass 1 S03 actual source; November setup, November 30 module prompts, research pipeline and attachments; primary project verified.",
+      "opened": true,
+      "inspected": true,
+      "entire_chat_inspected": false
+    },
+    {
+      "id": "C03",
+      "title": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "url": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "October 6–25 product-origin, Session2Printable, approval, viral bridge and emotional summary.",
+      "opened": true,
+      "inspected": true,
+      "entire_chat_inspected": false
+    },
+    {
+      "id": "C04",
+      "title": "הסבר על AgentKit",
+      "url": "https://chatgpt.com/c/68e4543f-a5dc-8326-ad12-457a87042008",
+      "lineage": "MIXED",
+      "scope": "October Router→Session2Printable→Evaluator→Distributor; December 30 water-damage decision product and April 2026 classifier excluded from Original IP.",
+      "opened": true,
+      "inspected": true,
+      "entire_chat_inspected": false
+    },
+    {
+      "id": "C05",
+      "title": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "url": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "December 6 QA and Compassion Engine source read; resilience exact response retained only as anchored search excerpt.",
+      "opened": true,
+      "inspected": true,
+      "entire_chat_inspected": false
+    },
+    {
+      "id": "C06",
+      "title": "אינטגרציה של GPT באוטומציה",
+      "url": "https://chatgpt.com/c/69147f21-4bec-8328-b6c7-8e0794ded350",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Direct optimizer ZIP creation source; full system instructions, schemas, VP templates, retries, guardrails, telemetry.",
+      "opened": true,
+      "inspected": true,
+      "entire_chat_inspected": false
+    }
+  ],
+  "targets": [
+    {
+      "name": "Central Agent",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B01",
+        "B03",
+        "B04",
+        "B11",
+        "B12"
+      ],
+      "scope": "Research-before-production; routing, approval and shared failure handling. Missing consolidated master system prompt/state/tool authority.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "VP Marketing",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B01",
+        "B03",
+        "B04",
+        "B11"
+      ],
+      "scope": "Module-specific core prompt, campaign/keyword/hook inputs and JSON output; missing complete global agent configuration.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "VP Content",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B01",
+        "B03",
+        "B04",
+        "B11"
+      ],
+      "scope": "Module-specific core prompt, JSON sections, language/format limits and 30-day content rule; missing global prompt/tool schema.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "VP Conversion",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B03",
+        "B04",
+        "B08",
+        "B11"
+      ],
+      "scope": "Module-specific core prompt, CTA/layout/microcopy outputs; conversion-vs-delivery role variation unresolved.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "VP Distribution",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B02",
+        "B03",
+        "B04",
+        "F03"
+      ],
+      "scope": "Channel/UTM JSON and PR routing recovered; full prompt and deployed transport configuration missing.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "VP Analytics",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B01",
+        "B04",
+        "F02",
+        "F03"
+      ],
+      "scope": "Unique IDs, event funnel, CTR/signups/usage and feedback cadence; actual metrics implementation missing.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "VP Printables",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B01",
+        "B06",
+        "B10A"
+      ],
+      "scope": "Central-approved blueprint→JSON→Slides→production; related QA rules are separate validator roles, not complete VP prompt.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "Session2Printable",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B05A",
+        "B05B",
+        "B06",
+        "B12"
+      ],
+      "scope": "Input/output examples, proposed node chain, therapist approval, PII masking and partial shared failure spec; complete module prompt missing.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "Evaluator",
+      "status": "REFERENCE_ONLY",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B07",
+        "B10A"
+      ],
+      "scope": "Named only in Router→Session2Printable→Evaluator→Distributor; QA validators not assumed identical. No evaluator rubric, threshold, input/output or full prompt.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    },
+    {
+      "name": "Emotional Layer",
+      "status": "RECOVERED_PARTIAL",
+      "opened": true,
+      "inspected": true,
+      "classified": true,
+      "evidence": [
+        "B05C",
+        "B08",
+        "B10B",
+        "F02",
+        "F03"
+      ],
+      "scope": "Tone/content/emotional-stage role in historical summaries plus original feedback-loop behavior and adjacent Compassion prompt; no standalone Emotional Layer system prompt/schema.",
+      "full_system_prompt_recovered": false,
+      "full_original_configuration_recovered": false
+    }
+  ],
+  "blocks": [
+    {
+      "id": "B01",
+      "file": "PASS2-S01-research-engine.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Research pipeline, JSON and six agent instructions",
+      "active_canon": false
+    },
+    {
+      "id": "B02",
+      "file": "PASS2-S02-satellite-handoffs.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Satellite creation and handoffs",
+      "active_canon": false
+    },
+    {
+      "id": "B03",
+      "file": "PASS2-S03-mini-site-agent-prompts.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Mini-site schema, module prompts and routing",
+      "active_canon": false
+    },
+    {
+      "id": "B04",
+      "file": "PASS2-S04-satellite-blueprint.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Satellite command definitions, configuration and metrics",
+      "active_canon": false
+    },
+    {
+      "id": "B05A",
+      "file": "PASS2-S05-session-product-behavior.txt",
+      "parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "source_chat": "C03",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior",
+      "active_canon": false
+    },
+    {
+      "id": "B05B",
+      "file": "PASS2-S05-session-product-behavior.txt",
+      "parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "source_chat": "C03",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "EXCERPT B only: three viral bridge scenarios",
+      "active_canon": false
+    },
+    {
+      "id": "B05C",
+      "file": "PASS2-S05-session-product-behavior.txt",
+      "parity": "DERIVED_SUMMARY",
+      "source_chat": "C03",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity",
+      "active_canon": false
+    },
+    {
+      "id": "B06",
+      "file": "PASS2-S06-session-contract-and-guards.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C03",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Session schema, proposed Make nodes and therapist approval/guard instructions",
+      "active_canon": false
+    },
+    {
+      "id": "B07",
+      "file": "PASS2-S07-evaluator-reference-lineage.txt",
+      "parity": "REFERENCE_ONLY",
+      "source_chat": "C04",
+      "lineage": "MIXED",
+      "scope": "Named Evaluator route only; no equivalence inferred with QA validators",
+      "active_canon": false
+    },
+    {
+      "id": "B08",
+      "file": "PASS2-S08-setup-and-feedback-loop.txt",
+      "parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "User-pasted setup document and feedback-loop behavior, not DOCX recovery",
+      "active_canon": false
+    },
+    {
+      "id": "B09",
+      "file": "PASS2-S09-master-flow-references.txt",
+      "parity": "REFERENCE_ONLY",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Named master flow/hub/hook/agents creation instructions",
+      "active_canon": false
+    },
+    {
+      "id": "B10A",
+      "file": "PASS2-S10-quality-and-compassion-prompt.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C05",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Before Separate module-spec excerpt: QA-12 and proposed check 13",
+      "active_canon": false
+    },
+    {
+      "id": "B10B",
+      "file": "PASS2-S10-quality-and-compassion-prompt.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C05",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout",
+      "active_canon": false
+    },
+    {
+      "id": "B11",
+      "file": "PASS2-S11-prompt-optimizer-source.txt",
+      "parity": "ORIGINAL_CONVERSATION_TEXT",
+      "source_chat": "C06",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred",
+      "active_canon": false
+    },
+    {
+      "id": "B12",
+      "file": "PASS2-S12-resilience-search-excerpt.json",
+      "parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "source_chat": "C05",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport",
+      "active_canon": false
+    },
+    {
+      "id": "R01",
+      "file": "PASS2-R01-system-setup-reference.json",
+      "parity": "REFERENCE_ONLY",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Leading-ellipsis search excerpt about setup folders/template names",
+      "active_canon": false
+    },
+    {
+      "id": "F01",
+      "file": "PASS2-F01-setup-docx-preview.txt",
+      "parity": "ORIGINAL_FILE",
+      "source_chat": "C02",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Rendered DOCX preview text only, three setup rows; no binary parity",
+      "active_canon": false
+    },
+    {
+      "id": "F02",
+      "file": "PASS2-F02-recovery-master-2025-11-05.txt",
+      "parity": "DERIVED_SUMMARY",
+      "source_chat": null,
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions",
+      "active_canon": false
+    },
+    {
+      "id": "F03",
+      "file": "PASS2-F03-recovery-master-v9-2025-11-07.txt",
+      "parity": "DERIVED_SUMMARY",
+      "source_chat": null,
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "scope": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation",
+      "active_canon": false
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "A01",
+      "name": "plenra_master_flow.manus",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B09"
+      ],
+      "reason": "Setup tells freelancer to create it; no .manus bytes, preview, workflow ID or linked export exposed.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A02",
+      "name": "Plenra Autonomous Hub",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B09",
+        "R01"
+      ],
+      "reason": "Named as Workspace and elsewhere Flow; export not exposed.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A03",
+      "name": "Plenra_Master_Hook",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B08",
+        "B09"
+      ],
+      "reason": "Webhook name only; no original URL, authentication, deployed payload mapping or Make blueprint.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A04",
+      "name": "PLENRA_SYSTEM_SETUP",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "R01"
+      ],
+      "reason": "Folder creation reference; no original folder contents exposed.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A05",
+      "name": "Plenra Agents",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B08",
+        "B09"
+      ],
+      "reason": "Relevance project to create/import agents; no exported agent configuration.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A06",
+      "name": "Plenra Hub",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B08"
+      ],
+      "reason": "Manus Workspace creation reference, not proof of actual workspace.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A07",
+      "name": "Make blueprint / Plenra_AutoSave_Sync",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B06",
+        "B03",
+        "R01"
+      ],
+      "reason": "Proposed node chains and named template only; JSON examples are conversation specifications, not Make export files.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A08",
+      "name": "PLENRA_RECOVERY_MASTER.md (2025-11-05)",
+      "status": "ORIGINAL_FILE_RECOVERED",
+      "evidence": [
+        "F02"
+      ],
+      "reason": "Full selected document text copied read-only from embedded Google Docs, beginning and end verified. Plain text recovery, not original Markdown bytes.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "url": "https://docs.google.com/document/d/1hgwXfNtgyrIXzQPHwZNxr2iUquP058aLgSUE8ZVAsO4/edit",
+      "retrieval_parity": "ORIGINAL_FILE",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "binary_parity": false,
+      "local_file": "PASS2-F02-recovery-master-2025-11-05.txt"
+    },
+    {
+      "id": "A09",
+      "name": "# 🧠 PLENRA RECOVERY MASTER. Md (v9, 2025-11-07)",
+      "status": "ORIGINAL_FILE_RECOVERED",
+      "evidence": [
+        "F03"
+      ],
+      "reason": "Both November 7 account-indexed results opened and resolve to same document ID; count once. Full selected text preserved. Historical forecasts are not observed outcomes.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "url": "https://docs.google.com/document/d/1T8vvIDM3_sdBbnEQImi2aDiZlbTHaxpnN-xVH5IZXVQ/edit",
+      "retrieval_parity": "ORIGINAL_FILE",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "binary_parity": false,
+      "local_file": "PASS2-F03-recovery-master-v9-2025-11-07.txt"
+    },
+    {
+      "id": "A10",
+      "name": "Madrich_Hakama_Yafit_Plenra.docx",
+      "status": "FILE_PREVIEW_ONLY",
+      "evidence": [
+        "F01"
+      ],
+      "reason": "Original generated-document preview opened and rendered text preserved; only visible three-row version, not a presumed 28-row full document.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT",
+      "local_file": "PASS2-F01-setup-docx-preview.txt"
+    },
+    {
+      "id": "A11",
+      "name": "Madrich_Hakama_Yafit_Plenra (1).docx",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B08"
+      ],
+      "reason": "Uploaded-file metadata inspected; adjacent pasted text is separately preserved as conversation text, not presumed identical file content.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A12",
+      "name": "plenra_prompt_optimizer_v1.zip",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B11"
+      ],
+      "reason": "Upload metadata in primary source and Download the ZIP control in creation chat inspected. No archive entry listing or bytes read. Download not triggered because supported browser download API cannot specify authorized destination; availability untested, not ACCESS_DENIED.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A13",
+      "name": "schemas/prompt_optimizer.request.json; prompt_optimizer.response.json",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B11"
+      ],
+      "reason": "Schema examples readable in conversation and preserved there; original archive members not read.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A14",
+      "name": "app/assistants.py; app/router.py; app/run_local.py; app/tests/test_cases.json; requirements.txt",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B11"
+      ],
+      "reason": "Named archive members only. Did not infer code/test contents from descriptions.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A15",
+      "name": "run_automation.py",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "B06"
+      ],
+      "reason": "Referenced executor only; no original file read.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A16",
+      "name": "Plenra_Coach_Welcome_Guide_Screen.pdf",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "C02"
+      ],
+      "reason": "Visible attachment metadata only. No content-level recovery claimed.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A17",
+      "name": "focus_starter_printable.pdf",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "C02"
+      ],
+      "reason": "Visible attachment metadata and discussion of defective output; no PDF content preserved.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A18",
+      "name": "Plenra_AgentKit_Builder_ChatKit_Diagram.png",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "C04"
+      ],
+      "reason": "Diagram name associated with original flow; no actual diagram content read; not treated as Evaluator definition.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    },
+    {
+      "id": "A19",
+      "name": "Plenra_Quantum_Search_Pack_EN_Extended.md",
+      "status": "FILE_REFERENCE_ONLY",
+      "evidence": [
+        "C01"
+      ],
+      "reason": "Visible artifact control in initial source, not opened this pass; research pack outside named P0 definitions.",
+      "lineage": "PLENRA_ORIGINAL_PRODUCT"
+    }
+  ],
+  "counts": {
+    "parity_blocks": {
+      "ORIGINAL_CONVERSATION_TEXT": 8,
+      "PARTIAL_ORIGINAL_CONVERSATION": 4,
+      "REFERENCE_ONLY": 3,
+      "ORIGINAL_FILE": 1,
+      "DERIVED_SUMMARY": 3,
+      "SYNTHETIC_RECONSTRUCTION": 0
+    },
+    "original_file_texts_recovered": 2,
+    "original_binary_files_recovered": 0,
+    "file_previews_preserved": 1,
+    "named_targets_settled": 10,
+    "named_targets_fully_recovered": 0,
+    "named_targets_access_denied": 0,
+    "named_targets_not_found": 0
+  },
+  "counting_policy": "19 evidence blocks: response/module bundles, not individual prompts. File retrieval and semantic instruction parity are separate axes. Two recovered file texts contain derived historical summaries. Artifact references overlap evidence and are not added to block totals.",
+  "pass1_integrity": [
+    {
+      "path": "README.md",
+      "unchanged": true
+    },
+    {
+      "path": "REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "S01-artifact-index.md",
+      "unchanged": true
+    },
+    {
+      "path": "S02-recovery-master-reference.md",
+      "unchanged": true
+    },
+    {
+      "path": "S03-original-product-agent-excerpts.md",
+      "unchanged": true
+    },
+    {
+      "path": "S04-decision-architecture.md",
+      "unchanged": true
+    },
+    {
+      "path": "S05-orchestrator-lineage.md",
+      "unchanged": true
+    },
+    {
+      "path": "S06-dataset-ledger-migration-references.md",
+      "unchanged": true
+    },
+    {
+      "path": "S07-recovery-master-conversation.md",
+      "unchanged": true
+    },
+    {
+      "path": "SEARCH_LOG.md",
+      "unchanged": true
+    }
+  ],
+  "limitations": [
+    "Virtualized ChatGPT source windows are not whole-chat exports.",
+    "B12 and R01 retain search-surface status.",
+    "No byte-for-byte original attachment export.",
+    "ZIP availability untested; no destination-safe download capability used.",
+    "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+  ],
+  "contradictions": [
+    "B11: earlier total>=85 uses original; final total>=85 uses improved_prompt.",
+    "B06 therapist approval before sending versus B08 automatic delivery narrative.",
+    "October free-text input example versus Pass1 privacy-first no-free-text synopsis.",
+    "C05 Dec6 age rules evolved 16–25 / 18–40 / child/teen overrides; QA-12 table retains 18–40.",
+    "Recovery summary forecasts/KPIs and security assertions are not implementation or outcome evidence."
+  ],
+  "stop_basis": "All 10 named targets opened through relevant sources, inspected and classified. Remaining exploration requires missing full configurations/export access or broader work; not stopped solely on duplicate search results."
+}

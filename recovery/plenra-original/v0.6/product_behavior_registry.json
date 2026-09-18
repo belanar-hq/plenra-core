@@ -1,0 +1,410 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+  "BEHAVIORS": [
+    {
+      "BEHAVIOR_ID": "BEH-001",
+      "PURPOSE": "Session → emotional pattern → personalized printable",
+      "INPUT": "Coach/therapist session summary",
+      "DECISION_OR_RULE": "Recognize emotional pattern and create matching practice; October instructions constrain interpretation",
+      "ACTION_OR_OUTPUT": "Personalized printable with exercises, small tasks and progress space",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-003",
+        "CON-008"
+      ],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-002",
+      "PURPOSE": "Therapist approval",
+      "INPUT": "Draft printable for patient",
+      "DECISION_OR_RULE": "No automatic patient send without therapist Approve; retain version, approver and time",
+      "ACTION_OR_OUTPUT": "Approved printable may be sent; approval recorded",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-002"
+      ],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-003",
+      "PURPOSE": "Consent, masking and audit",
+      "INPUT": "Sensitive session data and delivery request",
+      "DECISION_OR_RULE": "Mask PII in Parser; anonymous session IDs; explicit email opt-in; record consent/access/version",
+      "ACTION_OR_OUTPUT": "Masked input and auditable delivery",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-003"
+      ],
+      "NOTES": "Historical compliance/security requirements, not verified legal compliance or deployed security."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-004",
+      "PURPOSE": "Sharing-dependent CTA",
+      "INPUT": "Direct coach delivery, peer share, or public example",
+      "DECISION_OR_RULE": "Direct delivery: Learn More/Join Insights; indirect or public share: invite outside coach",
+      "ACTION_OR_OUTPUT": "Context-dependent continuation/invite CTA",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "EXCERPT B only: three viral bridge scenarios"
+        }
+      ],
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-005",
+      "PURPOSE": "Progress-driven printable continuation",
+      "INPUT": "Completed printable returned via Send Back",
+      "DECISION_OR_RULE": "Read responses for change/progress and adapt the next printable",
+      "ACTION_OR_OUTPUT": "Follow-up printable or suggestion to coach",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-002",
+        "CON-008"
+      ],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-006",
+      "PURPOSE": "Printable blueprint approval",
+      "INPUT": "Deep Research Engine printable_blueprints",
+      "DECISION_OR_RULE": "Only approved by Central Agent blueprints enter JSON Template → Slides → production",
+      "ACTION_OR_OUTPUT": "Approved template sent to production module",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-007",
+      "PURPOSE": "QA rejection and correction",
+      "INPUT": "Rendered printable and original source text",
+      "DECISION_OR_RULE": "Accept only 12/12 green; reject/correct per QA-12; check 13 proposed only",
+      "ACTION_OR_OUTPUT": "Corrected rerender or rejected output",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-004"
+      ],
+      "NOTES": "QA validator roles are not proven equivalent to Evaluator. Exact twelve rules are in source and orchestration registry."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-008",
+      "PURPOSE": "Bounded session contract",
+      "INPUT": "therapist_id/patient_id/type/date/goals/summary/homework/constraints",
+      "DECISION_OR_RULE": "Parser normalizes; template engine produces insights/homework/tracking; no diagnosis",
+      "ACTION_OR_OUTPUT": "Renderer JSON with printable_type/title/insights/homework/tracking/notes/branding",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-003",
+        "CON-008"
+      ],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-009",
+      "PURPOSE": "Compassion outputs",
+      "INPUT": "relationship/recipient age+gender/distress/intensity/intent/tone/delivery preference",
+      "DECISION_OR_RULE": "Emotional safety; no diagnosis; neutral faces; micro-action and QR; both sender and recipient considered",
+      "ACTION_OR_OUTPUT": "JSON emotional_analysis, printable_output, pod_output, sender_message and distribution",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-004"
+      ],
+      "NOTES": "Adjacent module core prompt preserved; not a complete Emotional Layer definition."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-010",
+      "PURPOSE": "Placeholder integrity",
+      "INPUT": "Original and improved prompts with variables",
+      "DECISION_OR_RULE": "Preserve placeholders exactly; regex 1:1 check; drift rejects; schema failure repairs/retries",
+      "ACTION_OR_OUTPUT": "Valid JSON prompt response or rejection",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-001"
+      ],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-011",
+      "PURPOSE": "Research-before-production",
+      "INPUT": "New printable/campaign/niche/coach-product idea",
+      "DECISION_OR_RULE": "Central invokes research at standard depth or greater before production",
+      "ACTION_OR_OUTPUT": "Research JSON and VP-specific handoffs",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        }
+      ],
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [],
+      "NOTES": "Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-012",
+      "PURPOSE": "Analytics feedback",
+      "INPUT": "Research output and satellite events",
+      "DECISION_OR_RULE": "Assign unique ID; track CTR/signups/printable use; quarterly feedback to research",
+      "ACTION_OR_OUTPUT": "Measurement record and improvement recommendations",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [],
+      "NOTES": "Metrics are requirements/targets, not measured outcomes."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-013",
+      "PURPOSE": "QR and micro-action continuation",
+      "INPUT": "Printable engagement and emotional stage",
+      "DECISION_OR_RULE": "Historical synopsis describes Notice → Reflect → Commit and QR continuation by progress",
+      "ACTION_OR_OUTPUT": "Continuation tool or emotional feedback",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05C",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity"
+        }
+      ],
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [],
+      "NOTES": "DERIVED_SUMMARY; encryption and personalization claims not independently verified."
+    },
+    {
+      "BEHAVIOR_ID": "BEH-014",
+      "PURPOSE": "Degraded recovery",
+      "INPUT": "External API error or timeout",
+      "DECISION_OR_RULE": "Allowed fallback only; retain JSON input/partial output; PENDING_RETRY on exhaustion",
+      "ACTION_OR_OUTPUT": "DEGRADED response with useful partial output and preserved work",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "HISTORICAL_STATUS": "HISTORICAL_DESIGN / NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": [
+        "Confirm full scope and authority from originals",
+        "Resolve linked conflicts before adoption",
+        "Validate behavior and implementation independently"
+      ],
+      "CONFLICTS": [
+        "CON-010"
+      ],
+      "NOTES": "Search-surface excerpt only. N/X throttling parameters not recovered."
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "PRIORITY_MEANING": "Recovery priority assigned for preservation; not implementation priority.",
+  "MISSING_SOURCES": [
+    {
+      "MISSING_SOURCE_ID": "MISS-001",
+      "SOURCE_NAME": "ChatGPT Projects/Chats source-level extraction",
+      "WHY_IT_MATTERS": "Original conversations establish scope, chronology and provenance.",
+      "KNOWN_EVIDENCE": "User states extraction is incomplete; local raw/normalized dataset-builder artifact exists, source_manifest is empty and chat registry contains test-labeled records.",
+      "MISSING_EVIDENCE": "Source windows/module instructions recovered; complete conversation, consolidated agent configuration, tool authority and original revisions not recovered.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Full exports, real source identifiers, context, attachments and per-source extraction reconciliation.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-002",
+      "SOURCE_NAME": "Plenra Python v3 System Build",
+      "WHY_IT_MATTERS": "Needed to distinguish the named build from the partial local v3 directory.",
+      "KNOWN_EVIDENCE": "SRC-023 reports a synthetic V3 pack on/around March 27, 2026. Four local components preserved; their equivalence to the historical zip is unverified.",
+      "MISSING_EVIDENCE": "Complete Plenra Python v3 source-level extraction, original build conversation and file inventory, component-level ownership reconciliation and provenance.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "LOW_VALUE_PROVENANCE_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Predominantly lineage/scaffold provenance; not an established Original Product behavior blocker."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-003",
+      "SOURCE_NAME": "Legacy Custom GPT inventory",
+      "WHY_IT_MATTERS": "Needed to reconcile names, prompts and product versus infrastructure roles.",
+      "KNOWN_EVIDENCE": "User reports unresolved reconciliation; seven business roles have later local scaffold prompts.",
+      "MISSING_EVIDENCE": "Original inventory, GPT identifiers, instructions, knowledge attachments, revisions and ownership reconciliation.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-004",
+      "SOURCE_NAME": "Production-status evidence",
+      "WHY_IT_MATTERS": "Design, scaffold code, deployment and verified outcomes are different claims.",
+      "KNOWN_EVIDENCE": "User explicitly states historical agents were not production; local documents use production-oriented labels.",
+      "MISSING_EVIDENCE": "Independent deployment/runtime records for any broader production claims and separate verified outcome evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-005",
+      "SOURCE_NAME": "Original emotional/behavioral agent specifications",
+      "WHY_IT_MATTERS": "Names and future intent must not substitute for preserved historical prompts.",
+      "KNOWN_EVIDENCE": "SRC-001 supplies seven names and a broader family, design status and future candidacy.",
+      "MISSING_EVIDENCE": "Original prompts, specifications, full family membership and historical source context.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-006",
+      "SOURCE_NAME": "Original product mechanism and emotional framework artifacts",
+      "WHY_IT_MATTERS": "Preserves original reasoning and prevents expansion from a short recovered sequence.",
+      "KNOWN_EVIDENCE": "SRC-001 supplies Session → Understanding → Personalized Artifact → Action → Continuity → Feedback / Learning and Empowerment → Reflection → Growth.",
+      "MISSING_EVIDENCE": "Original design documents/chats, dates, detailed mechanism definitions and provenance.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-007",
+      "SOURCE_NAME": "Upstream originals of local scaffold and infrastructure snapshots",
+      "WHY_IT_MATTERS": "A local generated scaffold or classification registry is not its original source.",
+      "KNOWN_EVIDENCE": "SRC-002 onward are byte-preserved local artifacts; scaffold READMEs explicitly disclaim complete hidden prompt/config export.",
+      "MISSING_EVIDENCE": "Original build conversations and hidden/unpublished prompts/configs referred to by scaffold READMEs; provenance for local HLD, architecture and normalized export. Placeholder chat URLs are not usable source references.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "LOW_VALUE_PROVENANCE_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Predominantly lineage/scaffold provenance; not an established Original Product behavior blocker."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-008",
+      "SOURCE_NAME": "Original capability source: Session Summary Intake",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Session Summary Intake.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Structured session intake includes therapist_id, patient_id, therapy_type, session_date, goals, summary_free_text, homework_prev_status and constraints.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-009",
+      "SOURCE_NAME": "Original capability source: Session Intelligence",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Session Intelligence.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Bounded session transformation and emotional-pattern interpretation examples; interpretation authority remains conflicted.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-010",
+      "SOURCE_NAME": "Original capability source: privacy / PII minimization",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for privacy / PII minimization.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Parser PII masking, consent records, access audit and therapist approval requirements; no deployed compliance proof.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-011",
+      "SOURCE_NAME": "Original capability source: Therapeutic Logic Engine",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Therapeutic Logic Engine.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Historical synopsis and parser/template-engine contract; complete mechanism selection logic still missing.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05C",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-012",
+      "SOURCE_NAME": "Original capability source: CBT / ACT mechanism selection",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for CBT / ACT mechanism selection.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-013",
+      "SOURCE_NAME": "Original capability source: Emotional Layer / Emotional Engine",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotional Layer / Emotional Engine.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Response-driven emotional adaptation and adjacent Compassion core prompt; no standalone Emotional Layer definition.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-014",
+      "SOURCE_NAME": "Original capability source: Personalized Printable Engine",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Personalized Printable Engine.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Session-to-printable examples and renderer contract with insights, homework, tracking and branding.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-015",
+      "SOURCE_NAME": "Original capability source: Coach Printable",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Coach Printable.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-016",
+      "SOURCE_NAME": "Original capability source: Client / Coachee Printable",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Client / Coachee Printable.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-017",
+      "SOURCE_NAME": "Original capability source: Secure / session-bound QR continuity",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Secure / session-bound QR continuity.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: QR continuation preserved; encrypted/session-bound security remains unverified synopsis, not a recovered implementation.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05C",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-018",
+      "SOURCE_NAME": "Original capability source: Session continuity",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Session continuity.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Send Back responses inform next printable.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-019",
+      "SOURCE_NAME": "Original capability source: Emotional Anchor / Anchor Sheet",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotional Anchor / Anchor Sheet.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-020",
+      "SOURCE_NAME": "Original capability source: Emotion Map",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotion Map.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-021",
+      "SOURCE_NAME": "Original capability source: Emotion Trajectory",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotion Trajectory.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-022",
+      "SOURCE_NAME": "Original capability source: Emotion Learning Loop",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Emotion Learning Loop.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Returned answers interpreted for progress and next tool; model logic missing.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-023",
+      "SOURCE_NAME": "Original capability source: Progress / continuity surfaces",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Progress / continuity surfaces.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Progress-driven continuation example preserved.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-024",
+      "SOURCE_NAME": "Original capability source: Scientific Mini-Brief",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Scientific Mini-Brief.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-025",
+      "SOURCE_NAME": "Original capability source: Sources capability",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Sources capability.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-026",
+      "SOURCE_NAME": "Original capability source: Personalized next-tool recommendation",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Personalized next-tool recommendation.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Next-printable example follows observed progress; no complete ranking algorithm.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-027",
+      "SOURCE_NAME": "Original capability source: Printable QA",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Printable QA.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: QA-12 acceptance requires 12/12 green; check 13 only proposed. Does not define Evaluator.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-028",
+      "SOURCE_NAME": "Original capability source: Coach dashboard / emotional data concepts",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Coach dashboard / emotional data concepts.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-029",
+      "SOURCE_NAME": "Original capability source: Coach-client interaction logic",
+      "WHY_IT_MATTERS": "Needed to preserve the actual specification for Coach-client interaction logic.",
+      "KNOWN_EVIDENCE": "SRC-001 names this capability.",
+      "MISSING_EVIDENCE": "Complete original context, detailed rules/thresholds and verified implementation remain missing; recovered scope: Direct-coach versus indirect-sharing CTA branches and therapist final approval.",
+      "RECOVERY_PRIORITY": "HIGH",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original capability artifact, detailed purpose, dependencies, historical date/context and implementation evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "EXCERPT B only: three viral bridge scenarios"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-030",
+      "SOURCE_NAME": "Exact original prompt texts",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "Intended real prompt contents reported in SRC-023; partial local prompt preserved.",
+      "MISSING_EVIDENCE": "Original prompt bodies and provenance; never reconstruct from summaries.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-031",
+      "SOURCE_NAME": "Complete original agent definitions",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-025 names five product agents/capabilities.",
+      "MISSING_EVIDENCE": "Complete original definitions and configuration; not only names or later scaffolds.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-032",
+      "SOURCE_NAME": "Original plenra_v3_pack.zip bytes",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "Historical filename generated/referenced; no matching archive found in repository inventory.",
+      "MISSING_EVIDENCE": "Original archive bytes, archive inventory and provenance. Search does not cover external drives or ChatGPT attachments.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "LOW_VALUE_PROVENANCE_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Predominantly lineage/scaffold provenance; not an established Original Product behavior blocker."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-033",
+      "SOURCE_NAME": "Source-parity verification",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "Synthetic reconstruction explicitly distinguished from original production repository.",
+      "MISSING_EVIDENCE": "Independently identified original reference source and component-level byte/content comparison.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-034",
+      "SOURCE_NAME": "March/April 2026 Decision Infrastructure implementation evidence",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-024 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-035",
+      "SOURCE_NAME": "October 2025 AgentKit / Session2Printable architecture",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-025 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Source windows/module instructions recovered; complete conversation, consolidated agent configuration, tool authority and original revisions not recovered.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B07",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-036",
+      "SOURCE_NAME": "Plenra - Decision Infrastructure System Documentation",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-026 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "LOW_VALUE_PROVENANCE_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Predominantly lineage/scaffold provenance; not an established Original Product behavior blocker."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-037",
+      "SOURCE_NAME": "הסוכן המרכזי 4 לווינים",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-027 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "LOW_VALUE_PROVENANCE_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Predominantly lineage/scaffold provenance; not an established Original Product behavior blocker."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-038",
+      "SOURCE_NAME": "Plenra Execution Agent",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-028 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-039",
+      "SOURCE_NAME": "Budget Increase Decision Gate POC",
+      "WHY_IT_MATTERS": "Summary or synthetic reconstruction does not replace original source evidence.",
+      "KNOWN_EVIDENCE": "SRC-029 preserves attributed recovery evidence.",
+      "MISSING_EVIDENCE": "Full original source, context, attachments and source-level extraction. Reported summary does not close this gap.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-040",
+      "SOURCE_NAME": "Original Central Agent system prompt",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Source windows/module instructions recovered; complete conversation, consolidated agent configuration, tool authority and original revisions not recovered.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions.",
+      "V0_5_MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-041",
+      "SOURCE_NAME": "Original VP agent system prompts",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Source windows/module instructions recovered; complete conversation, consolidated agent configuration, tool authority and original revisions not recovered.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions.",
+      "V0_5_MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-042",
+      "SOURCE_NAME": "Original plenra_master_flow.manus bytes/content",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B09",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named master flow/hub/hook/agents creation instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-R01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Leading-ellipsis search excerpt about setup folders/template names"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-043",
+      "SOURCE_NAME": "Original Plenra Autonomous Hub source/configuration",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product.",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B09",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named master flow/hub/hook/agents creation instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-R01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Leading-ellipsis search excerpt about setup folders/template names"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-044",
+      "SOURCE_NAME": "Original Make scenario/blueprint",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product.",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B09",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named master flow/hub/hook/agents creation instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-R01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Leading-ellipsis search excerpt about setup folders/template names"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-045",
+      "SOURCE_NAME": "Original Plenra_Master_Hook configuration",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product.",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B09",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named master flow/hub/hook/agents creation instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-R01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Leading-ellipsis search excerpt about setup folders/template names"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-046",
+      "SOURCE_NAME": "Source-level evidence for actual implementation state",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Needed to establish historical execution; not automatically needed to identify or design the product."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-047",
+      "SOURCE_NAME": "Original Central Agent v2 source",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Source windows/module instructions recovered; complete conversation, consolidated agent configuration, tool authority and original revisions not recovered.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-048",
+      "SOURCE_NAME": "Original Central Agent 3 source",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Source windows/module instructions recovered; complete conversation, consolidated agent configuration, tool authority and original revisions not recovered.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "PARTIALLY_RECOVERED_GAP_REMAINS",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": false,
+      "CLASSIFICATION_BASIS": "Remaining historical coverage/parity; not automatically a missing product decision.",
+      "V0_5_MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "PASS_2_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ]
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-049",
+      "SOURCE_NAME": "Original Plenra Central Agent Decision Memo source",
+      "WHY_IT_MATTERS": "Architecture summaries cannot establish original content or historical execution state.",
+      "KNOWN_EVIDENCE": "V0.5 user recovery statement; see SRC-033 through SRC-039.",
+      "MISSING_EVIDENCE": "Original source bytes/content, provenance and context; implementation requires separate source-level evidence.",
+      "RECOVERY_PRIORITY": "P0",
+      "RECOVERY_STATUS": "OPEN",
+      "ORIGINAL_SOURCE_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "PRODUCT_BLOCKER": true,
+      "CLASSIFICATION_BASIS": "Unresolved behavior, safety/authority or full agent definition may change product decisions."
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-050",
+      "SOURCE_NAME": "Evaluator full behavior and original source",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "PRODUCT_BLOCKER": true,
+      "RECOVERY_STATUS": "OPEN",
+      "MISSING_EVIDENCE": "Rubric, thresholds, input/output, rejection and failure authority missing. QA-12 identity is not established.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B07",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators"
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-051",
+      "SOURCE_NAME": "Historical product rule authority and conflicts",
+      "GAP_CLASS": "MATERIAL_PRODUCT_GAP",
+      "PRODUCT_BLOCKER": true,
+      "RECOVERY_STATUS": "OPEN",
+      "MISSING_EVIDENCE": "Resolve CON-001 through CON-008 only with original authority/context and separately authorized decisions; no winner chosen in V0.6.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        },
+        {
+          "SOURCE_ID": "DS1-S07",
+          "LOCATOR": "evidence/deep-source-recovery/S07-recovery-master-conversation.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "S07-recovery-master-conversation.md"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-052",
+      "SOURCE_NAME": "Recovery Master complete historical version chain",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "PRODUCT_BLOCKER": false,
+      "RECOVERY_STATUS": "OPEN",
+      "MISSING_EVIDENCE": "Two unique selected document texts recovered as DERIVED_SUMMARY; overwritten versions and original supporting sources still absent. Latest master is not complete record.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-F02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        },
+        {
+          "SOURCE_ID": "DS1-S07",
+          "LOCATOR": "evidence/deep-source-recovery/S07-recovery-master-conversation.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "S07-recovery-master-conversation.md"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-053",
+      "SOURCE_NAME": "Original optimizer archive and members",
+      "GAP_CLASS": "SOURCE_PARITY_GAP",
+      "PRODUCT_BLOCKER": false,
+      "RECOVERY_STATUS": "OPEN",
+      "MISSING_EVIDENCE": "ZIP bytes/member inventory not read; schemas/templates in conversation are not recovered ZIP files. Availability untested.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-054",
+      "SOURCE_NAME": "Resilience execution configuration",
+      "GAP_CLASS": "HISTORICAL_IMPLEMENTATION_GAP",
+      "PRODUCT_BLOCKER": false,
+      "RECOVERY_STATUS": "OPEN",
+      "MISSING_EVIDENCE": "Search excerpt only; deployment and N/X circuit parameters missing; retry budget scope unresolved.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "MISSING_SOURCE_ID": "MISS-055",
+      "SOURCE_NAME": "Pass 1 migration and populated ledger/index records",
+      "GAP_CLASS": "LOW_VALUE_PROVENANCE_GAP",
+      "PRODUCT_BLOCKER": false,
+      "RECOVERY_STATUS": "OPEN",
+      "MISSING_EVIDENCE": "Unrecovered rows and conflicting summary statuses concern later lineage, not established Original Product requirements.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S01",
+          "LOCATOR": "evidence/deep-source-recovery/S01-artifact-index.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S01-artifact-index.md"
+        },
+        {
+          "SOURCE_ID": "DS1-S06",
+          "LOCATOR": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "S06-dataset-ledger-migration-references.md"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    }
+  ],
+  "GAP_POLICY": "Classes are independent of old P0 search priorities. Evidence preservation is sufficient while material product questions remain. Exports are not automatically product blockers. No missing source is reconstructed."
+}

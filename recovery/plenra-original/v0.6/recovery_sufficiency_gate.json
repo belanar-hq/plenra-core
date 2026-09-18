@@ -1,0 +1,108 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "RECOVERY_SUFFICIENCY_FOR_PRESERVATION": true,
+  "RECOVERY_SUFFICIENCY_FOR_FAITHFUL_FULL_SYSTEM_RESTORATION": false,
+  "ASSESSMENT_SCOPE": "Sufficiency to identify and review Original Product IP; not deployment, clinical effectiveness, source completeness or canonization authority.",
+  "PRODUCT_IDENTITY_SUFFICIENT": true,
+  "PRODUCT_ARCHITECTURE_SUFFICIENT": true,
+  "BEHAVIORAL_IP_SUFFICIENT": false,
+  "AGENT_IP_SUFFICIENT": false,
+  "ORCHESTRATION_IP_SUFFICIENT": false,
+  "SOURCE_PARITY_COMPLETE": false,
+  "FAITHFUL_FULL_SYSTEM_RESTORATION_POSSIBLE": false,
+  "PRODUCT_CANONIZATION_READY": false,
+  "NO_MATERIAL_PRODUCT_UNKNOWN_REMAINS": false,
+  "GOVERNING_FUTURE_STOP_CONDITION": "NO_MATERIAL_PRODUCT_UNKNOWN_REMAINS",
+  "SOURCE_COMPLETE_IS_STOP_CONDITION": false,
+  "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+  "PRODUCT_CANONIZATION_AUTHORIZED": false,
+  "ASSESSMENTS": {
+    "PRODUCT_IDENTITY_SUFFICIENT": {
+      "RATIONALE": "Coaches/therapists, session summaries, emotional personalization and printables directly anchored; distinct from later Decision Infrastructure.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ]
+    },
+    "PRODUCT_ARCHITECTURE_SUFFICIENT": {
+      "RATIONALE": "Sufficient to map product architecture and distinct generations: intake, parser/template/renderer, approvals, continuity, commercial VP modules. Not complete agent/runtime architecture.",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ]
+    },
+    "BEHAVIORAL_IP_SUFFICIENT": {
+      "RATIONALE": "Significant preservation coverage; Evaluator rubric and unresolved approval/privacy/inference/CTA rules prevent sufficient full behavioral definition.",
+      "GAPS": [
+        "MISS-050",
+        "MISS-051"
+      ]
+    },
+    "AGENT_IP_SUFFICIENT": {
+      "RATIONALE": "Partial module prompts are not full configurations; Evaluator reference-only, standalone Emotional Layer incomplete.",
+      "GAPS": [
+        "MISS-031",
+        "MISS-040",
+        "MISS-041",
+        "MISS-050"
+      ]
+    },
+    "ORCHESTRATION_IP_SUFFICIENT": {
+      "RATIONALE": "Separate contracts preserved, but conflicting optimizer/approval boundaries and incomplete state/authority/failure contracts remain.",
+      "CONFLICTS": [
+        "CON-001",
+        "CON-002",
+        "CON-010"
+      ]
+    },
+    "SOURCE_PARITY_COMPLETE": {
+      "RATIONALE": "Selected virtualized conversation windows, derived masters, reference-only exports and missing full prompts."
+    },
+    "FAITHFUL_FULL_SYSTEM_RESTORATION_POSSIBLE": {
+      "RATIONALE": "No complete original definitions/configurations/execution exports; no reconstruction authorized."
+    },
+    "PRODUCT_CANONIZATION_READY": {
+      "RATIONALE": "Material product unknowns and conflicts remain; canonization explicitly unauthorized."
+    }
+  },
+  "EXPORT_GAP_POLICY": "Historical Manus/Make exports normally establish source parity or implementation history. They are not automatic product blockers unless they contain otherwise unknown material product rules."
+}

@@ -1,0 +1,289 @@
+SOURCE: https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5
+DATE: November 30, 2025 18:43 visible separator
+PARITY: ORIGINAL_CONVERSATION_TEXT
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+SCOPE: Complete visible module response; module-specific prompts, not full agent exports.
+
+Sun, Nov 30 at 6:43 PM
+המשך
+Thought for 10s
+
+ממשיך מפה, בלי לחזור על מה שכבר עשינו.
+
+1. איך מיני-אתר נוצר אוטומטית מבחינה טכנית (Flow מלא)
+
+נבחר ארכיטקטורה פשוטה וסטנדרטית:
+
+Front: סט מיני-טמפלטים ב־Google Slides / HTML
+
+Back: Cloud Run + Storage + דומיין Plenra (subdomain)
+
+אוטומציה: Make / n8n
+
+תוכן: ChatGPT Agents + Gemini, לפי ההפרדה שכבר קבענו
+
+שלבי הפייפליין
+
+טריגר
+
+טריגר יכול להיות:
+
+קמפיין חדש / פרס ריליס חדש / מוצר חדש / "גל" חיפושים צפוי (לפי שנים קודמות).
+
+או בקשה ידנית מהמאסטר (למשל: "Create mini-site for: Black Friday Therapy Deals").
+
+ייצור JSON של מיני-אתר
+Central Agent מפעיל את סוכני Plenra (Marketing, Content, Conversion, Analytics) ומוציא אובייקט JSON אחד בסכמה קבועה, למשל:
+
+JSON
+{
+  "site_id": "bf-therapy-2025",
+  "language": "en",
+  "audience": "burnt_out_therapists",
+  "goal": "collect_leads_for_free_trial",
+  "seo": {
+    "title": "Therapy Tools Black Friday 2025 – Plenra",
+    "description": "Done-for-you worksheets and reports for busy therapists.",
+    "keywords": ["therapy tools black friday", "cbt worksheets deal"]
+  },
+  "hero": {
+    "headline": "Turn Black Friday traffic into long-term clients",
+    "subheadline": "Automated worksheets, reports and emotional tools for therapists.",
+    "cta_text": "Start Free Trial",
+    "cta_url": "https://plenra.io/free-trial"
+  },
+  "sections": [
+    {
+      "type": "benefits",
+      "title": "Why therapists choose Plenra",
+      "bullets": [
+        "Automated A4 printables in Hebrew and English",
+        "Session summaries in minutes",
+        "Emotional tools your clients actually use"
+      ]
+    },
+    {
+      "type": "offer_grid",
+      "title": "What you get in this Black Friday pack",
+      "items": [
+        {
+          "label": "CBT Starter Pack",
+          "description": "10 ready-to-use worksheets.",
+          "tag": "Most Popular"
+        }
+      ]
+    }
+  ],
+  "testimonials": [],
+  "faq": [],
+  "branding": {
+    "palette": ["#FAF9F6","#1D4E89","#A78BFA","#56CFE1"],
+    "font": "Montserrat"
+  }
+}
+
+שירות רינדור מיני-אתר (Cloud Run)
+
+Cloud Run Service אחד: plenra-mini-sites-renderer
+
+מקבל POST עם אותו JSON.
+
+משתמש ב־Template Engine (למשל Handlebars / EJS) כדי:
+
+להכניס את כל השדות ל־HTML סטטי (RTL או LTR לפי language).
+
+לייבא CSS קבוע של Plenra (צבעים, פונט, כפתורים וכו’).
+
+שומר את הקובץ כ:
+
+site_id/index.html ב־Google Cloud Storage bucket (עם סטטיק הוסטינג).
+
+Cloud Storage מחובר ל־CDN + סאב-דומיין מסוג:
+https://sites.plenra.io/bf-therapy-2025/
+
+אוטומציה (Make / n8n)
+סצנריו לדוגמה:
+
+Webhook מקבל בקשת "Create_Mini_Site".
+
+צעד 1: קריאה ל־ChatGPT Central Agent → JSON של המיני-אתר.
+
+צעד 2: קריאה ל־Cloud Run Renderer עם ה־JSON.
+
+צעד 3: קבלת URL סופי + שמירה ב־Google Sheet / Airtable.
+
+צעד 4: עדכון VP Marketing / VP Distribution לניצול המיני-אתר בקמפיינים / פרס ריליס / אימייל.
+
+עדכון / רענון
+
+כשצריך לעדכן שנה, מחיר, טקסט:
+
+הסוכן מייצר JSON חדש עם אותו site_id.
+
+Cloud Run פשוט דורס את index.html הקיים.
+
+גוגל כבר מכיר את ה־URL → רענון SEO מהיר.
+
+2. פרומפטים נפרדים לכל סוכן (מודול Mini-Sites)
+2.1 VP Marketing Agent – פרסונות, זווית, הצעה
+
+תפקיד: להגדיר למיני-אתר:
+
+פרסונה
+
+הצעה
+
+זווית שיווק
+
+מילות מפתח עיקריות
+
+פרומפט ליבה (לקיצור, אפשר פשוט להעתיק):
+
+אתה VP Marketing של Plenra.
+המשימה שלך היא להגדיר את השכבה השיווקית של Mini-Site אוטומטי.
+קלט:
+
+נושא המיני-אתר
+
+שוק יעד (שפה, מדינה, סוג מטפלים / מתאמנים)
+
+מטרה עסקית (לידים / הרשמות / מכירת פאקג’ / הרשמה ל־Free Trial)
+
+תוציא אובייקט JSON חלקי עם:
+
+audience_persona (תיאור חד של האדם)
+
+core_pain (3 נקודות כאב מרכזיות)
+
+core_desire (3 רצונות מרכזיים)
+
+campaign_angle (זווית קמפיין אחת ברורה)
+
+main_promise (משפט הבטחה אחד חד)
+
+main_keywords (5-10 ביטוי מפתח)
+
+email_capture_offer (מה מקבלים כשמשאירים מייל)
+
+אל תייצר עמוד נחיתה מלא, רק את שכבת השיווק כ־JSON.
+
+2.2 VP Content Agent – טקסטים ותוכן למיני-אתר
+
+תפקיד: להפוך את השכבה השיווקית לתוכן עמוד מלא (בלי HTML, רק שדות).
+
+אתה VP Content של Plenra.
+קלט: JSON של VP Marketing + פרטי מוצרים/פאקג’ים.
+המשימה: להפיק את שכבת התוכן של Mini-Site בצורה תפעולית.
+
+הפלט:
+
+hero (headline, subheadline, cta_text)
+
+sections (מערך של מקטעים מסוג: benefits / offer_grid / how_it_works / testimonial_block / faq_block)
+
+כל הטקסטים כתובים בשפה המבוקשת (עברית/אנגלית), תמציתיים, חדים, מותאמים לפרסונה.
+
+אין HTML, אין CSS, אין תמונות.
+רק JSON תכני שיכול להיכנס ישירות ל־Mini-Site Renderer.
+
+2.3 VP Conversion Agent – מבנה ההמרה ומיקרו-קופי
+
+תפקיד: להחליט על המבנה שמגדיל המרה + לשייף מיקרו-קופי קריטי.
+
+אתה VP Conversion של Plenra.
+קלט: JSON של התוכן למיני-אתר.
+המשימה שלך:
+
+להגדיר את סדר המקטעים בעמוד לפי מקסימום המרה.
+
+לחדד את מיקרו-המרות (כפתורים, כותרות ביניים, FAQ) כדי להעלות יחס המרה ב־25%.
+
+הפלט:
+
+layout_order (מערך שמות מקטעים לפי סדר הופעה)
+
+cta_variants (2-3 גרסאות לכל CTA עיקרי, לצורך A/B)
+
+microcopy_overrides (אובייקט שמחזיר טקסטים משופרים ל־CTA, ל־FAQ, לטפסים)
+
+אין HTML, רק JSON.
+
+2.4 VP Distribution Agent – חיבור המיני-אתר לערוצי הפצה
+
+תפקיד: להחליט איך משתמשים במיני-אתר בתוך קמפיינים.
+
+אתה VP Distribution של Plenra.
+קלט: URL של המיני-אתר + תיאור הקמפיין.
+המשימה שלך:
+
+להגדיר לאיזה ערוצים המיני-אתר ישמש (Press Release, Email, Pinterest, Meta Ads, TikTok Bio וכו’).
+
+להפיק עבור כל ערוץ:
+
+hook
+
+caption
+
+cta
+
+tracking_param (למשל UTM)
+
+הפלט: JSON:
+
+channels: מערך של אובייקטים {channel, hook, caption, cta, url_with_utm}.
+
+2.5 VP Tech / VP Automation – תצורת הרינדור
+
+תפקיד: להגדיר איך JSON נהפך ל־HTML + היכן לשמור.
+
+אתה VP Tech/Automation של Plenra.
+קלט: JSON המאחד את כל התוצרים מהסוכנים האחרים (שיווק, תוכן, המרה, הפצה).
+המשימה:
+
+לבדוק שה־JSON עומד בסכמה של Mini-Site.
+
+להוסיף שדות טכניים: site_id, language, path, created_at, updated_at.
+
+להוציא JSON סופי עבור שירות Cloud Run Renderer.
+
+הפלט:
+
+JSON
+{
+  "site_id": "...",
+  "language": "he" | "en",
+  "seo": {...},
+  "hero": {...},
+  "sections": [...],
+  "conversion": {...},
+  "branding": {...}
+}
+3. למה זה מתאים לפלנרה ולפרויקטים עתידיים
+
+אותו מנגנון יוכל לייצר:
+
+מיני-אתרים לפרס ריליס.
+
+דפי נחיתה למאמנים ספציפיים.
+
+דפי "Micro-Tool" (למשל מחשבון קטן, כלי אנרגיה, וכו’).
+
+הפרדה ברורה:
+
+ChatGPT סוכנים → JSON.
+
+Google Stack → רינדור, אחסון, הפצה.
+
+פעם אחת פרילנסר:
+
+בונה:
+
+סכמה סופית ל־JSON.
+
+שירות Cloud Run Renderer.
+
+Bucket סטטי + דומיין/סאב-דומיין.
+
+מכאן הכל אוטומטי.
+
+אם אתה רוצה, בשלב הבא אני יכול לכתוב גם את סכמת ה-JSON הרשמית של Mini-Site (גרסת spec) כדי שתוכל לתת אותה 1:1 לפרילנסר.

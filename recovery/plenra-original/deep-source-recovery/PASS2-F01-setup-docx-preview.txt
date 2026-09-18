@@ -1,0 +1,160 @@
+ATTACHMENT: Madrich_Hakama_Yafit_Plenra.docx
+SOURCE: https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5
+STATUS: FILE_PREVIEW_ONLY
+PARITY: ORIGINAL_FILE (rendered text only; original DOCX bytes not recovered)
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+
+מדריך ההקמה ליפית – Plenra
+
+היי יפית 🌸
+תודה שאת חלק מההקמה של פרויקט שהוא לא עוד מערכת – אלא משהו עם לב.
+Plenra מחברת בין עולם הרגש של אנשים לעולם המעשי של שינוי והרגלים.
+היא עוזרת למאמנים, מטפלים ומתאמנים להבין את עצמם טוב יותר ולראות את ההתקדמות בעיניים.
+
+
+📋 טבלת ההקמה של Plenra
+
+#
+
+	
+
+מערכת / פלטפורמה
+
+	
+
+מה היא עושה
+
+	
+
+סוג חשבון
+
+	
+
+זמן הקמה
+
+	
+
+אחראי (Agent)
+
+	
+
+קישור
+
+	
+
+URL
+
+	
+
+מה צריך לעשות
+
+
+
+
+1
+
+	
+
+Google Workspace
+
+	
+
+אחסון קבצים ונתונים
+
+	
+
+Business Standard
+
+	
+
+1 שעה
+
+	
+
+VP Tech
+
+	
+
+workspace.google.com
+
+	
+
+https://workspace.google.com/
+
+	
+
+לפתוח תחת plenra.services@gmail.com ולהפעיל Drive ו-Sheets APIs.
+
+
+
+
+2
+
+	
+
+Google Cloud Console
+
+	
+
+הרשאות OAuth ו-API
+
+	
+
+Free
+
+	
+
+1 שעה
+
+	
+
+VP Tech
+
+	
+
+console.cloud.google.com
+
+	
+
+https://console.cloud.google.com/
+
+	
+
+ליצור פרויקט 'Plenra Core' ולשמור Client ID ו-Secret.
+
+
+
+
+3
+
+	
+
+Gumroad
+
+	
+
+מכירת Printables ודיגיטל
+
+	
+
+Creator
+
+	
+
+1 שעה
+
+	
+
+VP Conversion
+
+	
+
+gumroad.com
+
+	
+
+https://gumroad.com/
+
+	
+
+יפית – לבדוק מה הסטטוס הנוכחי של החיבור ולוודא שהאפליקציה פעילה.

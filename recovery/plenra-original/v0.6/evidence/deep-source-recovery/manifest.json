@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "task": "PLENRA ORIGINAL - DEEP SOURCE RECOVERY VIA CHATGPT",
+  "created_at_utc": "2026-09-18T13:29:01.9698117Z",
+  "run_status": "BOUNDED_PASS_COMPLETE_STOP_RULE_B",
+  "source_complete": false,
+  "active_canon": false,
+  "access_method": "Existing verified signed-in Google Chrome ChatGPT tab; read-only UI",
+  "chatgpt_messages_sent": 0,
+  "chatgpt_content_modified": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1147,
+      "sha256": "E4CD8870369C4C93A849DE51BD07700379F72084DF5E8FA854E401B47CBC194A"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 7318,
+      "sha256": "DBD9BA328EED4ACBDC373E1A43E2980C4752752A2787EA74F06359009276BB56"
+    },
+    {
+      "path": "S01-artifact-index.md",
+      "bytes": 1722,
+      "sha256": "BCBA612B85B38781090E5330221A616F980302B1AF28BB5D174BD7DD52D8705D"
+    },
+    {
+      "path": "S02-recovery-master-reference.md",
+      "bytes": 1385,
+      "sha256": "13A52C2D5E739A701EDD5FEF5351019D9A0A234B29E76AB51F1E6DFC6679D434"
+    },
+    {
+      "path": "S03-original-product-agent-excerpts.md",
+      "bytes": 6950,
+      "sha256": "08CA690153DE64C946373C052D8E2FCBE6F844B7FCB1BA6C6D133E1C28DCF2B7"
+    },
+    {
+      "path": "S04-decision-architecture.md",
+      "bytes": 3998,
+      "sha256": "EA7183903C9B64365CFA9819E57A784D3B9CC077073D6BFC4E9D5F7C999B0139"
+    },
+    {
+      "path": "S05-orchestrator-lineage.md",
+      "bytes": 2092,
+      "sha256": "ACD5C2A2B0F3FD1E3EB8CEECFEB0A660BB98164D267B80B1232EAF3C8038D0A6"
+    },
+    {
+      "path": "S06-dataset-ledger-migration-references.md",
+      "bytes": 3356,
+      "sha256": "8E5BD2CE4BA16F6B9FF0B558972F6991EE157728260F2449398B4A6A5EC05918"
+    },
+    {
+      "path": "S07-recovery-master-conversation.md",
+      "bytes": 5820,
+      "sha256": "F79811731CAFD5F0BF031F0745DD9E20580A901EC5DBCFC285D2C50CCE83B93A"
+    },
+    {
+      "path": "SEARCH_LOG.md",
+      "bytes": 4800,
+      "sha256": "5ECF4DDDFF97AE80C87AE75F7358F60A322780CEA55361A64CF949F3A887F065"
+    }
+  ],
+  "hash_scope": "Local preserved files only; no original attachment-byte parity; manifest excludes itself"
+}

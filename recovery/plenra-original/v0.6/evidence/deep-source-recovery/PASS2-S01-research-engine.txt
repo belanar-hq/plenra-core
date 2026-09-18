@@ -1,0 +1,284 @@
+SOURCE: https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5
+PARITY: ORIGINAL_CONVERSATION_TEXT
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+SCOPE: Rendered conversation extract; UI labels retained; not an original file export.
+
+בנה את המודול רשמי “Plenra Deep Research Engine” שיחליף 1:1 את NotebookLM – אבל באוטומציה מלאה, תחת Plenra
+Thought for 16s
+
+המודול הבא הוא הגרסה הרשמית של NotebookLM בתוך פלנרה - אבל כאוטומציה מלאה, בלי שום כלי חיצוני.
+
+1. שם המודול ותפקיד
+
+שם רשמי: Plenra Deep Research Engine
+תפקיד: מנוע מחקר עמוק אוטומטי שמקבל נושא אחד ומייצר סט מלא של תובנות ותוצרים:
+
+מחקר עומק
+
+תקציר ביצועי למאמן
+
+הצעות לפרינטבלים, סדנאות, קמפיינים
+
+תכנים ארוכים לפילרים + פירוק למיקרו תכנים
+
+חומרים לסרטונים, מצגות, אימיילים
+
+המטרה: להחליף 1:1 את NotebookLM ברמת הפונקציה, אבל לעבוד על גבי הסטאק של פלנרה (Gemini + Google Cloud + Slides) ובחיבור ישיר לסוכנים.
+
+2. מטרות עסקיות של המודול
+
+לקצר מחקר מימים לשעות/דקות
+
+כל מאמן או מודול שיווקי חדש בפלנרה עובר דרך Plenra Deep Research Engine לפני שמייצרים נכסים.
+
+לייצר "Pillar Assets" אוטומטיים
+
+מאמרי עמוד, מסמכי תדרוך למאמנים, בסיס לסדרות וידאו, פרינטבלים.
+
+להפוך מחקר לתוצרים מכניסים
+
+כל מחקר מסתיים בהצעות ברורות:
+
+איזה Printable
+
+איזה וידאו
+
+איזה Lead Magnet
+
+איזה קמפיין אפיליאט/מנויים.
+
+שימוש חוזר ומדידת ביצועים
+
+כל מחקר נשמר כיחידה שניתן לקרוא אליה בעתיד, להתאים לנישות אחרות, ולמדוד ביצועים.
+
+3. תהליך אוטומטי - Pipeline
+שלב 1 - קלט
+
+המודול מקבל JSON קצר מהסוכן שקרא לו, לדוגמה:
+
+topic
+
+language (he/en)
+
+intent (clinical / marketing / mixed)
+
+depth_level (quick / standard / deep)
+
+target_audience (coaches / parents / teens / CBT group וכו’)
+
+output_types_requested (["pillar_post","brief","printable_ideas","video_script","email_sequence"])
+
+שלב 2 - מחקר עומק
+
+בצד גוגל:
+
+Query Generator
+
+Gemini יוצר סט של שאילתות חכמות (כולל זנב ארוך, שאלות מטופלים אמיתיות, ביטויים רגשיים).
+
+מחקר אוטומטי
+
+Grounded Gemini + מקורות מאושרים (מחקר, אתרים אמינים, לא נתונים קליניים רגישים מגורמים מפוקפקים).
+
+איסוף: יתרונות, חסרונות, טריגרים רגשיים, use cases, שקרים נפוצים, מיתוסים, טרנדים.
+
+סינון לפי Intent
+
+אם intent=clinical: עדיפות למחקרים, גופים מקצועיים, קווים מנחים.
+
+אם intent=marketing: יותר דגש על טרנדים, שפה של קהל, שאלות נפוצות.
+
+שלב 3 - מבנה ידע
+
+המודול מארגן את הידע ל־4 שכבות:
+
+Core Brief
+
+תקציר חד למאמן: מה הבעיה, מה אנשים מחפשים, מה הסיכונים, מה ההזדמנות.
+
+Pillar Map
+
+מפת נושאים ותתי נושאים (Pillar + Cluster), כולל הצעות לכותרות.
+
+Contrarian & Myths
+
+מיתוסים, טעויות, שקרים נפוצים, הזדמנויות ל"חשיפה" בסגנון מרקוס.
+
+Value Angles
+
+איך הנושא נותן ערך: חיסכון זמן, כסף, לחץ, שיפור שליטה רגשית, שיפור יחסים וכו’.
+
+שלב 4 - תוצרי פלנרה
+
+לפי מה שהתבקש בקלט, המודול מחזיר:
+
+pillar_post_outline - שלד למאמר/מדריך ענק (לא חייב 15K מילים בפועל, אבל מספיק עמוק).
+
+micro_assets - רשימת רעיונות לפוסטים, רילז, קרוסלות, אימיילים.
+
+printable_blueprints - רעיונות לפרינטבלים קונקרטיים עם שם, מטרה, למי מיועד, מה בפנים.
+
+video_scripts - סקריפט מפורט לסרטון יוטיוב/סדרה קצרה.
+
+campaign_ideas - זוויות קמפיין, מילות מפתח, הצעות לשיתופי פעולה.
+
+4. JSON Blueprint רשמי של המודול
+JSON
+{
+  "module_name": "Plenra_Deep_Research_Engine",
+  "version": "1.0",
+  "input": {
+    "topic": "",
+    "language": "he",
+    "intent": "mixed",
+    "depth_level": "standard",
+    "target_audience": [],
+    "output_types_requested": []
+  },
+  "output": {
+    "core_brief": {
+      "summary": "",
+      "problem_definition": "",
+      "who_cares_and_why": "",
+      "risks_and_limits": "",
+      "opportunity_for_plenra": ""
+    },
+    "pillar_map": {
+      "pillars": [
+        {
+          "title": "",
+          "slug": "",
+          "summary": "",
+          "clusters": [
+            {
+              "title": "",
+              "slug": "",
+              "summary": ""
+            }
+          ]
+        }
+      ]
+    },
+    "myths_and_contrarian": {
+      "myths": [],
+      "common_lies": [],
+      "evidence_insights": [],
+      "newsjacking_hooks": []
+    },
+    "value_angles": {
+      "time_saving": [],
+      "money_saving": [],
+      "stress_reduction": [],
+      "emotional_growth": [],
+      "relationship_benefits": []
+    },
+    "printable_blueprints": [
+      {
+        "name": "",
+        "type": "worksheet / tracker / planner / map",
+        "goal": "",
+        "who_for": "",
+        "sessions_usage": "",
+        "json_template_hint": ""
+      }
+    ],
+    "video_assets": {
+      "long_form_scripts": [],
+      "short_form_scripts": [],
+      "slides_outline": [],
+      "hook_ideas": []
+    },
+    "micro_assets": {
+      "social_posts": [],
+      "email_sequence": [],
+      "lead_magnet_ideas": [],
+      "headline_swipes": []
+    },
+    "campaign_ideas": {
+      "angles": [],
+      "keyword_sets": [],
+      "audience_segments": [],
+      "affiliate_opportunities": []
+    }
+  }
+}
+
+זה ה־interface הרשמי בין הסוכן שמבקש מחקר לבין שאר המערכת.
+
+5. פקודות לסוכנים
+5.1 Central Agent
+
+תפקיד לגבי המודול:
+
+מחליט מתי להפעיל את המודול.
+
+מחבר בין תוצרי המחקר לבין שאר המודולים (Printables, Video, Funnel).
+
+פקודה פנימית לדוגמה:
+
+כאשר מתקבל רעיון חדש לפרינטבל, קמפיין, נישה, או מוצר מאמן - הפעל את Plenra_Deep_Research_Engine עם depth_level="standard" לפחות, לפני מעבר לייצור.
+
+5.2 VP Marketing Agent
+
+שימוש במודול:
+
+לוקח את campaign_ideas, keyword_sets, newsjacking_hooks, value_angles.
+
+בונה מהם קמפיינים, מודעות, זוויות מסר.
+
+פקודה:
+
+עבור כל topic חדש שמגיע מ Central Agent, הפעל את Plenra_Deep_Research_Engine, קבל את החלק campaign_ideas ותרגם אותו לתכנית קמפיין מלאה: ערוצים, מסרים, זמנים, A/B.
+
+5.3 VP Content Agent
+
+שימוש במודול:
+
+משתמש ב pillar_map, micro_assets, video_assets.
+
+הופך אותם לתוכן בפועל (טקסט, סקריפטים, קרוסלות).
+
+פקודה:
+
+כאשר מתקבל output מהמנוע, צור תוכנית תוכן מלאה ל 30 יום סביב אותו topic, כולל פילר אחד לפחות ומינימום 10 Micro Assets.
+
+5.4 VP Printables / VP Product Agent
+
+שימוש במודול:
+
+לוקח את printable_blueprints ומעביר אותם למודול JSON→Slides.
+
+פקודה:
+
+עבור כל Printable Blueprint שהמנוע מחזיר במצב "approved by Central Agent", הפוך אותו ל JSON Template רשמי, חבר לטמפלט Slides הרלוונטי והעבר למודול ההפקה.
+
+5.5 VP Analytics Agent
+
+שימוש במודול:
+
+עוקב אחרי ביצועים לפי topic / pillar / asset.
+
+מחזיר פידבק למודול המחקר (מה עבד, מה לא).
+
+פקודה:
+
+שמור עבור כל output של Plenra_Deep_Research_Engine מזהה ייחודי, ומדוד ביצועים בפועל: CTR, הרשמות, שימוש בפרינטבלים. כל רבעון הפק דו"ח למודול המחקר אילו Pillars ומודולים עסקיים הפיקו הכי הרבה ערך.
+
+5.6 VP Tech Agent
+
+שימוש במודול:
+
+מוודא שהמודול רץ בסטאק של גוגל (Gemini, Cloud Run, אולי BigQuery).
+
+מגדיר חיבור מאובטח בין ChatGPT Agents לבין Plenra Deep Research Engine בצד גוגל דרך ה Gateway הקיים.
+
+פקודה:
+
+הטמע את Plenra_Deep_Research_Engine כ Service בצד גוגל, עם endpoint אחד לקבלת input JSON ו output JSON לפי הסכמה הנ"ל. ודא שהכל עובר דרך שכבת ההפרדה והלוגים.
+
+אם תרצה בשלב הבא, אפשר:
+
+להפוך את כל זה ל־Prompt מלא עבור "Research Engine Agent"
+
+ולהוסיף סעיף השפעה על הצפי העסקי (כמה אחוזים קיצור זמן, שיפור יעילות קמפיינים וכו’).
+

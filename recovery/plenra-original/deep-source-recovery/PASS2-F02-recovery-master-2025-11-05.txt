@@ -1,0 +1,111 @@
+מצוין ✅
+ הנה קובץ ה־Recovery המעודכן של Plenra, מוכן לשמירה ב־Google Drive שלך.
+ העתק את כל התוכן מטה ושמור אותו בקובץ בשם:
+ PLENRA_RECOVERY_MASTER.md בתוך התיקייה Plenra_Backups שיצרת.
+
+# 🧠 PLENRA_RECOVERY_MASTER  
+**Version:** 2025-11-05  
+**Status:** Active  
+**Location:** Plenra Core System  
+**Purpose:** Full recovery reference for the Main Agent – including architecture, directives, security, ethics, and all Pareto layers through v8.
+
+---
+
+## 🔒 Core Identity
+Plenra is a regulated emotional-commerce ecosystem that merges emotion, automation, and ethical growth.  
+Every module follows Dual ROI (Emotional + Business) and Pareto efficiency (20 % effort → 80 % impact).
+
+---
+
+## ⚙️ Core Layers
+1. **Emotion Layer** – Emotional prediction, sentiment flow, and reflection cycles.  
+2. **Printables Layer** – Visual emotional tools (static + interactive).  
+3. **Community Layer** – Challenges, sharing, and micro-goals.  
+4. **Marketplace Layer** – Value-based commerce and Goodness Dividend engine.  
+5. **Analytics Layer** – Dual ROI, retention, K-factor, and emotional metrics.  
+6. **Learning & Virality Layer** – Continuous self-learning, LVI growth, and viral intelligence.  
+7. **Ethical Growth Intelligence Layer** – Transparency, reciprocity, and purpose-linked monetization.  
+8. **Security & Governance Layer** – Regulation, IP protection, and data isolation for all external engines (Manus AI included).
+
+---
+
+## 🧱 Current Embedded Directives
+- **Pareto Principles (1-81)** – Full operational base.  
+- **Ethical Growth Intelligence Layer (v7)** – 10 Google Cloud Pareto principles integrated.  
+- **Strategic Pareto Layers (v8)** – Six Google Cloud use-case-based layers (Predictive Personalization → Reputation).  
+- **Manus Integration Protocol** – Core automation and output supervision engine.  
+- **Data Isolation Gateway (POC-Level)** – Automatic encryption + segmentation protecting Plenra IP from Manus access.  
+- **Encryption System v2:**  
+  - *Layer 1* – AES-256 server-side encryption.  
+  - *Layer 2* – Per-session RSA key rotation.  
+  - Auto-trigger every API call to external engines.  
+- **Security Policy:**  
+  - Zero PII storage outside Plenra servers.  
+  - All logs aggregated and anonymized.  
+  - Continuous Integrity Check (24 h cycle).  
+- **Legal Sign-off Process:**  
+  - Internal Plenra AI compliance agent signs each integration under company policy.  
+  - For Manus, a digital signature hash is issued per session for audit.
+
+---
+
+## 📈 6-Month Financial and Growth Forecast (with Manus AI)
+| Month | Users (Coaches + Coachees) | Revenue ($) | Net Profit ($) | Reinvest (80%) | Retained (20%) |
+|:-----:|:---------------------------:|-------------:|---------------:|---------------:|---------------:|
+| 1 | 250 | 2 900 | 1 900 | 1 520 | 380 |
+| 2 | 600 | 7 200 | 4 800 | 3 840 | 960 |
+| 3 | 1 200 | 14 500 | 9 600 | 7 680 | 1 920 |
+| 4 | 2 000 | 25 000 | 16 000 | 12 800 | 3 200 |
+| 5 | 3 400 | 41 000 | 26 000 | 20 800 | 5 200 |
+| 6 | 5 200 + cross-segment expansion | 63 000 – 68 000 | 40 000 – 44 000 | 32 000 – 35 000 | 8 000 – 9 000 |
+
+**Key ratios:**  
+- ROI ≈ +1 150 % within 6 months  
+- CAC ↓ 55 % post-Manus integration  
+- Content output ↑ 320 % with identical budget ($1 500)
+
+---
+
+## 💡 Strategic Next Steps (for POC → MVP)
+1. Activate **Data Isolation Gateway** auto-encryption before any live Manus connection.  
+2. Verify POC Readiness: ≥ 25 coaches, ≥ 10 weekly printables, conversion ≥ 3 %.  
+3. After week 6 → connect Manus API via Webhook to Drive / Airtable / Canva.  
+4. Evaluate ROI after week 12 → scale if ROI ≥ 8×.  
+5. Maintain Legal Audit Log + Digital Signatures for every external build.
+
+---
+
+## 🔍 Reminder – Micro-App Transition Policy
+Transition from printables to micro-apps **only after system stabilization signal** is triggered.  
+When ready, the Main Agent will send:  
+> *“Transition Reminder: Activate Micro-App Mode.”*  
+Then Plenra will shift to interactive apps without disrupting UX or ROI.
+
+---
+
+## 🧩 Standing Objectives
+- Maintain Trust Index ≥ 96  
+- Emotional ROI ≥ 88  
+- K-Factor ≥ 4.0  
+- Retention ≥ 30 % growth per quarter  
+- LVI ≥ 2.2 (learning velocity)
+
+---
+
+## 🧠 Ethical Rules
+- No negative emotional triggers.  
+- Transparency = default.  
+- Data serves humans only.  
+- Every growth creates goodness.
+
+---
+
+**Last update:** 2025-11-05 | Authorized by: Central Agent – Plenra HQ
+
+
+📦 הנחיה לסיום:
+ שמור קובץ חדש ב־Google Drive שלך בשם
+ PLENRA_RECOVERY_MASTER.md
+ בתיקייה Plenra_Backups.
+ כך תוכל בכל שלב לשחזר את כל מערכת Plenra ממקור אחד מדויק.
+

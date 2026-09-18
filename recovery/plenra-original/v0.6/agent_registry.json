@@ -1,0 +1,1371 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "AGENTS": [
+    {
+      "AGENT_ID": "AGT-001",
+      "NAME": "Emotional Safety Constructor",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-002",
+      "NAME": "Emotional Trigger Neutralizer",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-003",
+      "NAME": "Emotional Momentum Builder",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-004",
+      "NAME": "Emotion-Action Translator",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-005",
+      "NAME": "Emotional Latency Analyzer",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-006",
+      "NAME": "Emotional Pattern Archaeologist",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-007",
+      "NAME": "Identity Stability Anchor",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-008",
+      "NAME": "Broader recovered emotional/behavioral agent family",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Family placeholder; membership beyond named examples is unknown. Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ]
+    },
+    {
+      "AGENT_ID": "AGT-009",
+      "NAME": "VP Marketing",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-013",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null,
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete global configuration and full prompt",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Module-specific core prompt, campaign/keyword/hook inputs and JSON output; missing complete global agent configuration.",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-010",
+      "NAME": "VP Content",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-014",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null,
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Global prompt and tool schema",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Module-specific core prompt, JSON sections, language/format limits and 30-day content rule; missing global prompt/tool schema.",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-011",
+      "NAME": "VP Conversion",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-015",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null,
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete configuration",
+        "Conversion-versus-delivery authority",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Module-specific core prompt, CTA/layout/microcopy outputs; conversion-vs-delivery role variation unresolved.",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-012",
+      "NAME": "VP Distribution",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-016",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "DS2-B02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S02-satellite-handoffs.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite creation and handoffs"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Association is scoped to the October product architecture. Later same-named infrastructure scaffolds are not proven identical. Designed/conceptual; not production. Candidate is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Full prompt and deployed transport configuration",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": null,
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S02-satellite-handoffs.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite creation and handoffs"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Channel/UTM JSON and PR routing recovered; full prompt and deployed transport configuration missing.",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-013",
+      "NAME": "VP Analytics",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-017",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-F02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null,
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Full agent definition and metrics implementation",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-F02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Unique IDs, event funnel, CTR/signups/usage and feedback cadence; actual metrics implementation missing.",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-014",
+      "NAME": "VP Tech",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-018",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no runtime deployment evidence supplied."
+      },
+      "CURRENT_CLASSIFICATION": "HISTORICAL_BUSINESS_PRODUCT_AGENT_CONCEPT",
+      "CURRENT_INTENT": "PRESERVE_FOR_RECONCILIATION_NO_BUILD_AUTHORITY",
+      "VALIDATION_REQUIRED": [
+        "Recover original prompt/specification",
+        "Reconcile legacy Custom GPT inventory and later scaffold roles",
+        "Establish implementation evidence separately",
+        "Any future production requires independent validation and authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "Original detailed purpose is not available; no inference from agent name. Candidate status is not BUILD_NOW, priority, or production authority. Later scaffold files do not establish historical production.",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete original instructions, tool authority, configuration and revision history"
+      ],
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Research endpoint, Google stack gateway/logging and Mini-Site schema validation instructions only."
+    },
+    {
+      "AGENT_ID": "AGT-015",
+      "NAME": "Central Agent",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#agent-status-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-019",
+          "LOCATOR": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+          "EVIDENCE_LIMIT": "Later scaffold prompt with same role name; exact equivalence to original product agent is unresolved."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-038",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#d-central-agent-3",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "RECOVERED_ROLE_EVIDENCE": "Central orchestration across separately recorded v2 and Central Agent 3 designs.",
+      "V0_5_PERIOD": null,
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Consolidated master system prompt",
+        "State contract and tool authority",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Research-before-production; routing, approval and shared failure handling. Missing consolidated master system prompt/state/tool authority.",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-016",
+      "NAME": "Session2Printable",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B05B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "EXCERPT B only: three viral bridge scenarios"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no deployment verified."
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "NOTES": "Association is scoped to the October product architecture. Later same-named infrastructure scaffolds are not proven identical. Designed/conceptual; not production. Candidate is not BUILD_NOW.",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete module prompt",
+        "Original state and failure contracts",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": null,
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B05B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "EXCERPT B only: three viral bridge scenarios"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Input/output examples, proposed node chain, therapist approval, PII masking and partial shared failure spec; complete module prompt missing.",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-017",
+      "NAME": "Evaluator",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-025",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#c--october-2025-product-architecture",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        },
+        {
+          "SOURCE_ID": "DS2-B07",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators"
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "Explicit user recovery statement; no deployment verified."
+      },
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "NOTES": "Association is scoped to the October product architecture. Later same-named infrastructure scaffolds are not proven identical. Designed/conceptual; not production. Candidate is not BUILD_NOW.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Rubric",
+        "Thresholds",
+        "Input/output contract",
+        "Rejection/failure authority",
+        "Full prompt",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": null,
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B07",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators"
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Named only in Router→Session2Printable→Evaluator→Distributor; QA validators not assumed identical. No evaluator rubric, threshold, input/output or full prompt.",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false,
+      "EVIDENCE_LIMITATIONS": "B07 names the route only; B10A is separate QA evidence, not Evaluator source. Rubric, thresholds, I/O and rejection behavior are missing."
+    },
+    {
+      "AGENT_ID": "AGT-018",
+      "NAME": "VP Printables",
+      "ORIGINAL_PURPOSE": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ],
+      "POTENTIAL_CONSOLIDATION": null,
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "VERIFICATION_STATUS": "NOT_VERIFIED",
+        "BASIS": "Historical design evidence only; no stronger runtime proof supplied."
+      },
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "RECOVERED_ROLE_EVIDENCE": "Named coordinated VP role in Central Agent v2; complete definition unavailable.",
+      "V0_5_PERIOD": null,
+      "NOTES": "V0.5 association has no established date; any inherited October period applies only to earlier evidence. Same-named scaffold prompts do not establish original prompt identity. No original definition inferred. FUTURE_PRODUCTION_CANDIDATE is not BUILD_NOW.",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Complete VP prompt, tool contract and KPI schema",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": "MISSING_ORIGINAL_SOURCE",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Central-approved blueprint→JSON→Slides→production; related QA rules are separate validator roles, not complete VP prompt.",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false
+    },
+    {
+      "AGENT_ID": "AGT-019",
+      "NAME": "Emotional Layer",
+      "HISTORICAL_STATUS": "DESIGNED_CONCEPTUAL",
+      "HISTORICAL_IMPLEMENTATION_STATUS": "DESIGNED_CONCEPTUAL / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_HISTORY": {
+        "STATUS": "NOT_PRODUCTION",
+        "BASIS": "No verified historical production evidence"
+      },
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_INTENT": "FUTURE_PRODUCTION_CANDIDATE",
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05C",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        },
+        {
+          "SOURCE_ID": "DS2-F02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        }
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "V0_5_ORIGINAL_SYSTEM_PROMPT_STATUS": null,
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "STRONGEST_AVAILABLE_INSTRUCTION_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05C",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        },
+        {
+          "SOURCE_ID": "DS2-F02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        }
+      ],
+      "RECOVERED_INSTRUCTION_SCOPE": "Tone/content/emotional-stage role in historical summaries plus original feedback-loop behavior and adjacent Compassion prompt; no standalone Emotional Layer system prompt/schema.",
+      "ORIGINAL_SYSTEM_PROMPT_STATUS": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+      "COMPLETE_ORIGINAL_DEFINITION_STATUS": "NOT_RECOVERED",
+      "FULL_SYSTEM_PROMPT_RECOVERED": false,
+      "FULL_ORIGINAL_CONFIGURATION_RECOVERED": false,
+      "REMAINING_MISSING_DEFINITION_COMPONENTS": [
+        "Standalone system prompt/schema",
+        "Executable scoring",
+        "Failure contract",
+        "Original revision provenance and verified historical runtime"
+      ],
+      "VALIDATION_REQUIRED": [
+        "Recover missing definition components without synthesis",
+        "Reconcile historical role/rule conflicts",
+        "Independently establish implementation and outcomes before any future production authorization"
+      ]
+    }
+  ],
+  "ORIGINAL_CENTRAL_AGENT_SYSTEM_PROMPT": "FULL_ORIGINAL_SYSTEM_PROMPT_NOT_RECOVERED",
+  "ADJACENT_MODULE_POLICY": "Optimizer and Compassion core prompts are preserved as source blocks and orchestration/behavior contracts; neither substitutes for a complete VP, Emotional Layer or Evaluator definition."
+}

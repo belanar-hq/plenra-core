@@ -1,0 +1,326 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "PLENRA_ORIGINAL_IS_BELANAR": false,
+  "PRODUCT_CONTINUITY": "PLENRA ORIGINAL remains a conceptually distinct emotional/behavioral product; generalized infrastructure evolved from its context.",
+  "BELANAR_CONCEPTUAL_STRUCTURE": [
+    "BELANAR",
+    "CORE",
+    "CAPABILITIES",
+    "VERTICALS"
+  ],
+  "MOSQUITO": {
+    "CLASSIFICATION": "BELANAR_VERTICAL_VALIDATION_ENVIRONMENT",
+    "IS_BELANAR_CORE": false
+  },
+  "CAPABILITY_LINEAGE_STATUS": "Component-level separation supported by V0.4 attributed evidence; no exhaustive transfer mapping or shared runtime established.",
+  "LINEAGE": [
+    {
+      "LINEAGE_ID": "LIN-001",
+      "FROM": "PLENRA_ORIGINAL",
+      "TO": "GENERALIZATION",
+      "RELATION": "GENERALIZED_INFRASTRUCTURE_EVOLVED_FROM_PRODUCT_CONTEXT",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#required-lineage-representation-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "User-authoritative conceptual lineage. Local infrastructure documents corroborate infrastructure terminology, not chronology or product merger.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-004",
+      "FROM": "GENERALIZATION",
+      "TO": "PLENRA_DECISION_INTELLIGENCE",
+      "RELATION": "GENERALIZED_DECISION_INTELLIGENCE_EVOLUTION",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "Conceptual transition, not original-product conversion to Belanar.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-002",
+      "FROM": "PLENRA_DECISION_INTELLIGENCE",
+      "TO": "PLENRA_DECISION_INFRASTRUCTURE",
+      "RELATION": "INFRASTRUCTURE_LINEAGE_EVOLUTION",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#required-lineage-representation-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "User-authoritative conceptual lineage. Local infrastructure documents corroborate infrastructure terminology, not chronology or product merger.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-003",
+      "FROM": "PLENRA_DECISION_INFRASTRUCTURE",
+      "TO": "BELANAR",
+      "RELATION": "INFRASTRUCTURE_RENAMED",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-001",
+          "LOCATOR": "evidence/v0.5/user_recovery_evidence.md#required-lineage-representation-user-statement",
+          "EVIDENCE_LIMIT": "User recovery statement; original historical artifact not recovered."
+        },
+        {
+          "SOURCE_ID": "SRC-022",
+          "LOCATOR": "evidence/v0.5/v0_4_recovery_evidence.md#d--lineage-correction",
+          "EVIDENCE_LIMIT": "Attributed user recovery evidence; original historical source not extracted."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "NOTES": "User-authoritative conceptual lineage. Local infrastructure documents corroborate infrastructure terminology, not chronology or product merger.",
+      "SHARED_RUNTIME_ESTABLISHED": false
+    },
+    {
+      "LINEAGE_ID": "LIN-005",
+      "FROM": "PRODUCT_EMOTIONAL_ORCHESTRATION",
+      "TO": "COMMERCIAL_ORCHESTRATION_EVOLUTION",
+      "RELATION": "CONCEPTUAL_EVOLUTION_FROM_PLENRA_ORIGINAL_CONTEXT",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-033",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#g-lineage-and-integrity",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-038",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#d-central-agent-3",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "SHARED_RUNTIME_ESTABLISHED": false,
+      "NOTES": "User-authoritative conceptual lineage; not a dated implementation transfer. Central Agent 3 is not asserted to have become Belanar."
+    },
+    {
+      "LINEAGE_ID": "LIN-006",
+      "FROM": "COMMERCIAL_ORCHESTRATION_EVOLUTION",
+      "TO": "GENERALIZATION",
+      "RELATION": "CONCEPTUAL_EVOLUTION_FROM_PLENRA_ORIGINAL_CONTEXT",
+      "DATE_OR_PERIOD": null,
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-033",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#g-lineage-and-integrity",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-038",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#d-central-agent-3",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        }
+      ],
+      "PRODUCT_MERGER": false,
+      "CAPABILITY_MAPPINGS": [],
+      "SHARED_RUNTIME_ESTABLISHED": false,
+      "NOTES": "User-authoritative conceptual lineage; not a dated implementation transfer. Central Agent 3 is not asserted to have become Belanar."
+    }
+  ],
+  "COMPONENT_CLASSIFICATIONS": [
+    {
+      "SOURCE_IDS": [
+        "SRC-025"
+      ],
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-003",
+        "SRC-024",
+        "SRC-026",
+        "SRC-028",
+        "SRC-029",
+        "SRC-030",
+        "SRC-031",
+        "SRC-032"
+      ],
+      "OWNERSHIP": "BELANAR_PRECURSOR"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-023"
+      ],
+      "OWNERSHIP": "MIXED_TRANSITION_SOURCE"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-027"
+      ],
+      "OWNERSHIP": "MIXED_LINEAGE_EVIDENCE_COMPONENT_OWNERSHIP_UNRESOLVED"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-034",
+        "SRC-035",
+        "SRC-036",
+        "SRC-037",
+        "SRC-038"
+      ],
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP"
+    },
+    {
+      "SOURCE_IDS": [
+        "SRC-039"
+      ],
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_GOVERNANCE_EVIDENCE"
+    }
+  ],
+  "DEEP_SOURCE_WINDOWS": [
+    {
+      "PERIOD": "October 2025",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Therapeutic origins, session transformation and approval",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B05B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "EXCERPT B only: three viral bridge scenarios"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B07",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators"
+        }
+      ]
+    },
+    {
+      "PERIOD": "November 2025",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Emotional-commerce/product masters and commercial orchestration; masters remain summaries",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-F02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-F03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation"
+        },
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ]
+    },
+    {
+      "PERIOD": "December 2025",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Product modules/QA/Compassion/resilience and commercial orchestration evolution, not automatically Belanar",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ]
+    },
+    {
+      "PERIOD": "Later 2026",
+      "LINEAGE": "BELANAR_PRECURSOR / MIXED",
+      "SCOPE": "Decision Infrastructure and later Orchestrator governance; do not classify whole chats by title",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S04",
+          "LOCATOR": "evidence/deep-source-recovery/S04-decision-architecture.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S04-decision-architecture.md"
+        },
+        {
+          "SOURCE_ID": "DS1-S05",
+          "LOCATOR": "evidence/deep-source-recovery/S05-orchestrator-lineage.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S05-orchestrator-lineage.md"
+        },
+        {
+          "SOURCE_ID": "DS1-S06",
+          "LOCATOR": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "S06-dataset-ledger-migration-references.md"
+        }
+      ]
+    }
+  ],
+  "BOUNDARIES": {
+    "PLENRA_ORIGINAL_DISTINCT_FROM_BELANAR": true,
+    "MOSQUITO": "BELANAR_VERTICAL",
+    "SHARED_HISTORICAL_RUNTIME_ESTABLISHED": false
+  }
+}

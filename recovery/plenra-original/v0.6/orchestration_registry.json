@@ -1,0 +1,647 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "ORCHESTRATIONS": [
+    {
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "IMPLEMENTATION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED_FROM_ORIGINAL_SOURCE",
+        "REFERENCES": []
+      },
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_VERIFIED",
+        "REFERENCES": []
+      },
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "ORCHESTRATION_ID": "ORCH-001",
+      "NAME": "Plenra Central Agent v2",
+      "PERIOD": null,
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL",
+      "PURPOSE": "Hybrid emotional/behavioral product orchestration with generative, predictive, learning and commercial signals.",
+      "INPUTS": [
+        "text_cues",
+        "choice_flow",
+        "time_on_task",
+        "printable_usage",
+        "emotional/context state",
+        "signals and feedback"
+      ],
+      "ROUTING_MODEL": {
+        "TYPE": "CENTRAL_COORDINATOR",
+        "LAYERS": [
+          "Emotion Data Intelligence",
+          "Generative Layer",
+          "Predictive Layer",
+          "Autonomous Agent Coordinator"
+        ],
+        "APPROXIMATE_PRODUCT_FLOW": [
+          "Satellite Traffic",
+          "UTM / Measurement",
+          "Emotion Snapshot",
+          "Tailored / Personalized Printable",
+          "Usage Signals",
+          "Emotional Feedback Loop",
+          "Purchase / Affiliate Signals",
+          "Profit Loop"
+        ],
+        "DETAILED_ROUTING_CONTRACT": null
+      },
+      "AGENTS_OR_CAPABILITIES": [
+        "Central Agent",
+        "VP Marketing",
+        "VP Content",
+        "VP Conversion",
+        "VP Printables",
+        "VP Analytics",
+        "Emotion Data Intelligence",
+        "Generative adaptation",
+        "Predictive Layer",
+        "Autonomous Agent Coordination",
+        "Emotion Snapshot",
+        "Personalized Printable routing",
+        "Usage Signal capture",
+        "Emotional Feedback Loop",
+        "measurement / KPI loop",
+        "commercial/profit signal integration"
+      ],
+      "OUTPUTS": [
+        "emotion",
+        "intensity",
+        "context",
+        "adapted product outputs",
+        "personalized printables",
+        "subsequent-action concepts"
+      ],
+      "MEASUREMENT": {
+        "CONCEPTS": [
+          "Emotion Resonance Score",
+          "Time-To-Trust",
+          "Consistency"
+        ],
+        "STATUS": "HISTORICAL_UNVALIDATED",
+        "ACTIVE_THRESHOLDS": false
+      },
+      "AUTHORITY_MODEL": {
+        "RECOVERED": "Central orchestrator / agent coordinator",
+        "CURRENT_EXECUTION_AUTHORITY": false,
+        "ORIGINAL_PROMPT": "MISSING_ORIGINAL_SOURCE"
+      },
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#a-central-agent-v2",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-034",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#b-product-flow",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        }
+      ],
+      "NOTES": "Make automation is a recovered design concept. Central Agent 3 routing rules are not projected backward onto v2.",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "GENERATION": "CENTRAL_AGENT_V2",
+      "GENERATION_LIMIT": "Source window association only; consolidated architecture/export not recovered. Do not merge generations.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "IMPLEMENTATION_EVIDENCE": {
+        "STATUS": "NOT_ESTABLISHED_FROM_ORIGINAL_SOURCE",
+        "REFERENCES": []
+      },
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_VERIFIED",
+        "REFERENCES": []
+      },
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "ORCHESTRATION_ID": "ORCH-002",
+      "NAME": "Central Agent 3",
+      "PERIOD": "December 2025 (reported period; exact date unknown)",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL",
+      "LINEAGE_MARKER": "COMMERCIAL_ORCHESTRATION_EVOLUTION",
+      "PURPOSE": "Decompose business goals into bounded satellite work and measurement-based lifecycle decisions.",
+      "INPUTS": [
+        "Business Goal",
+        "explicit satellite input"
+      ],
+      "ROUTING_MODEL": {
+        "MODEL": [
+          "Business Goal",
+          "decomposition",
+          "satellites",
+          "structured outputs",
+          "measurement",
+          "Continue / Improve / Kill"
+        ],
+        "EXECUTION_SEQUENCE": [
+          "Research",
+          "Offer",
+          "Tool / Content / Printable",
+          "Distribution",
+          "Measurement"
+        ],
+        "SATELLITE_CONTRACT": [
+          "one clear role",
+          "explicit input",
+          "one bounded task",
+          "structured output",
+          "KPI",
+          "result returns through Central Agent"
+        ],
+        "DIRECT_SATELLITE_TO_SATELLITE_COMMUNICATION": false
+      },
+      "AGENTS_OR_CAPABILITIES": [
+        "Central Agent",
+        "satellites (complete identities not supplied)"
+      ],
+      "OUTPUTS": [
+        "structured satellite outputs returned through Central Agent",
+        "Continue / Improve / Kill"
+      ],
+      "MEASUREMENT": {
+        "CONCEPTS": [
+          "satellite KPI",
+          "measurement-based lifecycle"
+        ],
+        "STATUS": "HISTORICAL_UNVALIDATED",
+        "ACTIVE_THRESHOLDS": false
+      },
+      "AUTHORITY_MODEL": {
+        "RECOVERED": "Satellite results return through Central Agent; no direct satellite-to-satellite communication",
+        "CURRENT_EXECUTION_AUTHORITY": false
+      },
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-038",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#d-central-agent-3",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "NOTES": "Not automatically Belanar; no claim Central Agent 3 itself became Belanar. Not current Plenra production architecture.",
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "GENERATION": "CENTRAL_AGENT_3",
+      "GENERATION_LIMIT": "Source window association only; consolidated architecture/export not recovered. Do not merge generations.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "CURRENT_CLASSIFICATION": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "IMPLEMENTATION_EVIDENCE": {
+        "STATUS": "POC_IMPLEMENTATION_PLAN_ONLY",
+        "ORIGINAL_CONFIGURATION_RECOVERED": false,
+        "END_TO_END_EXECUTION_VERIFIED": false
+      },
+      "PRODUCTION_EVIDENCE": {
+        "STATUS": "NOT_VERIFIED",
+        "REFERENCES": []
+      },
+      "RECOVERY_STATUS": "FILE_REFERENCE_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "ORCHESTRATION_ID": "ORCH-003",
+      "NAME": "Plenra Autonomous Hub execution plan",
+      "PERIOD": null,
+      "PRODUCT_STAGE": "POC_IMPLEMENTATION_PLAN_EVIDENCE",
+      "CLASSIFICATION_MARKERS": [
+        "EXECUTION_PLAN"
+      ],
+      "PURPOSE": "Preserve the reported Manus.AI + Make + Drive + GPT POC setup plan.",
+      "INPUTS": [
+        "Reported activation/setup concepts; actual payload schema unknown"
+      ],
+      "ROUTING_MODEL": {
+        "WORKSPACE": "Plenra Autonomous Hub",
+        "PLATFORM": "Manus.AI",
+        "FLOW_REFERENCE": "plenra_master_flow.manus",
+        "MAKE_WEBHOOK_REFERENCE": "Plenra_Master_Hook",
+        "DETAILED_ROUTING": null,
+        "SETUP_CONCEPTS": [
+          "Activate Plenra System",
+          "Mode: POC",
+          "Confirm: Manus + Make + Drive + GPT"
+        ]
+      },
+      "AGENTS_OR_CAPABILITIES": [
+        "Manus",
+        "Make",
+        "Drive",
+        "GPT"
+      ],
+      "OUTPUTS": null,
+      "MEASUREMENT": {
+        "CONCEPTS": [],
+        "STATUS": "NOT_SUPPLIED",
+        "ACTIVE_THRESHOLDS": false
+      },
+      "AUTHORITY_MODEL": {
+        "RECOVERED": "POC activation/setup language only",
+        "CURRENT_EXECUTION_AUTHORITY": false
+      },
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "SRC-035",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#c-autonomous-hub",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-036",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#c-autonomous-hub",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "SRC-037",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md#c-autonomous-hub",
+          "EVIDENCE_LIMIT": "Attributed user recovery summary; original historical artifact not extracted; no independent runtime proof."
+        },
+        {
+          "SOURCE_ID": "DS2-B09",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named master flow/hub/hook/agents creation instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-R01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Leading-ellipsis search excerpt about setup folders/template names"
+        }
+      ],
+      "NOTES": "References are not recovered artifact bytes. No claim the hub ran end-to-end in production.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "GENERATION": "AUTONOMOUS_HUB_EXECUTION_PLAN",
+      "GENERATION_LIMIT": "Source window association only; consolidated architecture/export not recovered. Do not merge generations.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-004",
+      "NAME": "October Session2Printable pipeline",
+      "GENERATION": "OCTOBER_THERAPEUTIC_ORIGIN",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B07",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "ROUTE": [
+          "Webhook intake",
+          "Session2Printable.Parser",
+          "CBT.Template.Engine",
+          "PDF.Renderer",
+          "therapist approval",
+          "delivery and logging"
+        ],
+        "SEPARATE_REFERENCED_ROUTE": "Router → Session2Printable → Evaluator → Distributor; no proof that named Evaluator equals any QA validator",
+        "INPUT_FIELDS": [
+          "therapist_id",
+          "patient_id",
+          "therapy_type",
+          "session_date",
+          "goals",
+          "summary_free_text",
+          "homework_prev_status",
+          "constraints"
+        ],
+        "OUTPUT_FIELDS": [
+          "printable_type",
+          "title",
+          "insights",
+          "homework",
+          "tracking",
+          "notes",
+          "branding"
+        ],
+        "GUARDS": [
+          "PII masking in parser",
+          "explicit email opt-in",
+          "therapist Approve before sending",
+          "version/approver/time audit"
+        ],
+        "EXECUTABLE_EXPORT": false,
+        "CONFLICTS": [
+          "CON-002",
+          "CON-003",
+          "CON-008"
+        ]
+      }
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-005",
+      "NAME": "Research-to-production and Analytics feedback",
+      "GENERATION": "CENTRAL_AGENT_V2_SOURCE_WINDOW",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "ROUTE": "Central → research → Marketing/Content; approved blueprint → VP Printables → JSON Template → Slides → production module",
+        "MINIMUM_RESEARCH_DEPTH": "standard",
+        "CONTENT_RULE": "30 days, at least 1 pillar and 10 micro assets",
+        "APPROVAL": "approved by Central Agent",
+        "ANALYTICS": "Unique output ID; CTR, signups, printable use; quarterly report to research",
+        "JSON_CONTRACT_LOCATION": "DS2-B01: JSON Blueprint input/output; exact content retained in evidence",
+        "OUTCOMES": "HISTORICAL_CLAIM / OUTCOME_NOT_VERIFIED"
+      }
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-006",
+      "NAME": "Mini-Site and satellite handoffs",
+      "GENERATION": "NOVEMBER_30_COMMERCIAL_MODULES",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B02",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S02-satellite-handoffs.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite creation and handoffs"
+        },
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "ROUTE": "Central coordinates Marketing → Content → Conversion; Tech validates combined JSON → Cloud Run renderer → Storage URL → Distribution; Analytics event feedback",
+        "INPUT_OUTPUT_CONTRACTS": "DS2-B03 mini-site schema and per-VP JSON fields; DS2-B04 micro_tool/press_release/funnel/tracking",
+        "COMMANDS": [
+          "DEFINE_MICRO_TOOL",
+          "ROUTE_PR_CAMPAIGN",
+          "PR_ANGLE_FROM_TOOL",
+          "AFFILIATE_STYLE_STRUCTURE",
+          "MICRO_TOOL_COPY_PACK",
+          "PR_DISTRIBUTION_PLAN",
+          "TOOL_TO_PLENRA_FUNNEL",
+          "MICRO_TOOL_KPI_LOOP"
+        ],
+        "EVENTS": [
+          "tool_view",
+          "tool_complete",
+          "cta_click",
+          "plenra_signup"
+        ],
+        "CONFLICTS": [
+          "CON-006",
+          "CON-007"
+        ],
+        "EXECUTABLE_EXPORT": false
+      }
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-007",
+      "NAME": "PromptOptimizer routing and validation",
+      "GENERATION": "NOVEMBER_OPTIMIZER_MODULE",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "INPUT_FIELDS": [
+          "original_prompt",
+          "target_agent",
+          "goal",
+          "audience",
+          "constraints"
+        ],
+        "OUTPUT_FIELDS": [
+          "ok",
+          "improved_prompt",
+          "diff_summary",
+          "scores",
+          "rationale_short",
+          "risk_flags",
+          "meta"
+        ],
+        "SYSTEM_INSTRUCTION_LOCATION": "DS2-B11: Prompt System through Return; verbatim evidence, not reconstructed",
+        "VP_TEMPLATE_LOCATION": "DS2-B11: VP_Content - Template and VP_Marketing - Template",
+        "VALIDATION": [
+          "JSON-only/schema validation with repair retry",
+          "exact placeholder 1:1 integrity; drift rejects",
+          "preserve intent and language; invent no variables/files/tools/APIs",
+          "token-budget checks and risk flags"
+        ],
+        "RETRIES": "At most 3; 300/800/1500ms backoff for invalid JSON, placeholder drift, timeouts",
+        "ROUTING_RULE_A": "total >=85 uses original; lower score or risk_flags sends improved",
+        "ROUTING_RULE_B": "ok=true and total >=85 uses improved_prompt; risk_flags invokes repair/bypass",
+        "CONFLICTS": [
+          "CON-001"
+        ],
+        "TELEMETRY": "inputs, improved_prompt hash, scores, latency, model, success; benchmark targets unverified",
+        "ARCHIVE": "ART-A12 remains FILE_REFERENCE_ONLY"
+      }
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-008",
+      "NAME": "QA-12 reject/correct flow",
+      "GENERATION": "CENTRAL_AGENT_3_DECEMBER_QA",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "ACCEPTANCE": "12/12 green",
+        "REJECTION_RULES": [
+          "Layout invalid → stop and rerender",
+          "Palette deviation → reject and correct",
+          "Text mismatch → compare with source and self-correct",
+          "Ungrounded character → return task for ground anchor",
+          "Age mismatch → replace character",
+          "Faces detected → reject render",
+          "Cloud in wrong position → critical rejection",
+          "CTA/QR position mismatch → correct before render",
+          "Insufficient click area → increase padding",
+          "Missing micro-spark → add subtle cue",
+          "Language asymmetry → align",
+          "Composite incoherence → reject"
+        ],
+        "CHECK_13": "Psychological Safety proposed only; adoption not established",
+        "EVALUATOR_EQUIVALENCE": false,
+        "CONFLICTS": [
+          "CON-004"
+        ]
+      }
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-009",
+      "NAME": "Anti-Failure layer",
+      "GENERATION": "CENTRAL_AGENT_3_DECEMBER_SEARCH_EXCERPT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "SOURCE_LIMIT": "Source-anchored search excerpt only; exact response not loaded in conversation viewport",
+        "ROUTE": "Orchestrator → Anti-Failure → external API → Anti-Failure → Orchestrator",
+        "JSON_FIELDS": [
+          "job_id",
+          "context",
+          "target",
+          "payload",
+          "limits",
+          "logging"
+        ],
+        "EXAMPLE_LIMITS": {
+          "max_retries": 4,
+          "per_service_timeout_ms": 15000,
+          "global_timeout_ms": 45000
+        },
+        "FAILURE_POLICIES": {
+          "network_timeout": "2 retries: 2s/6s then fallback",
+          "rate_limit": "5s/15s then fallback, RATE_LIMIT_HIT",
+          "model_5xx": "immediate next fallback",
+          "invalid_schema": "INVALID_SCHEMA to validation/agent repair; no guessed JSON",
+          "repeated_failure": "N failures in unspecified window → X-minute pause; N and X unresolved"
+        },
+        "FALLBACK": "Allowed ChatGPT/Gemini stack only; exhaustion DEGRADED/PENDING_RETRY with input and partial output preserved",
+        "CONFLICTS": [
+          "CON-010"
+        ],
+        "IMPLEMENTATION": false
+      }
+    },
+    {
+      "ORCHESTRATION_ID": "ORCH-010",
+      "NAME": "Dual Core asset multiplication",
+      "GENERATION": "CENTRAL_AGENT_V2_SELECTED_WINDOW",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS1-S03",
+          "LOCATOR": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "S03-original-product-agent-excerpts.md"
+        }
+      ],
+      "SOURCE_PARITY": "RECOVERED_PARTIAL",
+      "HISTORICAL_STATUS": "HISTORICAL_SPECIFICATION / IMPLEMENTATION_NOT_VERIFIED",
+      "PRODUCTION_STATUS": "NOT PRODUCTION / NOT VERIFIED",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "ACTIVE_CANON": false,
+      "VALIDATION_REQUIRED": true,
+      "CONTRACT": {
+        "ROUTE": "Core A Master Asset → Core B split/critique → A upgrade → B variants → Distribution → Analytics → Central preservation",
+        "OUTPUT": "Master asset plus 20–40 micro assets per source instruction",
+        "QUALITY": "Top-3% historical claim, not verified outcome",
+        "FULL_AGENT_CONFIGURATION": false
+      }
+    }
+  ],
+  "GENERATION_POLICY": "October route, Central Agent v2, Central Agent 3, optimizer module and Autonomous Hub are retained separately. Source-window membership does not prove simultaneous deployment."
+}

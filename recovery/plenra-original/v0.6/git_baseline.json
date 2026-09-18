@@ -1,0 +1,592 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "BASE_COMMIT": "3db03ebe1b7192523b0d2480171b8426fb4010bb",
+  "REFS": [
+    "refs/codex/turn-diffs/checkpoints/ed6f1e668ac4d16d000809dc767ee76e075ad9958de395325df5c287153c0663/f89607eee84a58ffc3979cc8a97c7f6eb0c4d5fe046e08c69651b6b00d8ba934/1782902325063/441b4259-2b2e-467d-b41c-4ee65d8cce20 54139912a0b46625b099f6258900e3d2653abba0",
+    "refs/heads/main 0cb0c0a5842e92cffef3ebc0cca874a4861dcbbf",
+    "refs/heads/preservation/belanar-plenra-local-state-2026-09-18 dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+    "refs/heads/preservation/plenra-original-recovery-v0.3 3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+    "refs/heads/preservation/plenra-original-recovery-v0.4 ad27ebfa006a515224d02913ff8a9bc692c2244d",
+    "refs/heads/preservation/plenra-original-recovery-v0.5 3db03ebe1b7192523b0d2480171b8426fb4010bb",
+    "refs/remotes/origin/HEAD 70d124b4fa78fe4fb01af439d39b0db7eae3675b",
+    "refs/remotes/origin/main 70d124b4fa78fe4fb01af439d39b0db7eae3675b",
+    "refs/remotes/origin/preservation/belanar-plenra-local-state-2026-09-18 dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+    "refs/remotes/origin/preservation/plenra-original-recovery-v0.3 3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+    "refs/remotes/origin/preservation/plenra-original-recovery-v0.4 ad27ebfa006a515224d02913ff8a9bc692c2244d",
+    "refs/remotes/origin/preservation/plenra-original-recovery-v0.5 3db03ebe1b7192523b0d2480171b8426fb4010bb",
+    "refs/stash b5e72381e9dff2fd79fd4556dcd256636043210e"
+  ],
+  "STASH_LIST": "stash@{0}: On main: HOLD unrelated README and decision-gate changes before pest task 002",
+  "STATUS": "?? recovery/plenra-original/deep-source-recovery/",
+  "PROTECTED_FILES": [
+    {
+      "PATH": "recovery/plenra-original/v0.3/.gitattributes",
+      "SHA256": "56ae898a4c0cc344448d39e738279220c7cb92d28e858aed104f93f9ecc9ce34"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/agent_registry.json",
+      "SHA256": "59749e2cd63de8f77bda669fd60d77a7b2fce3f3d6608abf1108f0ccaef873e8"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/build_pack.cjs",
+      "SHA256": "24b234c0578a2e5c55c5026ff7843942f3cf89c9971f8f86bd48de2c4d66eab6"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/capability_registry.json",
+      "SHA256": "5ae5d28abd41d7731fb179bcfc41e1de5b9331d28a165baab62e6e94991c923f"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+      "SHA256": "131b095cfb295e1281bd8e019f235e5985cb477fecfdfbeaa6e4b266edcc90e7"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/01_SOURCE_REGISTER/source_manifest.json",
+      "SHA256": "6c3b9f0390341dfd18635526c002291b374ba88078d4f87034c71c820e21474e"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+      "SHA256": "df21e6c1f0ca299fa67f15dd9fc443a297c66c7d63158e4c8f092223df7c6878"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+      "SHA256": "ee3045445234f8eb56ae85383e2b7cf696112cfa6e5e889f1f12398d587a8442"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra-HLD.md",
+      "SHA256": "e8743fc1ef1926662160824cb33cdec478e7a0adfa5f5850eeecad1c319ae239"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/agents/central_agent.py",
+      "SHA256": "3c4e43b29609b5569a05e5cbf3b95bc6a1593bc462e2bc9d80b8c288c67029ff"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+      "SHA256": "82a3422c3a4b0c41ab62dfc615073acc6447274932387b6527de7fe537cbc244"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+      "SHA256": "a25e75a5be9a4a2acfcb27bacc9bd9655b1517660c8fc03d37613f1c5378bcd8"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+      "SHA256": "ebc7e8b0967f70085b70409ecaca73d71dbedde2de297185144cc0a55b414b8b"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+      "SHA256": "b3c0255c0097f82ec8cc8ddeb37d9caef17f1bbda4892af37dc4dccc728beec0"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+      "SHA256": "1421c859b8fccdb18638a1a0454a2112a022a4582174b9965daab7384b1675ba"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+      "SHA256": "b474aea9bc6e327e17f768f892006e0760a15711d726ae4918976dc0ae7ae7dd"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+      "SHA256": "51ad84e1318f51f15a84718b226d9f42cfc99f769037b69d141f340efc3889f4"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+      "SHA256": "1e4d2a609f8418a9e8e8a539233c82faff53f6e652de9fd840d062bd5ccd8420"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_python_v2/README.md",
+      "SHA256": "f670a063d412ab59eafc52b212b2b280be92dac60cc8761b80bca03d293fd9a6"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+      "SHA256": "06231d7b61e6352e2adb106869fbfe6f0aa4c965891c2a94334956dee84c2361"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/Scaffolding_Pack/plenra/config/system_config.py",
+      "SHA256": "a547f14a1266851141f75ff6be74a5b03018bc4e7322abfc0c775d26260874e1"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/docs/Scaffolding_Pack/README.md",
+      "SHA256": "fb2e384295b37de839ab1093de8ad8f35084c780e68b9c03cd5c5d3d45a293d1"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/orchestrator/registry/chatRegistry.json",
+      "SHA256": "ceb4a59d9acf8f36ca8678333fab8348f903a7c8c870e11c1844e62af2dcbdad"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/evidence/local/plenra_exports/backupRegistry.json",
+      "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/git_baseline.json",
+      "SHA256": "056514cec7331c94895ce53a6bd618679c9cb8cb8b016f43741e31b3b54df36a"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/lineage_registry.json",
+      "SHA256": "511ae6f71fb616b458e099af7e1ef5a400765a1caa4d1cce8c2076532f8698fe"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/missing_source_register.json",
+      "SHA256": "6824f477382caae6d4f783c8c0c587946594df12686b46c0ff2584b64ffd4aa2"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/README.md",
+      "SHA256": "00f21e404857dd50ad4eba7442bd14519bc72ac652a379985780341e7e53e242"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/recovery_manifest.json",
+      "SHA256": "5d2eeaf9d85d1c4e947cb8a9ae63ea817c7e7e23639f92f2ba52dbdd84a10d7b"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/source_register.json",
+      "SHA256": "653bc6027f131f4c15299baf788b7128464b06b997a395cbdb62732a33df5f18"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/user_recovery_evidence.md",
+      "SHA256": "5b990a111a3b03488ff1bae8ba4d1a053dd615337abef7e504ad3a88c1cf9b57"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.3/validate_pack.cjs",
+      "SHA256": "147393efbe3273efed2bd1b881b86f6290a55dcbccbef46382745cb50beccdb9"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/.gitattributes",
+      "SHA256": "56ae898a4c0cc344448d39e738279220c7cb92d28e858aed104f93f9ecc9ce34"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/agent_registry.json",
+      "SHA256": "3cd2966e28758d3e3a9f15e5d219a3bc30c94ead4c5e73252b1d7310aa9e6043"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/build_pack.cjs",
+      "SHA256": "c5dbc3fe837c75915d259ef0eacc27ae274a970a003772820763b365bc6a4bf2"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/capability_registry.json",
+      "SHA256": "e6e4dfb6ab3e76907a47ba37fe90f6fbeff9fc848882ea148cea29faa02a0d8c"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+      "SHA256": "131b095cfb295e1281bd8e019f235e5985cb477fecfdfbeaa6e4b266edcc90e7"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/01_SOURCE_REGISTER/source_manifest.json",
+      "SHA256": "6c3b9f0390341dfd18635526c002291b374ba88078d4f87034c71c820e21474e"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+      "SHA256": "df21e6c1f0ca299fa67f15dd9fc443a297c66c7d63158e4c8f092223df7c6878"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+      "SHA256": "ee3045445234f8eb56ae85383e2b7cf696112cfa6e5e889f1f12398d587a8442"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra-HLD.md",
+      "SHA256": "e8743fc1ef1926662160824cb33cdec478e7a0adfa5f5850eeecad1c319ae239"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/agents/central_agent.py",
+      "SHA256": "3c4e43b29609b5569a05e5cbf3b95bc6a1593bc462e2bc9d80b8c288c67029ff"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+      "SHA256": "82a3422c3a4b0c41ab62dfc615073acc6447274932387b6527de7fe537cbc244"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+      "SHA256": "a25e75a5be9a4a2acfcb27bacc9bd9655b1517660c8fc03d37613f1c5378bcd8"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+      "SHA256": "ebc7e8b0967f70085b70409ecaca73d71dbedde2de297185144cc0a55b414b8b"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+      "SHA256": "b3c0255c0097f82ec8cc8ddeb37d9caef17f1bbda4892af37dc4dccc728beec0"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+      "SHA256": "1421c859b8fccdb18638a1a0454a2112a022a4582174b9965daab7384b1675ba"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+      "SHA256": "b474aea9bc6e327e17f768f892006e0760a15711d726ae4918976dc0ae7ae7dd"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+      "SHA256": "51ad84e1318f51f15a84718b226d9f42cfc99f769037b69d141f340efc3889f4"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+      "SHA256": "1e4d2a609f8418a9e8e8a539233c82faff53f6e652de9fd840d062bd5ccd8420"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_python_v2/README.md",
+      "SHA256": "f670a063d412ab59eafc52b212b2b280be92dac60cc8761b80bca03d293fd9a6"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_v3/plenra/config/thresholds.yaml",
+      "SHA256": "d455180d4926f75dbc8de472938db4cd79fcc16701b7b0c00c8cb947a7ffb8ad"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_v3/plenra/core/loaders.py",
+      "SHA256": "8bdcef081d1240a1121619aad739c3be8ceee826604d2780dc7caba82bf85f53"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+      "SHA256": "06231d7b61e6352e2adb106869fbfe6f0aa4c965891c2a94334956dee84c2361"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/plenra_v3/plenra/prompts/decision_gate.prompt.txt",
+      "SHA256": "e22a1f8fdccb0f7aa6de7a4662cf8579a1f7d7ac36c8977452b24a53880dd7bf"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/Scaffolding_Pack/plenra/config/system_config.py",
+      "SHA256": "a547f14a1266851141f75ff6be74a5b03018bc4e7322abfc0c775d26260874e1"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/docs/Scaffolding_Pack/README.md",
+      "SHA256": "fb2e384295b37de839ab1093de8ad8f35084c780e68b9c03cd5c5d3d45a293d1"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/orchestrator/registry/chatRegistry.json",
+      "SHA256": "ceb4a59d9acf8f36ca8678333fab8348f903a7c8c870e11c1844e62af2dcbdad"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/evidence/local/plenra_exports/backupRegistry.json",
+      "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/git_baseline.json",
+      "SHA256": "27393d18482cc0c124234aef4ee0ef3ceb92bab9ac85dbc8abbe50f9b575569a"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/lineage_registry.json",
+      "SHA256": "639d22d6d6c7b7c499331472cd7f6a012997396590f90bb22b7fa57e0c3e723f"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/missing_source_register.json",
+      "SHA256": "34e528062187249804d083138d04ffd4379b99a9428ebca1d03b6f334243ebdf"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/README.md",
+      "SHA256": "81557e1d7e6b6dc29664baab3a3ed80214b572f716e836341e7285cb85348c97"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/recovery_manifest.json",
+      "SHA256": "a7e557f9dcb9fc6cd605d7d7b0a12a384f2c6f59c413638ff8f411825360ed9a"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/source_register.json",
+      "SHA256": "ada7d5be35e7b1c07f8c50ae2a9d8403b2002b451dae95fb3ad06c1de56fc527"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/user_recovery_evidence.md",
+      "SHA256": "5b990a111a3b03488ff1bae8ba4d1a053dd615337abef7e504ad3a88c1cf9b57"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/V0_3_TO_V0_4_DELTA.md",
+      "SHA256": "f3fe407080dd536255635b3513227acd7e1efd8f2a8b4c0eb59310414f0b8348"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/v0_4_recovery_evidence.md",
+      "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.4/validate_pack.cjs",
+      "SHA256": "4dd10f3299794b994588495d287f9f2a9d33de4503efb43953fd69db3940f440"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/.gitattributes",
+      "SHA256": "56ae898a4c0cc344448d39e738279220c7cb92d28e858aed104f93f9ecc9ce34"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/agent_registry.json",
+      "SHA256": "a2ba3b1b7ee232a599234764d61d958a6a79a1b3637c423f9f8a1d61bb6e35e0"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/build_pack.cjs",
+      "SHA256": "beeccf69a56b62ffd1a20d7d4f01e9b5ea890c19cafae1b141d18ca8a0d91433"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/capability_registry.json",
+      "SHA256": "380f565421e93922d7dc1bf4c7db8fbde7e23d69e97be548dc9f24584d0dbe97"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+      "SHA256": "131b095cfb295e1281bd8e019f235e5985cb477fecfdfbeaa6e4b266edcc90e7"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/01_SOURCE_REGISTER/source_manifest.json",
+      "SHA256": "6c3b9f0390341dfd18635526c002291b374ba88078d4f87034c71c820e21474e"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+      "SHA256": "df21e6c1f0ca299fa67f15dd9fc443a297c66c7d63158e4c8f092223df7c6878"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+      "SHA256": "ee3045445234f8eb56ae85383e2b7cf696112cfa6e5e889f1f12398d587a8442"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra-HLD.md",
+      "SHA256": "e8743fc1ef1926662160824cb33cdec478e7a0adfa5f5850eeecad1c319ae239"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/agents/central_agent.py",
+      "SHA256": "3c4e43b29609b5569a05e5cbf3b95bc6a1593bc462e2bc9d80b8c288c67029ff"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+      "SHA256": "82a3422c3a4b0c41ab62dfc615073acc6447274932387b6527de7fe537cbc244"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+      "SHA256": "a25e75a5be9a4a2acfcb27bacc9bd9655b1517660c8fc03d37613f1c5378bcd8"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+      "SHA256": "ebc7e8b0967f70085b70409ecaca73d71dbedde2de297185144cc0a55b414b8b"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+      "SHA256": "b3c0255c0097f82ec8cc8ddeb37d9caef17f1bbda4892af37dc4dccc728beec0"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+      "SHA256": "1421c859b8fccdb18638a1a0454a2112a022a4582174b9965daab7384b1675ba"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+      "SHA256": "b474aea9bc6e327e17f768f892006e0760a15711d726ae4918976dc0ae7ae7dd"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+      "SHA256": "51ad84e1318f51f15a84718b226d9f42cfc99f769037b69d141f340efc3889f4"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+      "SHA256": "1e4d2a609f8418a9e8e8a539233c82faff53f6e652de9fd840d062bd5ccd8420"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_python_v2/README.md",
+      "SHA256": "f670a063d412ab59eafc52b212b2b280be92dac60cc8761b80bca03d293fd9a6"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_v3/plenra/config/thresholds.yaml",
+      "SHA256": "d455180d4926f75dbc8de472938db4cd79fcc16701b7b0c00c8cb947a7ffb8ad"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_v3/plenra/core/loaders.py",
+      "SHA256": "8bdcef081d1240a1121619aad739c3be8ceee826604d2780dc7caba82bf85f53"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+      "SHA256": "06231d7b61e6352e2adb106869fbfe6f0aa4c965891c2a94334956dee84c2361"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/plenra_v3/plenra/prompts/decision_gate.prompt.txt",
+      "SHA256": "e22a1f8fdccb0f7aa6de7a4662cf8579a1f7d7ac36c8977452b24a53880dd7bf"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/Scaffolding_Pack/plenra/config/system_config.py",
+      "SHA256": "a547f14a1266851141f75ff6be74a5b03018bc4e7322abfc0c775d26260874e1"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/docs/Scaffolding_Pack/README.md",
+      "SHA256": "fb2e384295b37de839ab1093de8ad8f35084c780e68b9c03cd5c5d3d45a293d1"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/orchestrator/registry/chatRegistry.json",
+      "SHA256": "ceb4a59d9acf8f36ca8678333fab8348f903a7c8c870e11c1844e62af2dcbdad"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/evidence/local/plenra_exports/backupRegistry.json",
+      "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/git_baseline.json",
+      "SHA256": "7089aa458323dee30f7eb5b0a1d446ac199be8c6117d1966cf77ae5899176421"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/lineage_registry.json",
+      "SHA256": "98cfd5a205f06c63bf8a813412f6c818c14c945194e5a7e567ad18b1e38a6a00"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/missing_source_register.json",
+      "SHA256": "9e8a2649a6e6843c8d206e6539ba34927b92a0e57999e66ddf602e499cbfe9bf"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/orchestration_registry.json",
+      "SHA256": "d8d2feedf1f01fad535451c544e6b383f05800d298083915ed4d1fe72711f141"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/product_governance_record.json",
+      "SHA256": "357ade16fd061d0235e959349a8559a51a06887af43fd63f25e3228d3dca4cb2"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/README.md",
+      "SHA256": "be06f93570f7ebc3f41ea15e1d4843f05a4e2783ab30c5e0bea67c26652c488f"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/recovery_manifest.json",
+      "SHA256": "87d12072fa20bd1ae7bbfdd5598353cb8f1d668d99445a6157ed3ab442588e30"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/source_register.json",
+      "SHA256": "cb1f3791a7fe671978f0eea1c8a4549bd838570261f4d985ae8c688d72c2a0e0"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/user_recovery_evidence.md",
+      "SHA256": "5b990a111a3b03488ff1bae8ba4d1a053dd615337abef7e504ad3a88c1cf9b57"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/V0_3_TO_V0_4_DELTA.md",
+      "SHA256": "f3fe407080dd536255635b3513227acd7e1efd8f2a8b4c0eb59310414f0b8348"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/v0_4_recovery_evidence.md",
+      "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/V0_4_TO_V0_5_DELTA.md",
+      "SHA256": "29963e6037b5d9c8e6d6af996be1fd0becb60d4772fb22be6019ad1c214c7339"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/v0_5_recovery_evidence.md",
+      "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/validate_pack.cjs",
+      "SHA256": "08b000d749293270b88774367d279cfd56989d2e1d104fcd6151f56efc3ba381"
+    },
+    {
+      "PATH": "recovery/plenra-original/v0.5/validation_report.json",
+      "SHA256": "1fa300773ece9c008b417dbdd7a10533ec4b2b9f0221f0de90f9faf37cb18c73"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/manifest.json",
+      "SHA256": "c857c6de1c9d242943360b8e8c99ad4e8db3631905087c4bc9a316276a1d17a2"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-F01-setup-docx-preview.txt",
+      "SHA256": "f690abef1f7c1dbdd44b55039b7f7f14b5ae5b8fdbe63f6a856017fab01ccf66"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+      "SHA256": "467478978108d39e6d7fead51b7683d38991c01819f40abd7d30f1c88c533621"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+      "SHA256": "041f4f22477f55bef2865de4d91bddbf6e51fe52ff227db97c93887402b9b95f"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+      "SHA256": "e62e683d1e5b638e5a350780150e1c94a48f60545ab9b327d478e5026cc63938"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S01-research-engine.txt",
+      "SHA256": "3681874aafb6aeaaf8a60c7e9b694aa6270fdb9e3bd8c0e380b674937dde2ff7"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S02-satellite-handoffs.txt",
+      "SHA256": "c88928256ea2a7409480866efc8c853ced5069b331c714092042a76531f14cd0"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+      "SHA256": "cecbca1ad61a60c31847d2a69fe8475817f90936f829c76ff506832333ae98c6"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+      "SHA256": "82c89d24718cdc967f6ffab0fa4226b87b817834199cfdd0e0057b7e4b631127"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+      "SHA256": "91f1528bead84d25930c2c097bab68cff8daf9331d8a356af4a382fe3c4019b1"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+      "SHA256": "25e0a984851d279e5853fb1a0fe3ff20ca011b5c1dcec77eaa808e6446ad9193"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+      "SHA256": "ce2240f93ff123f99155deda3f1d71662dd9077c8458bd8c2afd277c905493ae"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+      "SHA256": "1ddcf01c0fa32f8d781e624d95bb2950765cec56536c4644ad59563b920f00fa"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+      "SHA256": "ecba6169d7970ced2017ddb436ed5751f148531e0ed6c8a39c6a8eb01064fce5"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+      "SHA256": "40eaa995f3f588303b0dc28d4b19e36ba6e68141f5ac0780d8bb3220898c72b5"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+      "SHA256": "1e918667c678d97e2a1ad63a7cee9a558e5719161ee2f0fb68aa29f796310c52"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+      "SHA256": "f8e89e8bbd1b6d93e4b5d0988798d8bbc7d725c7fe1db673ab10791b2e10a82e"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2_MANIFEST.json",
+      "SHA256": "67b0da6e9a48f475c11b10e8a6db5ba89bef98790ad7e7df27f1f3bf163e0b45"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2_REPORT.md",
+      "SHA256": "cb388037137e466c5949687ea3f0d20003465d4b4cce6fb25e45716a1d3fe651"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2_SEARCH_LOG.md",
+      "SHA256": "83666f6db321fc3b10c517177b6ffea4367129f89f792b3c0180cc4274ed752e"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/PASS2_SOURCE_PARITY.json",
+      "SHA256": "685b098b64dd5cb6d7bc779c45991941a8695f77ab10da86ee6a6debb482faad"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/README.md",
+      "SHA256": "e4cd8870369c4c93a849de51bd07700379f72084df5e8fa854e401b47cbc194a"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/REPORT.md",
+      "SHA256": "dbd9ba328eed4acbdc373e1a43e2980c4752752a2787ea74f06359009276bb56"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S01-artifact-index.md",
+      "SHA256": "bcba612b85b38781090e5330221a616f980302b1af28bb5d174bd7dd52d8705d"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S02-recovery-master-reference.md",
+      "SHA256": "13a52c2d5e739a701edd5fef5351019d9a0a234b29e76ab51f1e6dfc6679d434"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S03-original-product-agent-excerpts.md",
+      "SHA256": "08ca690153de64c946373c052d8e2fcbe6f844b7fcb1ba6c6d133e1c28dcf2b7"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S04-decision-architecture.md",
+      "SHA256": "ea7183903c9b64365cfa9819e57a784d3b9cc077073d6bfc4e9d5f7c999b0139"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S05-orchestrator-lineage.md",
+      "SHA256": "acd5c2a2b0f3fd1e3eb8ceecfeb0a660bb98164d267b80b1232eaf3c8038d0a6"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+      "SHA256": "8e5bd2ce4ba16f6b9ff0b558972f6991ee157728260f2449398b4a6a5ec05918"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/S07-recovery-master-conversation.md",
+      "SHA256": "f79811731cafd5f0bf031f0745dd9e20580a901ec5dbcfc285d2c50cce83b93a"
+    },
+    {
+      "PATH": "recovery/plenra-original/deep-source-recovery/SEARCH_LOG.md",
+      "SHA256": "5ecf4dddff97ae80c87ae75f7358f60a322780cea55361a64cf949f3a887f065"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+SOURCE: https://chatgpt.com/c/68e4543f-a5dc-8326-ad12-457a87042008?messageId=d798a05d-d24b-4fe1-85ff-8bbf33d598f7
+TARGET: Evaluator
+STATUS: REFERENCE_ONLY
+PARITY: REFERENCE_ONLY
+LINEAGE: MIXED (October printable-flow reference; December 30 water-damage decision-product pivot; April 2026 classifier)
+NOTE: No evaluator prompt, rubric, threshold or I/O contract in inspected original-flow block. Later water-agent artifacts are not Original Product and were not copied.
+
+EXACT ORIGINAL-FLOW EXCERPT:
+🧩 איך זה עובד יחד
+
+אתה יוצר Agent אחד או יותר בקוד דרך AgentKit (לדוגמה: “Session2Printable Agent”).
+
+אתה יכול לייבא אותם לתוך Agent Builder כדי לראות אותם כמודולים ולבנות מהם זרימה גרפית:
+“Router → Session2Printable → Evaluator → Distributor”.
+
+כל שינוי שאתה עושה ב־Builder נשמר כ־workflow שניתן להריץ דרך ה־API או ממשק צ’אט (ChatKit).
+

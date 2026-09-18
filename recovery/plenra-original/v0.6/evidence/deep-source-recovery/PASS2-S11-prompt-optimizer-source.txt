@@ -1,0 +1,457 @@
+SOURCE: https://chatgpt.com/c/69147f21-4bec-8328-b6c7-8e0794ded350
+TITLE: אינטגרציה של GPT באוטומציה
+DATE CONTEXT: Nov 12 2025 (source example run ID and adjacent S03 upload)
+PARITY: ORIGINAL_CONVERSATION_TEXT; embedded VP templates only, not exported VP configurations
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+NOTE: Two router threshold rules conflict in this source. Preserve both without reconciliation.
+
+מה יקרה אם אני אצור סוכן לדוגמא לשם שיפור הפרומפטים וכשאני אהיה בתוך תהליך כלשהו שבו אני כותב פרומפט, אני אקרא לסוכן הזה ואתן לו לשפר לי את הפרומפט, זה יכול לעבוד? 
+
+כן – זה יכול לעבוד מעולה, אם אתה בונה את זה נכון מבחינת אינטגרציה ו־context.
+בוא נפרק את זה לפי רמות הביצוע כדי שתבין איפה זה עובד ואיפה לא:
+
+🧩 תרחיש שאתה מתאר
+
+אתה נמצא בתהליך כלשהו – למשל כתיבת פרומפט לסוכן אחר (כמו VP Marketing).
+אתה רוצה לקרוא לסוכן ייעודי, נניח בשם PromptOptimizer Agent,
+שיעבור על הפרומפט שלך, ינתח אותו, וישפר אותו לפי כללים שהגדרת מראש
+(בהירות, עקביות, שימוש במבנה JSON, רמת הנעה לפעולה, וכו’).
+
+✅ איך זה עובד כשעושים את זה נכון
+
+יש שתי דרכים עיקריות:
+
+1. דרך Assistants API (אוטומציה אמיתית)
+
+אתה שומר את הפרומפט שלך כ־string, ואז שולח אותו לסוכן הייעודי כך:
+
+Python
+Run
+client.beta.threads.messages.create(
+  thread_id=thread.id,
+  role="user",
+  content=f"Improve the following prompt for clarity and conversion:\n\n{prompt_text}"
+)
+
+ואז מריץ:
+
+Python
+Run
+run = client.beta.threads.runs.create(
+  thread_id=thread.id,
+  assistant_id=prompt_optimizer_id
+)
+
+ה־Assistant מחזיר לך את הגרסה המשופרת (בד"כ בפורמט JSON עם הסברים או דירוגים).
+
+אתה יכול לשלב את זה כחלק מ־Flow קיים –
+למשל ב־Make או n8n:
+
+שלב 1: המשתמש מזין פרומפט
+
+שלב 2: ה־PromptOptimizer Assistant משפר אותו
+
+שלב 3: ה־Prompt המשופר נשלח לסוכן המקורי (VP Marketing וכו’)
+
+2. דרך Custom GPT בצ’אט (אם אתה רוצה פשוט להתחיל)
+
+אם אתה עובד ידנית, לא דרך API,
+אפשר ליצור GPT בשם “Prompt Optimizer” עם הוראות כמו:
+
+“אתה עוזר לי ללטש ולייעל כל פרומפט שאכתוב, בלי לשנות את המשמעות – רק לשפר ניסוח, בהירות, סדר, ואפקטיביות.”
+
+ואז בכל פעם שאתה באמצע תהליך, אתה פשוט מעתיק את הפרומפט ומדביק לו.
+זה לא אוטומטי, אבל עובד מצוין בשלבי פיתוח ראשוניים של מערכת.
+
+⚙️ כשהדבר נהיה מעניין באמת – בתוך מערכת כמו פלנרה
+
+בשלב הבא, אתה יכול להפוך את הסוכן הזה לשכבת ביניים אוטומטית במערכת Plenra.
+
+דוגמה:
+
+Pipeline פנימי:
+
+VP Marketing מייצר טיוטת פרומפט ל־VP Content
+
+PromptOptimizer עובר עליו, מלטש, מוסיף הוראות חסרות
+
+רק אחרי זה – הפרומפט עובר ל־VP Content לביצוע
+
+יתרונות:
+
+אחידות בשפה ובמבנה
+
+פחות טעויות ניסוח בין סוכנים
+
+יותר אפקטיביות (כל פרומפט עובר “QA לשוני”)
+
+אפשר לאמן אותו לפי סגנון ספציפי של פלנרה (כמו “בהירות גבוהה, הנעה רכה, שפה רגשית מדודה”)
+
+⚠️ מגבלות שצריך להבין
+
+הקשר (Context): אם תפעיל את הסוכן בלי להעביר לו גם את היעד של הפרומפט (למשל “מי הקורא הסופי”), הוא ישפר רק מבחינה לשונית, לא פונקציונלית.
+לכן כדאי לכלול בכל קריאה: "target_agent": "VP Content" או "goal": "convert users".
+
+Latency: כל קריאה כזו מוסיפה שלב נוסף בפלואו. תכנן נכון אם אתה רוצה ריצה בזמן אמת.
+
+שמירת סגנון: תוסיף לו guardrails – שלא ישנה את הטון או התוכן, רק ישפר ניסוח/מבנה.
+
+🧠 רעיון למבנה של PromptOptimizer Agent
+YAML
+Role: Prompt Optimization Agent for Plenra
+Goal: Improve any input prompt for clarity, completeness, and alignment with Plenra system standards.
+Input: Original prompt text + target agent + goal.
+Output: JSON with fields:
+- improved_prompt
+- short_rationale
+- clarity_score (0–100)
+- consistency_score (0–100)
+Rules:
+- Never change intent.
+- Preserve variables or placeholders.
+- Always return valid JSON.
+💥 טיפ אסטרטגי
+
+אם אתה מחבר את זה אוטומטית לכל הסוכנים שלך –
+המערכת מתחילה לשפר את עצמה בזמן אמת.
+כל פרומפט שעובר בין סוכנים עובר דרך Optimizer →
+כל Iteration נהיה מדויק יותר, נקי יותר, וקל יותר למדוד.
+
+רוצה שאבנה לך עכשיו Blueprint מלא של “PromptOptimizer Agent” בפורמט JSON — כולל השדות, scoring, ותבנית API לקריאה מתוך הפלואו של פלנרה?
+(ככה תוכל לשלב אותו בקלות בסוכן המרכזי שלך או ב־Make.)
+
+כן. איך אתה מתכוון לייצר את  הסוכן הזה כך שיהיה בטופ 3% מבחינת התוצרים שהוא מוציא? 
+Thought for 9s
+
+סבבה. אני בונה לך PromptOptimizer Agent ברמת טופ 3% עם סטנדרט תעשייתי: הגדרה חדה, Guardrails, ולידציה קשוחה, Benchmarks, ו-Learning Loop. בלי בולשיט - תכל’ס.
+
+מה בונים
+
+סוכן יחיד שמקבל prompt גולמי + יעד שימוש, ומחזיר prompt משופר בפורמט JSON, מוכן לשיגור לסוכן הבא.
+
+עמיד לגבולות: לא משנה כוונה, לא ממציא משתנים, משמר placeholders, ושומר סגנון פלנרה.
+
+עקרונות זהב
+
+JSON בלבד - בלי טקסט חופשי.
+
+שיפור מדיד - ציון לפני ואחרי לפי רובריקה.
+
+שמירה על כוונה - שינוי ניסוח בלבד, לא שינוי מטרה.
+
+קונטקסט מינימלי מספיק - יעד, קהל, סוכן יעד, אילוצי מערכת.
+
+קריטי - שמירת placeholders, שמות שדות, tokens מיוחדים.
+
+סכמות קלט ופלט
+JSON
+// prompt_optimizer.request.json
+{
+  "original_prompt": "string",
+  "target_agent": "VP_Content | VP_Marketing | VP_Conversion | VP_Distribution | Custom",
+  "goal": "string",
+  "audience": "string",
+  "constraints": {
+    "must_keep_placeholders": ["{BRAND}", "{SESSION_ID}"],
+    "tone": "simple | formal | premium | emotional",
+    "output_language": "he-IL | en-US",
+    "max_tokens": 800
+  }
+}
+JSON
+// prompt_optimizer.response.json
+{
+  "ok": true,
+  "improved_prompt": "string",
+  "diff_summary": {
+    "kept_placeholders": ["{BRAND}"],
+    "removed_placeholders": [],
+    "added_placeholders": []
+  },
+  "scores": {
+    "clarity": 0,
+    "completeness": 0,
+    "constraint_fit": 0,
+    "agent_fit": 0,
+    "persona_alignment": 0,
+    "total": 0
+  },
+  "rationale_short": "string",
+  "risk_flags": [],
+  "meta": {
+    "version": "1.0.0",
+    "latency_ms": 0,
+    "tokens": 0,
+    "session_id": "string"
+  }
+}
+הוראות סוכן - Prompt System (לשים ב-instructions)
+Role: Prompt Optimization Agent for Plenra.
+Mission: Receive a prompt and return an improved prompt that maximizes clarity, completeness, constraint adherence, and fit for the target agent and goal.
+Output: JSON only matching prompt_optimizer.response.json. Never output prose or markdown.
+
+Hard rules:
+- Preserve intent and meaning.
+- Preserve all placeholders exactly as received.
+- Do not invent variables, files, tools, or APIs.
+- Enforce Plenra tone if provided: Montserrat brand tone, clean, high-conversion, top 3% quality.
+- Keep language per constraints.output_language.
+- Fit to target_agent conventions:
+  - VP_Marketing: hooks, angles, CTAs, emotional tags, short lines.
+  - VP_Content: structure, sections, voice, deliverable format.
+  - VP_Conversion: objections → counters, micro-CTAs, UX cues.
+  - VP_Distribution: channel-specific asks, UTMs, scheduling cues.
+
+Scoring rubric (0-100 each):
+- clarity: short sentences, no ambiguity, no fluff.
+- completeness: inputs, outputs, acceptance criteria explicitly stated.
+- constraint_fit: tone, placeholders, token limits, JSON-only.
+- agent_fit: matches the schema and working style of the target agent.
+- persona_alignment: Plenra style and emotional layer honored.
+
+Return:
+- improved_prompt: final prompt to send downstream.
+- diff_summary: report kept/removed/added placeholders.
+- scores: with total = weighted sum [clarity 25, completeness 25, constraint_fit 25, agent_fit 20, persona_alignment 5].
+- rationale_short: one or two lines max.
+- risk_flags: ["missing_goal","missing_audience","over_token_limit","ambiguous_acceptance_criteria"] when applicable.
+Few-shot קצרי מטרה
+User req → Improve for VP_Content:
+Original: "Write content about Focus Map"
+Goal: "Create printable draft"
+Audience: "Women 35-55"
+Must keep: {BRAND}
+
+Good improved_prompt traits:
+- States deliverable: "A4 PDF outline with sections"
+- Adds acceptance criteria: "max 600 tokens, JSON schema X"
+- Keeps {BRAND}
+- Sets tone: "calm, empowering, premium"
+Guardrails תפעוליים
+
+Temperature 0.2 - דטרמיניזם.
+
+Top_p 0.9, presence_penalty 0, frequency_penalty 0.
+
+Stop בטקסטים שמטפטפים מחוץ ל-JSON - ואם קרה, Re-prompt אוטומטי: “Return valid JSON only, no prose.”
+
+Schema validation עם jsonschema. כשלון → Retry קצר עם הנחיית תיקון.
+
+Placeholder lock - regex שמוודא שכל המופעים נשמרו 1:1. כשלון → Reject.
+
+Token budget - בדיקה לפני שליחה. אם original ארוך, הסוכן מחזיר risk_flag ומבקש קיצור או מסכם אוטומטית.
+
+תבנית שיפור קאנונית שהסוכן יייצר
+
+ה-improved_prompt שהסוכן מחזיר צריך להיראות כך, בהתאם לסוכן יעד:
+
+VP_Content - Template
+
+You are VP Content Agent at Plenra.
+Objective: {GOAL}
+Audience: {AUDIENCE}
+Deliverable: Structured content outline → JSON fields: {sections, headings, copy, length_estimate}.
+Tone: {tone}
+Constraints: keep {BRAND} and {SESSION_ID}, max {max_tokens} tokens, no markdown.
+Acceptance:
+- JSON valid
+- Includes micro-CTAs and emotional tags
+- Uses Plenra brand tone (Ivory/Lavender/Gold/Sage feeling, clean)
+
+VP_Marketing - Template
+
+You are VP Marketing Agent at Plenra.
+Objective: Generate 5 hooks, 3 offer angles, 3 CTAs.
+Audience: {AUDIENCE}
+Constraints: keep placeholders {..}, short lines, no fluff.
+Acceptance: JSON keys {hooks, angles, ctas, emotion_tags}, length per item <= 18 words.
+בדיקות איכות - Harness מהיר
+
+30 בדיקות קבועות: שמירת placeholders, JSON תקין, עמידות לשפות, קיצור אוטומטי כשצריך, התאמה לסוכן יעד.
+
+ריצת A/B: אותו prompt לפני ואחרי, מודדים win-rate לפי הרובריקה. יעד: ≥ 80% wins.
+
+Red-Team: פרומפטים “מסוכנים” - דו משמעי, ללא יעד, בלי קהל, עם placeholders דומים בטעות. הסוכן חייב לסמן risk_flags או להשלים בבטחה.
+
+פסאודו בדיקה:
+
+Python
+Run
+cases = load_cases()
+wins = 0
+for c in cases:
+    resp = optimize(c)
+    assert is_valid_json(resp)
+    assert placeholders_kept(c["constraints"]["must_keep_placeholders"], resp)
+    score = resp["scores"]["total"]
+    if score >= baseline(c) + 15: wins += 1
+assert wins/len(cases) >= 0.8
+תצורת מודל מומלצת
+
+מודל: gpt-5.1 או gpt-4.1-mini לתדירות גבוהה - לפי תקציב.
+
+טמפ 0.2, top_p 0.9, max_output_tokens 700.
+
+שלושה Retries לכל היותר: invalid JSON, placeholder drift, timeouts.
+
+Exponential backoff 300-800-1500ms.
+
+אינטגרציה לפלנרה - Router Hook
+
+לפני כל קריאה לסוכן VP כלשהו, ה-Router קורא ל-PromptOptimizer:
+
+אם total < 85 או יש risk_flags - נשלחת גרסה משופרת.
+
+אם total ≥ 85 - משתמשים במקור, חוסכים לטנזי.
+
+Payload לדוגמה:
+
+JSON
+{
+  "original_prompt": "Create 3 hooks about Focus Map...",
+  "target_agent": "VP_Marketing",
+  "goal": "High CTR hooks",
+  "audience": "Women 35-55 US",
+  "constraints": {
+    "must_keep_placeholders": ["{BRAND}", "{SESSION_ID}"],
+    "tone": "simple",
+    "output_language": "en-US",
+    "max_tokens": 500
+  }
+}
+Telemetry ו-Learning Loop
+
+לוגים: inputs, improved_prompt hash, scores, latency, model, success.
+
+KPI יומי:
+
+Win-rate מול baseline
+
+Avg total score
+
+Placeholder integrity 100%
+
+JSON validity 100%
+
+Auto-tuning: אם agent_fit נמוך ספציפית ל-VP אחד, מוסיפים few-shot ממוקד לסוכן הזה בלבד.
+
+תהליך הפעלה בפועל - קצר
+
+ליצור Assistant עם ה-instructions למעלה.
+
+לחבר סכמות אימות ב-Router.
+
+להוסיף Hook לפני כל קריאה ל-VP.
+
+להריץ 30 בדיקות קבועות עד Win-rate ≥ 80%.
+
+לפתוח Dash קטן למטריקות.
+
+לנעול גרסה v1.0.0 ולתייג.
+
+דוגמה לתגובה מוצלחת
+JSON
+{
+  "ok": true,
+  "improved_prompt": "You are VP Marketing Agent at Plenra. Objective: Generate 5 high-CTR hooks, 3 offer angles, 3 CTAs for {BRAND}. Audience: Women 35-55 US buying handmade cosmetics. Constraints: keep {BRAND} and {SESSION_ID}; max 500 tokens; short lines; JSON only with keys {hooks,angles,ctas,emotion_tags}. Acceptance: each hook <= 18 words; include emotion_tags [calm, progress, pride].",
+  "diff_summary": {
+    "kept_placeholders": ["{BRAND}", "{SESSION_ID}"],
+    "removed_placeholders": [],
+    "added_placeholders": []
+  },
+  "scores": {
+    "clarity": 92,
+    "completeness": 88,
+    "constraint_fit": 95,
+    "agent_fit": 90,
+    "persona_alignment": 85,
+    "total": 90
+  },
+  "rationale_short": "חדדתי יעד, פורמט פלט, אילוצים ומדדים.",
+  "risk_flags": [],
+  "meta": {
+    "version": "1.0.0",
+    "latency_ms": 820,
+    "tokens": 610,
+    "session_id": "run_2025_11_12_001"
+  }
+}
+מה נשאר לי לספק לך עכשיו
+
+קובצי schema מוכנים
+
+קוד Router קצר ב-Python או Node עם ולידציה, ריטריי ולוגים
+
+30 מקרי בדיקה מוכנים להרצה
+
+6 Few-shots ממוקדים לפי סוכני VP
+
+תגיד באיזה שפה תרצה את הקוד לרוטר ולבדיקות - Python או Node - ואני מספק לך חבילה להדבקה אחת לאחת.
+
+אני רוצה שתיתן לי אותו ואני אשמור אותו בדיוק איך שהוא  כאוטומציה לסוכן המרכזי של פלנרה
+Thought for 13s
+
+הנה החבילה המלאה מוכנה לשמירה והטמעה כאוטומציה לסוכן המרכזי של פלנרה:
+Download the ZIP
+
+מה קיבלת בפנים
+
+schemas – סכמות JSON לקלט ולפלט.
+
+app/assistants.py – סקריפט יצירת האסיסטנט PromptOptimizer.
+
+app/router.py – Webhook מוכן ב-FastAPI שמקבל בקשה, מריץ את הסוכן ומחזיר JSON.
+
+app/run_local.py – הרצה מקומית בלי שרת.
+
+app/tests/test_cases.json – 6 מקרי בדיקה.
+
+requirements.txt – חבילות נדרשות.
+
+איך לחבר לאוטומציה שלך צעד-אחר-צעד
+
+התקנה
+
+Bash
+pip install -r requirements.txt
+
+משתני סביבה
+
+Bash
+export OPENAI_API_KEY="YOUR_KEY"
+# אם יש לכם gateway ארגוני:
+export OPENAI_BASE_URL=""   # להשאיר ריק אם לא רלוונטי
+
+יצירת Assistant פעם אחת
+
+Bash
+python app/assistants.py --create
+# שמור את ה-ID שמודפס
+
+ריצה מקומית לבדיקה
+
+Bash
+python app/run_local.py --assistant-id YOUR_ASSISTANT_ID --input app/tests/test_cases.json
+
+הרצת Webhook לפרוד
+
+Bash
+uvicorn app.router:app --host 0.0.0.0 --port 8080
+
+קריאה מאוטומציה: שלח POST ל-/optimize עם גוף תואם ל-schemas/prompt_optimizer.request.json.
+
+אם לא מעבירים assistant_id בפרמטר שאילתה, שים את ה-ID במשתנה סביבה PROMPT_OPTIMIZER_ASSISTANT_ID.
+
+סטנדרט שילוב ב-Central Router
+
+לפני כל קריאה ל-VP כלשהו, שלחו את הפרומפט ל-/optimize.
+
+אם ok=true ו-total ≥ 85 – השתמשו ב-improved_prompt.
+
+אם יש risk_flags – הדליקו מסלול תיקון או עקיפה לפי הצורך.
+
+השוו placeholders לפני ואחרי – ה-Webhook כבר בודק ולא יאשר אם אבדו.
+
+זה פועל נקי, דטרמיניסטי, ונותן לך שכבת QA לפרומפטים ברמה של טופ 3%.
+צריך גם גרסת Node או הרחבה לבדיקות נוספות? 
+

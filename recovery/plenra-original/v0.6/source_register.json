@@ -1,0 +1,2619 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "SOURCES": [
+    {
+      "SOURCE_ID": "SRC-001",
+      "SOURCE_NAME": "User recovery request: selected preservation excerpts",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/user_recovery_evidence.md",
+        "SHA256": "5b990a111a3b03488ff1bae8ba4d1a053dd615337abef7e504ad3a88c1cf9b57"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL_AS_STATED",
+      "OWNERSHIP": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "RECOVERY_STATUS": "SELECTED_STATEMENTS_PRESERVED_ORIGINALS_MISSING",
+      "NOTES": "Authoritative for requested classification and lineage; not independent implementation or production evidence. No historical date supplied.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Authoritative for requested classification and lineage; not independent implementation or production evidence. No historical date supplied.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-002",
+      "SOURCE_NAME": "docs/plenra-HLD.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra-HLD.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra-HLD.md",
+        "SHA256": "e8743fc1ef1926662160824cb33cdec478e7a0adfa5f5850eeecad1c319ae239"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-003",
+      "SOURCE_NAME": "docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_v3/plenra/docs/PLENRA_ARCHITECTURE.md",
+        "SHA256": "06231d7b61e6352e2adb106869fbfe6f0aa4c965891c2a94334956dee84c2361"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "The preserved local architecture explicitly describes decision authorization infrastructure. Component classification only; the broader Plenra Python v3 source is MIXED_TRANSITION_SOURCE. Local bytes are not verified against plenra_v3_pack.zip or an original production repository.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "COMPONENT_OF": "SRC-023",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. The preserved local architecture explicitly describes decision authorization infrastructure. Component classification only; the broader Plenra Python v3 source is MIXED_TRANSITION_SOURCE. Local bytes are not verified against plenra_v3_pack.zip or an original production repository.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-004",
+      "SOURCE_NAME": "docs/plenra_python_v2/README.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/README.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/README.md",
+        "SHA256": "f670a063d412ab59eafc52b212b2b280be92dac60cc8761b80bca03d293fd9a6"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-005",
+      "SOURCE_NAME": "docs/Scaffolding_Pack/README.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/Scaffolding_Pack/README.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/Scaffolding_Pack/README.md",
+        "SHA256": "fb2e384295b37de839ab1093de8ad8f35084c780e68b9c03cd5c5d3d45a293d1"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-006",
+      "SOURCE_NAME": "docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+      "SOURCE_TYPE": "LOCAL_DESIGN_DOCUMENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/agents-detailes/PlenraDecision-Intelligence-Engine/README.md",
+        "SHA256": "ee3045445234f8eb56ae85383e2b7cf696112cfa6e5e889f1f12398d587a8442"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-007",
+      "SOURCE_NAME": "01_SOURCE_REGISTER/source_manifest.json",
+      "SOURCE_TYPE": "LOCAL_REGISTRY",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "01_SOURCE_REGISTER/source_manifest.json",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/01_SOURCE_REGISTER/source_manifest.json",
+        "SHA256": "6c3b9f0390341dfd18635526c002291b374ba88078d4f87034c71c820e21474e"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-008",
+      "SOURCE_NAME": "00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+      "SOURCE_TYPE": "LOCAL_RAW_CHAT_EXPORT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/00_INBOX_RAW/2026-04-19__chat_001__raw.txt",
+        "SHA256": "131b095cfb295e1281bd8e019f235e5985cb477fecfdfbeaa6e4b266edcc90e7"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-009",
+      "SOURCE_NAME": "02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+      "SOURCE_TYPE": "LOCAL_NORMALIZED_CHAT",
+      "DATE_OR_PERIOD": "2026-04-19 (declared DATE in local normalized artifact; original chat date not independently verified)",
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/02_NORMALIZED_CHATS/2026-04-19__chat_001__normalized.md",
+        "SHA256": "df21e6c1f0ca299fa67f15dd9fc443a297c66c7d63158e4c8f092223df7c6878"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-010",
+      "SOURCE_NAME": "orchestrator/registry/chatRegistry.json",
+      "SOURCE_TYPE": "LOCAL_REGISTRY",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "orchestrator/registry/chatRegistry.json",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/orchestrator/registry/chatRegistry.json",
+        "SHA256": "ceb4a59d9acf8f36ca8678333fab8348f903a7c8c870e11c1844e62af2dcbdad"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-011",
+      "SOURCE_NAME": "plenra_exports/backupRegistry.json",
+      "SOURCE_TYPE": "LOCAL_REGISTRY",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "plenra_exports/backupRegistry.json",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/plenra_exports/backupRegistry.json",
+        "SHA256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "DOCUMENT_OR_RECORD_ONLY",
+      "OWNERSHIP": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_INFRASTRUCTURE_LINEAGE_CONTEXT_NOT_PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-012",
+      "SOURCE_NAME": "docs/Scaffolding_Pack/plenra/config/system_config.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/Scaffolding_Pack/plenra/config/system_config.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/Scaffolding_Pack/plenra/config/system_config.py",
+        "SHA256": "a547f14a1266851141f75ff6be74a5b03018bc4e7322abfc0c775d26260874e1"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-013",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_marketing_agent_prompt.py",
+        "SHA256": "51ad84e1318f51f15a84718b226d9f42cfc99f769037b69d141f340efc3889f4"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-014",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_content_agent_prompt.py",
+        "SHA256": "b3c0255c0097f82ec8cc8ddeb37d9caef17f1bbda4892af37dc4dccc728beec0"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-015",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_conversion_agent_prompt.py",
+        "SHA256": "1421c859b8fccdb18638a1a0454a2112a022a4582174b9965daab7384b1675ba"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-016",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_distribution_agent_prompt.py",
+        "SHA256": "b474aea9bc6e327e17f768f892006e0760a15711d726ae4918976dc0ae7ae7dd"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-017",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_analytics_agent_prompt.py",
+        "SHA256": "ebc7e8b0967f70085b70409ecaca73d71dbedde2de297185144cc0a55b414b8b"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-018",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/vp_tech_agent_prompt.py",
+        "SHA256": "1e4d2a609f8418a9e8e8a539233c82faff53f6e652de9fd840d062bd5ccd8420"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-019",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/prompts/central_agent_prompt.py",
+        "SHA256": "a25e75a5be9a4a2acfcb27bacc9bd9655b1517660c8fc03d37613f1c5378bcd8"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-020",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/agents/central_agent.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/agents/central_agent.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/agents/central_agent.py",
+        "SHA256": "3c4e43b29609b5569a05e5cbf3b95bc6a1593bc462e2bc9d80b8c288c67029ff"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-021",
+      "SOURCE_NAME": "docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+      "SOURCE_TYPE": "LOCAL_SCAFFOLD_CODE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+        "BASE_COMMIT": "dcc6cb51fb96ff5ebc1bf52a0766f1f24f04526c",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_python_v2/plenra/agents/vp_content_agent.py",
+        "SHA256": "82a3422c3a4b0c41ab62dfc615073acc6447274932387b6527de7fe537cbc244"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "SCAFFOLD_CODE_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "RECOVERY_STATUS": "LOCAL_ARTIFACT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "NOTES": "Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_OR_UNRESOLVED_SCOPE_DO_NOT_ASSIGN_BY_NAME",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Snapshot preserves source wording without adopting its instructions or authority. Production-ready/blueprint labels are not deployment evidence. Upstream original prompts/chats are not established by this copy.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-022",
+      "SOURCE_NAME": "V0.4 authoritative recovery statement",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "A–E"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "RECOVERY_STATEMENT",
+      "OWNERSHIP": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Session-supplied evidence; no independent historical source export.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Session-supplied evidence; no independent historical source export.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-023",
+      "SOURCE_NAME": "Plenra Python v3 / plenra_v3_pack.zip",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": "On/around March 27, 2026",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "A"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "SYNTHETIC_RECONSTRUCTION",
+      "OWNERSHIP": "MIXED_TRANSITION_SOURCE",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "SYNTHETIC_RECONSTRUCTION_NOT_VERIFIED_ORIGINAL_PRODUCTION_SOURCE",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Specified/generated pack with intended prompt texts, exact thresholds, TypeScript/JSON/YAML configuration, agent descriptions, tool contracts, architecture, Python/code, separate .prompt.txt files, thresholds.yaml, PLENRA_ARCHITECTURE.md and loaders. No missing texts or numeric values reconstructed. Component-level ownership required.",
+      "ARCHIVE_BYTES_RECOVERED": false,
+      "MONOLITHIC_OWNERSHIP_ALLOWED": false,
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_TRANSITION_SOURCE",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Specified/generated pack with intended prompt texts, exact thresholds, TypeScript/JSON/YAML configuration, agent descriptions, tool contracts, architecture, Python/code, separate .prompt.txt files, thresholds.yaml, PLENRA_ARCHITECTURE.md and loaders. No missing texts or numeric values reconstructed. Component-level ownership required.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-024",
+      "SOURCE_NAME": "March/April 2026 Decision Infrastructure implementation evidence",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": "March/April 2026 (approximate)",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "B"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "IMPLEMENTATION_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Validation, deterministic handling, safe fallback and parser/testing evidence are reported. Historical Plenra name does not imply original-product ownership.",
+      "REPORTED_ARTIFACTS": [
+        "app/prompts/intake_budget_increase_prompt.py",
+        "app/services/intake_schemas.py",
+        "run_intake_to_decision_flow.py",
+        "decision_gate_service.py",
+        "app/api/intake.py",
+        "app/main.py"
+      ],
+      "REPORTED_FIELDS": [
+        "current_budget",
+        "target_budget",
+        "ROI",
+        "CPC",
+        "conversion",
+        "trend",
+        "portfolio ROI",
+        "budget_delta_percent"
+      ],
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Validation, deterministic handling, safe fallback and parser/testing evidence are reported. Historical Plenra name does not imply original-product ownership.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-025",
+      "SOURCE_NAME": "October 2025 AgentKit / Session2Printable architecture",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": "Approximately October 28, 2025",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "C"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL_NOT_PRODUCTION",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "P0 original-source recovery. Product architecture evidence strengthens association of the named agents/capabilities, but does not establish implementation.",
+      "ARCHITECTURE": [
+        "ChatKit",
+        "Agent Builder",
+        "AgentKit",
+        [
+          "Supabase",
+          "Stripe",
+          "Drive",
+          "S3",
+          "Make"
+        ]
+      ],
+      "HISTORICAL_IMPLEMENTATION_STATUS": {
+        "AGENT_BUILDER": "PLANNED_PENDING",
+        "CHATKIT_UI": "PLANNED_NOT_VERIFIED_IMPLEMENTED",
+        "SUPABASE_STRIPE_DRIVE": "NOT_YET_CONFIGURED",
+        "MAKE_N8N": "MANUAL_BRIDGE",
+        "S3": "NOT_STATED",
+        "INITIAL_RECOMMENDATION": "IMPLEMENT_ONLY_1_TO_2_AGENTS"
+      },
+      "FLOWS": [
+        "After-Lead Marketing",
+        "Emotional Layer",
+        "Session2Printable Pipeline"
+      ],
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. P0 original-source recovery. Product architecture evidence strengthens association of the named agents/capabilities, but does not establish implementation.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-026",
+      "SOURCE_NAME": "Plenra - Decision Infrastructure System Documentation",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "E"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "DOCUMENTATION_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Primarily Belanar precursor; full source extraction remains open.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Primarily Belanar precursor; full source extraction remains open.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-027",
+      "SOURCE_NAME": "הסוכן המרכזי 4 לווינים",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "E"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "HISTORICAL_DESIGN_EVIDENCE_STATUS_INCOMPLETE",
+      "OWNERSHIP": "MIXED_LINEAGE_EVIDENCE_COMPONENT_OWNERSHIP_UNRESOLVED",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Evidence distinguishes emotional Plenra from broader diagnostic/system architecture. Do not infer agent identities, complete architecture or ownership beyond available evidence.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "MIXED_LINEAGE_EVIDENCE_COMPONENT_OWNERSHIP_UNRESOLVED",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Evidence distinguishes emotional Plenra from broader diagnostic/system architecture. Do not infer agent identities, complete architecture or ownership beyond available evidence.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-028",
+      "SOURCE_NAME": "Plenra Execution Agent",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "E"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "EXECUTION_CONTRACTS_REPORTED_IMPLEMENTATION_UNVERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Execution contracts, adapters and fail-closed behavior; primarily Belanar precursor.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Execution contracts, adapters and fail-closed behavior; primarily Belanar precursor.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-029",
+      "SOURCE_NAME": "Budget Increase Decision Gate POC",
+      "SOURCE_TYPE": "USER_REPORTED_HISTORICAL_SOURCE_REFERENCE",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_4_recovery_evidence.md",
+        "SHA256": "d4fc60063c55cce6c9b4b18757fe0d57e47a47da27199703bbeb36ee3bfc6107",
+        "SECTION": "E"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_RECOVERY_EVIDENCE_NOT_ORIGINAL_SOURCE_BYTES",
+      "PRODUCT_STAGE": "POC_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "RECOVERY_STATUS": "REFERENCE_PRESERVED_SOURCE_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "RECOVERY_PRIORITY": "P0",
+      "NOTES": "Intake → validation → decision → action → API/UI/observability. No original source bytes or production outcome established.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Intake → validation → decision → action → API/UI/observability. No original source bytes or production outcome established.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-030",
+      "SOURCE_NAME": "docs/plenra_v3/plenra/core/loaders.py",
+      "SOURCE_TYPE": "LOCAL_V3_COMPONENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_v3/plenra/core/loaders.py",
+        "BASE_COMMIT": "3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_v3/plenra/core/loaders.py",
+        "SHA256": "8bdcef081d1240a1121619aad739c3be8ceee826604d2780dc7caba82bf85f53"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "LOCAL_ARTIFACT_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "COMPONENT_OF": "SRC-023",
+      "RECOVERY_STATUS": "LOCAL_COMPONENT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_AGAINST_HISTORICAL_ZIP_AND_ORIGINAL_PRODUCTION_SOURCE",
+      "NOTES": "Observed local decision-infrastructure component. Byte preservation does not establish original prompt completeness, historical zip identity or production.",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Observed local decision-infrastructure component. Byte preservation does not establish original prompt completeness, historical zip identity or production.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-031",
+      "SOURCE_NAME": "docs/plenra_v3/plenra/config/thresholds.yaml",
+      "SOURCE_TYPE": "LOCAL_V3_COMPONENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_v3/plenra/config/thresholds.yaml",
+        "BASE_COMMIT": "3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_v3/plenra/config/thresholds.yaml",
+        "SHA256": "d455180d4926f75dbc8de472938db4cd79fcc16701b7b0c00c8cb947a7ffb8ad"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "LOCAL_ARTIFACT_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "COMPONENT_OF": "SRC-023",
+      "RECOVERY_STATUS": "LOCAL_COMPONENT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_AGAINST_HISTORICAL_ZIP_AND_ORIGINAL_PRODUCTION_SOURCE",
+      "NOTES": "Observed local decision-infrastructure component. Byte preservation does not establish original prompt completeness, historical zip identity or production.",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Observed local decision-infrastructure component. Byte preservation does not establish original prompt completeness, historical zip identity or production.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-032",
+      "SOURCE_NAME": "docs/plenra_v3/plenra/prompts/decision_gate.prompt.txt",
+      "SOURCE_TYPE": "LOCAL_V3_COMPONENT",
+      "DATE_OR_PERIOD": null,
+      "EVIDENCE_AVAILABLE": {
+        "ORIGINAL_LOCAL_PATH": "docs/plenra_v3/plenra/prompts/decision_gate.prompt.txt",
+        "BASE_COMMIT": "3fcf35735d53c25edd0a7a9fcc3277ed8a43c8d8",
+        "PACK_PATH": "evidence/v0.5/evidence/local/docs/plenra_v3/plenra/prompts/decision_gate.prompt.txt",
+        "SHA256": "e22a1f8fdccb0f7aa6de7a4662cf8579a1f7d7ac36c8977452b24a53880dd7bf"
+      },
+      "EVIDENCE_LEVEL": "BYTE_PRESERVED_LOCAL_ARTIFACT_NOT_PRODUCTION_VERIFICATION",
+      "PRODUCT_STAGE": "LOCAL_ARTIFACT_PRESENT_NOT_PRODUCTION_VERIFIED",
+      "OWNERSHIP": "BELANAR_PRECURSOR",
+      "COMPONENT_OF": "SRC-023",
+      "RECOVERY_STATUS": "LOCAL_COMPONENT_PRESERVED_UPSTREAM_EXTRACTION_INCOMPLETE",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_AGAINST_HISTORICAL_ZIP_AND_ORIGINAL_PRODUCTION_SOURCE",
+      "NOTES": "Observed local decision-infrastructure component. Byte preservation does not establish original prompt completeness, historical zip identity or production.",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. Observed local decision-infrastructure component. Byte preservation does not establish original prompt completeness, historical zip identity or production.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-033",
+      "SOURCE_NAME": "V0.5 authoritative recovery statement",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "g-lineage-and-integrity"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "RECOVERY_PRESERVATION",
+      "OWNERSHIP": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "CLASSIFICATION_MARKERS": [],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_AND_LINEAGE_BOUNDARY_STATEMENTS",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-034",
+      "SOURCE_NAME": "Plenra Central Agent v2",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "a-central-agent-v2"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CLASSIFICATION_MARKERS": [],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-035",
+      "SOURCE_NAME": "Plenra Autonomous Hub",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "c-autonomous-hub"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "POC_IMPLEMENTATION_PLAN_EVIDENCE",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CLASSIFICATION_MARKERS": [
+        "EXECUTION_PLAN"
+      ],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-036",
+      "SOURCE_NAME": "plenra_master_flow.manus",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "c-autonomous-hub"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "POC_IMPLEMENTATION_PLAN_EVIDENCE",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CLASSIFICATION_MARKERS": [
+        "EXECUTION_PLAN"
+      ],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-037",
+      "SOURCE_NAME": "Plenra_Master_Hook",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": null,
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "c-autonomous-hub"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "POC_IMPLEMENTATION_PLAN_EVIDENCE",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CLASSIFICATION_MARKERS": [
+        "EXECUTION_PLAN"
+      ],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-038",
+      "SOURCE_NAME": "Central Agent 3",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": "December 2025 (reported period; exact date unknown)",
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "d-central-agent-3"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "DESIGNED_CONCEPTUAL",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "CLASSIFICATION_MARKERS": [
+        "COMMERCIAL_ORCHESTRATION_EVOLUTION"
+      ],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_IP",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "SRC-039",
+      "SOURCE_NAME": "Plenra Central Agent Decision Memo",
+      "SOURCE_TYPE": "USER_SUPPLIED_RECOVERY_STATEMENT",
+      "DATE_OR_PERIOD": "December 2025 (reported period; exact date unknown)",
+      "ORIGINAL_SOURCE_URL": null,
+      "ORIGINAL_SOURCE_ID": null,
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/v0.5/v0_5_recovery_evidence.md",
+        "SHA256": "3cc6a347f11cc74dbb410e566fcc068d2f65c85cf0d5a09e2bda0593096dc636",
+        "SECTION": "e-decision-memo"
+      },
+      "EVIDENCE_LEVEL": "ATTRIBUTED_USER_STATEMENT_NOT_ORIGINAL_HISTORICAL_SOURCE",
+      "PRODUCT_STAGE": "HISTORICAL_GOVERNANCE_DESIGN",
+      "OWNERSHIP": "PLENRA_ORIGINAL_PRODUCT_GOVERNANCE_EVIDENCE",
+      "CLASSIFICATION_MARKERS": [],
+      "RECOVERY_STATUS": "ARCHITECTURE_SUMMARY_PRESERVED_ORIGINAL_SOURCE_MISSING",
+      "SOURCE_PARITY_STATUS": "UNVERIFIED_ORIGINAL_SOURCE_PARITY",
+      "PRODUCTION_STATUS": "NOT_VERIFIED",
+      "NOTES": "No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "INHERITED_VERIFIED_V0_5",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_GOVERNANCE_EVIDENCE",
+      "EVIDENCE_LIMITATIONS": "V0.5 attribution and scope retained. ORIGINAL_FILE here means preserved local file only, never upstream full-prompt parity. No exact historical date, original metadata or source bytes supplied. Summary does not establish implementation, production or validated outcomes.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "DS1-S01",
+      "SOURCE_NAME": "S01-artifact-index.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established from this chat's header",
+      "CHAT_TITLE": "שימור מסמכים בגוגל דוקס",
+      "SOURCE_URL": "https://chatgpt.com/c/69b9138a-0024-8384-a357-4864c04875b6",
+      "DATE_OR_PERIOD": "March 19, 2026 (visible date separator; year contextual)",
+      "LINEAGE": "UNCERTAIN",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S01-artifact-index.md",
+        "SHA256": "bcba612b85b38781090e5330221a616f980302b1af28bb5d174bd7dd52d8705d"
+      },
+      "EVIDENCE_LIMITATIONS": "The schema is original conversation evidence, not recovered spreadsheet rows. Generic persistence logic and March date alone do not establish Original Product ownership. No original artifact inventory references could be followed from this schema.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S02",
+      "SOURCE_NAME": "S02-recovery-master-reference.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established for the external file",
+      "CHAT_TITLE": "PLENRA_RECOVERY_MASTER.md (ChatGPT Library file preview)",
+      "SOURCE_URL": "https://docs.google.com/document/d/1hgwXfNtgyrIXzQPHwZNxr2iUquP058aLgSUE8ZVAsO4/edit",
+      "DATE_OR_PERIOD": "November 5, 2025 (search result label)",
+      "LINEAGE": "UNCERTAIN",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S02-recovery-master-reference.md",
+        "SHA256": "13a52c2d5e739a701edd5fef5351019d9a0a234b29e76ab51f1e6dfc6679d434"
+      },
+      "EVIDENCE_LIMITATIONS": "Opened via ChatGPT search into its library preview. Embedded Google Docs displayed access denied / access required. No access request, account switch, message, or alternate retrieval was attempted. Search also listed two November 7, 2025 entries named '# 🧠 PLENRA RECOVERY MASTER. Md'; these were not opened. Different filenames/dates/IDs must not be treated as equivalent versions without content inspection.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S03",
+      "SOURCE_NAME": "S03-original-product-agent-excerpts.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "November–December 2025; search result labeled December 2, 2025; visible November 12/15/19/22 date separators. Exact dates of individual excerpts not established.",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S03-original-product-agent-excerpts.md",
+        "SHA256": "08ca690153de64c946373c052d8e2fcbe6f844b7fcb1ba6c6d133e1c28dcf2b7"
+      },
+      "EVIDENCE_LIMITATIONS": "Conversation viewed in Chrome. Selected verbatim text preserved below, with AX whitespace normalization only. These are historical specifications, including text pasted by the user, not proof of deployed agents. Full system prompts for all roles and original attachment bytes are not recovered. Setup search results reference master flow/Hub/hook/setup folder but do not supply their original executable definitions. A different chat's operational credentials surfaced incidentally in a search result and were excluded entirely.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S04",
+      "SOURCE_NAME": "S04-decision-architecture.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established from viewed header",
+      "CHAT_TITLE": "המשמעות של המודל החדש",
+      "SOURCE_URL": "https://chatgpt.com/c/69eaf420-8878-8397-9171-8bbd135a90fb",
+      "DATE_OR_PERIOD": "April 2026; search label April 24 and visible April 24 separator later in conversation",
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S04-decision-architecture.md",
+        "SHA256": "ea7183903c9b64365cfa9819e57a784d3b9cc077073d6bfc4e9d5f7c999b0139"
+      },
+      "EVIDENCE_LIMITATIONS": "Complete visible architecture code block transcribed below. This does not establish byte parity with the separate Google Drive document or production code. Explicit Decision Infrastructure positioning establishes lineage, not the Plenra title alone.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S05",
+      "SOURCE_NAME": "S05-orchestrator-lineage.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established from viewed header",
+      "CHAT_TITLE": "Plenra Orchestrator Design",
+      "SOURCE_URL": "https://chatgpt.com/c/69fdcf23-39ec-838d-8a4b-8b8997512b8a",
+      "DATE_OR_PERIOD": "Visible May 9 and June 2, 2026 separators; search result labeled July 26",
+      "LINEAGE": "MIXED",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S05-orchestrator-lineage.md",
+        "SHA256": "acd5c2a2b0f3fd1e3eb8ceecfeb0a660bb98164d267b80b1232eaf3c8038d0a6"
+      },
+      "EVIDENCE_LIMITATIONS": "Inspected content includes Decision Infrastructure governance and product/coach-facing role descriptions. Classifying the entire title as Original Product would be incorrect. The excerpts below are evidence of the later decision/governance domain, not instructions for this recovery.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S06",
+      "SOURCE_NAME": "S06-dataset-ledger-migration-references.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established",
+      "CHAT_TITLE": "Multiple search results, listed individually below",
+      "SOURCE_URL": null,
+      "DATE_OR_PERIOD": "February–August 2026 (search labels, not exact message dates)",
+      "LINEAGE": "BELANAR_PRECURSOR for decision and migration excerpts; UNCERTAIN for unopened ledger",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+        "SHA256": "8e5bd2ce4ba16f6b9ff0b558972f6991ee157728260f2449398b4a6a5ec05918"
+      },
+      "EVIDENCE_LIMITATIONS": "Search excerpts are preserved as excerpts, not complete source artifacts. Claims of empty datasets and completed migration are historical assistant summaries and were not independently verified against files.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S07",
+      "SOURCE_NAME": "S07-recovery-master-conversation.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/68f2b499-150c-832a-9e06-bcc0aabc0b7e",
+      "DATE_OR_PERIOD": "2025; search result labeled December 4, 2025; exact message date unavailable",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S07-recovery-master-conversation.md",
+        "SHA256": "f79811731cafd5f0bf031f0745dd9e20580a901ec5dbcfc285d2c50cce83b93a"
+      },
+      "EVIDENCE_LIMITATIONS": "Source explicitly calls itself a system summary and says auto-overwrite/replaces previous versions. It is not source-parity proof of the full historical IP. Original underlying files, backing scripts, and backup repository were not retrieved. Claimed automation readiness and speculative forecasts are not validated. Selected exact text is preserved below; surrounding navigation/UI and unrelated material are omitted. This is an excerpt record, not a reconstruction of missing sections.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS1-S06-SCHEMA",
+      "SOURCE_NAME": "S06-dataset-ledger-migration-references.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established",
+      "CHAT_TITLE": "Multiple search results, listed individually below",
+      "SOURCE_URL": null,
+      "DATE_OR_PERIOD": "February–August 2026 (search labels, not exact message dates)",
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+        "SHA256": "8e5bd2ce4ba16f6b9ff0b558972f6991ee157728260f2449398b4a6a5ec05918"
+      },
+      "EVIDENCE_LIMITATIONS": "Search excerpts are preserved as excerpts, not complete source artifacts. Claims of empty datasets and completed migration are historical assistant summaries and were not independently verified against files.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ],
+      "SCOPE": "Dataset schema and workflow search excerpt; no dataset rows"
+    },
+    {
+      "SOURCE_ID": "DS1-S06-MIGRATION",
+      "SOURCE_NAME": "S06-dataset-ledger-migration-references.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established",
+      "CHAT_TITLE": "Multiple search results, listed individually below",
+      "SOURCE_URL": null,
+      "DATE_OR_PERIOD": "February–August 2026 (search labels, not exact message dates)",
+      "LINEAGE": "BELANAR_PRECURSOR",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+        "SHA256": "8e5bd2ce4ba16f6b9ff0b558972f6991ee157728260f2449398b4a6a5ec05918"
+      },
+      "EVIDENCE_LIMITATIONS": "Search excerpts are preserved as excerpts, not complete source artifacts. Claims of empty datasets and completed migration are historical assistant summaries and were not independently verified against files.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ],
+      "SCOPE": "MIG-001/MIG-011 status summaries, not migration rows"
+    },
+    {
+      "SOURCE_ID": "DS1-S06-LEDGER",
+      "SOURCE_NAME": "S06-dataset-ledger-migration-references.md",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_1",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PRIOR_READ_ONLY_CHROME_CHATGPT_INSPECTION",
+      "CHATGPT_PROJECT": "Not established",
+      "CHAT_TITLE": "Multiple search results, listed individually below",
+      "SOURCE_URL": null,
+      "DATE_OR_PERIOD": "February–August 2026 (search labels, not exact message dates)",
+      "LINEAGE": "UNCERTAIN",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+        "SHA256": "8e5bd2ce4ba16f6b9ff0b558972f6991ee157728260f2449398b4a6a5ec05918"
+      },
+      "EVIDENCE_LIMITATIONS": "Search excerpts are preserved as excerpts, not complete source artifacts. Claims of empty datasets and completed migration are historical assistant summaries and were not independently verified against files.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ],
+      "SCOPE": "Ledger library entry; no records"
+    },
+    {
+      "SOURCE_ID": "DS2-B01",
+      "SOURCE_NAME": "PASS2-S01-research-engine.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "November–December 2025 context; exact response date unestablished",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Research pipeline, JSON and six agent instructions",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+        "SHA256": "3681874aafb6aeaaf8a60c7e9b694aa6270fdb9e3bd8c0e380b674937dde2ff7"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Research pipeline, JSON and six agent instructions",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B02",
+      "SOURCE_NAME": "PASS2-S02-satellite-handoffs.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "2025-11-30 visible separator",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Satellite creation and handoffs",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S02-satellite-handoffs.txt",
+        "SHA256": "c88928256ea2a7409480866efc8c853ced5069b331c714092042a76531f14cd0"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Satellite creation and handoffs",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B03",
+      "SOURCE_NAME": "PASS2-S03-mini-site-agent-prompts.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "2025-11-30 18:43 visible separator",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Mini-site schema, module prompts and routing",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+        "SHA256": "cecbca1ad61a60c31847d2a69fe8475817f90936f829c76ff506832333ae98c6"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Mini-site schema, module prompts and routing",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B04",
+      "SOURCE_NAME": "PASS2-S04-satellite-blueprint.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "2025-11-30 context; exact response time unavailable",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Satellite command definitions, configuration and metrics",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+        "SHA256": "82c89d24718cdc967f6ffab0fa4226b87b817834199cfdd0e0057b7e4b631127"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Satellite command definitions, configuration and metrics",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B05A",
+      "SOURCE_NAME": "PASS2-S05-session-product-behavior.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "SOURCE_URL": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "DATE_OR_PERIOD": "2025-10-06",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+        "SHA256": "91f1528bead84d25930c2c097bab68cff8daf9331d8a356af4a382fe3c4019b1"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B05B",
+      "SOURCE_NAME": "PASS2-S05-session-product-behavior.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "SOURCE_URL": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "DATE_OR_PERIOD": "October 6–25 2025 source window",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "EXCERPT B only: three viral bridge scenarios",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+        "SHA256": "91f1528bead84d25930c2c097bab68cff8daf9331d8a356af4a382fe3c4019b1"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "EXCERPT B only: three viral bridge scenarios",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B05C",
+      "SOURCE_NAME": "PASS2-S05-session-product-behavior.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "SOURCE_URL": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "DATE_OR_PERIOD": "October 6–25 2025 source window",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+        "SHA256": "91f1528bead84d25930c2c097bab68cff8daf9331d8a356af4a382fe3c4019b1"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "DERIVED_SUMMARY",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B06",
+      "SOURCE_NAME": "PASS2-S06-session-contract-and-guards.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "SOURCE_URL": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "DATE_OR_PERIOD": "2025-10-06 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+        "SHA256": "25e0a984851d279e5853fb1a0fe3ff20ca011b5c1dcec77eaa808e6446ad9193"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Session schema, proposed Make nodes and therapist approval/guard instructions",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B07",
+      "SOURCE_NAME": "PASS2-S07-evaluator-reference-lineage.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסבר על AgentKit",
+      "SOURCE_URL": "https://chatgpt.com/c/68e4543f-a5dc-8326-ad12-457a87042008",
+      "DATE_OR_PERIOD": "October 2025 route; later material in same chat excluded",
+      "LINEAGE": "MIXED",
+      "SCOPE": "Named Evaluator route only; no equivalence inferred with QA validators",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S07-evaluator-reference-lineage.txt",
+        "SHA256": "ce2240f93ff123f99155deda3f1d71662dd9077c8458bd8c2afd277c905493ae"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Named Evaluator route only; no equivalence inferred with QA validators",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "REFERENCE_ONLY",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B08",
+      "SOURCE_NAME": "PASS2-S08-setup-and-feedback-loop.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "November 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+        "SHA256": "1ddcf01c0fa32f8d781e624d95bb2950765cec56536c4644ad59563b920f00fa"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "User-pasted setup document and feedback-loop behavior, not DOCX recovery",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B09",
+      "SOURCE_NAME": "PASS2-S09-master-flow-references.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "November–December 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Named master flow/hub/hook/agents creation instructions",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S09-master-flow-references.txt",
+        "SHA256": "ecba6169d7970ced2017ddb436ed5751f148531e0ed6c8a39c6a8eb01064fce5"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Named master flow/hub/hook/agents creation instructions",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "REFERENCE_ONLY",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B10A",
+      "SOURCE_NAME": "PASS2-S10-quality-and-compassion-prompt.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "DATE_OR_PERIOD": "2025-12-06",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+        "SHA256": "40eaa995f3f588303b0dc28d4b19e36ba6e68141f5ac0780d8bb3220898c72b5"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Before Separate module-spec excerpt: QA-12 and proposed check 13",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B10B",
+      "SOURCE_NAME": "PASS2-S10-quality-and-compassion-prompt.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "DATE_OR_PERIOD": "2025-12-06 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+        "SHA256": "40eaa995f3f588303b0dc28d4b19e36ba6e68141f5ac0780d8bb3220898c72b5"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B11",
+      "SOURCE_NAME": "PASS2-S11-prompt-optimizer-source.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "RECOVERY_METHOD": "READ_ONLY_CHROME_CHATGPT_CONVERSATION_WINDOW",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "אינטגרציה של GPT באוטומציה",
+      "SOURCE_URL": "https://chatgpt.com/c/69147f21-4bec-8328-b6c7-8e0794ded350",
+      "DATE_OR_PERIOD": "2025-11-12 contextual, not exact message date",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+        "SHA256": "1e918667c678d97e2a1ad63a7cee9a558e5719161ee2f0fb68aa29f796310c52"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-B12",
+      "SOURCE_NAME": "PASS2-S12-resilience-search-excerpt.json",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "RECOVERY_METHOD": "SOURCE_ANCHORED_CHATGPT_SEARCH_EXCERPT",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "DATE_OR_PERIOD": "2025-12-06 search label",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+        "SHA256": "f8e89e8bbd1b6d93e4b5d0988798d8bbc7d725c7fe1db673ab10791b2e10a82e"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-R01",
+      "SOURCE_NAME": "PASS2-R01-system-setup-reference.json",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "SOURCE_ANCHORED_CHATGPT_SEARCH_EXCERPT",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "November–December 2025 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Leading-ellipsis search excerpt about setup folders/template names",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-R01-system-setup-reference.json",
+        "SHA256": "e62e683d1e5b638e5a350780150e1c94a48f60545ab9b327d478e5026cc63938"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Leading-ellipsis search excerpt about setup folders/template names",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "REFERENCE_ONLY",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-F01",
+      "SOURCE_NAME": "PASS2-F01-setup-docx-preview.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "RECOVERY_METHOD": "READ_ONLY_DOCX_RENDERED_PREVIEW",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": "November 2025 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Rendered DOCX preview text only, three setup rows; no binary parity",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-F01-setup-docx-preview.txt",
+        "SHA256": "f690abef1f7c1dbdd44b55039b7f7f14b5ae5b8fdbe63f6a856017fab01ccf66"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Rendered DOCX preview text only, three setup rows; no binary parity",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_FILE",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-F02",
+      "SOURCE_NAME": "PASS2-F02-recovery-master-2025-11-05.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "READ_ONLY_EMBEDDED_GOOGLE_DOCS_SELECTED_TEXT",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": null,
+      "SOURCE_URL": "https://docs.google.com/document/d/1hgwXfNtgyrIXzQPHwZNxr2iUquP058aLgSUE8ZVAsO4/edit",
+      "DATE_OR_PERIOD": "2025-11-05 declared document version",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+        "SHA256": "467478978108d39e6d7fead51b7683d38991c01819f40abd7d30f1c88c533621"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Original Google Docs file text, itself a historical recovery summary; retrieval provenance ORIGINAL_FILE does not upgrade its instructions",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_FILE",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-F03",
+      "SOURCE_NAME": "PASS2-F03-recovery-master-v9-2025-11-07.txt",
+      "SOURCE_TYPE": "PRESERVED_DEEP_SOURCE_PASS_2_BLOCK",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "READ_ONLY_EMBEDDED_GOOGLE_DOCS_SELECTED_TEXT",
+      "CHATGPT_PROJECT": null,
+      "PROJECT_SCOPE_NOTE": "Project verified through C02; only C01/C02 have established association in preserved headers. Null means this specific source association was not established.",
+      "CHAT_TITLE": null,
+      "SOURCE_URL": "https://docs.google.com/document/d/1T8vvIDM3_sdBbnEQImi2aDiZlbTHaxpnN-xVH5IZXVQ/edit",
+      "DATE_OR_PERIOD": "2025-11-07 declared v9",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SCOPE": "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+        "SHA256": "041f4f22477f55bef2865de4d91bddbf6e51fe52ff227db97c93887402b9b95f"
+      },
+      "EVIDENCE_LIMITATIONS": [
+        "Original Google Docs v9 text, itself historical summary/forecast; retrieval provenance ORIGINAL_FILE does not establish implementation",
+        "Virtualized ChatGPT source windows are not whole-chat exports.",
+        "B12 and R01 retain search-surface status.",
+        "No byte-for-byte original attachment export.",
+        "ZIP availability untested; no destination-safe download capability used.",
+        "No audit of deployed agents, accounts, APIs, performance or regulatory compliance."
+      ],
+      "RETRIEVAL_PARITY": "ORIGINAL_FILE",
+      "BINARY_PARITY": false,
+      "FULL_AGENT_DEFINITION_RECOVERED": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "DS2-REPORT",
+      "SOURCE_NAME": "Pass 2 analyst report",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "RECOVERY_METHOD": "PASS_2_ANALYST_RECORD_OF_READ_ONLY_INSPECTION",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": "2026-09-18 recovery report; December 2025 age-rule observations",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT_WITH_SEPARATE_LATER_LINEAGE_CONTEXT",
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2_REPORT.md",
+        "SHA256": "cb388037137e466c5949687ea3f0d20003465d4b4cce6fb25e45716a1d3fe651"
+      },
+      "EVIDENCE_LIMITATIONS": "Analyst report, not a substitute for the verbatim source. Age-override alternatives are reported here; exact full alternate instructions were not preserved.",
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "ART-A01",
+      "SOURCE_NAME": "plenra_master_flow.manus",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November–December 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B09"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Setup tells freelancer to create it; no .manus bytes, preview, workflow ID or linked export exposed.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A02",
+      "SOURCE_NAME": "Plenra Autonomous Hub",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November–December 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B09"
+        },
+        {
+          "SOURCE_ID": "DS2-R01"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Named as Workspace and elsewhere Flow; export not exposed.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A03",
+      "SOURCE_NAME": "Plenra_Master_Hook",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08"
+        },
+        {
+          "SOURCE_ID": "DS2-B09"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Webhook name only; no original URL, authentication, deployed payload mapping or Make blueprint.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A04",
+      "SOURCE_NAME": "PLENRA_SYSTEM_SETUP",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November–December 2025 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-R01"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Folder creation reference; no original folder contents exposed.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A05",
+      "SOURCE_NAME": "Plenra Agents",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08"
+        },
+        {
+          "SOURCE_ID": "DS2-B09"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Relevance project to create/import agents; no exported agent configuration.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A06",
+      "SOURCE_NAME": "Plenra Hub",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Manus Workspace creation reference, not proof of actual workspace.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A07",
+      "SOURCE_NAME": "Make blueprint / Plenra_AutoSave_Sync",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "DATE_OR_PERIOD": "2025-10-06 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06"
+        },
+        {
+          "SOURCE_ID": "DS2-B03"
+        },
+        {
+          "SOURCE_ID": "DS2-R01"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Proposed node chains and named template only; JSON examples are conversation specifications, not Make export files.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A08",
+      "SOURCE_NAME": "PLENRA_RECOVERY_MASTER.md (2025-11-05)",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "ARTIFACT_STATUS": "ORIGINAL_FILE_RECOVERED",
+      "ORIGINAL_ARTIFACT_STATUS": "TEXT_ONLY_OR_PREVIEW_NO_BINARY_PARITY",
+      "RECOVERY_METHOD": "READ_ONLY_RENDERED_DOCUMENT_TEXT",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": "2025-11-05 declared document version",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-F02"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+        "SHA256": "467478978108d39e6d7fead51b7683d38991c01819f40abd7d30f1c88c533621"
+      },
+      "SOURCE_URL": "https://docs.google.com/document/d/1hgwXfNtgyrIXzQPHwZNxr2iUquP058aLgSUE8ZVAsO4/edit",
+      "EVIDENCE_LIMITATIONS": "Full selected document text copied read-only from embedded Google Docs, beginning and end verified. Plain text recovery, not original Markdown bytes.",
+      "RETRIEVAL_PARITY": "ORIGINAL_FILE",
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A09",
+      "SOURCE_NAME": "# 🧠 PLENRA RECOVERY MASTER. Md (v9, 2025-11-07)",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "DERIVED_SUMMARY",
+      "ARTIFACT_STATUS": "ORIGINAL_FILE_RECOVERED",
+      "ORIGINAL_ARTIFACT_STATUS": "TEXT_ONLY_OR_PREVIEW_NO_BINARY_PARITY",
+      "RECOVERY_METHOD": "READ_ONLY_RENDERED_DOCUMENT_TEXT",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": "2025-11-07 declared v9",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-F03"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+        "SHA256": "041f4f22477f55bef2865de4d91bddbf6e51fe52ff227db97c93887402b9b95f"
+      },
+      "SOURCE_URL": "https://docs.google.com/document/d/1T8vvIDM3_sdBbnEQImi2aDiZlbTHaxpnN-xVH5IZXVQ/edit",
+      "EVIDENCE_LIMITATIONS": "Both November 7 account-indexed results opened and resolve to same document ID; count once. Full selected text preserved. Historical forecasts are not observed outcomes.",
+      "RETRIEVAL_PARITY": "ORIGINAL_FILE",
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A10",
+      "SOURCE_NAME": "Madrich_Hakama_Yafit_Plenra.docx",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "ORIGINAL_FILE",
+      "ARTIFACT_STATUS": "FILE_PREVIEW_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "TEXT_ONLY_OR_PREVIEW_NO_BINARY_PARITY",
+      "RECOVERY_METHOD": "READ_ONLY_RENDERED_DOCUMENT_TEXT",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November 2025 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-F01"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": {
+        "PACK_PATH": "evidence/deep-source-recovery/PASS2-F01-setup-docx-preview.txt",
+        "SHA256": "f690abef1f7c1dbdd44b55039b7f7f14b5ae5b8fdbe63f6a856017fab01ccf66"
+      },
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Original generated-document preview opened and rendered text preserved; only visible three-row version, not a presumed 28-row full document.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A11",
+      "SOURCE_NAME": "Madrich_Hakama_Yafit_Plenra (1).docx",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "DATE_OR_PERIOD": "November 2025 setup window; exact message date unknown",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B08"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Uploaded-file metadata inspected; adjacent pasted text is separately preserved as conversation text, not presumed identical file content.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A12",
+      "SOURCE_NAME": "plenra_prompt_optimizer_v1.zip",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "אינטגרציה של GPT באוטומציה",
+      "DATE_OR_PERIOD": "2025-11-12 contextual, not exact message date",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B11"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Upload metadata in primary source and Download the ZIP control in creation chat inspected. No archive entry listing or bytes read. Download not triggered because supported browser download API cannot specify authorized destination; availability untested, not ACCESS_DENIED.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A13",
+      "SOURCE_NAME": "schemas/prompt_optimizer.request.json; prompt_optimizer.response.json",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "אינטגרציה של GPT באוטומציה",
+      "DATE_OR_PERIOD": "2025-11-12 contextual, not exact message date",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B11"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Schema examples readable in conversation and preserved there; original archive members not read.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A14",
+      "SOURCE_NAME": "app/assistants.py; app/router.py; app/run_local.py; app/tests/test_cases.json; requirements.txt",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "אינטגרציה של GPT באוטומציה",
+      "DATE_OR_PERIOD": "2025-11-12 contextual, not exact message date",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B11"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Named archive members only. Did not infer code/test contents from descriptions.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A15",
+      "SOURCE_NAME": "run_automation.py",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "DATE_OR_PERIOD": "2025-10-06 context",
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "DS2-B06"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Referenced executor only; no original file read.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A16",
+      "SOURCE_NAME": "Plenra_Coach_Welcome_Guide_Screen.pdf",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "CHAT-C02"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Visible attachment metadata only. No content-level recovery claimed.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A17",
+      "SOURCE_NAME": "focus_starter_printable.pdf",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "CHAT-C02"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Visible attachment metadata and discussion of defective output; no PDF content preserved.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A18",
+      "SOURCE_NAME": "Plenra_AgentKit_Builder_ChatKit_Diagram.png",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "CHAT-C04"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Diagram name associated with original flow; no actual diagram content read; not treated as Evaluator definition.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "ART-A19",
+      "SOURCE_NAME": "Plenra_Quantum_Search_Pack_EN_Extended.md",
+      "SOURCE_TYPE": "HISTORICAL_ARTIFACT",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "ARTIFACT_STATUS": "FILE_REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_STATUS": "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "RECOVERY_METHOD": "REFERENCE_INSPECTION_ONLY",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": null,
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "SOURCE_EVIDENCE": [
+        {
+          "SOURCE_ID": "CHAT-C01"
+        }
+      ],
+      "EVIDENCE_AVAILABLE": null,
+      "SOURCE_URL": null,
+      "EVIDENCE_LIMITATIONS": "Visible artifact control in initial source, not opened this pass; research pack outside named P0 definitions.",
+      "RETRIEVAL_PARITY": null,
+      "BINARY_PARITY": false,
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+      "SUBSTANTIVE_CLAIM_STATUS": [
+        "HISTORICAL_CLAIM",
+        "OUTCOME_NOT_VERIFIED"
+      ]
+    },
+    {
+      "SOURCE_ID": "CHAT-C01",
+      "SOURCE_NAME": "הסוכן המרכזי לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PASS_2_SOURCE_WINDOW_INDEX",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/68f2b499-150c-832a-9e06-bcc0aabc0b7e",
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": [
+        "Initial source inspection: historical recovery summary and failed file-creation claim; overlaps Pass 1 S07.",
+        "Index only; entire_chat_inspected=false. Project header verification basis is C02; do not infer complete project membership from index."
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "CHAT-C02",
+      "SOURCE_NAME": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PASS_2_SOURCE_WINDOW_INDEX",
+      "CHATGPT_PROJECT": "פלנרה, לוויינים, פרינטבל אוטומציה",
+      "CHAT_TITLE": "הסוכן המרכזי 2לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": [
+        "Pass 1 S03 actual source; November setup, November 30 module prompts, research pipeline and attachments; primary project verified.",
+        "Index only; entire_chat_inspected=false. Project header verification basis is C02; do not infer complete project membership from index."
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "CHAT-C03",
+      "SOURCE_NAME": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PASS_2_SOURCE_WINDOW_INDEX",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "Plenra – Personalized Tools for Coaches and Therapists.",
+      "SOURCE_URL": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": [
+        "October 6–25 product-origin, Session2Printable, approval, viral bridge and emotional summary.",
+        "Index only; entire_chat_inspected=false. Project header verification basis is C02; do not infer complete project membership from index."
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "CHAT-C04",
+      "SOURCE_NAME": "הסבר על AgentKit",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PASS_2_SOURCE_WINDOW_INDEX",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "הסבר על AgentKit",
+      "SOURCE_URL": "https://chatgpt.com/c/68e4543f-a5dc-8326-ad12-457a87042008",
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "MIXED",
+      "EVIDENCE_LIMITATIONS": [
+        "October Router→Session2Printable→Evaluator→Distributor; December 30 water-damage decision product and April 2026 classifier excluded from Original IP.",
+        "Index only; entire_chat_inspected=false. Project header verification basis is C02; do not infer complete project membership from index."
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "CHAT-C05",
+      "SOURCE_NAME": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PASS_2_SOURCE_WINDOW_INDEX",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\"",
+      "SOURCE_URL": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": [
+        "December 6 QA and Compassion Engine source read; resilience exact response retained only as anchored search excerpt.",
+        "Index only; entire_chat_inspected=false. Project header verification basis is C02; do not infer complete project membership from index."
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    },
+    {
+      "SOURCE_ID": "CHAT-C06",
+      "SOURCE_NAME": "אינטגרציה של GPT באוטומציה",
+      "SOURCE_PARITY": "REFERENCE_ONLY",
+      "RECOVERY_METHOD": "PASS_2_SOURCE_WINDOW_INDEX",
+      "CHATGPT_PROJECT": null,
+      "CHAT_TITLE": "אינטגרציה של GPT באוטומציה",
+      "SOURCE_URL": "https://chatgpt.com/c/69147f21-4bec-8328-b6c7-8e0794ded350",
+      "DATE_OR_PERIOD": null,
+      "LINEAGE": "PLENRA_ORIGINAL_PRODUCT",
+      "EVIDENCE_LIMITATIONS": [
+        "Direct optimizer ZIP creation source; full system instructions, schemas, VP templates, retries, guardrails, telemetry.",
+        "Index only; entire_chat_inspected=false. Project header verification basis is C02; do not infer complete project membership from index."
+      ],
+      "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+    }
+  ],
+  "PARITY_POLICY": {
+    "APPLICABLE_STATES": [
+      "ORIGINAL_FILE",
+      "ORIGINAL_CONVERSATION_TEXT",
+      "PARTIAL_ORIGINAL_CONVERSATION",
+      "RECOVERED_PARTIAL",
+      "DERIVED_SUMMARY",
+      "SYNTHETIC_RECONSTRUCTION",
+      "REFERENCE_ONLY",
+      "ORIGINAL_ARTIFACT_NOT_RECOVERED",
+      "NOT_FOUND"
+    ],
+    "NO_UPGRADE": true,
+    "LOCAL_BYTES_DO_NOT_ESTABLISH_UPSTREAM_PARITY": true,
+    "LATEST_HISTORICAL_MASTER_IS_COMPLETE_RECORD": false,
+    "RECOVERY_MASTER_TEXTS": 2,
+    "RECOVERY_MASTER_BINARY_FILES": 0
+  },
+  "VERIFIED_PROJECT": {
+    "name": "פלנרה, לוויינים, פרינטבל אוטומציה",
+    "id": "g-p-68cc55bb56248191a1be404d23b7193b",
+    "verified": true,
+    "basis": "Exact C02 source URL redirected into project; header and original coaching/printable content matched Pass1 S03."
+  },
+  "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY"
+}

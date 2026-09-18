@@ -1,0 +1,255 @@
+SOURCE: https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5
+PARITY: ORIGINAL_CONVERSATION_TEXT
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+DATE: November 30 context; exact response timestamp not exposed
+
+Thought for 22s
+
+להלן 1+2+3+4+5 כמודול רשמי למערכת, סביב Press Release + Micro-Tools כלוויינים של Plenra.
+
+1. מודול רשמי: Press Release & Micro-Tools Satellites
+
+שם מודול: PressRelease_MicroTools_Growth_Engine
+מטרה עסקית:
+להביא טראפיק חם וזול לפלנרה ולהכנסת מאמנים חדשים, דרך:
+
+מאמרי Press Release באתרים חזקים
+
+מיקרו-טולס קטנים (לוויינים) שמייצרים ערך מידי
+
+חיבור אוטומטי מהטול אל פלנרה (למאמן או לפלטפורמה)
+
+עקרון ליבה:
+
+Plenra היא “השמש”.
+
+כל Micro-Tool הוא “לוויין” שמקבל טראפיק משלו (SEO / PR / שיתופים) אבל תמיד מחזיר את המשתמש לפלנרה:
+
+להורדת Printable
+
+להתחברות למאמן
+
+או להירשם כמאמן חדש
+
+דוגמאות Micro-Tools:
+
+“CBT Headline Fixer” למאמנים – משנה כותרת פוסט לטון רגשי טוב יותר
+
+“Parent Meltdown De-Escalator” – שאלון קצר שמחזיר Printable מותאם
+
+“Session Summary Cleaner” – מסכם טקסט גולמי של סשן ל־3 bulletים
+
+2. פקודות לסוכנים (קומנדו רשמי לכל Agent)
+Central Agent
+
+DEFINE_MICRO_TOOL – קבלת רעיון למיקרו-טול, הגדרת קהל יעד, ערך רגשי, CTA לפלנרה, ושיוך לסוכן רלוונטי.
+
+ROUTE_PR_CAMPAIGN – יצירת בריף אחיד ל־Press Release עבור VP Marketing + VP Distribution.
+
+VP Marketing Agent
+
+PR_ANGLE_FROM_TOOL – יצירת זווית חדשותית סביב המיקרו-טול (“Plenra launches free burnout calculator for therapists”)
+
+AFFILIATE_STYLE_STRUCTURE – בניית מבנה כתבה בסגנון CNN/Forbes: כותרת חדשותית + רשימות + CTA לאגר טול + CTA משני לפלנרה.
+
+VP Content Agent
+
+MICRO_TOOL_COPY_PACK – כתיבת:
+
+טקסט לדף הטול
+
+Micro-email שנשלח למאמנים
+
+טקסטים קצרים לפוסטים שמפנים לטול
+
+VP Distribution Agent
+
+PR_DISTRIBUTION_PLAN – בחירת:
+
+אתרי Press Release
+
+קהילות (פייסבוק / לינקדאין / פורומים)
+
+מסלול שיתוף: PR → Micro-Tool → Plenra
+
+VP Conversion Agent
+
+TOOL_TO_PLENRA_FUNNEL – הגדרת מסלול המרה בתוך הטול:
+
+אחרי תוצאה – הצעה להצטרף לפלנרה כמאמן
+
+הצעה להירשם למייל לקבלת עוד כלים
+
+או הורדת Printable רק דרך הרשמה (יווצר ליד).
+
+VP Analytics Agent
+
+MICRO_TOOL_KPI_LOOP – מעקב אחרי:
+
+כניסות לטול
+
+אחוז שמסיים שימוש
+
+אחוז שמקליק ל־Plenra
+
+אחוז שנרשם כמאמן / מתאמן
+
+3. JSON Blueprint רשמי למיקרו-טול לוויין
+JSON
+{
+  "module": "PressRelease_MicroTools_Growth_Engine",
+  "micro_tool": {
+    "id": "",
+    "name": "",
+    "slug": "",
+    "primary_audience": "coaches | parents | teens | therapists",
+    "problem_statement": "",
+    "emotional_promise": "",
+    "input_type": "text | quiz | sliders | multiple_choice",
+    "core_logic_type": "rule_based | gemini_api | hybrid",
+    "output_type": "printable_link | summary_text | score + recommendation",
+    "cta_primary": {
+      "type": "join_plenra_as_coach | join_plenra_as_client | download_printable",
+      "text": "",
+      "target_url_placeholder": true
+    },
+    "cta_secondary": {
+      "type": "email_optin | share_tool",
+      "enabled": true
+    }
+  },
+  "press_release": {
+    "headline": "",
+    "subheadline": "",
+    "hook_angle": "",
+    "target_sites": [],
+    "seo_keywords": [],
+    "utm_campaign": ""
+  },
+  "funnel": {
+    "entry_points": [
+      "press_release",
+      "organic_search",
+      "social_post"
+    ],
+    "steps": [
+      "visit_micro_tool",
+      "use_tool",
+      "see_result_screen",
+      "click_cta",
+      "arrive_plenra_landing",
+      "convert_to_signup"
+    ]
+  },
+  "tracking": {
+    "events": [
+      "tool_view",
+      "tool_complete",
+      "cta_click",
+      "plenra_signup"
+    ],
+    "kpi_targets": {
+      "tool_complete_rate": 0.4,
+      "cta_click_rate": 0.25,
+      "signup_rate_from_cta": 0.1
+    }
+  }
+}
+4. פלואו תפעולי אוטומטי (ללא לייב צ׳אט)
+
+Central Agent
+
+מקבל רעיון למיקרו-טול → ממלא שדות ב־JSON blueprint → שומר ב־"MicroTools_Config" (Sheet / DB).
+
+Manus / n8n / Make.com
+
+טריגר “New Micro Tool Config” →
+
+קורא ל־VP Content Agent כדי לייצר טקסטים לטול + עמוד נחיתה קצר.
+
+קורא ל־VP Marketing Agent כדי לייצר Press Release מלא + גרסת “כתבה חדשותית” בסגנון פורטל תוכן.
+
+Google Slides / Webfront
+
+אם הטול כולל Printable – VP Tech Agent לוקח JSON ומרנדר טמפלט Slides קיים (לפי Template Map).
+
+הפצה אוטומטית
+
+VP Distribution Agent מקבל את ה־PR + לינק לטול, ומייצר:
+
+קובץ Press Release להפצה
+
+רשימת אתרי PR וקהילות
+
+תרחישי Make/n8n שולחים:
+
+PR ל־Press Release service
+
+פוסטים לפלטפורמות רלוונטיות
+
+מיילים ל־Mailchimp / רשימות מאמנים.
+
+המרה ומדידה
+
+VP Conversion Agent מוודא שבדף התוצאה של הטול קיימים:
+
+CTA ראשי לפלנרה
+
+CTA משני (אימייל / Printable נוסף).
+
+VP Analytics Agent קורא מה־Events (GA / Sheets / DB), מחשב KPIs, ומחזיר המלצות:
+
+לשנות טקסט
+
+לשפר CTA
+
+להחליף זווית PR.
+
+5. KPIs ויעדי שיפור (לפי הרעיון מהסרטון)
+
+יעדי מודול:
+
+הגדלת קצב הכנסת מאמנים ב־25 אחוז
+
+מדד: כמות מאמנים חדשים לחודש שמגיעים ממיקרו-טולס + PR
+
+יעד: כל Micro-Tool פעיל מוסיף X מאמנים חדשים בחודש (להגדיר לפי המציאות).
+
+שיפור יעילות הקמפיינים ב־25 אחוז
+
+מדד:
+
+CTR מן ה־Press Release אל הטול
+
+CTR מן הטול אל Plenra
+
+פעולה: A/B על כותרת PR + טקסט CTA בטול.
+
+מדד “Satellite Power” לכל טול
+
+satellite_score = traffic * signup_rate * recency_factor
+
+כלים עם Satellite Score גבוה → מקבלים עוד PR, עוד וריאציות, עוד שפה.
+
+מדיניות Press Release חזקה
+
+מינימום:
+
+כל Micro-Tool חדש מקבל לפחות PR אחד רציני.
+
+כל רבעון – לפחות PR מסכם (“Plenra releases 3 new emotional tools for parents”).
+
+אוטומציה מלאה בלי לייב צ׳אט
+
+במקום Live Chat:
+
+Micro-Tools אינטראקטיביים שמרגישים כמו “לייב עזרה”
+
+Sequence מונחה שאלות (“wizard”)
+
+תשובות מתעדכנות בזמן אמת מתוך מנועי Plenra
+
+מדד: אחוז משתמשים שמסיימים את תהליך השאלות עד הסוף ומקבלים תוצאה.
+
+אם תרצה, בשלב הבא אני יכול לקחת אחד מהמיקרו-טולס ולהראות לך מימוש מלא לפי ה־JSON הזה: רעיון → Blueprint מלא → טקסטים → הצעת PR → Flow המרה.
+

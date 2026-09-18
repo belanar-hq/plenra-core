@@ -1,0 +1,154 @@
+{
+  "schema_version": 2,
+  "pass": 2,
+  "created_at": "2026-09-18T13:57:11.327Z",
+  "status": "BOUNDED_PASS_COMPLETE_ALL_NAMED_STATUSES_SETTLED",
+  "source_complete": false,
+  "active_canon": false,
+  "changes_outside_recovery_path": "NONE",
+  "pass1_manifest": {
+    "path": "manifest.json",
+    "sha256": "c857c6de1c9d242943360b8e8c99ad4e8db3631905087c4bc9a316276a1d17a2",
+    "evidence_integrity": [
+      {
+        "path": "README.md",
+        "unchanged": true
+      },
+      {
+        "path": "REPORT.md",
+        "unchanged": true
+      },
+      {
+        "path": "S01-artifact-index.md",
+        "unchanged": true
+      },
+      {
+        "path": "S02-recovery-master-reference.md",
+        "unchanged": true
+      },
+      {
+        "path": "S03-original-product-agent-excerpts.md",
+        "unchanged": true
+      },
+      {
+        "path": "S04-decision-architecture.md",
+        "unchanged": true
+      },
+      {
+        "path": "S05-orchestrator-lineage.md",
+        "unchanged": true
+      },
+      {
+        "path": "S06-dataset-ledger-migration-references.md",
+        "unchanged": true
+      },
+      {
+        "path": "S07-recovery-master-conversation.md",
+        "unchanged": true
+      },
+      {
+        "path": "SEARCH_LOG.md",
+        "unchanged": true
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "PASS2-F01-setup-docx-preview.txt",
+      "bytes": 1682,
+      "sha256": "f690abef1f7c1dbdd44b55039b7f7f14b5ae5b8fdbe63f6a856017fab01ccf66"
+    },
+    {
+      "path": "PASS2-F02-recovery-master-2025-11-05.txt",
+      "bytes": 4944,
+      "sha256": "467478978108d39e6d7fead51b7683d38991c01819f40abd7d30f1c88c533621"
+    },
+    {
+      "path": "PASS2-F03-recovery-master-v9-2025-11-07.txt",
+      "bytes": 4784,
+      "sha256": "041f4f22477f55bef2865de4d91bddbf6e51fe52ff227db97c93887402b9b95f"
+    },
+    {
+      "path": "PASS2-R01-system-setup-reference.json",
+      "bytes": 7359,
+      "sha256": "e62e683d1e5b638e5a350780150e1c94a48f60545ab9b327d478e5026cc63938"
+    },
+    {
+      "path": "PASS2-S01-research-engine.txt",
+      "bytes": 9396,
+      "sha256": "3681874aafb6aeaaf8a60c7e9b694aa6270fdb9e3bd8c0e380b674937dde2ff7"
+    },
+    {
+      "path": "PASS2-S02-satellite-handoffs.txt",
+      "bytes": 6778,
+      "sha256": "c88928256ea2a7409480866efc8c853ced5069b331c714092042a76531f14cd0"
+    },
+    {
+      "path": "PASS2-S03-mini-site-agent-prompts.txt",
+      "bytes": 8821,
+      "sha256": "cecbca1ad61a60c31847d2a69fe8475817f90936f829c76ff506832333ae98c6"
+    },
+    {
+      "path": "PASS2-S04-satellite-blueprint.txt",
+      "bytes": 7535,
+      "sha256": "82c89d24718cdc967f6ffab0fa4226b87b817834199cfdd0e0057b7e4b631127"
+    },
+    {
+      "path": "PASS2-S05-session-product-behavior.txt",
+      "bytes": 8201,
+      "sha256": "91f1528bead84d25930c2c097bab68cff8daf9331d8a356af4a382fe3c4019b1"
+    },
+    {
+      "path": "PASS2-S06-session-contract-and-guards.txt",
+      "bytes": 9989,
+      "sha256": "25e0a984851d279e5853fb1a0fe3ff20ca011b5c1dcec77eaa808e6446ad9193"
+    },
+    {
+      "path": "PASS2-S07-evaluator-reference-lineage.txt",
+      "bytes": 1003,
+      "sha256": "ce2240f93ff123f99155deda3f1d71662dd9077c8458bd8c2afd277c905493ae"
+    },
+    {
+      "path": "PASS2-S08-setup-and-feedback-loop.txt",
+      "bytes": 11937,
+      "sha256": "1ddcf01c0fa32f8d781e624d95bb2950765cec56536c4644ad59563b920f00fa"
+    },
+    {
+      "path": "PASS2-S09-master-flow-references.txt",
+      "bytes": 10168,
+      "sha256": "ecba6169d7970ced2017ddb436ed5751f148531e0ed6c8a39c6a8eb01064fce5"
+    },
+    {
+      "path": "PASS2-S10-quality-and-compassion-prompt.txt",
+      "bytes": 6735,
+      "sha256": "40eaa995f3f588303b0dc28d4b19e36ba6e68141f5ac0780d8bb3220898c72b5"
+    },
+    {
+      "path": "PASS2-S11-prompt-optimizer-source.txt",
+      "bytes": 17381,
+      "sha256": "1e918667c678d97e2a1ad63a7cee9a558e5719161ee2f0fb68aa29f796310c52"
+    },
+    {
+      "path": "PASS2-S12-resilience-search-excerpt.json",
+      "bytes": 7693,
+      "sha256": "f8e89e8bbd1b6d93e4b5d0988798d8bbc7d725c7fe1db673ab10791b2e10a82e"
+    },
+    {
+      "path": "PASS2_REPORT.md",
+      "bytes": 19615,
+      "sha256": "cb388037137e466c5949687ea3f0d20003465d4b4cce6fb25e45716a1d3fe651"
+    },
+    {
+      "path": "PASS2_SEARCH_LOG.md",
+      "bytes": 7013,
+      "sha256": "83666f6db321fc3b10c517177b6ffea4367129f89f792b3c0180cc4274ed752e"
+    },
+    {
+      "path": "PASS2_SOURCE_PARITY.json",
+      "bytes": 24183,
+      "sha256": "685b098b64dd5cb6d7bc779c45991941a8695f77ab10da86ee6a6debb482faad"
+    }
+  ],
+  "hash_scope": "Local preserved files, excluding this manifest. Not original binary-byte parity.",
+  "total_files_created_including_this_manifest": 20
+}

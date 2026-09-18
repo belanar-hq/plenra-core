@@ -1,0 +1,153 @@
+SOURCE: https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa
+DATE CONTEXT: Dec 6 2025
+PARITY: ORIGINAL_CONVERSATION_TEXT (QA definition and module prompt); not proof of implementation
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+NOTE: QA validator is not assumed to be the named Evaluator. Psychological Safety check 13 is proposed, not confirmed adopted.
+
+Sat, Dec 6 at 7:16 PM
+תן את הטבלה של 12 בקרות האיכות שיש לנו כרגע
+
+הנה הטבלה הרשמית והעדכנית של 12 בקרות האיכות של Plenra כפי שהוגדרו, מנוסחות בצורה חדה, תפעולית, וללא חפיפות.
+זו גרסת QA-Level-120, והיא זו שכל סוכן (ChatGPT / Nano-Banana / Slides / Apps Script) חייב לעבוד לפיה.
+
+📌 טבלת 12 בקרות האיכות של Plenra (QA-12 Master Table)
+
+גרסה מאושרת – Level 120
+
+#	שם הבקרה	מה היא בודקת בפועל	מי הסוכן האחראי	מה קורה במקרה כשל
+1	Layout Integrity Check	מבנה הדף עומד בחוקי פלנרה: Portrait בלבד, סדר בלוקים נכון, מרווחים (VCM), RTL/LTR נכון	Pre-Render Validator Agent	עצירה מלאה + רינדור חוזר עם פירוט חריגה
+2	Color Palette Lock	שהצבעים המדויקים (#F7F4EE, #0A3D62, #C8D7C0, #D9CFF0) מופיעים ללא סטייה	Color Guard Agent	דחיית רינדור + תיקון אוטומטי של ערכים
+3	Typography & Text Fidelity	טקסט נכון, ללא שיבוש, ללא דילוג מילים, ללא עיוות עברית/אנגלית	Text Integrity Agent	השוואה מול טקסט מקור + self-correct
+4	Grounding Rule (ישיבה על קרקע)	הדמות יושבת על משטח אמיתי + צל פיזי טבעי + אין ריחוף	Illustration Integrity Validator	החזרת משימה לננו-בננה עם חובה ל-ground anchor
+5	Age & Persona Compliance	גיל הדמות לפי כלל: 18–40 לגברים ולנשים, ללא סטייה	Character Compliance Agent	החלפת דמות במאפיינים תואמים
+6	Faceless Rule Enforcement	אין תווי פנים, אין עיניים/אף/פה – רק outline	Facial-Feature Detector	אם מזוהה: רינדור נפסל אוטומטית
+7	Cloud Placement Logic	עננים רק ברקע מאחורי הדמות, לא כמושב, לא כצל	Background Logic Agent	בלוק קריטי – ענן במקום שגוי → פסילה
+8	CTA & QR Position Lock	QR תמיד שמאל, CTA תמיד ימין, לפי שפה; חץ בהתאם לכיוון (← ב-RTL, → ב-LTR)	CTA-QR Consistency Agent	אם מופר: החלפת מיקום לפני רינדור
+9	Clickable-Area Heuristic	CTA ו-QR מקבלים שטח קליק גדול וברור בהתאם לריבוע/כפתור	Interaction Usability Agent	הגדלת padding אוטומטית
+10	Micro-Spark Behavioral Layer	בדיקה האם קיים micro-spark עדין (gradient/contrast subtle cue) ללא פגיעה בעיצוב	Behavioral Micro-Spark Agent	אם חסר: מוסיף רמז ויזואלי זעיר
+11	Cross-Language Symmetry	גרסת Hebrew ו-English זהות במבנה, מרווחים, לוגיקה וחוקי עיצוב	Dual-Language Sync Agent	אם יש סטייה: משווה ומיישר
+12	Final Composite Coherence	התאמה בין כל השכבות: צבע, טקסט, דמות, CTA, QR, מרווחים ושפה	Master QA Orchestrator	מקבל/דוחה. קבלת מוצר רק אם 12/12 ירוקים
+האם חסר משהו?
+
+כן. יש מנגנון שאנחנו עומדים להוסיף לגרסה הבאה (אם תאשר):
+
+בקרה 13 – Psychological Safety Layer
+
+בודקת שהניסוח הטיפולי:
+
+לא טריגרי
+
+לא שיפוטי
+
+לא יוצר חרדה
+
+עומד בעקרונות CBT/ACT/DBT
+
+תגיד אם להכניס אותה רשמית לטבלה.
+
+רוצה שאמיר את הטבלה ל־Google Sheet רשמי בפורמט מוכן להדבקה?
+
+
+[Separate module-spec excerpt]
+⚡ שלב 1: JSON מלא ורשמי למנוע החדש
+
+Plenra Compassion Engine – JSON Blueprint
+
+JSON
+{
+  "input": {
+    "relationship_type": "",
+    "recipient_age": "",
+    "recipient_gender": "",
+    "distress_type": "",
+    "distress_intensity": "",
+    "sender_intent": "",
+    "tone_preference": "",
+    "delivery_preference": ["printable", "pod", "message"]
+  },
+
+  "emotional_analysis": {
+    "emotion_category": "",
+    "secondary_emotion": "",
+    "urgent_need": "",
+    "regulation_style": "",
+    "risk_level": ""
+  },
+
+  "printable_output": {
+    "title": "",
+    "subtitle": "",
+    "therapeutic_block": "",
+    "micro_actions": [],
+    "qr_assign": "",
+    "visual_style": "watercolor clouds, soft lavender + sage, face-neutral"
+  },
+
+  "pod_output": {
+    "product_type": "",
+    "short_message": "",
+    "design_notes": "",
+    "color_palette": ["#F7F4EE", "#D9CFF0", "#C8D7C0", "#0A3D62"]
+  },
+
+  "sender_message": {
+    "for_sender": "",
+    "for_recipient": ""
+  },
+
+  "distribution": {
+    "trigger_point": "",
+    "recommended_channel": "",
+    "virality_mechanism": "",
+    "follow_up_tool": ""
+  }
+}
+⚡ שלב 2: פרומפט רשמי לסוכן החדש
+
+Compassion Gift Engine Agent – Core Prompt
+
+You are the Plenra Compassion Gift Engine Agent.
+Your purpose: Transform any description of someone's distress into:
+1. A personalized therapeutic printable
+2. A supportive POD gift concept
+3. A message for the recipient
+4. A message for the sender
+5. A distribution strategy that amplifies comfort + virality
+
+Rules:
+- Always operate with emotional safety first.
+- Never use diagnosing language.
+- All text must be human, validating, simple, and warm.
+- Use Plenra Emotional Map + Mechanism Map.
+- Maintain RTL or LTR based on user language.
+- Never include faces with identity details – neutral only.
+- Always include a micro-action plan.
+- Always include a QR destination for further help.
+- Optimize for shareability and emotional resonance.
+- Remember: two clients exist – the sender and the recipient.
+Return JSON only, following the Plenra Compassion Engine Blueprint.
+⚡ שלב 3: תבנית Slides רשמית (מינימליסטית, אוטומטית)
+
+Template Layout Description for Slides Generator
+
+Page Structure (A4 Portrait):
+
+[Top Illustration Placeholder – watercolor person, neutral face, clouds]
+
+[Title Block – Deep Blue (#0A3D62)]
+{{title}}
+
+[Green Block – Sage (#C8D7C0)]
+{{therapeutic_block}}
+
+[Purple Block – Lavender (#D9CFF0)]
+{{micro_actions}}
+
+[Footer Row]
+Left: QR Placeholder
+Right: CTA Button (#0A3D62)
+
+VCM (Vertical Comfort Margin) rules apply:
+- 8% top margin
+- 6% spacing between blocks
+- 10% bottom breathing space

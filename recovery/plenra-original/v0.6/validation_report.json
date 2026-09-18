@@ -1,0 +1,95 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "VERIFICATION_STATUS": "PASS_EVIDENCE_PRESERVATION",
+  "CHECKS": [
+    {
+      "CHECK": "Original V0.3/V0.4/V0.5 and both deep-source passes unchanged",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Snapshots retain byte parity with originals",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "All V0.6 JSON parses, including inherited evidence",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Source record schema, parity, hashes and unique IDs",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Pass 2 block and artifact parity not upgraded",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "All current registry source references resolve",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "No partial agent upgraded, historical production and future intent preserved",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "No duplicate capabilities, original intent retained",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Behavior and conflict schema; conflicts stay unresolved",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Gap classes separate product from source/runtime gaps",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Distinct orchestration generations and lineage preserved",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Preservation gate, SOURCE_COMPLETE=false and ACTIVE_CANON=false",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "Baseline refs, checkpoint, stash and remote-tracking refs unchanged",
+      "STATUS": "PASS"
+    },
+    {
+      "CHECK": "No application source or unrelated tracked changes",
+      "STATUS": "PASS"
+    }
+  ],
+  "V0_3_IMMUTABILITY_VERIFIED": true,
+  "V0_4_IMMUTABILITY_VERIFIED": true,
+  "V0_5_IMMUTABILITY_VERIFIED": true,
+  "DEEP_SOURCE_EVIDENCE_INTEGRITY": true,
+  "STASH_RETAINED": true,
+  "CHECKPOINT_RETAINED": true,
+  "REMOTE_CHANGES": "NONE_PERFORMED; local remote-tracking refs unchanged; no remote network audit",
+  "UNSUPPORTED_CLAIMS_FOUND": {
+    "NEW_ADOPTED_FACTUAL_CLAIMS": 0,
+    "HISTORICAL_UNVERIFIED_CLAIMS_PRESENT": true,
+    "DISPOSITION": "Preserved with HISTORICAL_CLAIM / OUTCOME_NOT_VERIFIED; no independent runtime, clinical/legal, security or business-outcome verification"
+  },
+  "COUNTS": {
+    "SOURCE_RECORDS": 94,
+    "CAPABILITY_RECORDS": 38,
+    "AGENT_RECORDS": 19,
+    "ORCHESTRATION_RECORDS": 10,
+    "PRODUCT_BEHAVIOR_RECORDS": 14,
+    "CONFLICT_RECORDS": 10,
+    "MISSING_SOURCE_RECORDS": 55
+  },
+  "GAP_COUNTS": {
+    "MATERIAL_PRODUCT_GAP": 19,
+    "SOURCE_PARITY_GAP": 21,
+    "HISTORICAL_IMPLEMENTATION_GAP": 9,
+    "LOW_VALUE_PROVENANCE_GAP": 6
+  },
+  "VALIDATION_LIMITATIONS": [
+    "Semantic classifications reviewed against preserved evidence; automated checks cannot prove whole-chat completeness or factual truth of historical claims.",
+    "No original executable export was run; no prompts reconstructed.",
+    "Git staging/committed blob parity is verified separately during delivery."
+  ]
+}

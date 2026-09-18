@@ -1,0 +1,133 @@
+SOURCE: https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5
+PARITY: PARTIAL_ORIGINAL_CONVERSATION (user-pasted setup document; not recovered DOCX bytes)
+LINEAGE: PLENRA_ORIGINAL_PRODUCT
+
+יפית, ברוכה הבאה להקמת מערכת Plenra  
+   
+היי יפית 🌸 תודה שאת חלק מההקמה של פרויקט שהוא לא עוד מערכת – אלא משהו עם לב. Plenra היא מערכת שמחברת בין עולם הרגש של אנשים, לעולם המעשי של שינוי והרגלים. היא נועדה לעזור למאמנים, מטפלים ומתאמנים להבין את עצמם טוב יותר – ולראות את ההתקדמות שלהם בעיניים.  
+    
+💫 מה Plenra עושה בפשטות  
+   
+Plenra יוצרת דפי עבודה אישיים (Printables) שמרגישים כמו ליווי רגשי אמיתי. המאמן כותב סיכום קצר על המתאמן, המערכת מבינה את הדפוס שמסתתר מאחורי המילים, ויוצרת עבורו דף מעוצב שמחזק, מכוון ומניע אותו קדימה.  
+   
+אלה לא טפסים קרים – אלא דפים אישיים, מרגשים ומעוררי מוטיבציה. כל אחד מהם נוצר במיוחד לפי המצב הרגשי של האדם באותו רגע.  
+    
+🧠 איך זה עובד בפועל  
+   
+   
+1. המאמן מסכם פגישה או תהליך קצר: לדוגמה:  
+   
+  
+   
+   
+“דנה מרגישה שהיא לא מספיקה כלום למרות שהיא כל הזמן עסוקה.”  
+   
+   
+   
+1.    
+Plenra מזהה את הדפוס מאחורי זה: היא מבינה שמדובר בתחושת עומס, בלבול ואובדן סדר פנימי.  
+   
+   
+2.    
+המערכת בונה Printable מותאם אישית: למשל דף בשם “Moments of Clarity” עם כמה תרגילים רגשיים פשוטים, רשימת משימות קטנות, ומקום לסמן הצלחות יומיות.  
+   
+   
+3.    
+המערכת שולחת את ה־Printable אוטומטית למאמן, או ישירות למתאמן במייל. המתאמן ממלא אותו בדיגיטל או ידנית, ולוחץ על כפתור “Send Back” שמחזיר את הקובץ למערכת (ל־Drive של המאמן או לפורטל המאמן בפלנרה).  
+   
+   
+4.    
+Plenra קוראת את התשובות ומזהה שינוי: אם למשל דנה כתבה “הצלחתי סוף סוף להרגיע את עצמי בלילה” – המערכת מזהה התקדמות, ומתאימה לה Printable חדש להמשך הדרך, כמו “Keep Your Calm Routine”.  
+   
+   
+  
+   
+כך נוצר מעגל חכם של קשר אמיתי, נתונים ורגש – בלי שמישהו צריך לנתח הכול לבד.  
+    
+💡 דוגמה פשוטה מהחיים  
+   
+נניח מאמן בשם רועי עובד עם מתאמנים על ניהול זמן. במקום לשלוח להם רשימות משימות גנריות, רועי מזין לכל אחד מהם תקציר קצר – למשל:  
+   
+   
+“המתאמן מתקשה לשמור על סדר כשהוא מרגיש מוצף.”  
+   
+   
+Plenra מזהה את הדפוס: עומס רגשי שמוריד ביצועים, ויוצרת לו דף עבודה בשם “Start Small, Feel Big” – עם משימות קטנות, שדה כתיבה לשני משפטים יומיים, וטבלת תחושת הצלחה.  
+   
+אחרי שהמתאמן ממלא את הדף ולוחץ “שלח חזרה”, Plenra אוספת את הנתונים, מנתחת את התוכן הרגשי, ומציעה למאמן Printable חדש להמשך – למשל “Week of Calm Progress”.  
+   
+במילים פשוטות – המאמן כבר לא צריך לנחש מה האדם צריך. המערכת רואה את זה בעצמה.  
+    
+🧩 איך זה בנוי מאחורי הקלעים  
+   
+פלנרה מורכבת מקבוצה של “סוכנים חכמים” (Agents), שפועלים יחד כמו צוות אנושי מתואם:  
+   
+VP Marketing Agent – מבין לאילו אנשים כדאי להציע כל Printable ואיך ליצור חיבור רגשי.  
+   
+VP Content Agent – מנסח את הדפים בשפה אנושית, פשוטה ורגישה.  
+   
+VP Design Agent (Canva + Nano-Banana) – מעצב את הדפים כך שיראו מדהים וירגישו אישיים.  
+   
+VP Conversion Agent – מנהל את השליחה, התזמון והחזרת הדפים.  
+   
+VP Analytics Agent – לומד מהתגובות ומהדאטה כדי לשפר את ההתאמה הרגשית.  
+   
+כל אלה עובדים יחד, ובסוף – Plenra לומדת מכל אדם. היא לא רק בונה דפים – היא יוצרת מערכת יחסים בין אדם לעצמו.  
+    
+💗 למה את חשובה בתמונה הזו  
+   
+יפית, את אחראית על השלב שבו הכול מתחבר – החלקים הנפרדים הופכים לגוף אחד חי.  
+   
+כל חשבון שתפתחי הוא איבר בגוף הזה:  
+   
+Google Drive – הזיכרון.  
+   
+Relevance – המוח.  
+   
+Make ו-Manus – העצבים.  
+   
+Canva ו-Nano-Banana – הידיים.  
+   
+Stripe ו-Gumroad – הלב הפיננסי.  
+   
+HubSpot ו-Mailchimp – מערכת הנשימה.  
+   
+כשכולם פעילים ומחוברים, פלנרה מתחילה לנשום.  
+    
+🔧 איך מתבצעת ההקמה בפועל  
+   
+   
+1.    
+נכנסים לקישורים בטבלה למטה.  
+   
+   
+2.    
+פותחים חשבון חדש או מאמתים קיים במייל הראשי של פלנרה.  
+   
+   
+3.    
+מעתיקים כל API Key / Client ID לטבלת השליטה.  
+   
+   
+4.    
+מסמנים ✅ כשכל מערכת מחוברת ופועלת.  
+   
+   
+5.    
+בסוף כל השורות – כשכולן ירוקות – המערכת תופעל אוטומטית.  
+   
+   
+  
+    
+📋 טבלת ההקמה של Plenra  
+   
+# מערכת / פלטפורמה	מה היא עושה	סוג חשבון	זמן הקמה	אחראי (Agent במערכת)	קישור ישיר	כתובת מלאה (URL)	מה צריך לעשות  
+   
+1	Google Workspace	אחסון קבצים ונתונים	Business Standard	1 שעה	VP Tech	workspace.google.com	[https://workspace.google.com/](https://workspace.google.com/)	לפתוח תחת plenra.services@gmail.com ולהפעיל Drive ו-Sheets APIs. 2	Google Cloud Console	הרשאות OAuth ו-API	Free	1 שעה	VP Tech	console.cloud.google.com	[https://console.cloud.google.com/](https://console.cloud.google.com/)	ליצור פרויקט “Plenra Core” ולשמור Client ID ו-Secret. 3	Make.com	אוטומציות	Core / Pro	3 שעות	VP Automation	make.com	[https://www.make.com/](https://www.make.com/)	ליצור webhook Plenra_Master_Hook. 4	Manus.AI	תיאום בין סוכנים	Pro	2 שעות	VP Automation	manus.ai	[https://www.manus.ai/](https://www.manus.ai/)	לפתוח Workspace “Plenra Hub”. 5	Relevance AI	ניהול סוכנים	Developer	3 שעות	Central Agent	relevanceai.com	[https://www.relevanceai.com/](https://www.relevanceai.com/)	ליצור פרויקט Plenra Agents. 6	AgentKit	SDK להפעלת הסוכנים	Free	1 שעה	VP Tech	agentkit.ai	[https://agentkit.ai/](https://agentkit.ai/)	ליצור סביבת plenra-agents-kit. 7	ChatGPT Plus	הפעלת הסוכן הראשי	Plus	מוכן	Central Agent	chat.openai.com	[https://chat.openai.com/](https://chat.openai.com/)	לוודא שכל GPTs פעילים. 8	Canva Pro	עיצוב Printables	Pro	1.5 שעות	VP Content	canva.com	[https://www.canva.com/](https://www.canva.com/)	ליצור Brand Kit בצבעים Ivory / Blush / Sage / Gold. 9	Nano-Banana	רינדור גרפי לפי JSON	Pro	2 שעות	VP Content	nanobanana.ai	[https://www.nanobanana.ai/](https://www.nanobanana.ai/)	לבדוק רינדור לדוגמה. 10	Mailchimp	אוטומציות אימייל	Free / Standard	1.5 שעות	VP Marketing	mailchimp.com	[https://mailchimp.com/](https://mailchimp.com/)	ליצור Audience “Plenra Coaches”. 11	Gumroad	מכירת Printables ודיגיטל	Creator	1 שעה	VP Conversion	gumroad.com	[https://gumroad.com/](https://gumroad.com/)	לפתוח חנות “Plenra Digital Studio”. 12	Stripe	סליקה ותשלומים	Business	2 שעות	VP Conversion	stripe.com	[https://stripe.com/](https://stripe.com/)	לפתוח Connect Standard ולעבור KYC. 13	HubSpot CRM	ניהול לקוחות ומאמנים	Free	1 שעה	VP Marketing	hubspot.com	[https://www.hubspot.com/](https://www.hubspot.com/)	ליצור Pipeline “Plenra Coaches”. 14	Google Analytics	מעקב וביצועים	Free	1 שעה	VP Analytics	analytics.google.com	[https://analytics.google.com/](https://analytics.google.com/)	ליצור Property Plenra.com. 15	Buffer	הפצת תוכן	Pro	2 שעות	VP Marketing	buffer.com	[https://buffer.com/](https://buffer.com/)	לפתוח Buffer ולחבר פלטפורמות. 16	Airtable	גיבוי ונתונים	Free	45 דקות	VP Data	airtable.com	[https://airtable.com/](https://airtable.com/)	ליצור טבלה Plenra Agents Backup. 17	Bitwarden	שמירת מפתחות מאובטחת	Free	30 דקות	VP Tech	bitwarden.com	[https://bitwarden.com/](https://bitwarden.com/)	לפתוח Vault Plenra Credentials. 18	GitHub	אחסון קוד ותיעוד	Free	1 שעה	VP Tech	github.com	[https://github.com/](https://github.com/)	לפתוח ריפו plenra-core. 19	Vercel + Namecheap	דומיין ואחסון אתר	Basic	2 שעות	VP Tech	vercel.com, namecheap.com	[https://vercel.com/](https://vercel.com/) , [https://www.namecheap.com/](https://www.namecheap.com/)	לרכוש plenra.app ולחבר ל-Vercel. 20	Dropbox	אחסון מדיה	Pro	1 שעה	VP Data	dropbox.com	[https://www.dropbox.com/](https://www.dropbox.com/)	ליצור תיקייה /Assets/ByAgent. 21	FFmpeg + Sora Flow	סרטוני עדות	Free	1.5 שעות	VP Content	ffmpeg.org	[https://ffmpeg.org/](https://ffmpeg.org/)	לבדוק רינדור לדוגמה. 22	Slack	תקשורת פנימית	Free	30 דקות	VP Communication	slack.com	[https://slack.com/](https://slack.com/)	לפתוח ערוץ #plenra-system. 23	Abacus.AI	ניתוח ולמידה	Starter	3 שעות	VP Data	abacus.ai	[https://abacus.ai/](https://abacus.ai/)	ליצור Dataset Plenra Behavioral Data. 24	Zapier	גיבוי לאוטומציות Make	Free / Starter	1 שעה	VP Automation	zapier.com	[https://zapier.com/](https://zapier.com/)	ליצור Zaps בסיסיים. 25	Hotjar	ניתוח התנהגות משתמשים	Free	1 שעה	VP Analytics	hotjar.com	[https://www.hotjar.com/](https://www.hotjar.com/)	להטמיע Script באתר. 26	Pinterest Business	ערוץ צמיחה אורגני	Free	45 דקות	VP Distribution	business.pinterest.com	[https://business.pinterest.com/](https://business.pinterest.com/)	לפתוח חשבון ולחבר ל-Buffer. 27	Meta Business Suite	ניהול מודעות ממומנות	Free	1 שעה	VP Distribution	business.facebook.com	[https://business.facebook.com/](https://business.facebook.com/)	לפתוח Business Manager ולחבר דף Plenra. 28	Notion	תיעוד פנימי והדרכות	Free	45 דקות	VP Tech	notion.so	[https://www.notion.so/](https://www.notion.so/)	לפתוח חלל עבודה Plenra Team Docs.  
+    
+💬 לסיום  
+   
+יפית, כל חשבון שתפתחי הוא חלק ממערכת שמחברת טכנולוגיה ורגש בצורה שלא נראתה לפני כן. Plenra לא רק שולחת דפים – היא מבינה אנשים, לומדת מהם, ומחזירה להם תקווה דרך מעשים קטנים.  
+   
+בזכותך, המערכת הזאת תוכל להרגיש – ולגרום לאחרים להרגיש גם. ❤️  
+ שלב את שתיהם ללא כפילות וצור קובץ docx

@@ -1,0 +1,11 @@
+
+decision_thresholds:
+  scale_roi: 1.3
+  hold_roi: 1.0
+  cpc_jump: 1.25
+  fake_winner_limit: 1
+  cooldown_limit: 2
+
+learning:
+  min_trust: high
+  allow_normalized: false
