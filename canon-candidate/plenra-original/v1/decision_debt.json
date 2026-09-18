@@ -1,0 +1,149 @@
+{
+  "GOVERNING_RULE": "D-DEBT",
+  "ALLOWED_STATES": [
+    "DECIDED",
+    "FUTURE_PRODUCT_DECISION",
+    "DEFERRED_WITH_TRIGGER"
+  ],
+  "DECIDED": [
+    {
+      "DECISION_ID": "FD-R1",
+      "STATUS": "DECIDED",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "SCOPE": "Approved policy principle only; related implementation parameters remain explicit deferred roots."
+    },
+    {
+      "DECISION_ID": "FD-R2",
+      "STATUS": "DECIDED",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "SCOPE": "Approved policy principle only; related implementation parameters remain explicit deferred roots."
+    },
+    {
+      "DECISION_ID": "FD-R3",
+      "STATUS": "DECIDED",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "SCOPE": "Approved policy principle only; related implementation parameters remain explicit deferred roots."
+    },
+    {
+      "DECISION_ID": "FD-R4",
+      "STATUS": "DECIDED",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "SCOPE": "Approved policy principle only; related implementation parameters remain explicit deferred roots."
+    }
+  ],
+  "UNRESOLVED": [
+    {
+      "DECISION_ID": "D-CLINICAL",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Specify per-scope inference, framework/mechanism maps, exclusions, progress signals and adaptation criteria.",
+      "WHY_DEFERRED": "FD-R1 settles authority, not validated clinical selection content.",
+      "EVIDENCE_NEEDED": "Qualified-professional reviewed mechanism catalog, exclusion/risk cases and feedback evaluation.",
+      "ACTIVATION_TRIGGER": "Before recommending a clinically meaningful intervention or progress-driven adaptation.",
+      "OWNER": "Amos with qualified clinical owner",
+      "LINKED_PROVENANCE": [
+        "FD-R1",
+        "CON-008",
+        "R1"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    },
+    {
+      "DECISION_ID": "D-DATA",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Set retention periods, field-level storage/linkage, external-provider masking order/failure handling, QR expiry/revocation, returned worksheet rules and third-party consent/access/deletion.",
+      "WHY_DEFERRED": "FD-R2 defines default lifecycle; scope/legal/technical parameters remain.",
+      "EVIDENCE_NEEDED": "Data flow/threat review, jurisdiction-specific policy, summary usefulness and deletion/access verification.",
+      "ACTIVATION_TRIGGER": "Before accepting real session or sender-supplied recipient data.",
+      "OWNER": "Amos with privacy/legal and engineering owners",
+      "LINKED_PROVENANCE": [
+        "FD-R2",
+        "CON-003",
+        "R2"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    },
+    {
+      "DECISION_ID": "D-RELEASE",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Define envelope membership checks, authorization version binding, revocation, expiry, edit invalidation and recipient release for clinical/coaching/Compassion scopes.",
+      "WHY_DEFERRED": "FD-R3 does not fully specify delivery or withdrawal mechanics.",
+      "EVIDENCE_NEEDED": "Professional-approved release contract, consent model and boundary/changed-version tests.",
+      "ACTIVATION_TRIGGER": "Before initial delivery or automatic adapted follow-up in any dependent scope.",
+      "OWNER": "Amos with qualified professional and engineering owners",
+      "LINKED_PROVENANCE": [
+        "FD-R3",
+        "CON-002",
+        "R3"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    },
+    {
+      "DECISION_ID": "D-ENGAGEMENT",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Define meaningful-result acceptance tests, allowed continuation/gates, lifecycle metrics and illustration/surface scope.",
+      "WHY_DEFERRED": "FD-R4 settles value-first and non-coercion policy; legacy metrics and QA age rules are not validated.",
+      "EVIDENCE_NEEDED": "User evaluation of standalone value, non-pressure review and scoped accessibility/illustration criteria.",
+      "ACTIVATION_TRIGGER": "Before publishing a funnel, gating an asset, activating lifecycle optimization or age-specific visual QA.",
+      "OWNER": "Amos with product/research owner",
+      "LINKED_PROVENANCE": [
+        "FD-R4",
+        "CON-004",
+        "CON-005",
+        "CON-007",
+        "R4"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    },
+    {
+      "DECISION_ID": "D-RUNTIME",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Select per-task capability contracts, evaluator rubric, optimizer choice, role handoffs, retry/fallback limits, verification and provider cost thresholds.",
+      "WHY_DEFERRED": "Recovered agent/orchestration IP is partial and not a restored runtime.",
+      "EVIDENCE_NEEDED": "Scoped provider evaluation, authority contract, meaningful-cost budget and failure/verification evidence.",
+      "ACTIVATION_TRIGGER": "Before instantiating a recovered capability or enabling automated execution.",
+      "OWNER": "Amos as accountable owner; system selects within approved boundaries",
+      "LINKED_PROVENANCE": [
+        "CON-001",
+        "CON-006",
+        "CON-010",
+        "recovery/plenra-original/v0.6/missing_source_register.json"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    },
+    {
+      "DECISION_ID": "D-ARCHIVE",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Validate whether to offer paid extended encrypted archive/search.",
+      "WHY_DEFERRED": "HYPOTHESIS_TO_VALIDATE; not a committed product or default retention policy.",
+      "EVIDENCE_NEEDED": "Demand/willingness-to-pay, encryption/search threat model, retention/deletion policy and cost evidence.",
+      "ACTIVATION_TRIGGER": "Before promising, selling or implementing an archive/search tier.",
+      "OWNER": "Amos with product/privacy owners",
+      "LINKED_PROVENANCE": [
+        "FD-R2"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    },
+    {
+      "DECISION_ID": "D-LINEAGE",
+      "STATUS": "DEFERRED_WITH_TRIGGER",
+      "CLASSIFICATION": "FUTURE_VALIDATION_REQUIRED",
+      "DECISION": "Determine migration/lineage truth only if relied on for a current claim.",
+      "WHY_DEFERRED": "CON-009 is low-value provenance uncertainty, not a current product blocker.",
+      "EVIDENCE_NEEDED": "Authentic migration rows and scoped lineage verification.",
+      "ACTIVATION_TRIGGER": "A production or attribution decision depends on disputed migration status or authenticity.",
+      "OWNER": "Amos with provenance owner",
+      "LINKED_PROVENANCE": [
+        "CON-009"
+      ],
+      "PRODUCTION_EFFECT": "Blocks the dependent scope until resolved and validated; does not reopen historical recovery by default."
+    }
+  ],
+  "REVIEW_POLICY": "At each activation/planning trigger, merge overlapping questions into these roots, assign any new material unknown immediately, record resolution and evidence; do not let deferred entries silently authorize execution.",
+  "COVERAGE": "R1-R4 and all CON-001 through CON-010 mapped. All missing historical sources remain inventory provenance; any newly material production dependency must enter a root or satisfy recovery reopen criteria."
+}

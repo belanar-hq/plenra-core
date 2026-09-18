@@ -1,0 +1,71 @@
+{
+  "GOVERNING_RULE": "D-OUTCOMES",
+  "CLASSES": {
+    "VERIFIED_COMMERCIAL_OUTCOME": "Verified revenue/payment or other explicitly scoped commercial result; intent or forecast is insufficient.",
+    "VERIFIED_OPERATIONAL_OUTCOME": "Verified execution or process result; does not imply revenue or user benefit.",
+    "VERIFIED_PRODUCT_USER_OUTCOME": "Verified user result with scoped measurement; does not itself prove clinical effectiveness or causation.",
+    "VERIFIED_DECISION_LEARNING_OUTCOME": "Verified decision or learning that changes an explicit uncertainty, supported by recorded evidence; not a commercial result.",
+    "HISTORICAL_PUBLIC_OUTCOME": "Public historical outcome with source, scope and verification limits; not automatically verified or attributable to Belanar."
+  },
+  "REQUIRED_FIELDS": [
+    "OUTCOME_ID",
+    "TYPE",
+    "SOURCE",
+    "ACTION",
+    "EXPECTED_OUTCOME",
+    "OBSERVED_OUTCOME",
+    "EVIDENCE",
+    "VERIFICATION_STATUS",
+    "CAUSAL_ATTRIBUTION",
+    "TIMESTAMP",
+    "SCOPE",
+    "REUSE_ELIGIBILITY"
+  ],
+  "RECORDS": [],
+  "COUNTERS": {
+    "VERIFIED_COMMERCIAL_OUTCOME": 0,
+    "VERIFIED_OPERATIONAL_OUTCOME": 0,
+    "VERIFIED_PRODUCT_USER_OUTCOME": 0,
+    "VERIFIED_DECISION_LEARNING_OUTCOME": 0,
+    "HISTORICAL_PUBLIC_OUTCOME": 0
+  },
+  "COUNTER_SCOPE": "This candidate contains zero outcome records; no historical or business totals are inferred.",
+  "COUNT_RULE": "Count unique OUTCOME_ID within TYPE only after evidence meets that class. Never sum or merge classes into a success counter. Related class records use distinct IDs and evidence scopes, and may reference the same event without claiming independent causes.",
+  "VERIFICATION_STATUSES": [
+    "UNVERIFIED",
+    "VERIFIED",
+    "DISPUTED",
+    "REJECTED"
+  ],
+  "CAUSAL_ATTRIBUTION": {
+    "required": [
+      "status",
+      "actor",
+      "evidence",
+      "limitations"
+    ],
+    "status": [
+      "NOT_ESTABLISHED",
+      "CONTRIBUTED",
+      "CAUSALLY_SUPPORTED"
+    ],
+    "default": "NOT_ESTABLISHED",
+    "rule": "Outcome existence does not establish Belanar causation. Support attribution separately, recording alternative explanations and limits."
+  },
+  "REUSE_ELIGIBILITY": {
+    "required": [
+      "status",
+      "scope",
+      "reason"
+    ],
+    "default": "NOT_APPROVED",
+    "rule": "Reuse only within evidenced scope and authorization; historical/public provenance alone does not grant testimonial or clinical claims."
+  },
+  "FIELD_GUIDANCE": {
+    "TIMESTAMP": "ISO-8601 event time; unknown historical time explicitly recorded, never invented.",
+    "EVIDENCE": "Inspectable evidence references and verification method/reviewer; no placeholder counts as verified.",
+    "SCOPE": "Population, product/version, measurement window and boundaries.",
+    "SOURCE": "Origin and lineage distinct from action performer."
+  },
+  "SCHEMA": "outcome.schema.json"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-09-18",
+  "output_root": "recovery/plenra-original/final-material-blocker-recovery",
+  "task": "PLENRA ORIGINAL - FINAL MATERIAL BLOCKER RECOVERY",
+  "root_statuses": {
+    "R1": "PARTIALLY_RESOLVED_MATERIAL_UNKNOWN_REMAINS",
+    "R2": "PARTIALLY_RESOLVED_MATERIAL_UNKNOWN_REMAINS",
+    "R3": "PARTIALLY_RESOLVED_MATERIAL_UNKNOWN_REMAINS",
+    "R4": "PARTIALLY_RESOLVED_MATERIAL_UNKNOWN_REMAINS"
+  },
+  "remaining_material_roots": 4,
+  "future_product_decisions": [
+    {
+      "id": "FD-R1",
+      "status": "FUTURE_PRODUCT_DECISION_REQUIRED"
+    },
+    {
+      "id": "FD-R2",
+      "status": "FUTURE_PRODUCT_DECISION_REQUIRED"
+    },
+    {
+      "id": "FD-R3",
+      "status": "FUTURE_PRODUCT_DECISION_REQUIRED"
+    },
+    {
+      "id": "FD-R4",
+      "status": "FUTURE_PRODUCT_DECISION_REQUIRED"
+    }
+  ],
+  "no_material_product_unknown_remains": false,
+  "product_canonization_evidence_ready": false,
+  "files": [
+    {
+      "path": "FINAL_BLOCKER_REPORT.md",
+      "sha256": "bfe8da09c5aed17c597dc0e5b627e6a2f5a1ee44412c4e42911d295ba128bc3a",
+      "bytes": 5398
+    },
+    {
+      "path": "R1_PERSONALIZATION.md",
+      "sha256": "4a7884b51e163b7dd9bafc40f651a120ccfc57f8ec1e7b5f108960e548a0790c",
+      "bytes": 6229
+    },
+    {
+      "path": "R2_DATA_CONTINUITY.md",
+      "sha256": "48d2e6b0a17589db21889e9abbb0376902d4ff3a88eb83522dbfe15df2277c69",
+      "bytes": 5690
+    },
+    {
+      "path": "R3_AUTHORITY.md",
+      "sha256": "79c49f4682c675fa165b3bdf8a8db9c81f3aba539d834345555e90c0fa6224a4",
+      "bytes": 4569
+    },
+    {
+      "path": "R4_ENGAGEMENT.md",
+      "sha256": "0494de133028a199df37377ca9ec49934a60ae386104bf155c539be0751aa09c",
+      "bytes": 4481
+    },
+    {
+      "path": "SEARCH_LOG.md",
+      "sha256": "92cff3b8690f8f4b8bbbf40064a1d155183b9523883d40a02f287d2ede5156ad",
+      "bytes": 5083
+    },
+    {
+      "path": "source_parity.json",
+      "sha256": "8e55ec0a9167e56782a3350f0aecd24fe196c1d5b45597d968418bad7b886540",
+      "bytes": 8487
+    },
+    {
+      "path": "manifest.json",
+      "sha256": null,
+      "hash_note": "Self hash omitted to avoid recursive hashing."
+    }
+  ],
+  "verification": {
+    "json_parity_parse": "PASS",
+    "prior_local_source_references": "PASS",
+    "prior_recovery_files_checked": 233,
+    "prior_recovery_hashes_unchanged": true,
+    "git_baseline": "clean",
+    "git_status_before_manifest": "Only seven requested new files under output root",
+    "expected_final_file_count": 8,
+    "chatgpt_access": "Read-only navigation and history search; no messages sent",
+    "changes_outside_recovery_path": "NONE",
+    "source_scope": "Selected historical sources; no claim of exhaustive archive inspection",
+    "approval": "No additional approval required for completed recovery; new product decisions remain required"
+  }
+}

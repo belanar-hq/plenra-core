@@ -1,0 +1,25 @@
+{
+  "STATUS": "CANDIDATE",
+  "ACTIVE_CANON": false,
+  "PRODUCTION_READY": false,
+  "SOURCE_COMPLETE": false,
+  "PRODUCT_CANONIZATION_READY": "CANDIDATE_REVIEW_READY_ONLY",
+  "ACTIVE_CANONIZATION_READY": false,
+  "COUNTS": {
+    "CANON_RULES": 29,
+    "HISTORICAL_RULES": 19,
+    "NEW_2026_DECISIONS": 4,
+    "DERIVED_RULES": 6
+  },
+  "MATERIAL_UNRESOLVED_DECISIONS": 7,
+  "DEFERRED_WITH_TRIGGER": [
+    "D-CLINICAL",
+    "D-DATA",
+    "D-RELEASE",
+    "D-ENGAGEMENT",
+    "D-RUNTIME",
+    "D-ARCHIVE",
+    "D-LINEAGE"
+  ],
+  "RECOMMENDED_NEXT_ACTION": "Review the candidate for a separate explicit canonization decision; resolve each deferred root before its dependent production scope. Do not resume recovery for completeness."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "algorithm": "SHA-256",
+  "self_hash": "Excluded to avoid circularity; obtain externally with verifier.",
+  "files": [
+    {
+      "path": "recovery/plenra-original/v0.7/README.md",
+      "sha256": "3b14a17d39b2c59325e67181fa30b385287f00030f0fb6a0bc9833f6ddd2ce10",
+      "bytes": 945
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/build_closure.cjs",
+      "sha256": "387fab865aa1fefcb8efd35620b2e69ca4d3e4fb4bcab505e8963ee72f144b58",
+      "bytes": 28358
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/closure.json",
+      "sha256": "a7a1bf96c3d1378630b44a7b03142a8f135aa3bc3342b5fef9963e0caa58881d",
+      "bytes": 1248
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/historical_conflicts_preserved.json",
+      "sha256": "017ea7ce8e95849482b5fbe1596b69b026e602632bf287ba498796fdffa90826",
+      "bytes": 13070
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/preservation_baseline.json",
+      "sha256": "832ff5f0760d6746b9303a5c8fc2a02512d698ccb293cc9640e8cbc96478e381",
+      "bytes": 173210
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/provenance.json",
+      "sha256": "c860a1b2b4202d5fadcc4ac277b5ed75e5240386c3187cf8e2cba21f560bf1b1",
+      "bytes": 679
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/validation_report.json",
+      "sha256": "f2602b2b42d5e42f8c9077ab985d753646a927df8b77e06aef70df2653b0d8e1",
+      "bytes": 1057
+    },
+    {
+      "path": "recovery/plenra-original/v0.7/verify.cjs",
+      "sha256": "8b016a87c7cb53766f47d9db312160560fa43ca80b2158f78ceacda9ba0b39d1",
+      "bytes": 4388
+    }
+  ]
+}

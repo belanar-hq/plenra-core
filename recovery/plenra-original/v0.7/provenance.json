@@ -1,0 +1,9 @@
+{
+  "source_inventory": "preservation_baseline.json",
+  "prior_sufficiency": "recovery/plenra-original/v0.6/recovery_sufficiency_gate.json",
+  "final_blocker_report": "recovery/plenra-original/final-material-blocker-recovery/FINAL_BLOCKER_REPORT.md",
+  "missing_sources": "recovery/plenra-original/v0.6/missing_source_register.json",
+  "source_parity": "recovery/plenra-original/final-material-blocker-recovery/source_parity.json",
+  "historical_status": "R1-R4 remain partially resolved in history; new policy is prospectively decided, not recovered.",
+  "copied_conflicts": "Byte-identical copy; original evidence locators resolve relative to recovery/plenra-original/v0.6/"
+}

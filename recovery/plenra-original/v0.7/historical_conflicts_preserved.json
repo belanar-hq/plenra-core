@@ -1,0 +1,263 @@
+{
+  "SOURCE_COMPLETE": false,
+  "ACTIVE_CANON": false,
+  "CURRENT_AUTHORITY": "EVIDENCE_PRESERVATION_ONLY",
+  "CONFLICTS": [
+    {
+      "CONFLICT_ID": "CON-001",
+      "RULE_A": "Optimizer total >=85 uses original prompt",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "RULE_B": "Final integration: ok=true and total >=85 uses improved_prompt",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "PRODUCT_IMPACT": "Different downstream prompt at the same threshold.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-002",
+      "RULE_A": "Therapist Approve required before any printable is sent",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "RULE_B": "Setup narrative sends printable automatically to coach or client",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "PRODUCT_IMPACT": "Human approval boundary and timing unclear.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-003",
+      "RULE_A": "summary_free_text and session narrative accepted; mask PII",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "RULE_B": "Anonymous data only; no free text/audio/video/biometric",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS1-S07",
+          "LOCATOR": "evidence/deep-source-recovery/S07-recovery-master-conversation.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "S07-recovery-master-conversation.md"
+        }
+      ],
+      "PRODUCT_IMPACT": "Allowed intake and downstream storage/processing rules unclear; different periods retained.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-004",
+      "RULE_A": "QA-12 character age 18–40",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "RULE_B": "Pass 2 reports 16–25 guidance and child/teen overrides in same December source window",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS2-REPORT",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2_REPORT.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Pass 2 analyst report"
+        },
+        {
+          "SOURCE_ID": "CHAT-C05",
+          "LOCATOR": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+          "SOURCE_PARITY": "REFERENCE_ONLY",
+          "SCOPE": "הסוכן המרכזי 3 לוויינים Autonomous Growth System From Zero to $10K/Month\""
+        }
+      ],
+      "PRODUCT_IMPACT": "Illustration age versus recipient age/scope unresolved. Rule B is report-level evidence, not independently preserved full rule text.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-005",
+      "RULE_A": "Micro-app transition requires eight weeks plus DAU >=20%, D30 >=60%, action >=35%, support <=8/1000",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS1-S07",
+          "LOCATOR": "evidence/deep-source-recovery/S07-recovery-master-conversation.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "S07-recovery-master-conversation.md"
+        }
+      ],
+      "RULE_B": "Simplified continuation tests only DAU, retention and printable-to-action",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS1-S07",
+          "LOCATOR": "evidence/deep-source-recovery/S07-recovery-master-conversation.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "S07-recovery-master-conversation.md"
+        }
+      ],
+      "PRODUCT_IMPACT": "Transition eligibility loses duration and support constraints.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-006",
+      "RULE_A": "VP Conversion manages sending, timing and returns",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "RULE_B": "VP Conversion specifies conversion layout, CTA variants and microcopy",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS2-B03",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S03-mini-site-agent-prompts.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Mini-site schema, module prompts and routing"
+        }
+      ],
+      "PRODUCT_IMPACT": "Role scope and delivery owner vary; may be different modules, not reconciled.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-007",
+      "RULE_A": "Printable download may require registration",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        }
+      ],
+      "RULE_B": "Value Before Contact is mandatory in reported December Decision Memo",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "SRC-039",
+          "LOCATOR": "evidence/v0.5/v0_5_recovery_evidence.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "Plenra Central Agent Decision Memo"
+        }
+      ],
+      "PRODUCT_IMPACT": "Whether value can be gated on contact information remains unresolved; later memo remains attributed summary.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-008",
+      "RULE_A": "AI does not interpret or diagnose; only transforms existing therapeutic material",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "RULE_B": "System identifies emotional pattern behind words and interprets progress",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "PRODUCT_IMPACT": "Permitted emotional inference depth and recommendation authority unknown.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "MATERIAL_PRODUCT_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-009",
+      "RULE_A": "MIG-001 through MIG-011 described as UNREVIEWED",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS1-S06-MIGRATION",
+          "LOCATOR": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "MIG-001/MIG-011 status summaries, not migration rows"
+        }
+      ],
+      "RULE_B": "MIG-001 through MIG-016 described as COMPLETE",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS1-S06-MIGRATION",
+          "LOCATOR": "evidence/deep-source-recovery/S06-dataset-ledger-migration-references.md",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "MIG-001/MIG-011 status summaries, not migration rows"
+        }
+      ],
+      "PRODUCT_IMPACT": "Later Belanar lineage migration status cannot be adopted from conflicting historical summaries.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "LOW_VALUE_PROVENANCE_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    },
+    {
+      "CONFLICT_ID": "CON-010",
+      "RULE_A": "Resilience example max_retries=4",
+      "SOURCE_A": [
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "RULE_B": "Network policy retries twice before fallback",
+      "SOURCE_B": [
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "PRODUCT_IMPACT": "Per-service versus global retry budget unspecified; full context needed.",
+      "CURRENT_STATUS": "UNRESOLVED",
+      "MATERIALITY": "HISTORICAL_IMPLEMENTATION_GAP",
+      "RECOMMENDED_RECONCILIATION_EVIDENCE": "Recover dated original authority/decision and complete surrounding context for both rules; establish generation and scope before any separately authorized product decision. No winner selected."
+    }
+  ]
+}

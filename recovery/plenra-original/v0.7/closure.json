@@ -1,0 +1,18 @@
+{
+  "ACTIVE_RECOVERY_STATUS": "CLOSED",
+  "SOURCE_COMPLETE": false,
+  "FULL_SYSTEM_RESTORATION": false,
+  "HISTORICAL_RECOVERY_SUFFICIENT_FOR_PRODUCT_DECISION_MAKING": true,
+  "ACTIVE_CANON": false,
+  "REASON": "The remaining R1-R4 historical uncertainties were exhaustively targeted within the documented bounded search. Historical evidence partially resolves them but does not fully decide them. The product owner has now made explicit 2026 product decisions.",
+  "REOPEN_ONLY_IF": [
+    "A newly discovered original source is likely to materially change Product Canon",
+    "Source authenticity/lineage is disputed",
+    "A production decision depends on missing historical evidence"
+  ],
+  "DO_NOT_REOPEN_FOR": "Completeness alone",
+  "HISTORICAL_CONFLICTS": "Unchanged, unresolved as history; retained as provenance. New decisions do not establish historical supersession.",
+  "IMMUTABILITY": "Append-only version by policy and SHA-256 manifest; future changes require a new version. This is not filesystem WORM enforcement.",
+  "PREVIOUS_STOP_RULE": "v0.6 no-material-unknown stop condition is replaced for active recovery only; prior assessment remains unchanged evidence.",
+  "CANON_CANDIDATE_PATH": "canon-candidate/plenra-original/v1/"
+}

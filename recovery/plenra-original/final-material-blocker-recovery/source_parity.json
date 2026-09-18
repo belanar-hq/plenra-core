@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-18",
+  "scope": "R1-R4 bounded historical recovery",
+  "parity_rule": "Original retrieval does not upgrade summarized instructions. Selected quotes do not imply whole-conversation recovery. Historical assistant assertions of official/saved status do not prove adoption.",
+  "records": [
+    {
+      "id": "E01",
+      "title": "October input and production contract",
+      "url": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "retrieval_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "instruction_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "inspection_mode": "live_reinspection",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+      "roots": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "E02",
+      "title": "October clinical, privacy and therapist-release guards",
+      "url": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "retrieval_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "instruction_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "inspection_mode": "live_reinspection",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+      "roots": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "E03",
+      "title": "User-pasted setup, Send Back and adaptation",
+      "url": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "retrieval_parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "instruction_parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "inspection_mode": "live_reinspection",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+      "roots": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "E04",
+      "title": "Central Agent blueprint approval to production",
+      "url": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "retrieval_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "instruction_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "inspection_mode": "live_reinspection",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S01-research-engine.txt",
+      "roots": [
+        "R3"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "E05",
+      "title": "Compassion core prompt and schema",
+      "url": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "retrieval_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "instruction_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "inspection_mode": "live_reinspection",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+      "roots": [
+        "R1",
+        "R4"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "E06",
+      "title": "Sender-supplied recipient profile and POD continuation proposal",
+      "url": "https://chatgpt.com/c/692ca2ec-9510-832b-a3f5-429a3e75d9aa",
+      "retrieval_parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "instruction_parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "inspection_mode": "live_selected_excerpt",
+      "prior_local_capture": null,
+      "roots": [
+        "R1",
+        "R2",
+        "R4"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "E07",
+      "title": "Satellite immediate value, result screen and gated printable",
+      "url": "https://chatgpt.com/c/690f3792-4b68-832c-b5bd-6ff8f8c874c5",
+      "retrieval_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "instruction_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "inspection_mode": "prior_capture_read_only",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+      "roots": [
+        "R4"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "D01",
+      "title": "Session product synopsis",
+      "url": "https://chatgpt.com/c/68e3ae01-bc50-8333-8a73-2a15bd2bd64f",
+      "retrieval_parity": "ORIGINAL_CONVERSATION_TEXT",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "inspection_mode": "live_reinspection",
+      "prior_local_capture": "../deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+      "roots": [
+        "R1",
+        "R2"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "D02",
+      "title": "Recovery Master conversation summary",
+      "url": "https://chatgpt.com/c/68f2b499-150c-832a-9e06-bcc0aabc0b7e",
+      "retrieval_parity": "PARTIAL_ORIGINAL_CONVERSATION",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "inspection_mode": "prior_capture_read_only",
+      "prior_local_capture": "../deep-source-recovery/S07-recovery-master-conversation.md",
+      "roots": [
+        "R2"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "D03",
+      "title": "Recovery Master 2025-11-05",
+      "url": "https://docs.google.com/document/d/1hgwXfNtgyrIXzQPHwZNxr2iUquP058aLgSUE8ZVAsO4/edit",
+      "retrieval_parity": "ORIGINAL_FILE",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "inspection_mode": "prior_capture_read_only",
+      "prior_local_capture": "../deep-source-recovery/PASS2-F02-recovery-master-2025-11-05.txt",
+      "roots": [
+        "R1",
+        "R2"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "D04",
+      "title": "Recovery Master v9 2025-11-07",
+      "url": "https://docs.google.com/document/d/1T8vvIDM3_sdBbnEQImi2aDiZlbTHaxpnN-xVH5IZXVQ/edit",
+      "retrieval_parity": "ORIGINAL_FILE",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "inspection_mode": "prior_capture_read_only",
+      "prior_local_capture": "../deep-source-recovery/PASS2-F03-recovery-master-v9-2025-11-07.txt",
+      "roots": [
+        "R1",
+        "R2"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "D05",
+      "title": "Reported December memo governance",
+      "url": null,
+      "retrieval_parity": "DERIVED_SUMMARY",
+      "instruction_parity": "DERIVED_SUMMARY",
+      "inspection_mode": "prior_local_record_read_only",
+      "prior_local_capture": "../v0.6/product_governance_record.json",
+      "roots": [
+        "R4"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    },
+    {
+      "id": "REF01",
+      "title": "Emotion Response Mechanism / Printable-to-Real-Time Bridge inventory",
+      "url": "https://chatgpt.com/c/69e3dd39-88bc-838d-8bd2-5525e5e1ba26?src=history_search&messageId=4717005d-8f33-41a4-b1e8-e1dc1dd07bf3&historySearchQuery=Emotion+Response+Mechanism",
+      "retrieval_parity": "REFERENCE_ONLY",
+      "instruction_parity": "REFERENCE_ONLY",
+      "inspection_mode": "history_search_snippet",
+      "prior_local_capture": null,
+      "roots": [
+        "R1"
+      ],
+      "adoption_verified": false,
+      "implementation_verified": false,
+      "complete_conversation_recovered": false
+    }
+  ],
+  "counts": {
+    "original_evidence_blocks": 7,
+    "original_conversations_represented": 3,
+    "original_blocks_live_inspected": 6,
+    "original_blocks_prior_capture_only": 1,
+    "new_original_files": 0,
+    "prior_original_file_retrievals_with_derived_instruction_parity": 2,
+    "derived_records": 5,
+    "reference_only_records": 1
+  },
+  "new_excerpt_preservation": {
+    "E06": [
+      "R1_PERSONALIZATION.md",
+      "R2_DATA_CONTINUITY.md",
+      "R4_ENGAGEMENT.md"
+    ]
+  }
+}

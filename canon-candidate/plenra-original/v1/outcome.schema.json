@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Plenra / Belanar-compatible outcome record",
+  "type": "object",
+  "required": [
+    "OUTCOME_ID",
+    "TYPE",
+    "SOURCE",
+    "ACTION",
+    "EXPECTED_OUTCOME",
+    "OBSERVED_OUTCOME",
+    "EVIDENCE",
+    "VERIFICATION_STATUS",
+    "CAUSAL_ATTRIBUTION",
+    "TIMESTAMP",
+    "SCOPE",
+    "REUSE_ELIGIBILITY"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "OUTCOME_ID": {
+      "type": "string",
+      "minLength": 1
+    },
+    "TYPE": {
+      "enum": [
+        "VERIFIED_COMMERCIAL_OUTCOME",
+        "VERIFIED_OPERATIONAL_OUTCOME",
+        "VERIFIED_PRODUCT_USER_OUTCOME",
+        "VERIFIED_DECISION_LEARNING_OUTCOME",
+        "HISTORICAL_PUBLIC_OUTCOME"
+      ]
+    },
+    "SOURCE": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ACTION": {
+      "type": "string",
+      "minLength": 1
+    },
+    "EXPECTED_OUTCOME": {
+      "type": "string",
+      "minLength": 1
+    },
+    "OBSERVED_OUTCOME": {
+      "type": "string",
+      "minLength": 1
+    },
+    "EVIDENCE": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "VERIFICATION_STATUS": {
+      "enum": [
+        "UNVERIFIED",
+        "VERIFIED",
+        "DISPUTED",
+        "REJECTED"
+      ]
+    },
+    "CAUSAL_ATTRIBUTION": {
+      "type": "object",
+      "required": [
+        "status",
+        "actor",
+        "evidence",
+        "limitations"
+      ]
+    },
+    "TIMESTAMP": {
+      "type": "string",
+      "minLength": 1
+    },
+    "SCOPE": {
+      "type": "string",
+      "minLength": 1
+    },
+    "REUSE_ELIGIBILITY": {
+      "type": "object",
+      "required": [
+        "status",
+        "scope",
+        "reason"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "TYPE": {
+            "enum": [
+              "VERIFIED_COMMERCIAL_OUTCOME",
+              "VERIFIED_OPERATIONAL_OUTCOME",
+              "VERIFIED_PRODUCT_USER_OUTCOME",
+              "VERIFIED_DECISION_LEARNING_OUTCOME"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "VERIFICATION_STATUS": {
+            "const": "VERIFIED"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "algorithm": "SHA-256",
+  "self_hash": "Excluded to avoid circularity; obtain externally with verifier.",
+  "files": [
+    {
+      "path": "canon-candidate/plenra-original/v1/README.md",
+      "sha256": "a9a758c5771029fd839857f252b7661297dfde8747dc6f6854409856e0b883d1",
+      "bytes": 2428
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/capability_catalog.json",
+      "sha256": "d7e34e59a281b606059ab7bb278abbfe65a2b5ed9cf78b4432e3f7dcd9ae8cd1",
+      "bytes": 15135
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/decision_debt.json",
+      "sha256": "97a1066311fbcb5991cccf9d44dd1002a28a5f00a2c6b1f9600e49c38dea6336",
+      "bytes": 8000
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/outcome.schema.json",
+      "sha256": "0e0e4c92d0c896a5564120da3b0e9f3f55e94d9eaa7e4ea615c7306aec95862c",
+      "bytes": 2262
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/outcome_governance.json",
+      "sha256": "843aaa547edb4a6f27fc20531b786ded287692e00455ed660894b898ceafafbc",
+      "bytes": 2890
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/owner_authority.md",
+      "sha256": "ee7f969a563c32c6ae19b811df6c1475e7679feaca8bb0576741bae4161755e2",
+      "bytes": 1433
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/rules.json",
+      "sha256": "9f7ac0bfde2f1ce42ee9886d9afce4cbea639843953b70b2a1cb2271cfe16f3e",
+      "bytes": 32902
+    },
+    {
+      "path": "canon-candidate/plenra-original/v1/status.json",
+      "sha256": "8600aa1f9902429a77e6db1da2abb85f872d02b0e5b626a1e125d02c77941696",
+      "bytes": 731
+    }
+  ]
+}

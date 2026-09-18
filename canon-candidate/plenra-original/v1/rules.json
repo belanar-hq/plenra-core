@@ -1,0 +1,513 @@
+{
+  "STATUS": "CANDIDATE",
+  "ACTIVE_CANON": false,
+  "PRODUCTION_READY": false,
+  "SOURCE_COMPLETE": false,
+  "RULES": [
+    {
+      "RULE_ID": "H-IDENTITY",
+      "RULE": "Plenra Original supports therapists/coaches by transforming session material into personalized printables with exercises, small actions and progress space. Keep Original Product lineage distinct from later Decision Infrastructure.",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        "recovery/plenra-original/v0.6/recovery_sufficiency_gate.json",
+        "recovery/plenra-original/v0.6/evidence/deep-source-recovery/S03-original-product-agent-excerpts.md"
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Recovered identity, not proof of deployed efficacy."
+    },
+    {
+      "RULE_ID": "H-ARCHITECTURE",
+      "RULE": "Preserve intake → parser/normalization → template → renderer → approval/delivery → returned feedback as the recovered product architecture, with commercial VP and satellite modules as distinct scopes.",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        "recovery/plenra-original/v0.6/recovery_sufficiency_gate.json",
+        "recovery/plenra-original/v0.6/orchestration_registry.json"
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Architecture sufficient to map; complete runtime contracts not recovered."
+    },
+    {
+      "RULE_ID": "H-BEH-001",
+      "RULE": "Session → emotional pattern → personalized printable: Recognize emotional pattern and create matching practice; October instructions constrain interpretation; output: Personalized printable with exercises, small tasks and progress space",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-001"
+        },
+        {
+          "SOURCE_ID": "DS2-B05A",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Opening excerpt before EXCERPT B: original idea and bounded summary-to-printable behavior"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"RECOVERED_PARTIAL\",\"conflicts\":[\"CON-003\",\"CON-008\"],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-002",
+      "RULE": "Therapist approval: No automatic patient send without therapist Approve; retain version, approver and time; output: Approved printable may be sent; approval recorded",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-002"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[\"CON-002\"],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-003",
+      "RULE": "Consent, masking and audit: Mask PII in Parser; anonymous session IDs; explicit email opt-in; record consent/access/version; output: Masked input and auditable delivery",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-003"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[\"CON-003\"],\"limits\":\"Historical compliance/security requirements, not verified legal compliance or deployed security.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-004",
+      "RULE": "Sharing-dependent CTA: Direct delivery: Learn More/Join Insights; indirect or public share: invite outside coach; output: Context-dependent continuation/invite CTA",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-004"
+        },
+        {
+          "SOURCE_ID": "DS2-B05B",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "EXCERPT B only: three viral bridge scenarios"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"PARTIAL_ORIGINAL_CONVERSATION\",\"conflicts\":[],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-005",
+      "RULE": "Progress-driven printable continuation: Read responses for change/progress and adapt the next printable; output: Follow-up printable or suggestion to coach",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-005"
+        },
+        {
+          "SOURCE_ID": "DS2-B08",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S08-setup-and-feedback-loop.txt",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "User-pasted setup document and feedback-loop behavior, not DOCX recovery"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"PARTIAL_ORIGINAL_CONVERSATION\",\"conflicts\":[\"CON-002\",\"CON-008\"],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-006",
+      "RULE": "Printable blueprint approval: Only approved by Central Agent blueprints enter JSON Template → Slides → production; output: Approved template sent to production module",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-006"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-007",
+      "RULE": "QA rejection and correction: Accept only 12/12 green; reject/correct per QA-12; check 13 proposed only; output: Corrected rerender or rejected output",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-007"
+        },
+        {
+          "SOURCE_ID": "DS2-B10A",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Before Separate module-spec excerpt: QA-12 and proposed check 13"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[\"CON-004\"],\"limits\":\"QA validator roles are not proven equivalent to Evaluator. Exact twelve rules are in source and orchestration registry.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-008",
+      "RULE": "Bounded session contract: Parser normalizes; template engine produces insights/homework/tracking; no diagnosis; output: Renderer JSON with printable_type/title/insights/homework/tracking/notes/branding",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-008"
+        },
+        {
+          "SOURCE_ID": "DS2-B06",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S06-session-contract-and-guards.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Session schema, proposed Make nodes and therapist approval/guard instructions"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[\"CON-003\",\"CON-008\"],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-009",
+      "RULE": "Compassion outputs: Emotional safety; no diagnosis; neutral faces; micro-action and QR; both sender and recipient considered; output: JSON emotional_analysis, printable_output, pod_output, sender_message and distribution",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-009"
+        },
+        {
+          "SOURCE_ID": "DS2-B10B",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S10-quality-and-compassion-prompt.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "After Separate module-spec excerpt: Compassion Engine JSON, core prompt and Slides layout"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[\"CON-004\"],\"limits\":\"Adjacent module core prompt preserved; not a complete Emotional Layer definition.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-010",
+      "RULE": "Placeholder integrity: Preserve placeholders exactly; regex 1:1 check; drift rejects; schema failure repairs/retries; output: Valid JSON prompt response or rejection",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-010"
+        },
+        {
+          "SOURCE_ID": "DS2-B11",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S11-prompt-optimizer-source.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Optimizer schemas/system prompt, VP templates and operational rules; original archive contents not inferred"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[\"CON-001\"],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-011",
+      "RULE": "Research-before-production: Central invokes research at standard depth or greater before production; output: Research JSON and VP-specific handoffs",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-011"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"ORIGINAL_CONVERSATION_TEXT\",\"conflicts\":[],\"limits\":\"Analyst extraction of preserved evidence; not a new prompt or implementation. Source-specific parity remains attached.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-012",
+      "RULE": "Analytics feedback: Assign unique ID; track CTR/signups/printable use; quarterly feedback to research; output: Measurement record and improvement recommendations",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-012"
+        },
+        {
+          "SOURCE_ID": "DS2-B01",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S01-research-engine.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Research pipeline, JSON and six agent instructions"
+        },
+        {
+          "SOURCE_ID": "DS2-B04",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S04-satellite-blueprint.txt",
+          "SOURCE_PARITY": "ORIGINAL_CONVERSATION_TEXT",
+          "SCOPE": "Satellite command definitions, configuration and metrics"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"RECOVERED_PARTIAL\",\"conflicts\":[],\"limits\":\"Metrics are requirements/targets, not measured outcomes.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-013",
+      "RULE": "QR and micro-action continuation: Historical synopsis describes Notice → Reflect → Commit and QR continuation by progress; output: Continuation tool or emotional feedback",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-013"
+        },
+        {
+          "SOURCE_ID": "DS2-B05C",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S05-session-product-behavior.txt",
+          "SOURCE_PARITY": "DERIVED_SUMMARY",
+          "SCOPE": "EXCERPT C only: historical assistant product synopsis, Emotional Layer and continuity"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"DERIVED_SUMMARY\",\"conflicts\":[],\"limits\":\"DERIVED_SUMMARY; encryption and personalization claims not independently verified.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-BEH-014",
+      "RULE": "Degraded recovery: Allowed fallback only; retain JSON input/partial output; PENDING_RETRY on exhaustion; output: DEGRADED response with useful partial output and preserved work",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        {
+          "path": "recovery/plenra-original/v0.6/product_behavior_registry.json",
+          "id": "BEH-014"
+        },
+        {
+          "SOURCE_ID": "DS2-B12",
+          "LOCATOR": "recovery/plenra-original/v0.6/evidence/deep-source-recovery/PASS2-S12-resilience-search-excerpt.json",
+          "SOURCE_PARITY": "PARTIAL_ORIGINAL_CONVERSATION",
+          "SCOPE": "Search surface only: anchored Anti-Failure response; exact response not loaded in chat viewport"
+        }
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "{\"source_parity\":\"PARTIAL_ORIGINAL_CONVERSATION\",\"conflicts\":[\"CON-010\"],\"limits\":\"Search-surface excerpt only. N/X throttling parameters not recovered.\"} Mechanism/design evidence is not clinical effectiveness validation."
+    },
+    {
+      "RULE_ID": "H-AGENT-IP",
+      "RULE": "Preserve the recovered agent and capability catalogs, including original names, source parity, incomplete prompts and reference-only definitions, as discoverable product IP.",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        "recovery/plenra-original/v0.6/agent_registry.json",
+        "recovery/plenra-original/v0.6/capability_registry.json"
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Evaluator remains reference-only; a named agent is not a verified running instance."
+    },
+    {
+      "RULE_ID": "H-ORCHESTRATION",
+      "RULE": "Preserve separate historical orchestration generations, research/handoffs, coordinator concepts, schema/placeholder checks, QA correction and resilience proposals without claiming a unified restored runtime.",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        "recovery/plenra-original/v0.6/orchestration_registry.json",
+        "recovery/plenra-original/v0.6/historical_conflict_register.json"
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Conflicting optimizer selection, retry budgets and role scopes remain history; numeric thresholds are not activated."
+    },
+    {
+      "RULE_ID": "H-MEMO",
+      "RULE": "Preserve reported Emotional Decision & Relief Layer, Value Before Contact, Single Emotional Focus, Non-Final Framing / SSI and Impact-Based Lifecycle as attributed historical governance evidence.",
+      "AUTHORITY_SOURCE": "RECOVERED_HISTORICAL_IP",
+      "EVIDENCE": [
+        "recovery/plenra-original/v0.6/product_governance_record.json"
+      ],
+      "VALIDATION_STATUS": "RECOVERED_DESIGN_EVIDENCE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "DERIVED_SUMMARY; original memo not recovered. ECR/CCR/TRI targets and acronym semantics are unvalidated and inactive."
+    },
+    {
+      "RULE_ID": "FD-R1",
+      "RULE": "Clinically meaningful framework/intervention selection remains with the therapist/qualified professional. SESSION EVIDENCE → PLENRA STRUCTURES EVIDENCE → BOUNDED OPTIONS / RECOMMENDATION → PROFESSIONAL SELECTS OR AUTHORIZES → PLENRA PERSONALIZES → ACTION / ARTIFACT → FEEDBACK → NEXT RECOMMENDATION. Plenra may analyze, structure, personalize and recommend within defined boundaries, never independently replace professional treatment selection. Minimize friction; allow preference profiles and pre-authorized boundaries where appropriate.",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "EVIDENCE": [
+        "owner_authority.md",
+        "recovery/plenra-original/final-material-blocker-recovery/R1_PERSONALIZATION.md"
+      ],
+      "VALIDATION_STATUS": "OWNER_APPROVED_POLICY; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "Prospectively settles FD-R1 authority principle; does not adjudicate CON-008 or reconstruct missing maps.",
+      "NOTES": "Policy decided; scope-specific mechanisms, exclusions and progress validation remain D-CLINICAL."
+    },
+    {
+      "RULE_ID": "FD-R2",
+      "RULE": "Raw session text is not the permanent default record. RAW SESSION INPUT → PII MINIMIZATION / MASKING → STRUCTURED EXTRACTION → ARTIFACT / RECOMMENDATION → STRUCTURED CONTINUITY STATE → DURABLE THERAPIST SUMMARY / EXPORT → RAW INPUT EXPIRES ACCORDING TO RETENTION POLICY. Clearly inform therapist/coach that Plenra is not to be assumed a permanent searchable archive of original raw text. Preserve a durable useful summary/export. Exact retention periods are implementation/legal parameters. Optional paid extended encrypted archive/search is HYPOTHESIS_TO_VALIDATE; never default to indefinite raw-text retention.",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "EVIDENCE": [
+        "owner_authority.md",
+        "recovery/plenra-original/final-material-blocker-recovery/R2_DATA_CONTINUITY.md"
+      ],
+      "VALIDATION_STATUS": "OWNER_APPROVED_POLICY; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "Prospective data model; historical free-text/no-free-text CON-003 remains unresolved.",
+      "NOTES": "No fixed retention period or legal compliance claim."
+    },
+    {
+      "RULE_ID": "FD-R3",
+      "RULE": "Initial clinically meaningful intervention requires professional authorization. An approved envelope may define framework/mechanism, goal, permitted difficulty range, duration and allowed adaptation dimensions. Bounded wording, micro-actions, difficulty within range, reminders and reflection prompts may adapt automatically within the approved envelope. Material changes outside it require renewed professional approval. Preserve approved_by, approved_scope, artifact/intervention_version and timestamp. Minimize approval friction.",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "EVIDENCE": [
+        "owner_authority.md",
+        "recovery/plenra-original/final-material-blocker-recovery/R3_AUTHORITY.md"
+      ],
+      "VALIDATION_STATUS": "OWNER_APPROVED_POLICY; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "Prospective envelope model; CON-002 and historical per-printable approval wording stay preserved.",
+      "NOTES": "Does not grant blanket release authority, bypass email consent or infer a historical coaching exemption."
+    },
+    {
+      "RULE_ID": "FD-R4",
+      "RULE": "Deliver meaningful value before requesting identity/contact unless functionally required for the requested action. USEFUL RESULT → optional registration/contact → continuity / saved history / client printable / progress tracking is permitted. WITHHOLD CORE PROMISED RESULT → require contact → reveal result is prohibited. Paid/registered continuation is allowed. Never optimize emotional dependency, artificial pressure or coercive continuation.",
+      "AUTHORITY_SOURCE": "NEW_2026_PRODUCT_DECISION",
+      "EVIDENCE": [
+        "owner_authority.md",
+        "recovery/plenra-original/final-material-blocker-recovery/R4_ENGAGEMENT.md"
+      ],
+      "VALIDATION_STATUS": "OWNER_APPROVED_POLICY; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "Prospectively settles value-first policy; no claim that original memo adoption or CON-007 was recovered.",
+      "NOTES": "Applies across candidate surfaces; exact acceptance tests require validation."
+    },
+    {
+      "RULE_ID": "D-AUTHORITY",
+      "RULE": "Professional clinical authorization, Central Agent blueprint/production approval and recipient delivery consent are distinct. Provider routing cannot bypass FD-R1/FD-R3; unapproved scope or uncertain envelope membership must return to professional review.",
+      "AUTHORITY_SOURCE": "DERIVED_ARCHITECTURAL_RULE",
+      "EVIDENCE": [
+        "FD-R1",
+        "FD-R3",
+        "H-BEH-002",
+        "H-BEH-006"
+      ],
+      "VALIDATION_STATUS": "DERIVED_CANDIDATE_RULE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Derived conservative boundary pending release contract validation."
+    },
+    {
+      "RULE_ID": "D-CAPABILITY",
+      "RULE": "AMOS_DOES_NOT_SELECT_AGENTS_BY_DEFAULT. NEED → CAPABILITY → PROVIDER → ACTION → VERIFICATION. Autonomously discover/select capabilities by task fit, evidence, reliability, cost, speed, authority, risk and verification requirements. DISCOVERABLE ≠ AUTOMATICALLY_ACTIVATED; AGENT_IP ≠ AGENT_INSTANCE; CAPABILITY ≠ PROVIDER. Do not instantiate all agents for every project. Providers may include Codex, Computer Use, Grok Bot, Plugins, APIs, Make and future replaceable providers. Escalate to Amos only when selection materially changes authority, risk, meaningful cost or irreversible/high-impact action.",
+      "AUTHORITY_SOURCE": "DERIVED_ARCHITECTURAL_RULE",
+      "EVIDENCE": [
+        "owner_authority.md#capability-governance",
+        "H-AGENT-IP"
+      ],
+      "VALIDATION_STATUS": "DERIVED_CANDIDATE_RULE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Direct owner governance requirement represented as a derived architecture rule; no provider activated."
+    },
+    {
+      "RULE_ID": "D-PAYPAL",
+      "RULE": "Preserve PayPal in the existing revenue architecture; do not casually substitute another payment provider. Any material provider change requires explicit scoped evaluation and the authority/risk/cost escalation rule.",
+      "AUTHORITY_SOURCE": "DERIVED_ARCHITECTURAL_RULE",
+      "EVIDENCE": [
+        "owner_authority.md#revenue-preservation"
+      ],
+      "VALIDATION_STATUS": "DERIVED_CANDIDATE_RULE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Owner preservation constraint. No PayPal historical evidence found in the inspected recovery pack; this is not asserted as recovered IP."
+    },
+    {
+      "RULE_ID": "D-OUTCOMES",
+      "RULE": "Keep VERIFIED_COMMERCIAL_OUTCOME, VERIFIED_OPERATIONAL_OUTCOME, VERIFIED_PRODUCT_USER_OUTCOME, VERIFIED_DECISION_LEARNING_OUTCOME and HISTORICAL_PUBLIC_OUTCOME separate. Never merge counters. OUTCOME_EXISTS ≠ BELANAR_CAUSED_OUTCOME. Every record requires all twelve outcome fields; independent evidence of existence does not establish causal attribution.",
+      "AUTHORITY_SOURCE": "DERIVED_ARCHITECTURAL_RULE",
+      "EVIDENCE": [
+        "owner_authority.md#outcome-governance"
+      ],
+      "VALIDATION_STATUS": "DERIVED_CANDIDATE_RULE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Belanar-compatible by the supplied contract; no external Belanar implementation compatibility claimed."
+    },
+    {
+      "RULE_ID": "D-DEBT",
+      "RULE": "NO MATERIAL DECISION SHOULD REMAIN AMBIGUOUS BY DEFAULT. Transition every material unknown to DECIDED, FUTURE_PRODUCT_DECISION or DEFERRED_WITH_TRIGGER. Deferred entries require DECISION, WHY_DEFERRED, EVIDENCE_NEEDED, ACTIVATION_TRIGGER and OWNER. Continuously compress overlapping unknowns into root decisions; review at each relevant planning gate, merge duplicates and close resolved roots rather than indefinitely accumulate lists.",
+      "AUTHORITY_SOURCE": "DERIVED_ARCHITECTURAL_RULE",
+      "EVIDENCE": [
+        "owner_authority.md#decision-debt-governance"
+      ],
+      "VALIDATION_STATUS": "DERIVED_CANDIDATE_RULE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "decision_debt.json is the candidate root register; historical missing-source inventories remain provenance."
+    },
+    {
+      "RULE_ID": "D-STATUS",
+      "RULE": "CANON_CANDIDATE ≠ ACTIVE_CANON; CANON_CANDIDATE ≠ PRODUCTION. Historical evidence, new policy authority and FUTURE_VALIDATION_REQUIRED are separate axes. No activation or application features are authorized. Production requires scoped decisions, professional/data governance, verification evidence and a separate activation decision.",
+      "AUTHORITY_SOURCE": "DERIVED_ARCHITECTURAL_RULE",
+      "EVIDENCE": [
+        "owner_authority.md",
+        "recovery/plenra-original/v0.7/closure.json"
+      ],
+      "VALIDATION_STATUS": "DERIVED_CANDIDATE_RULE; FUTURE_VALIDATION_REQUIRED",
+      "PRODUCTION_STATUS": "NOT_PRODUCTION",
+      "SUPERSESSION_RELATIONSHIP": "NONE; historical evidence remains unchanged",
+      "NOTES": "Candidate review can proceed while implementation decisions remain deferred."
+    }
+  ]
+}

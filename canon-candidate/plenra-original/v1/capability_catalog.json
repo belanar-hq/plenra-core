@@ -1,0 +1,418 @@
+{
+  "STATUS": "DISCOVERABLE",
+  "ACTIVATED": false,
+  "AGENT_IP_IS_NOT_AGENT_INSTANCE": true,
+  "AGENTS": [
+    {
+      "AGENT_ID": "AGT-001",
+      "NAME": "Emotional Safety Constructor",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-001",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-002",
+      "NAME": "Emotional Trigger Neutralizer",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-002",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-003",
+      "NAME": "Emotional Momentum Builder",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-003",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-004",
+      "NAME": "Emotion-Action Translator",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-004",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-005",
+      "NAME": "Emotional Latency Analyzer",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-005",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-006",
+      "NAME": "Emotional Pattern Archaeologist",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-006",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-007",
+      "NAME": "Identity Stability Anchor",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-007",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-008",
+      "NAME": "Broader recovered emotional/behavioral agent family",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-008",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-009",
+      "NAME": "VP Marketing",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-009",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-010",
+      "NAME": "VP Content",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-010",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-011",
+      "NAME": "VP Conversion",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-011",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-012",
+      "NAME": "VP Distribution",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-012",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-013",
+      "NAME": "VP Analytics",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-013",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-014",
+      "NAME": "VP Tech",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-014",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-015",
+      "NAME": "Central Agent",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-015",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-016",
+      "NAME": "Session2Printable",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-016",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-017",
+      "NAME": "Evaluator",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-017",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-018",
+      "NAME": "VP Printables",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-018",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "AGENT_ID": "AGT-019",
+      "NAME": "Emotional Layer",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/agent_registry.json#AGT-019",
+      "ACTIVATION": "NOT_ACTIVATED"
+    }
+  ],
+  "CAPABILITIES": [
+    {
+      "CAPABILITY_ID": "CAP-001",
+      "NAME": "Session Summary Intake",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-001",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-002",
+      "NAME": "Session Intelligence",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-002",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-003",
+      "NAME": "privacy / PII minimization",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-003",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-004",
+      "NAME": "Therapeutic Logic Engine",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-004",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-005",
+      "NAME": "CBT / ACT mechanism selection",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-005",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-006",
+      "NAME": "Emotional Layer / Emotional Engine",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-006",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-007",
+      "NAME": "Personalized Printable Engine",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-007",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-008",
+      "NAME": "Coach Printable",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-008",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-009",
+      "NAME": "Client / Coachee Printable",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-009",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-010",
+      "NAME": "Secure / session-bound QR continuity",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-010",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-011",
+      "NAME": "Session continuity",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-011",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-012",
+      "NAME": "Emotional Anchor / Anchor Sheet",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-012",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-013",
+      "NAME": "Emotion Map",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-013",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-014",
+      "NAME": "Emotion Trajectory",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-014",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-015",
+      "NAME": "Emotion Learning Loop",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-015",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-016",
+      "NAME": "Progress / continuity surfaces",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-016",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-017",
+      "NAME": "Scientific Mini-Brief",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-017",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-018",
+      "NAME": "Sources capability",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-018",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-019",
+      "NAME": "Personalized next-tool recommendation",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-019",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-020",
+      "NAME": "Printable QA",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-020",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-021",
+      "NAME": "Coach dashboard / emotional data concepts",
+      "RECOVERY_STATUS": "RECOVERED_DESIGN_CONCEPT_USER_ATTESTED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-021",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-022",
+      "NAME": "Coach-client interaction logic",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-022",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-023",
+      "NAME": "Session2Printable",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-023",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-024",
+      "NAME": "Evaluator",
+      "RECOVERY_STATUS": "REFERENCE_ONLY",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-024",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-025",
+      "NAME": "After-Lead Marketing",
+      "RECOVERY_STATUS": "DESIGNED_CONCEPTUAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-025",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-026",
+      "NAME": "Budget Increase Decision Gate",
+      "RECOVERY_STATUS": "POC_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-026",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-027",
+      "NAME": "Generic execution contracts and adapters",
+      "RECOVERY_STATUS": "CONTRACTS_REPORTED_IMPLEMENTATION_UNVERIFIED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-027",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-028",
+      "NAME": "Generic Decision Infrastructure",
+      "RECOVERY_STATUS": "IMPLEMENTATION_REPORTED_NOT_PRODUCTION_VERIFIED",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-028",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-029",
+      "NAME": "Emotion Data Intelligence",
+      "RECOVERY_STATUS": "DESIGNED_CONCEPTUAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-029",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-030",
+      "NAME": "Generative adaptation",
+      "RECOVERY_STATUS": "DESIGNED_CONCEPTUAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-030",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-031",
+      "NAME": "Predictive Layer",
+      "RECOVERY_STATUS": "DESIGNED_CONCEPTUAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-031",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-032",
+      "NAME": "Autonomous Agent Coordination",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-032",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-033",
+      "NAME": "Emotion Snapshot",
+      "RECOVERY_STATUS": "DESIGNED_CONCEPTUAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-033",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-034",
+      "NAME": "Personalized Printable routing",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-034",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-035",
+      "NAME": "Usage Signal capture",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-035",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-036",
+      "NAME": "Emotional Feedback Loop",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-036",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-037",
+      "NAME": "measurement / KPI loop",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-037",
+      "ACTIVATION": "NOT_ACTIVATED"
+    },
+    {
+      "CAPABILITY_ID": "CAP-038",
+      "NAME": "commercial/profit signal integration",
+      "RECOVERY_STATUS": "RECOVERED_PARTIAL",
+      "SOURCE_RECORD": "recovery/plenra-original/v0.6/capability_registry.json#CAP-038",
+      "ACTIVATION": "NOT_ACTIVATED"
+    }
+  ],
+  "GOVERNING_RULE": "D-CAPABILITY",
+  "PROVIDERS": [
+    "Codex",
+    "Computer Use",
+    "Grok Bot",
+    "Plugins",
+    "APIs",
+    "Make",
+    "future replaceable providers"
+  ]
+}
