@@ -209,3 +209,26 @@ PRIMARY EVENT → HAYUN INTERVIEWS → AIR CRASH INVESTIGATION/MAYDAY PRODUCER R
 
 Distribution rule for this probe:
 Do not spam article comment sections or imply affiliation. Prioritize surfaces where Belanar can add a native decision-question contribution and route interested users to /plane. Measure source-tagged visits and opt-ins.
+
+
+## FZ1073 PRODUCTION CREATIVE LOCK — 2026-10-03
+Selected direction: toolbelt/plumber foreground + aircraft background, no human face and no copied Air Crash Investigation/Mayday branding.
+Reason: preserves the core hook without implying the pictured person is Yaniv Hayun or implying endorsement/partnership.
+
+Message hierarchy:
+1. HE'S A PLUMBER. NOT A PILOT.
+2. He says watching Air Crash Investigation taught him something he never expected to use.
+3. SECONDS LATER, IT MATTERED.
+4. You know what he knew. What would you do?
+5. Take the 60-Second Challenge.
+6. belanar.com/plane
+
+Canonical destination:
+https://belanar.com/plane.html
+Campaign shorthand may display belanar.com/plane only after the server route/redirect is verified live.
+
+FIRST PUBLISH TEST:
+- Start with one static/vertical creative, not a multi-post batch.
+- Primary metric: source-tagged /plane visits per 1,000 impressions.
+- Secondary: challenge-start rate, challenge-completion rate, opt-in rate.
+- No scale decision before first real traffic evidence.
