@@ -195,3 +195,17 @@ POST_ROLE = ACQUISITION_SURFACE
 DESTINATION_FIRST = TRUE
 GENERIC_BRAND_CTA = REJECTED
 VIEWS_ALONE_EQUAL_SUCCESS = FALSE
+
+
+## LIVE RIDER-ON-RIDER PROBE — FZ1073 / YANIV HAYUN — 2026-10-03
+Evidence update:
+- Reuters independently reports Hayun is a plumber and said Air Crash Investigation informed what he did.
+- CBS interviewed Mayday executive producer Alex Bystram specifically about Hayun's use of the show. This is VERIFIED RIDER-ON-RIDER attention: the show/producer is now part of the secondary attention wave.
+- Current coverage also includes ABC News, AP, India Today, Ynet, Times of Israel and other international outlets.
+- Trump published a TikTok thanking Hayun on Oct 3, creating a fresh derivative attention wave. This is distribution context only; political actors are not treated as factual authorities for the incident.
+
+Priority attention graph:
+PRIMARY EVENT → HAYUN INTERVIEWS → AIR CRASH INVESTIGATION/MAYDAY PRODUCER REACTION → INTERNATIONAL NEWS/VIDEO COVERAGE → DERIVATIVE SOCIAL DISCUSSION → BELANAR /plane
+
+Distribution rule for this probe:
+Do not spam article comment sections or imply affiliation. Prioritize surfaces where Belanar can add a native decision-question contribution and route interested users to /plane. Measure source-tagged visits and opt-ins.
