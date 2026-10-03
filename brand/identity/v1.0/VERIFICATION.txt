@@ -1,0 +1,12 @@
+belanar-wordmark.svg: PASS
+belanar-wordmark-white.svg: PASS
+belanar-favicon.svg: PASS
+favicon-16.png: PASS
+favicon-32.png: PASS
+favicon-48.png: PASS
+favicon-64.png: PASS
+favicon-180.png: PASS
+favicon-192.png: PASS
+favicon-256.png: PASS
+favicon-512.png: PASS
+favicon.ico: PASS
