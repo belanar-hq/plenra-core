@@ -69,9 +69,9 @@ WHAT HAPPENED?
 → WHAT OPTIONS / CONSTRAINTS EXISTED?
 → WHAT WOULD YOU DO?
 → BELANAR DECISION BREAKDOWN
-→ TRY BELANAR ON YOUR OWN DECISION
+→ ROUTE TO A CURRENTLY VERIFIED BELANAR CAPABILITY
 
-The destination should provide immediate standalone value even if the visitor never becomes a user.
+The destination should provide immediate standalone value even if the visitor never becomes a user. It must not imply that Belanar can accept arbitrary decisions before a general Ask Belanar capability is verified. After the trend interaction, route only to currently live/verified capabilities (for example Water Problem Decisions or Foundation) when relevant; otherwise end with value delivered, optional follow/notify, or another truthful next step.
 
 ## CREATIVE CONTRACT
 The creative should contain:
@@ -104,8 +104,9 @@ POST IMPRESSIONS → OWNED DESTINATION VISITS
 
 Then:
 DESTINATION VISITS → DECISION INTERACTION
-DECISION INTERACTION → OWN-DECISION START
-OWN-DECISION START → VERIFIED OUTCOME
+DECISION INTERACTION → ELIGIBLE CAPABILITY ROUTE
+ELIGIBLE CAPABILITY ROUTE → CAPABILITY START
+CAPABILITY START → VERIFIED OUTCOME
 
 Track at minimum:
 trend_id
@@ -117,7 +118,8 @@ engagements
 profile_visits
 destination_visits
 decision_interactions
-own_decision_starts
+eligible_capability_routes
+capability_starts
 verified_outcomes
 
 Do not call a trend successful based only on views, likes, or shares.
@@ -161,6 +163,8 @@ No completion without publication and measurement evidence.
 
 ## SYSTEM STATE
 TREND_GOAL = OWNED_ATTENTION_AND_OUTCOME
+GENERAL_ASK_BELANAR = NOT_YET_VERIFIED
+POST_TREND_ROUTING = VERIFIED_CAPABILITIES_ONLY
 POST_ROLE = ACQUISITION_SURFACE
 DESTINATION_FIRST = TRUE
 GENERIC_BRAND_CTA = REJECTED
