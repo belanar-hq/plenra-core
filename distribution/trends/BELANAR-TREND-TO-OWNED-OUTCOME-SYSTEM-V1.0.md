@@ -33,6 +33,31 @@ TREND → "What would you have done?" / "See the decision breakdown" → trend-s
 BRANDING != ROUTING.
 A logo creates attribution. A CTA plus a valuable continuation creates movement.
 
+## CONTINUOUS TREND DISCOVERY
+The system should continuously source emerging and accelerating trends rather than wait for manual discovery.
+Candidate sources may include Exploding Topics, Google Trends, TikTok/short-form trend signals, Reddit/community velocity, news velocity, YouTube, search demand, and other verifiable trend feeds.
+Exploding Topics is a candidate supplier, not a sole source of truth. Its public methodology explicitly uses social media, search engines, forums, news/blogs, e-commerce and podcasts, and it offers a Trends API.
+
+DISCOVERY → CANDIDATE → VELOCITY CHECK → TREND FIT GATE
+
+## RIDER-ON-RIDER / ATTENTION GRAPH
+For every accepted trend, identify who is already amplifying it:
+- original participants / primary sources
+- publishers and journalists
+- shows, creators and influencers
+- brands and organizations
+- communities / subreddits / comment clusters
+- search queries and derivative memes
+
+Then ask:
+WHO ALREADY HAS ATTENTION?
+→ WHAT ANGLE ARE THEY USING?
+→ WHERE CAN BELANAR ADD DISTINCT DECISION VALUE?
+→ WHAT ETHICAL / PLATFORM-COMPLIANT ENTRY POINT EXISTS?
+→ HOW DOES THAT ENTRY POINT ROUTE TO THE OWNED DESTINATION?
+
+Do not spam, impersonate, hijack unrelated comment sections, or imply affiliation. Piggybacking means adding relevant value where attention already exists, not deceptive traffic capture.
+
 ## TREND FIT GATE
 A trend is publishable only when all are true:
 1. ATTENTION: meaningful current attention exists.
@@ -156,6 +181,7 @@ TREND DISCOVERY may be automated.
 FACT COLLECTION may be automated.
 FIT SCORING may be automated.
 DRAFT DESTINATION + CREATIVE may be automated.
+RIDER-ON-RIDER discovery and opportunity mapping may be automated.
 Material factual claims require evidence.
 Publishing authority follows existing Belanar channel/brand governance.
 No trend may redefine the Belanar master brand locally.
