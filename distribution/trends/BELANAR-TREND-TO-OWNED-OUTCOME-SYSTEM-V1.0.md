@@ -70,6 +70,29 @@ A trend is publishable only when all are true:
 
 If any required gate fails, do not force the trend into Belanar.
 
+## TRAFFIC READINESS GATE
+Do not deliberately send traffic into a funnel with a known broken material downstream transition.
+
+Before publishing/distributing, verify the intended path end to end:
+CTA
+→ DESTINATION
+→ INTERACTION
+→ CAPTURE, if promised
+→ DURABLE PERSISTENCE
+→ READ-BACK
+→ PERMISSION / CONSENT
+→ FOLLOW-UP CAPABILITY
+→ UNSUBSCRIBE / REVOCATION where applicable
+→ MEASUREMENT
+
+A visible UI control is not a working capability. A submitted form is not a captured relationship without durable persistence and read-back.
+
+Gate rule:
+KNOWN MATERIAL DOWNSTREAM BREAK → HOLD TRAFFIC
+NON-BLOCKING IMPERFECTION → SHIP, MEASURE, IMPROVE
+
+This gate is a distribution-specific application of NO_COMPLETION_WITHOUT_EVIDENCE and Evidence Before Commitment, not a new global subsystem.
+
 ## DESTINATION-FIRST RULE
 Before finalizing the social creative, define the owned destination and the exact reason to click.
 
